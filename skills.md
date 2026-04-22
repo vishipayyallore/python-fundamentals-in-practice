@@ -2,13 +2,15 @@
 
 **Last updated:** April 2026
 
-This project does **not** commit separate [Cursor skill](https://docs.cursor.com) packages (no `SKILL.md` trees in-repo). All machine-readable guidance lives in:
+Machine-readable guidance lives in **`.cursor/`** and the root entry files. [Cursor **skills**](https://docs.cursor.com) and [**subagents**](https://cursor.com/docs/agent/subagents) add optional, discoverable layers on top of rules.
 
 | Location | Purpose |
 | --- | --- |
 | [`AGENTS.md`](AGENTS.md) | Agent entry: policies, ReAct/CoT, where rules live |
 | [`.cursor/rules/`](.cursor/rules/) | Modular `.mdc` rules (educational content, QA, markdown, directives) |
+| [`.cursor/skills/`](.cursor/skills/) | One project skill: [`python-fundamentals-curriculum/SKILL.md`](.cursor/skills/python-fundamentals-curriculum/SKILL.md) — when to read which doc before editing the course |
+| [`.cursor/agents/`](.cursor/agents/) | Custom subagents: session docs, `src/L1` practice code, doc verification (read-only) |
 | [`.github/copilot-instructions.md`](.github/copilot-instructions.md) | GitHub Copilot alignment with the same curriculum rules |
 | [`CLAUDE.md`](CLAUDE.md) | Short brief for Claude-oriented tools |
 
-To author **personal** skills for your own machine, use Cursor’s user skills path and the official skill format; keep project policy in **`AGENTS.md`** and **`.cursor/rules/`** so the repo stays the source of truth.
+**Personal** skills can also live under your user `~/.cursor/skills/`; this repo’s **policy** still comes from `AGENTS.md` and **`.cursor/rules/`** so those stay the single source of truth for policies.

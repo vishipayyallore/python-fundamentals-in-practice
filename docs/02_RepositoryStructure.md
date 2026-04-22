@@ -140,12 +140,6 @@ GitHub configuration:
 - **`copilot-instructions.md`**: AI assistant guidelines for GitHub Copilot
 - **`pull_request_template.md`**: Template for pull requests with quality checklist
 
-### `.claude/`
-
-Claude AI (Anthropic) configuration:
-
-- **`CLAUDE.md`**: Claude-specific instructions and guidelines (supplements root-level `CLAUDE.md`)
-
 ### `.cursor/`
 
 Cursor AI configuration:
@@ -161,7 +155,7 @@ Cursor AI configuration:
 
 ### Root Level Files
 
-Community, project, and AI assistant documentation:
+Community and project documentation:
 
 - **`README.md`**: Main project README with quick start guide and repository overview
 - **`AGENTS.md`**: **AI agent entry point** — how assistants should navigate rules, ReAct/CoT expectations, and updates to structure docs
