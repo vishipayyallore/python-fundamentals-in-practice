@@ -44,6 +44,8 @@ python-fundamentals/
 │   ├── docs-links.ps1          # Link validation script
 │   ├── show-tree.ps1           # Repository structure generator
 │   └── repo-structure.txt      # Generated structure
+├── ⚙️ .claude/                  # Claude AI configuration
+│   └── CLAUDE.md               # Claude-specific instructions
 ├── ⚙️ .cursor/                  # Cursor AI configuration
 │   └── rules/                  # Modular rule files for Cursor AI
 │       ├── 01_educational-content-rules.mdc
@@ -64,6 +66,8 @@ python-fundamentals/
 │   ├── prompts/                # GitHub Copilot prompts
 │   ├── copilot-instructions.md
 │   └── pull_request_template.md # PR template
+├── 📄 AGENTS.md                # AI agent guidelines (OpenAI Codex, general agents)
+├── 📄 CLAUDE.md                # Claude AI guidelines (Anthropic)
 ├── 📄 README.md                # Main project README
 ├── 📄 LICENSE                  # MIT License
 ├── 📄 CONTRIBUTING.md          # Contributing guidelines
@@ -126,6 +130,12 @@ GitHub configuration:
 - **`copilot-instructions.md`**: AI assistant guidelines for GitHub Copilot
 - **`pull_request_template.md`**: Template for pull requests with quality checklist
 
+### `.claude/`
+
+Claude AI (Anthropic) configuration:
+
+- **`CLAUDE.md`**: Claude-specific instructions and guidelines (supplements root-level `CLAUDE.md`)
+
 ### `.cursor/`
 
 Cursor AI configuration:
@@ -141,9 +151,11 @@ Cursor AI configuration:
 
 ### Root Level Files
 
-Community and project documentation:
+Community, project, and AI assistant documentation:
 
 - **`README.md`**: Main project README with quick start guide and repository overview
+- **`AGENTS.md`**: AI agent guidelines for OpenAI Codex and general agent tools
+- **`CLAUDE.md`**: Claude AI (Anthropic) guidelines for working with this repository
 - **`LICENSE`**: MIT License
 - **`CONTRIBUTING.md`**: Contributing guidelines aligned with educational content rules and quality standards
 - **`CODE_OF_CONDUCT.md`**: Community code of conduct for a welcoming, inclusive learning environment

@@ -1,4 +1,4 @@
-# 🤖 Copilot Instructions for Python Fundamentals Project
+# 🤖 Agent Instructions for Python Fundamentals Project
 
 **Project:** Python Fundamentals Curriculum  
 **Owner:** Swamy's Tech Skills Academy  
@@ -44,9 +44,37 @@
 
 ---
 
+## 🛠️ **DEVELOPMENT COMMANDS**
+
+### **Linting**
+
+```powershell
+# Lint all Markdown documentation
+npx --yes markdownlint-cli2 "README.md" "docs/**/*.md" ".github/**/*.md"
+
+# Auto-fix linting issues
+.\scripts\docs-lint.ps1 -Fix
+```
+
+### **Link Validation**
+
+```powershell
+# Validate all links in documentation
+.\scripts\docs-links.ps1
+```
+
+### **Repository Structure**
+
+```powershell
+# Generate current repository structure
+.\scripts\show-tree.ps1 -Path "." -Depth 4 -OutFile "scripts\repo-structure.txt"
+```
+
+---
+
 ## 📋 **PROJECT STRUCTURE OVERVIEW**
 
-> **📋 Single Source of Truth**: For the complete and up-to-date repository structure, see [`docs/02_RepositoryStructure.md`](../docs/02_RepositoryStructure.md). This is the authoritative documentation for all repository structure details.
+> **📋 Single Source of Truth**: For the complete and up-to-date repository structure, see [`docs/02_RepositoryStructure.md`](docs/02_RepositoryStructure.md). This is the authoritative documentation for all repository structure details.
 
 **Quick Reference:**
 
@@ -55,7 +83,7 @@
 - **Images**: `docs/images/S{session}/` - Educational images organized by session
 - **Scripts**: `scripts/` - PowerShell utility scripts for development
 
-**File Relationships:**
+**Key File Relationships:**
 
 - `docs/sessions/L1/01_S1.md` ↔ `src/L1/S1/` (practice files)
 - `docs/sessions/L1/_Plan.md` → Overall curriculum structure
@@ -73,8 +101,6 @@
 - **Hands-on practice** - Every concept has practical application
 - **Visual learning** - Emojis, diagrams, and clear formatting
 - **Beginner-focused** - No assumptions about prior knowledge
-
-**See `.cursor/rules/01_educational-content-rules.mdc` for details on the splitting policy.**
 
 ### **Content Quality Standards:**
 
@@ -98,20 +124,13 @@
 
 ### **For Content REVIEW (OBSERVE → ANALYZE → REASON → VERIFY → ACT):**
 
-| Phase       | Steps                                         |
-| ----------- | --------------------------------------------- |
-| **OBSERVE** | Scan and catalog ALL files in scope           |
-| **ANALYZE** | Open and examine EVERY file individually      |
-| **REASON**  | Apply logical reasoning to identify issues    |
-| **VERIFY**  | Cross-check findings and validate compliance  |
-| **ACT**     | Document findings and update content          |
-
-### **Decision Framework:**
-
-```text
-CREATION: THINK → REASON → ACT → VERIFY → (iterate if needed)
-REVIEW:   OBSERVE → ANALYZE → REASON → VERIFY → ACT
-```
+| Phase       | Steps                                        |
+| ----------- | -------------------------------------------- |
+| **OBSERVE** | Scan and catalog ALL files in scope          |
+| **ANALYZE** | Open and examine EVERY file individually     |
+| **REASON**  | Apply logical reasoning to identify issues   |
+| **VERIFY**  | Cross-check findings and validate compliance |
+| **ACT**     | Document findings and update content         |
 
 ### **Reasoning in Educational Content:**
 
@@ -125,18 +144,14 @@ REVIEW:   OBSERVE → ANALYZE → REASON → VERIFY → ACT
 
 **❌ AVOID**: Stating facts without reasoning
 
-- Don't just say "use a dictionary" - explain WHY
+- Don't just say "use a dictionary" — explain WHY
 - Don't skip the reasoning chain from problem to solution
-
-**See `.cursor/rules/01_educational-content-rules.mdc` for full CoT/ReAct details and reasoning examples.**
 
 ---
 
 ## 🔧 **EDITING GUIDELINES**
 
-### **When Making Changes:**
-
-#### **✅ SAFE EDITS:**
+### **✅ SAFE EDITS:**
 
 - Fixing typos and spelling errors
 - Correcting broken links
@@ -144,14 +159,14 @@ REVIEW:   OBSERVE → ANALYZE → REASON → VERIFY → ACT
 - Fixing character encoding issues (corrupted emojis)
 - Adding missing sections that are clearly incomplete
 
-#### **⚠️ CAREFUL EDITS:**
+### **⚠️ CAREFUL EDITS:**
 
 - Modifying code examples (ensure they still work)
 - Changing file structure references
 - Updating installation instructions
 - Modifying pedagogical explanations
 
-#### **🚫 AVOID:**
+### **🚫 AVOID:**
 
 - Large-scale content reorganization without explicit request
 - Changing the pedagogical approach or learning sequence
@@ -167,47 +182,9 @@ REVIEW:   OBSERVE → ANALYZE → REASON → VERIFY → ACT
 4. **Preserve surrounding content** - Don't alter unrelated text
 5. **Verify the change makes sense** - Does it improve the content?
 
-### **File Path Corrections:**
-
-- Current structure uses `L1/S1/` hierarchy
-- Update references from old `S1/` to new `L1/S1/` structure
-- Maintain consistency between documentation and code locations
-
 ---
 
-## 📝 **COMMON TASKS**
-
-### **Path Updates:**
-
-```markdown
-# OLD (incorrect)
-src/S1/01_hello.py
-
-# NEW (correct)
-src/L1/S1/01_hello.py
-```
-
-### **Character Encoding Fixes:**
-
-```markdown
-# BROKEN
-print("🚀 Advanced Python Preview")
-
-# FIXED  
-print("🚀 Advanced Python Preview")
-```
-
-### **Link Corrections:**
-
-```markdown
-# OLD (incorrect)
-[Session 1](docs/sessions/S1.md)
-
-# NEW (correct)
-[Session 1](docs/sessions/L1/01_S1.md)
-```
-
-### **File Reference Validation:**
+## 📝 **FILE REFERENCE STANDARDS**
 
 **CRITICAL**: All file references must:
 
@@ -221,8 +198,6 @@ print("🚀 Advanced Python Preview")
 - ❌ Missing numeric prefixes: `S1.md` → ✅ `01_S1.md`
 - ❌ Missing level identifier: `sessions/S1/` → ✅ `sessions/L1/01_S1.md`
 - ❌ Incorrect path structure: `src/S1/` → ✅ `src/L1/S1/`
-
-**See `.cursor/rules/04_markdown-standards.mdc` for detailed file reference validation patterns.**
 
 ---
 
@@ -238,8 +213,6 @@ Before submitting any changes, verify:
 - [ ] **Reasoning quality** - Code design decisions include explicit reasoning (why this approach?)
 - [ ] **Consistency** - Changes align with overall project structure
 - [ ] **Readability** - Changes improve rather than degrade clarity
-
-**See `.cursor/rules/03_quality-assurance.mdc` for complete quality checklist.**
 
 ---
 
@@ -271,42 +244,13 @@ Before submitting any changes, verify:
 
 ---
 
-## 📞 **WHEN IN DOUBT**
-
-**ALWAYS:**
-
-- Read more context
-- Ask for clarification  
-- Make smaller changes
-- Preserve existing content
-- Communicate your concerns
-
-**NEVER:**
-
-- Make assumptions about what's needed
-- Change content you don't fully understand
-- Rush through complex modifications
-- Ignore the existing pedagogical structure
-- Make changes without clear justification
-
----
-
 ## 🔗 **Related Documentation**
 
-- **📋 Repository Structure (Single Source of Truth)**: [`docs/02_RepositoryStructure.md`](../docs/02_RepositoryStructure.md) - **Authoritative repository structure documentation**
-- **Claude AI**: `CLAUDE.md` and `.claude/CLAUDE.md` - Claude AI (Anthropic) guidelines
-- **Agent Tools**: `AGENTS.md` - OpenAI Codex and general agent guidelines
+- **📋 Repository Structure (Single Source of Truth)**: [`docs/02_RepositoryStructure.md`](docs/02_RepositoryStructure.md)
+- **GitHub Copilot**: `.github/copilot-instructions.md` - GitHub Copilot-specific guidelines
+- **Claude AI**: `CLAUDE.md` and `.claude/CLAUDE.md` - Claude-specific guidelines
 - **Cursor AI Rules**: `.cursor/rules/` - Comprehensive modular rules for Cursor AI
-  - See `.cursor/rules/README.md` for overview of all rule files
-  - Rules cover: educational content, repository structure, quality assurance, markdown standards, primary directives, cross-level integration
 - **Main README**: `README.md` - Project overview and quick start guide
-- **Level 1 Plan**: `docs/sessions/L1/_Plan.md` - Complete Level 1 curriculum plan
-
-**Note**:
-
-- `docs/02_RepositoryStructure.md` is the **single source of truth** for repository structure
-- `.cursor/rules/` and `.github/copilot-instructions.md` should reference `docs/02_RepositoryStructure.md` for structure details
-- Both provide guidance for AI assistants working with this repository
 
 ---
 

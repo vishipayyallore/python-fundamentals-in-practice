@@ -60,6 +60,8 @@ This rule set is customized for the **Python Fundamentals** repository:
 ## 🔗 Related Files
 
 - **GitHub Copilot**: `.github/copilot-instructions.md` (similar rules for GitHub Copilot)
+- **Claude AI**: `CLAUDE.md` and `.claude/CLAUDE.md` (similar rules for Claude AI / Anthropic)
+- **Agent Tools**: `AGENTS.md` (similar rules for OpenAI Codex and general agent tools)
 - **Main README**: `README.md` (repository overview and structure)
 - **Session Documentation**: `docs/sessions/L1/_Plan.md` (Level 1 curriculum plan)
 
