@@ -238,7 +238,7 @@ Community and project documentation:
 | 1   | `01_S1.md`  | Python Introduction & Environment             | 3 files        |
 | 2   | `02_S2.md`  | Variables & Data Types                        | 3 files        |
 | 3   | `03_S3.md`  | Operators & Expressions                       | 3 files        |
-| 4   | `04_S4.md`  | Control flow, indent, and modules        | 3 files        |
+| 4   | `04_S4.md`  | Conditionals, Indentation & Modules           | 3 files        |
 
 **Practice Files in S1:**
 

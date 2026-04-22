@@ -12,6 +12,7 @@
 | File | Use |
 | --- | --- |
 | `AGENTS.md` | **Primary agent entry** — ReAct/CoT expectations, policy map, links to all rules (Cursor, Copilot, Claude) |
+| `skills.md` | Explains that this repo does not commit Cursor SKILL packs; use `AGENTS.md` and `.cursor/rules/` |
 | `CLAUDE.md` | Short project brief for Claude/Anthropic-oriented tools; defers to `AGENTS.md` for the full map |
 | `.claude/CLAUDE.md` | Optional pointer for workflows that look under `.claude/`; canonical text remains at the repo root |
 | `.cursor/rules/*.mdc` | Mandatory modular rules; see `.cursor/rules/README.md` for the index (aligned with this file) |
