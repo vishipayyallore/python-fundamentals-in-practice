@@ -24,6 +24,7 @@ We welcome contributions in many forms:
 Before contributing, please familiarize yourself with our content creation rules:
 
 - **🤖 [AGENTS.md](AGENTS.md)** - How AI-assisted editors should navigate this repo, ReAct/CoT expectations, and update protocol (for contributors using tools)
+- **📎 [skills.md](skills.md)** - Pointer: no in-repo Cursor SKILL packs; use `AGENTS.md` and `.cursor/rules/`
 - **📖 [Educational Content Rules](.cursor/rules/01_educational-content-rules.mdc)** - Zero-copy policy, transformative workflow, quality standards
 - **📁 [Repository Structure](docs/02_RepositoryStructure.md)** - File naming, directory structure, organization
 - **✅ [Quality Assurance](.cursor/rules/03_quality-assurance.mdc)** - Quality checklists and validation requirements
@@ -68,10 +69,10 @@ Before submitting, run our quality checks:
 
 ```powershell
 # Lint markdown files
-./scripts/docs-lint.ps1
+./tools/psscripts/docs-lint.ps1
 
 # Validate links
-./scripts/docs-links.ps1
+./tools/psscripts/docs-links.ps1
 ```
 
 ### **5. Commit and Push**

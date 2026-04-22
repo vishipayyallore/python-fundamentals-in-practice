@@ -23,11 +23,13 @@ This file is the **entry point for AI coding agents** (Cursor, Claude Code, GitH
 | --- | --- | --- |
 | **Structure (authoritative)** | `docs/02_RepositoryStructure.md` | Definitive tree, naming, status |
 | **Agent entry (this file)** | `AGENTS.md` | How agents should behave; pointers to all rules |
+| **Skills pointer** | `skills.md` | Where “skills” live (this repo uses rules + `AGENTS.md`, not in-repo SKILL packs) |
 | **Claude / Anthropic (short form)** | `CLAUDE.md` (repo root) | Condensed guardrails; same project as this file |
 | **Claude Code folder (optional)** | `.claude/CLAUDE.md` | Confirms root instructions; use when tools expect `.claude/` |
 | **Cursor (modular rules)** | `.cursor/rules/*.mdc` | Mandatory and scoped rules; see `.cursor/rules/README.md` |
 | **GitHub Copilot** | `.github/copilot-instructions.md` | In-browser / Copilot alignment with Cursor rules |
-| **CI** | `.github/workflows/docs-quality.yml` | Markdown lint + Lychee on doc paths |
+| **CI (docs)** | `.github/workflows/docs-quality.yml` | Markdown lint + Lychee on doc paths |
+| **CI (Python)** | `.github/workflows/python-quality.yml` | Ruff + `compileall` on `src/` (no separate pytest suite) |
 | **Contributing (humans + agents)** | `CONTRIBUTING.md` | How to contribute and review |
 
 If anything in this table conflicts with **`docs/02_RepositoryStructure.md`**, treat the doc as correct and fix the other file.
@@ -71,7 +73,7 @@ This project **expects explicit reasoning** in learning material and in agent wo
    Use `L{level}/S{session}/` (e.g. `src/L1/S1/01_hello.py`, `docs/sessions/L1/01_S1.md`). Validate references before commit.
 
 4. **Automation and quality**  
-   Prefer `scripts/docs-lint.ps1` and `scripts/docs-links.ps1` (or the `npx` / Docker commands in `README.md`) before large documentation merges. Match CI in `.github/workflows/docs-quality.yml` where possible.
+   Prefer `tools/psscripts/docs-lint.ps1` and `tools/psscripts/docs-links.ps1` (or the `npx` / Docker commands in `README.md`) before large documentation merges. Match CI in `.github/workflows/docs-quality.yml` where possible. For practice code, CI runs **Ruff** and `compileall` (see `pyproject.toml` and `.github/workflows/python-quality.yml`).
 
 5. **After structural or convention changes**  
    Update in order: `docs/02_RepositoryStructure.md` → `README.md` / `.github/copilot-instructions.md` as needed → `.cursor/rules/` cross-references → this file and `CLAUDE.md` if agent workflows changed.

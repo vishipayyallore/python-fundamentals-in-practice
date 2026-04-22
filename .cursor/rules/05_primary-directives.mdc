@@ -16,18 +16,18 @@ See: `01_educational-content-rules.mdc` for complete details.
 ### 2. Automation-First Approach
 
 ✅ **ALWAYS**: Create reusable PowerShell scripts for repetitive tasks  
-✅ **ALWAYS**: Use existing scripts in `scripts/` first  
+✅ **ALWAYS**: Use existing scripts in `tools/psscripts/` first  
 ✅ **ALWAYS**: Enhance existing scripts rather than duplicating  
 ❌ **NEVER**: Execute individual commands for tasks repeated 2+ times
 
 **Decision Tree**:
 
-1. Check `scripts/` for existing script
+1. Check `tools/psscripts/` for existing script
 2. Enhance existing script if close match
 3. Create new `.ps1` for any repeated task
 4. Document with examples and parameters
 
-**Available Automation** (scripts/):
+**Available Automation** (`tools/psscripts/`):
 
 - `docs-lint.ps1` - Markdown linting script
 - `docs-links.ps1` - Link validation script

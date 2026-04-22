@@ -67,7 +67,7 @@
 - **Documentation**: `docs/sessions/L{level}/` - Session documentation organized by level
 - **Practice Code**: `src/L{level}/S{session}/` - Python practice files organized by level and session
 - **Images**: `docs/images/S{session}/` - Educational images organized by session
-- **Scripts**: `scripts/` - PowerShell utility scripts for development
+- **Scripts**: `tools/psscripts/` - PowerShell utility scripts for development
 
 **File Relationships:**
 

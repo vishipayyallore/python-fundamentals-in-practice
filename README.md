@@ -47,7 +47,7 @@ For detailed repository structure, see **[Repository Structure](docs/02_Reposito
 
 - **📚 docs/**: Educational documentation (sessions, images, master plan)
 - **💻 src/**: Practice code files organized by level and session
-- **🔧 scripts/**: PowerShell utility scripts for development
+- **🔧 tools/psscripts/**: PowerShell utility scripts for development (docs lint, link check, tree)
 - **⚙️ .github/**: CI/CD workflows and copilot instructions
 - **⚙️ .cursor/**: Cursor AI configuration and rules
 - **📄 AGENTS.md** / **CLAUDE.md** / **.claude/**: AI agent entry points (aligned with [Repository Structure](docs/02_RepositoryStructure.md))
@@ -93,7 +93,7 @@ Run Markdown lint against README and all documentation before opening a PR:
 
 ```powershell
 # From repo root - lint all markdown files
-npx --yes markdownlint-cli2 "README.md" "AGENTS.md" "CLAUDE.md" "docs/**/*.md" ".github/**/*.md" ".claude/**/*.md"
+npx --yes markdownlint-cli2 "README.md" "AGENTS.md" "CLAUDE.md" "skills.md" "docs/**/*.md" ".github/**/*.md" ".claude/**/*.md"
 ```
 
 This uses the repository's `.markdownlint.json` configuration automatically.
@@ -102,10 +102,10 @@ This uses the repository's `.markdownlint.json` configuration automatically.
 
 ```powershell
 # Lint documentation
-./scripts/docs-lint.ps1
+./tools/psscripts/docs-lint.ps1
 
 # Auto-fix formatting issues where possible
-./scripts/docs-lint.ps1 -Fix
+./tools/psscripts/docs-lint.ps1 -Fix
 ```
 
 ### **Link Validation (Lychee)**
@@ -114,17 +114,17 @@ Run link checker to validate all links in documentation:
 
 ```powershell
 # Validate all links (recommended; matches CI behavior)
-docker run --rm -w /input -v "${PWD}:/input" lycheeverse/lychee:latest --config lychee.toml --no-progress README.md docs/**/*.md .github/**/*.md
+docker run --rm -w /input -v "${PWD}:/input" lycheeverse/lychee:latest --config lychee.toml --no-progress README.md AGENTS.md CLAUDE.md skills.md docs/**/*.md .github/**/*.md .claude/**/*.md
 ```
 
 **Shortcut on Windows (PowerShell):**
 
 ```powershell
 # Validate all links
-./scripts/docs-links.ps1
+./tools/psscripts/docs-links.ps1
 
 # Extract links only (does not validate)
-./scripts/docs-links.ps1 -DumpOnly
+./tools/psscripts/docs-links.ps1 -DumpOnly
 ```
 
 ### **CI/CD Quality Workflow**
@@ -147,10 +147,10 @@ Generate current repository structure for documentation:
 
 ```powershell
 # Generate structure tree and save to file
-.\scripts\show-tree.ps1 -Path "." -Depth 4 -OutFile "scripts\repo-structure.txt"
+.\tools\psscripts\show-tree.ps1 -Path "." -Depth 4 -OutFile "tools\psscripts\repo-structure.txt"
 
 # View structure in terminal
-.\scripts\show-tree.ps1 -Path "." -Depth 4
+.\tools\psscripts\show-tree.ps1 -Path "." -Depth 4
 ```
 
 ---
