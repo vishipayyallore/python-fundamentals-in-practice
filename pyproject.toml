@@ -1,0 +1,26 @@
+[project]
+name = "python-fundamentals-in-practice"
+version = "0.0.0"
+description = "Educational Python curriculum (documentation + practice scripts; not a distributable package)."
+requires-python = ">=3.12"
+readme = "README.md"
+
+[tool.ruff]
+target-version = "py312"
+line-length = 120
+src = ["src"]
+
+[tool.ruff.lint]
+select = [
+  "E",   # pycodestyle errors
+  "F",   # Pyflakes
+  "I",   # isort (import sorting)
+  "W",   # pycodestyle warnings
+  "UP",  # pyupgrade
+]
+ignore = [
+  "E501",  # line length (handled by formatter preference; educational long lines in strings OK)
+]
+
+[tool.ruff.lint.isort]
+known-first-party = []
