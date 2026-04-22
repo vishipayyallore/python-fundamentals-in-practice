@@ -5,8 +5,13 @@ param(
 # Run markdownlint-cli2 across repo docs. Use --fix if -Fix is supplied.
 $patterns = @(
     'README.md',
+    'AGENTS.md',
+    'CLAUDE.md',
+    'skills.md',
     'docs/**/*.md',
-    '.github/**/*.md'
+    '.github/**/*.md',
+    '.claude/**/*.md',
+    '.cursor/rules/README.md'
 )
 
 $args = @()

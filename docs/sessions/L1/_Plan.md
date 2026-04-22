@@ -46,7 +46,7 @@ sessions:
     topic: "Conditionals, Indentation & Introduction to Modules"
     duration: "30 min"
     type: "Knowledge"
-    status: "Planned"
+    status: "Ready"
     file: "docs/sessions/L1/04_S4.md"
   - session: "MP1"
     topic: "Mini Project 1: Simple Calculator"

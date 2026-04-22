@@ -127,7 +127,19 @@ docker run --rm -w /input -v "${PWD}:/input" lycheeverse/lychee:latest --config 
 ./tools/psscripts/docs-links.ps1 -DumpOnly
 ```
 
-### **CI/CD Quality Workflow**
+### **Python static checks (Ruff)**
+
+This repository does not ship `pytest` tests; practice scripts are run manually. CI runs **Ruff** (covers common **flake8**- / **isort**-class checks) and `python -m compileall` on `src/`. Locally (optional: activate `.venv` first, then `pip install ruff` or use your global tool):
+
+```powershell
+ruff check src
+python -m compileall -q src
+```
+
+Config: `pyproject.toml` · Workflow: `.github/workflows/python-quality.yml`  
+There is **no** `package.json` or front-end stack; see the workflow job “Frontend (N/A)” for ESLint/TypeScript.
+
+### **CI/CD Quality Workflow (Docs)**
 
 GitHub Actions automatically runs documentation quality checks on:
 
