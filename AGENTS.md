@@ -1,259 +1,109 @@
-# 🤖 Agent Instructions for Python Fundamentals Project
+# Agents — Python Fundamentals in Practice
 
-**Project:** Python Fundamentals Curriculum  
-**Owner:** Swamy's Tech Skills Academy  
-**Purpose:** Educational content development and maintenance
+**Version:** 1.0  
+**Last updated:** April 2026
 
----
-
-## 🚨 **CRITICAL RULES - READ FIRST**
-
-### **1. 🛡️ DO NOT CORRUPT EXISTING FILES**
-
-- **NEVER** make changes that break existing content
-- **ALWAYS** preserve the original structure and formatting
-- **VERIFY** changes are minimal and necessary before applying
-- **TEST** understanding by reading the full context before editing
-- **ASK FOR CONFIRMATION** if changes seem extensive or risky
-
-### **2. 📖 UNDERSTAND BEFORE ACTING**
-
-- **READ** the entire file or section before making any edits
-- **ANALYZE** the existing structure and content quality
-- **RESPECT** the pedagogical flow and curriculum design
-- **PRESERVE** all educational content, examples, and explanations
-
-### **3. 🎯 MAKE PRECISE, TARGETED CHANGES**
-
-- **IDENTIFY** the exact issue to be fixed
-- **ISOLATE** the specific text that needs modification
-- **MINIMIZE** the scope of changes
-- **MAINTAIN** surrounding context and formatting
-
-### **4. 🚫 ZERO-COPY POLICY (Non-Negotiable)**
-
-- **NEVER** copy text verbatim from books, articles, websites, videos, or third-party materials
-- **NEVER** mirror a source's outline, section order, headings, or example sequence
-- **NEVER** use "light paraphrasing" — must transform completely
-- **ALWAYS** create diagrams in Mermaid-first style with ASCII fallback (never embed copyrighted figures)
-- **ALWAYS** write fresh, minimal code from first principles
-- Brief quotations allowed ONLY with quotation marks and source citation
-- **Goal**: Create transformative educational content, not just reformative
-
-**See `.cursor/rules/01_educational-content-rules.mdc` for complete Zero-Copy Policy and Transformative Workflow details.**
+This file is the **entry point for AI coding agents** (Cursor, Claude Code, GitHub Copilot, and similar tools) working in this repository. It ties together project-specific rules, documentation, and how to reason about changes safely.
 
 ---
 
-## 🛠️ **DEVELOPMENT COMMANDS**
+## 1. What this repository is
 
-### **Linting**
+- **Purpose:** Educational Python curriculum (progressive levels, ~30-minute sessions, practice code under `src/`, session write-ups under `docs/sessions/`).
+- **Tone:** Beginner-friendly, hands-on, visually clear. Content must be **transformative**, not copied from third-party materials (see Zero-Copy Policy below).
+- **Non-goals:** This is not a production app repository; code teaches concepts and must remain runnable and readable.
 
-```powershell
-# Lint all Markdown documentation
-npx --yes markdownlint-cli2 "README.md" "docs/**/*.md" ".github/**/*.md"
-
-# Auto-fix linting issues
-.\scripts\docs-lint.ps1 -Fix
-```
-
-### **Link Validation**
-
-```powershell
-# Validate all links in documentation
-.\scripts\docs-links.ps1
-```
-
-### **Repository Structure**
-
-```powershell
-# Generate current repository structure
-.\scripts\show-tree.ps1 -Path "." -Depth 4 -OutFile "scripts\repo-structure.txt"
-```
+**Single source of truth for folder layout, naming, and file inventory:** `docs/02_RepositoryStructure.md` — when structure or conventions change, update that document first, then align references (README, copilot instructions, and this file).
 
 ---
 
-## 📋 **PROJECT STRUCTURE OVERVIEW**
+## 2. Where project instructions live (use the right layer)
 
-> **📋 Single Source of Truth**: For the complete and up-to-date repository structure, see [`docs/02_RepositoryStructure.md`](docs/02_RepositoryStructure.md). This is the authoritative documentation for all repository structure details.
+| Layer | Path | Role |
+| --- | --- | --- |
+| **Structure (authoritative)** | `docs/02_RepositoryStructure.md` | Definitive tree, naming, status |
+| **Agent entry (this file)** | `AGENTS.md` | How agents should behave; pointers to all rules |
+| **Skills pointer** | `skills.md` | Where “skills” live (this repo uses rules + `AGENTS.md`, not in-repo SKILL packs) |
+| **Claude / Anthropic (short form)** | `CLAUDE.md` (repo root) | Condensed guardrails; same project as this file |
+| **Claude Code folder (optional)** | `.claude/CLAUDE.md` | Confirms root instructions; use when tools expect `.claude/` |
+| **Cursor (modular rules)** | `.cursor/rules/*.mdc` | Mandatory and scoped rules; see `.cursor/rules/README.md` |
+| **GitHub Copilot** | `.github/copilot-instructions.md` | In-browser / Copilot alignment with Cursor rules |
+| **Copilot prompts (reusable)** | `.github/prompts/*.prompt.md` | Agent-mode starters: `create-session`, `review-content`, `create-practice-file`, `fix-references` |
+| **Copilot instructions (scoped)** | `.github/instructions/*.instructions.md` | File-scoped rules: `python-practice` → `src/**/*.py`; `session-docs` → `docs/sessions/**` |
+| **CI (docs)** | `.github/workflows/docs-quality.yml` | Markdown lint + Lychee on doc paths |
+| **CI (Python)** | `.github/workflows/python-quality.yml` | Ruff + `compileall` on `src/` (no separate pytest suite) |
+| **Contributing (humans + agents)** | `CONTRIBUTING.md` | How to contribute and review |
 
-**Quick Reference:**
-
-- **Documentation**: `docs/sessions/L{level}/` - Session documentation organized by level
-- **Practice Code**: `src/L{level}/S{session}/` - Python practice files organized by level and session
-- **Images**: `docs/images/S{session}/` - Educational images organized by session
-- **Scripts**: `scripts/` - PowerShell utility scripts for development
-
-**Key File Relationships:**
-
-- `docs/sessions/L1/01_S1.md` ↔ `src/L1/S1/` (practice files)
-- `docs/sessions/L1/_Plan.md` → Overall curriculum structure
-- `README.md` → Entry point with navigation links
-
----
-
-## 🎓 **CURRICULUM PHILOSOPHY**
-
-### **Educational Approach:**
-
-- **30-minute sessions** - Realistic time constraints
-- **Splitting over trimming** - If content is too long, split into multiple parts instead of removing educational material
-- **Progressive complexity** - Each session builds on previous
-- **Hands-on practice** - Every concept has practical application
-- **Visual learning** - Emojis, diagrams, and clear formatting
-- **Beginner-focused** - No assumptions about prior knowledge
-
-### **Content Quality Standards:**
-
-- **Pedagogically sound** - Based on learning theory
-- **Technically accurate** - All code examples work correctly
-- **Professionally presented** - Industry-standard documentation
-- **Accessible** - Clear language and multiple learning styles
+If anything in this table conflicts with **`docs/02_RepositoryStructure.md`**, treat the doc as correct and fix the other file.
 
 ---
 
-## 🧠 **CoT/ReAct METHODOLOGY**
+## 3. Reasoning: ReAct and Chain-of-Thought (CoT)
 
-### **For Content CREATION (THINK → REASON → ACT → VERIFY):**
+This project **expects explicit reasoning** in learning material and in agent work. Use the same patterns as in `.github/copilot-instructions.md` and `.cursor/rules/01_educational-content-rules.mdc` (which contain the full tables).
 
-| Phase      | Steps                                                                                         |
-| ---------- | --------------------------------------------------------------------------------------------- |
-| **THINK**  | Understand objective → Decompose into chunks → Sequence logically → Anticipate misconceptions |
-| **REASON** | Check prerequisites → Map connections → Design examples → Identify pitfalls                   |
-| **ACT**    | Write content → Create code examples → Add diagrams → Design exercises                        |
-| **VERIFY** | Is it clear? → Complete? → Progressive? → Original?                                           |
+**Content creation (teaching material and examples):**  
+**THINK → REASON → ACT → VERIFY** (and iterate if a verification step fails).
 
-### **For Content REVIEW (OBSERVE → ANALYZE → REASON → VERIFY → ACT):**
+- **THINK (CoT):** Objectives, chunk the topic, order from simple to complex, anticipate misconceptions.
+- **REASON:** Prerequisites, links to other sessions, original examples, pitfalls.
+- **ACT:** Write docs, `src/` practice files, Mermaid/ASCII diagrams, exercises.
+- **VERIFY:** Clarity, completeness, fit in the sequence, originality (zero-copy).
 
-| Phase       | Steps                                        |
-| ----------- | -------------------------------------------- |
-| **OBSERVE** | Scan and catalog ALL files in scope          |
-| **ANALYZE** | Open and examine EVERY file individually     |
-| **REASON**  | Apply logical reasoning to identify issues   |
-| **VERIFY**  | Cross-check findings and validate compliance |
-| **ACT**     | Document findings and update content         |
+**Content or repo review (audits, “review everything” requests):**  
+**OBSERVE → ANALYZE → REASON → VERIFY → ACT**
 
-### **Reasoning in Educational Content:**
+- **OBSERVE:** List every file in scope (no sampling).
+- **ANALYZE:** Open and check each file against the checklists in `03_quality-assurance.mdc` and `01_educational-content-rules.mdc`.
+- **REASON:** Explain issues and patterns; do not skip edge cases.
+- **VERIFY:** Cross-check paths, links, and naming.
+- **ACT:** Fix or report with paths and clear follow-ups.
 
-**CRITICAL**: All code examples and explanations must show the "Why" behind decisions, not just the "What".
-
-**✅ DO**: Include explicit reasoning for code design decisions
-
-- Show why a data structure was chosen
-- Explain alternative approaches and trade-offs
-- Make the thought process visible to learners
-
-**❌ AVOID**: Stating facts without reasoning
-
-- Don't just say "use a dictionary" — explain WHY
-- Don't skip the reasoning chain from problem to solution
+**Code edits in this repo (not “write a new session”):** default to **minimal, targeted diffs** — read surrounding context, preserve pedagogy and formatting, and do not rename or restructure files unless the user asked or it is required to fix a bug.
 
 ---
 
-## 🔧 **EDITING GUIDELINES**
+## 4. Non-negotiable policies (all agents)
 
-### **✅ SAFE EDITS:**
+1. **Zero-copy (transformative only)**  
+   No verbatim third-party text; no mirrored outline or example order; brief quotes only with quotation marks and citation. See `.cursor/rules/01_educational-content-rules.mdc`.
 
-- Fixing typos and spelling errors
-- Correcting broken links
-- Updating file paths that are demonstrably wrong
-- Fixing character encoding issues (corrupted emojis)
-- Adding missing sections that are clearly incomplete
+2. **Respect the curriculum**  
+   Do not remove or condense teaching content to “save space” — **split** into parts if length is an issue. Session numbering must reflect real dependencies (e.g. variables before operators at L1).
 
-### **⚠️ CAREFUL EDITS:**
+3. **Paths and names**  
+   Use `L{level}/S{session}/` (e.g. `src/L1/S1/01_hello.py`, `docs/sessions/L1/01_S1.md`). Validate references before commit.
 
-- Modifying code examples (ensure they still work)
-- Changing file structure references
-- Updating installation instructions
-- Modifying pedagogical explanations
+4. **Automation and quality**  
+   Prefer `tools/psscripts/docs-lint.ps1` and `tools/psscripts/docs-links.ps1` (or the `npx` / Docker commands in `README.md`) before large documentation merges. Match CI in `.github/workflows/docs-quality.yml` where possible. For practice code, CI runs **Ruff** and `compileall` (see `pyproject.toml` and `.github/workflows/python-quality.yml`).
 
-### **🚫 AVOID:**
-
-- Large-scale content reorganization without explicit request
-- Changing the pedagogical approach or learning sequence
-- Removing or significantly altering existing explanations
-- Modifying time allocations or session structure
-- Changing the emoji-based navigation system
-
-### **Before Any Edit:**
-
-1. **Read the full context** - Understand what you're changing
-2. **Identify the specific problem** - What exactly needs fixing?
-3. **Plan minimal changes** - What's the smallest fix that works?
-4. **Preserve surrounding content** - Don't alter unrelated text
-5. **Verify the change makes sense** - Does it improve the content?
+5. **After structural or convention changes**  
+   Update in order: `docs/02_RepositoryStructure.md` → `README.md` / `.github/copilot-instructions.md` as needed → `.cursor/rules/` cross-references → this file and `CLAUDE.md` if agent workflows changed.
 
 ---
 
-## 📝 **FILE REFERENCE STANDARDS**
+## 5. Cursor rules: reading order
 
-**CRITICAL**: All file references must:
-
-- ✅ Include numeric prefixes (`01_`, `02_`, etc.) in file names
-- ✅ Use correct `L{level}/S{session}/` directory structure
-- ✅ Match actual file names exactly
-- ✅ Be verified before committing
-
-**Common Errors to Avoid:**
-
-- ❌ Missing numeric prefixes: `S1.md` → ✅ `01_S1.md`
-- ❌ Missing level identifier: `sessions/S1/` → ✅ `sessions/L1/01_S1.md`
-- ❌ Incorrect path structure: `src/S1/` → ✅ `src/L1/S1/`
+1. `05_primary-directives.mdc` — what to do first, automation, update protocol  
+2. `01_educational-content-rules.mdc` — zero-copy, CoT/ReAct, session structure  
+3. `02_repository-structure.mdc` — context and links to the structure doc  
+4. `04_markdown-standards.mdc` — links, encodings, session doc shape  
+5. `03_quality-assurance.mdc` — checklists before commit  
+6. `06_cross-level-integration.mdc` — prerequisites and “enables” links between sessions  
 
 ---
 
-## 🎯 **QUALITY CHECKLIST**
+## 6. Python and environment notes
 
-Before submitting any changes, verify:
-
-- [ ] **Content preserved** - No educational material lost
-- [ ] **Structure intact** - Formatting and organization maintained
-- [ ] **Links work** - All file references are correct (include numeric prefixes)
-- [ ] **File references validated** - All references use `L{level}/S{session}/` structure
-- [ ] **Code examples** - All Python code is syntactically correct
-- [ ] **Reasoning quality** - Code design decisions include explicit reasoning (why this approach?)
-- [ ] **Consistency** - Changes align with overall project structure
-- [ ] **Readability** - Changes improve rather than degrade clarity
+- Target **Python 3.13+** (see `README.md`). On Windows, prefer `py -m pip` and run practice files with the same interpreter students are expected to use.
+- `__pycache__/` and bytecode are generated artifacts — do not treat them as source.
 
 ---
 
-## 🚨 **EMERGENCY PROCEDURES**
+## 7. When unsure
 
-### **If You Accidentally Corrupt Content:**
-
-1. **STOP immediately** - Don't make additional changes
-2. **INFORM the user** - Be transparent about what happened
-3. **SUGGEST restoration** - Recommend reverting to previous version
-4. **LEARN from the mistake** - Understand what went wrong
-
-### **If Unsure About Changes:**
-
-1. **ASK for clarification** - Better to check than assume
-2. **DESCRIBE your plan** - Explain what you intend to change
-3. **REQUEST confirmation** - Get approval before proceeding
-4. **OFFER alternatives** - Suggest different approaches if needed
+Prefer **ask** over **guess** on large pedagogical rewrites, licensing-sensitive material, or repo-wide moves. For small, mechanical fixes (typos, broken links, wrong paths), fix and run lint/link checks when docs are touched.
 
 ---
 
-## 💡 **SUCCESS PRINCIPLES**
-
-1. **Precision over Speed** - Take time to understand before acting
-2. **Preservation over Innovation** - Maintain existing quality
-3. **Communication over Assumption** - Ask questions when uncertain
-4. **Incremental over Wholesale** - Make small, targeted changes
-5. **Verification over Trust** - Double-check all modifications
-
----
-
-## 🔗 **Related Documentation**
-
-- **📋 Repository Structure (Single Source of Truth)**: [`docs/02_RepositoryStructure.md`](docs/02_RepositoryStructure.md)
-- **GitHub Copilot**: `.github/copilot-instructions.md` - GitHub Copilot-specific guidelines
-- **Claude AI**: `CLAUDE.md` and `.claude/CLAUDE.md` - Claude-specific guidelines
-- **Cursor AI Rules**: `.cursor/rules/` - Comprehensive modular rules for Cursor AI
-- **Main README**: `README.md` - Project overview and quick start guide
-
----
-
-**Remember: This is educational content that transforms beginners into programmers. Every word matters, every example counts, and every student's learning journey depends on the quality and integrity of this curriculum.**
-
-**🎯 When in doubt, preserve and ask. When certain, proceed with precision.**
+**Bottom line:** Treat `docs/02_RepositoryStructure.md` as the map, `.cursor/rules/` and `.github/copilot-instructions.md` as the detailed law, and **AGENTS.md** / **CLAUDE.md** as the compass for any automated assistant in this repository.

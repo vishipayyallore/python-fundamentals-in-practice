@@ -1,7 +1,7 @@
 # Markdown Authoring Standards
 
-**Version**: 1.0  
-**Last Updated**: December 2025
+**Version**: 1.1  
+**Last Updated**: April 2026
 
 ---
 
@@ -301,10 +301,10 @@ docker run --rm -w /input -v "${PWD}:/input" lycheeverse/lychee:latest --config 
 
 ```powershell
 # Lint documentation
-./scripts/docs-lint.ps1
+./tools/psscripts/docs-lint.ps1
 
 # Validate links
-./scripts/docs-links.ps1
+./tools/psscripts/docs-links.ps1
 ```
 
 ### Prevention Guidelines

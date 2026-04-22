@@ -2,7 +2,24 @@
 
 **Project:** Python Fundamentals Curriculum  
 **Owner:** Swamy's Tech Skills Academy  
-**Purpose:** Educational content development and maintenance
+**Purpose:** Educational content development and maintenance  
+**Last updated:** April 2026
+
+---
+
+## 📌 **Where these instructions sit**
+
+| File | Use |
+| --- | --- |
+| `AGENTS.md` | **Primary agent entry** — ReAct/CoT expectations, policy map, links to all rules (Cursor, Copilot, Claude) |
+| `skills.md` | Explains that this repo does not commit Cursor SKILL packs; use `AGENTS.md` and `.cursor/rules/` |
+| `CLAUDE.md` | Short project brief for Claude/Anthropic-oriented tools; defers to `AGENTS.md` for the full map |
+| `.claude/CLAUDE.md` | Optional pointer for workflows that look under `.claude/`; canonical text remains at the repo root |
+| `.cursor/rules/*.mdc` | Mandatory modular rules; see `.cursor/rules/README.md` for the index (aligned with this file) |
+| `.github/prompts/*.prompt.md` | **Reusable agent-mode starters** — `create-session`, `review-content`, `create-practice-file`, `fix-references` |
+| `.github/instructions/*.instructions.md` | **Scoped rules** — `python-practice` (applies to `src/**/*.py`), `session-docs` (applies to `docs/sessions/**`) |
+
+**Structure details:** Always use [`docs/02_RepositoryStructure.md`](../docs/02_RepositoryStructure.md) as the single source of truth for paths, naming, and inventory.
 
 ---
 
@@ -53,7 +70,7 @@
 - **Documentation**: `docs/sessions/L{level}/` - Session documentation organized by level
 - **Practice Code**: `src/L{level}/S{session}/` - Python practice files organized by level and session
 - **Images**: `docs/images/S{session}/` - Educational images organized by session
-- **Scripts**: `scripts/` - PowerShell utility scripts for development
+- **Scripts**: `tools/psscripts/` - PowerShell utility scripts for development
 
 **File Relationships:**
 
@@ -293,18 +310,23 @@ Before submitting any changes, verify:
 
 ## 🔗 **Related Documentation**
 
+- **🤖 Agent entry (all tools)**: [`AGENTS.md`](../AGENTS.md) — how assistants navigate this repository; ReAct/CoT; update protocol
+- **Claude short brief**: [`CLAUDE.md`](../CLAUDE.md) — compact guardrails; full detail in `AGENTS.md` and `.cursor/rules/`
 - **📋 Repository Structure (Single Source of Truth)**: [`docs/02_RepositoryStructure.md`](../docs/02_RepositoryStructure.md) - **Authoritative repository structure documentation**
 - **Claude AI**: `CLAUDE.md` and `.claude/CLAUDE.md` - Claude AI (Anthropic) guidelines
 - **Agent Tools**: `AGENTS.md` - OpenAI Codex and general agent guidelines
 - **Cursor AI Rules**: `.cursor/rules/` - Comprehensive modular rules for Cursor AI
   - See `.cursor/rules/README.md` for overview of all rule files
   - Rules cover: educational content, repository structure, quality assurance, markdown standards, primary directives, cross-level integration
+- **Reusable Copilot prompts**: `.github/prompts/` — `create-session`, `review-content`, `create-practice-file`, `fix-references`
+- **Scoped Copilot instructions**: `.github/instructions/` — `python-practice` (src files), `session-docs` (docs/sessions files)
 - **Main README**: `README.md` - Project overview and quick start guide
 - **Level 1 Plan**: `docs/sessions/L1/_Plan.md` - Complete Level 1 curriculum plan
 
 **Note**:
 
 - `docs/02_RepositoryStructure.md` is the **single source of truth** for repository structure
+- `AGENTS.md` and `CLAUDE.md` are the **entry points for human and AI readers**; keep them in sync when you change policies or file locations
 - `.cursor/rules/` and `.github/copilot-instructions.md` should reference `docs/02_RepositoryStructure.md` for structure details
 - Both provide guidance for AI assistants working with this repository
 

@@ -1,9 +1,12 @@
 # Filename: src/L1/S1/bytecode_demo.py
+# Session 1 — optional "peek under the hood"
+# Don't teach this line-by-line in 30 min. It's OK if output feels cryptic;
+# the point is: "something" turns your source into lower-level steps.
 
-# Session 1 - Advanced Example (Preview of what you'll learn)
-# This shows what you can build after completing the course!
+# Preview: disassembly and functions — full story comes in later sessions.
 
 import dis
+
 print("🚀 Advanced Python Preview")
 print("=" * 50)
 
@@ -23,8 +26,7 @@ print("    print('Hello World')")
 print("\n💾 Python's Bytecode (what the compiler creates):")
 dis.dis(greet)
 
-print("\n🎯 Cool, right? Python converted your code into bytecode!")
-print("This is exactly what we learned about: Compilation → Bytecode → Interpretation")
+print("\n🎯 Your source became bytecode; the PVM runs it. No need to memorize this yet.")
 
 print("\n" + "=" * 50)
 print("🚀 Amazing! You've just seen Python's internal magic!")

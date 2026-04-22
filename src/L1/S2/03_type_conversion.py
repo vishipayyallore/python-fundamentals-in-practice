@@ -1,65 +1,46 @@
 # Filename: src/L1/S2/03_type_conversion.py
+# Session 2: Conversion — why "10" + "5" is not 15, and when int() saves you
 
-# Session 2: Variables & Data Types
-# Practice: Converting between data types
+print("=== What happens without conversion (strings) ===\n")
+num1 = "10"
+num2 = "5"
+print("num1 = '10', num2 = '5' (both strings — like input() gives you).")
+print('Using +: ', repr(num1 + num2), "  ← not 15; it concatenates text!")
+print("👉 Ask: 15 or 105? Then you feel why type matters.\n")
 
-print("=== Type Conversion Examples ===\n")
+print("=== Fix: convert, then do math ===")
+num1 = int(num1)
+num2 = int(num2)
+print("After int():", num1 + num2, "  ← now real addition.\n")
 
-# Converting to Integer
-print("1. CONVERTING TO INTEGER (int()):")
+print("👉 input() always returns a string → convert when you need numbers (Session 1 + Session 2).\n")
+
+# More conversion patterns
+print("=== Type conversion reference ===\n")
+
+print("1. TO int:")
 age_str = "25"
-age_int = int(age_str)
-print(f"   '{age_str}' (str) → {age_int} (int)")
+print(f"   int({repr(age_str)}) → {int(age_str)}")
 
-price_float = 19.99
-price_int = int(price_float)
-print(f"   {price_float} (float) → {price_int} (int)")
-
-# Converting to Float
-print("\n2. CONVERTING TO FLOAT (float()):")
+print("\n2. TO float:")
 price_str = "19.99"
-price_float = float(price_str)
-print(f"   '{price_str}' (str) → {price_float} (float)")
+print(f"   float({repr(price_str)}) → {float(price_str)}")
 
-age_int = 25
-age_float = float(age_int)
-print(f"   {age_int} (int) → {age_float} (float)")
-
-# Converting to String
-print("\n3. CONVERTING TO STRING (str()):")
+print("\n3. TO str:")
 age = 25
-age_str = str(age)
-print(f"   {age} (int) → '{age_str}' (str)")
+print(f"   str({age}) → {repr(str(age))}")
 
-price = 19.99
-price_str = str(price)
-print(f"   {price} (float) → '{price_str}' (str)")
+print("\n4. TO bool (samples):")
+print(f"   bool(1)={bool(1)}, bool(0)={bool(0)}, bool('')={bool('')}, bool('hi')={bool('hi')}")
 
-# Converting to Boolean
-print("\n4. CONVERTING TO BOOLEAN (bool()):")
-print(f"   bool(1): {bool(1)}")
-print(f"   bool(0): {bool(0)}")
-print(f"   bool('hello'): {bool('hello')}")
-print(f"   bool(''): {bool('')}")
-
-# Practical Example: User Input
-print("\n=== Practical Example: User Input ===")
-print("(This would normally come from input(), showing conversion)")
-age_input = "25"  # Simulating input("Enter your age: ")
+# int() can fail: int("hello") — mention in class, not required to demo crash in script
+print("\n=== Practical: simulated input (always str) ===")
+age_input = "25"
 age = int(age_input)
-print(f"   User entered: '{age_input}' (string)")
-print(f"   Converted to: {age} (integer)")
-print(f"   Can now do math: {age} + 5 = {age + 5}")
+print(f"   As if from input: {repr(age_input)} → int → {age}, age + 5 = {age + 5}")
 
-# Combining strings and numbers
-print("\n=== Combining Strings and Numbers ===")
+print("\n=== Combine text and numbers ===")
 name = "Alice"
 age = 25
-# Method 1: Using str() conversion
-message1 = "I am " + str(age) + " years old"
-print(f"   Method 1: {message1}")
-
-# Method 2: Using f-strings (easier!)
-message2 = f"I am {age} years old"
-print(f"   Method 2: {message2}")
-
+print("I am " + str(age) + " years old")
+print(f"I am {age} years old  (f-string — usually easier)")

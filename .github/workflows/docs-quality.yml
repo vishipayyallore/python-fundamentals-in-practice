@@ -6,8 +6,12 @@ on:
   pull_request:
     paths:
       - "README.md"
+      - "AGENTS.md"
+      - "CLAUDE.md"
+      - "skills.md"
       - "docs/**/*.md"
       - ".github/**/*.md"
+      - ".claude/**/*.md"
       - "lychee.toml"
       - ".markdownlint.*"
       - ".github/workflows/docs-quality.yml"
@@ -15,8 +19,12 @@ on:
     branches: [main]
     paths:
       - "README.md"
+      - "AGENTS.md"
+      - "CLAUDE.md"
+      - "skills.md"
       - "docs/**/*.md"
       - ".github/**/*.md"
+      - ".claude/**/*.md"
       - "lychee.toml"
       - ".markdownlint.*"
       - ".github/workflows/docs-quality.yml"
@@ -39,8 +47,12 @@ jobs:
         with:
           globs: |
             README.md
+            AGENTS.md
+            CLAUDE.md
+            skills.md
             docs/**/*.md
             .github/**/*.md
+            .claude/**/*.md
 
   link-check:
     name: Link Check (Lychee)
@@ -57,8 +69,12 @@ jobs:
           args: >-
             --config lychee.toml --no-progress
             README.md
+            AGENTS.md
+            CLAUDE.md
+            skills.md
             docs/**/*.md
             .github/**/*.md
+            .claude/**/*.md
           fail: true
       - name: Upload Lychee report
         if: always()
