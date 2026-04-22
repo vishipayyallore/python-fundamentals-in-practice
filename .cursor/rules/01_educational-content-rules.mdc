@@ -1,7 +1,7 @@
 # Educational Content Rules (Python Fundamentals)
 
-**Version**: 1.0  
-**Last Updated**: December 2025  
+**Version**: 1.1  
+**Last Updated**: April 2026  
 **Priority**: MANDATORY - All content creation must follow these rules without exception
 
 ---
@@ -238,7 +238,7 @@ Every session documentation file MUST include:
 - ✅ Levels: Always use `L{number}` format (L1, L2, L3, etc.)
 - ✅ Sessions: Always use `S{number}` format (S1, S2, S3, etc.)
 - ✅ Path references: Use `src/L1/S1/` not `src/S1/`
-- ✅ Documentation paths: Use `docs/sessions/L1/S1.md` not `docs/sessions/S1.md`
+- ✅ Documentation paths: Use `docs/sessions/L1/01_S1.md` (numbered session files) not `docs/sessions/S1.md`
 
 **Why This Rule Exists**:
 - Maintains consistent numbering across the repository

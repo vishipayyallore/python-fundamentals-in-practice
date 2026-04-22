@@ -2,7 +2,21 @@
 
 **Project:** Python Fundamentals Curriculum  
 **Owner:** Swamy's Tech Skills Academy  
-**Purpose:** Educational content development and maintenance
+**Purpose:** Educational content development and maintenance  
+**Last updated:** April 2026
+
+---
+
+## 📌 **Where these instructions sit**
+
+| File | Use |
+| --- | --- |
+| `AGENTS.md` | **Primary agent entry** — ReAct/CoT expectations, policy map, links to all rules (Cursor, Copilot, Claude) |
+| `CLAUDE.md` | Short project brief for Claude/Anthropic-oriented tools; defers to `AGENTS.md` for the full map |
+| `.claude/CLAUDE.md` | Optional pointer for workflows that look under `.claude/`; canonical text remains at the repo root |
+| `.cursor/rules/*.mdc` | Mandatory modular rules; see `.cursor/rules/README.md` for the index (aligned with this file) |
+
+**Structure details:** Always use [`docs/02_RepositoryStructure.md`](../docs/02_RepositoryStructure.md) as the single source of truth for paths, naming, and inventory.
 
 ---
 
@@ -293,6 +307,8 @@ Before submitting any changes, verify:
 
 ## 🔗 **Related Documentation**
 
+- **🤖 Agent entry (all tools)**: [`AGENTS.md`](../AGENTS.md) — how assistants navigate this repository; ReAct/CoT; update protocol
+- **Claude short brief**: [`CLAUDE.md`](../CLAUDE.md) — compact guardrails; full detail in `AGENTS.md` and `.cursor/rules/`
 - **📋 Repository Structure (Single Source of Truth)**: [`docs/02_RepositoryStructure.md`](../docs/02_RepositoryStructure.md) - **Authoritative repository structure documentation**
 - **Cursor AI Rules**: `.cursor/rules/` - Comprehensive modular rules for Cursor AI
   - See `.cursor/rules/README.md` for overview of all rule files
@@ -303,6 +319,7 @@ Before submitting any changes, verify:
 **Note**:
 
 - `docs/02_RepositoryStructure.md` is the **single source of truth** for repository structure
+- `AGENTS.md` and `CLAUDE.md` are the **entry points for human and AI readers**; keep them in sync when you change policies or file locations
 - `.cursor/rules/` and `.github/copilot-instructions.md` should reference `docs/02_RepositoryStructure.md` for structure details
 - Both provide guidance for AI assistants working with this repository
 

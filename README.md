@@ -50,6 +50,7 @@ For detailed repository structure, see **[Repository Structure](docs/02_Reposito
 - **🔧 scripts/**: PowerShell utility scripts for development
 - **⚙️ .github/**: CI/CD workflows and copilot instructions
 - **⚙️ .cursor/**: Cursor AI configuration and rules
+- **📄 AGENTS.md** / **CLAUDE.md** / **.claude/**: AI agent entry points (aligned with [Repository Structure](docs/02_RepositoryStructure.md))
 
 ---
 

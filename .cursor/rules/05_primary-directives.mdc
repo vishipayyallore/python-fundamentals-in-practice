@@ -1,7 +1,7 @@
 # Primary Directives
 
-**Version**: 1.0  
-**Last Updated**: December 2025
+**Version**: 1.1  
+**Last Updated**: April 2026
 
 ---
 
@@ -37,13 +37,16 @@ See: `01_educational-content-rules.mdc` for complete details.
 
 **After ANY structural change, IMMEDIATELY update**:
 
-1. ✅ `.github/copilot-instructions.md` - Repository Structure section
-2. ✅ `README.md` - Repository Structure section
-3. ✅ Relevant documentation files
-4. ✅ Test all Python code files still work
-5. ✅ Run markdownlint: `npx --yes markdownlint-cli2 "docs/**/*.md"`
+1. ✅ `docs/02_RepositoryStructure.md` - **First** (single source of truth for tree and naming)
+2. ✅ `README.md` - Repository / quick structure sections if users would see wrong paths
+3. ✅ `.github/copilot-instructions.md` - Repository structure / quick reference if it diverged
+4. ✅ `AGENTS.md` and `CLAUDE.md` (repo root) - if agent entry points, policy table, or ReAct/CoT pointers changed
+5. ✅ `.claude/CLAUDE.md` - if you added or renamed top-level agent files or changed where instructions live
+6. ✅ Relevant `.cursor/rules/*.mdc` - especially `02_repository-structure.mdc` when paths change
+7. ✅ Test all Python code files still work
+8. ✅ Run markdownlint: `npx --yes markdownlint-cli2 "docs/**/*.md"`
 
-**Self-Check Question**: "Did I update the instruction file?" - If no, STOP and do it NOW.
+**Self-Check Question**: "Did I update `docs/02_RepositoryStructure.md` and the instruction files?" - If no, STOP and do it now.
 
 ### 4. File Naming Validation (CRITICAL)
 
