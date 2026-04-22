@@ -50,6 +50,7 @@ has_ticket = input("Do you have a ticket? (yes/no): ").lower() == "yes"
 
 if has_ticket:
     # Second question only matters if the first condition (has ticket) is True.
+    # Reusing the name `age` overwrites the earlier value—only one `age` exists at a time.
     age = int(input("What's your age? "))
     if age >= 18:
         print("Enjoy the R-rated movie! 🎬")

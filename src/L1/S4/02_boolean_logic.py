@@ -12,6 +12,7 @@ has_license = input("Do you have a license? (yes/no): ").lower() == "yes"
 can_drive = age >= 18 and has_license
 print(f"Age: {age}, Has License: {has_license}")
 print(f"Can drive? {can_drive}")
+print("Evaluate: (age >= 18) and (has_license) — mentally check each part, then the whole 'and'.")
 print("(Both must be True for 'and' to be True.)\n")
 
 # Using 'or'

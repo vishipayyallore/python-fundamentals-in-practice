@@ -19,7 +19,8 @@ REVEAL_SECRET_FOR_DEMO = False
 if REVEAL_SECRET_FOR_DEMO:
     print(f"(Demo only — turn REVEAL_SECRET_FOR_DEMO off for a real game: secret is {secret})\n")
 
-# Get player's guess
+# Get player's guess (reminder in the moment for live sessions)
+print("(Enter a number like 5, not the word five — same rule as other int inputs in this level.)")
 guess = int(input("Enter your guess (1-10): "))
 
 # Boundary check — reinforces comparisons and 'or'
