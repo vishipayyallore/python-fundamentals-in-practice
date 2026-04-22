@@ -23,6 +23,7 @@ We welcome contributions in many forms:
 
 Before contributing, please familiarize yourself with our content creation rules:
 
+- **🤖 [AGENTS.md](AGENTS.md)** - How AI-assisted editors should navigate this repo, ReAct/CoT expectations, and update protocol (for contributors using tools)
 - **📖 [Educational Content Rules](.cursor/rules/01_educational-content-rules.mdc)** - Zero-copy policy, transformative workflow, quality standards
 - **📁 [Repository Structure](docs/02_RepositoryStructure.md)** - File naming, directory structure, organization
 - **✅ [Quality Assurance](.cursor/rules/03_quality-assurance.mdc)** - Quality checklists and validation requirements

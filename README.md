@@ -93,7 +93,7 @@ Run Markdown lint against README and all documentation before opening a PR:
 
 ```powershell
 # From repo root - lint all markdown files
-npx --yes markdownlint-cli2 "README.md" "docs/**/*.md" ".github/**/*.md"
+npx --yes markdownlint-cli2 "README.md" "AGENTS.md" "CLAUDE.md" "docs/**/*.md" ".github/**/*.md" ".claude/**/*.md"
 ```
 
 This uses the repository's `.markdownlint.json` configuration automatically.
