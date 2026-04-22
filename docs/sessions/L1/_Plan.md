@@ -108,7 +108,7 @@ sessions:
 | A     | 1       | Python Introduction, Environment & Built-in Functions  | 30 min    | 📚 Knowledge | ✅ Ready   |
 | A     | 2       | Variables & Data Types                                 | 30 min    | 📚 Knowledge | ✅ Ready   |
 | A     | 3       | Operators & Expressions                                | 30 min    | 📚 Knowledge | ✅ Ready   |
-| A     | 4       | Conditionals, Indentation & Introduction to Modules    | 30 min    | 📚 Knowledge | 🔄 Planned |
+| A     | 4       | Conditionals, Indentation & Introduction to Modules    | 30 min    | 📚 Knowledge | ✅ Ready   |
 | A     | 🚀 MP1  | Mini Project 1: Simple Calculator *(after Session 4)*  | 30–45 min | 🛠️ Project   | 🔄 Planned |
 | B     | 5       | Loops & Iteration                                      | 30 min    | 📚 Knowledge | 🔄 Planned |
 | B     | 6       | Basic Debugging, Reading Errors & Built-in Functions   | 30 min    | 📚 Knowledge | 🔄 Planned |
@@ -210,7 +210,7 @@ flowchart TB
 
 ---
 
-### 🔄 Session 4: Conditional Statements, Indentation & Modules *(Planned)*
+### ✅ Session 4: Conditional Statements, Indentation & Modules
 
 * Python indentation rules (why no braces)
 * `if`, `elif`, `else` statements

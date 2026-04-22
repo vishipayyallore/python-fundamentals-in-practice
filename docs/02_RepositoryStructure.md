@@ -232,13 +232,13 @@ Community and project documentation:
 
 ### Level 1 (Noob → Nerd) - 🚧 In Progress
 
-| #   | File        | Topic                               | Practice Files |
-| --- | ----------- | ----------------------------------- | -------------- |
-| -   | `_Plan.md`  | Level Overview                      | -              |
-| 1   | `01_S1.md`  | Python Introduction & Environment   | 3 files        |
-| 2   | `02_S2.md`  | Variables & Data Types              | 3 files        |
-| 3   | `03_S3.md`  | Operators & Expressions             | 3 files        |
-| 4   | `04_S4.md`  | Conditionals, Indentation & Modules  | 3 files        |
+| #   | File        | Topic                                         | Practice Files |
+| --- | ----------- | --------------------------------------------- | -------------- |
+| -   | `_Plan.md`  | Level Overview                                | -              |
+| 1   | `01_S1.md`  | Python Introduction & Environment             | 3 files        |
+| 2   | `02_S2.md`  | Variables & Data Types                        | 3 files        |
+| 3   | `03_S3.md`  | Operators & Expressions                       | 3 files        |
+| 4   | `04_S4.md`  | Control flow, indent, and modules        | 3 files        |
 
 **Practice Files in S1:**
 
@@ -262,7 +262,7 @@ Community and project documentation:
 
 - `01_conditionals.py` - if / elif / else and interactive prompts
 - `02_boolean_logic.py` - `and` / `or` / `not` patterns
-- `03_number_guessing_game.py` - `random` module and guessing loop
+- `03_number_guessing_game.py` - `random` module and number guessing game
 
 ### Future Sessions & Levels
 
