@@ -102,7 +102,7 @@ Contains all educational documentation:
   - Each level contains:
     - `_Plan.md`: Complete level curriculum plan (underscore sorts first)
     - `01_S1.md`, `02_S2.md`, `03_S3.md`, etc.: Numbered session documentation
-    - `05_MP1.md`, `10_MP2.md`: Mini project documentation (future)
+    - `05_MP1.md` (Mini Project 1—stub; full how-to TBD), `10_MP2.md` (future)
 - **`01_Python-Fundamentals-MasterPlan.md`**: Overall curriculum master plan
 - **`02_RepositoryStructure.md`**: This file (single source of truth for structure)
 

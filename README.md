@@ -29,8 +29,8 @@ This is **Swamy's personal learning** repository, not official course material o
    - Check current implementation status
 
 2. **📖 [Level 1 Plan](docs/sessions/L1/_Plan.md)** - Begin with Level 1: Noob → Nerd
-   - Complete guide with 10 sessions (Sessions 1-3 available now)
-   - Hands-on practice files and mini projects
+   - Full L1 roadmap: 10 sessions; **Sessions 1–4** (docs and `src/L1/S1`–`S4/` practice) are in-repo
+   - [Mini Project 1](docs/sessions/L1/05_MP1.md) is a stub for now; goals live in the plan
    - Step-by-step learning path
 
 3. **🎥 [Watch Level 1 Playlist](https://www.youtube.com/watch?v=Cy6DqbRjsF0&list=PLdLQDTLMjAzpRBxP4q1XJOuLhFG4pSfBB)** - Video walkthroughs for Level 1 sessions
