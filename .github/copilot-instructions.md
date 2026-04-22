@@ -316,6 +316,8 @@ Before submitting any changes, verify:
 - **Cursor AI Rules**: `.cursor/rules/` - Comprehensive modular rules for Cursor AI
   - See `.cursor/rules/README.md` for overview of all rule files
   - Rules cover: educational content, repository structure, quality assurance, markdown standards, primary directives, cross-level integration
+- **Reusable Copilot prompts**: `.github/prompts/` — `create-session`, `review-content`, `create-practice-file`, `fix-references`
+- **Scoped Copilot instructions**: `.github/instructions/` — `python-practice` (src files), `session-docs` (docs/sessions files)
 - **Main README**: `README.md` - Project overview and quick start guide
 - **Level 1 Plan**: `docs/sessions/L1/_Plan.md` - Complete Level 1 curriculum plan
 
