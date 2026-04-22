@@ -71,8 +71,6 @@ python-fundamentals/
 │   ├── prompts/                # GitHub Copilot prompts
 │   ├── copilot-instructions.md
 │   └── pull_request_template.md # PR template
-├── 📄 AGENTS.md                # AI agent guidelines (OpenAI Codex, general agents)
-├── 📄 CLAUDE.md                # Claude AI guidelines (Anthropic)
 ├── 📄 README.md                # Main project README
 ├── 📄 AGENTS.md                 # AI agent entry (Cursor, Copilot, Claude); policy map
 ├── 📄 CLAUDE.md                 # Short brief for Claude/Anthropic tools (see .claude/ too)

@@ -313,8 +313,6 @@ Before submitting any changes, verify:
 - **🤖 Agent entry (all tools)**: [`AGENTS.md`](../AGENTS.md) — how assistants navigate this repository; ReAct/CoT; update protocol
 - **Claude short brief**: [`CLAUDE.md`](../CLAUDE.md) — compact guardrails; full detail in `AGENTS.md` and `.cursor/rules/`
 - **📋 Repository Structure (Single Source of Truth)**: [`docs/02_RepositoryStructure.md`](../docs/02_RepositoryStructure.md) - **Authoritative repository structure documentation**
-- **Claude AI**: `CLAUDE.md` and `.claude/CLAUDE.md` - Claude AI (Anthropic) guidelines
-- **Agent Tools**: `AGENTS.md` - OpenAI Codex and general agent guidelines
 - **Cursor AI Rules**: `.cursor/rules/` - Comprehensive modular rules for Cursor AI
   - See `.cursor/rules/README.md` for overview of all rule files
   - Rules cover: educational content, repository structure, quality assurance, markdown standards, primary directives, cross-level integration
