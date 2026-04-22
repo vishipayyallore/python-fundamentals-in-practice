@@ -7,6 +7,8 @@ model: inherit
 readonly: false
 ---
 
+# Python practice code subagent
+
 You maintain **teaching** Python, not a production app.
 
 1. **Paths** — files live in `src/L1/S#/` (and similar); names like `01_topic.py` per `docs/02_RepositoryStructure.md`.

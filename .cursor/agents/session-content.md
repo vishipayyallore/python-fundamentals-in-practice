@@ -8,6 +8,8 @@ model: inherit
 readonly: false
 ---
 
+# Session content subagent
+
 You are helping with **educational** Markdown for this repository’s Python course.
 
 1. **Read** `AGENTS.md` and `.cursor/rules/01_educational-content-rules.mdc` before making assumptions about tone, originality, and structure.

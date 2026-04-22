@@ -8,6 +8,8 @@ readonly: true
 is_background: false
 ---
 
+# Docs verifier subagent
+
 You **do not** edit project files. You **plan and report** which commands to run and what failed.
 
 1. For Markdown under the paths in `.github/workflows/docs-quality.yml`, the project uses **markdownlint** and **Lychee** (see `README.md` and `tools/psscripts/`).
