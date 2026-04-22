@@ -65,10 +65,14 @@ python-fundamentals/
 │   ├── copilot-instructions.md
 │   └── pull_request_template.md # PR template
 ├── 📄 README.md                # Main project README
+├── 📄 AGENTS.md                 # AI agent entry (Cursor, Copilot, Claude); policy map
+├── 📄 CLAUDE.md                 # Short brief for Claude/Anthropic tools (see .claude/ too)
 ├── 📄 LICENSE                  # MIT License
 ├── 📄 CONTRIBUTING.md          # Contributing guidelines
 ├── 📄 CODE_OF_CONDUCT.md       # Code of conduct
 ├── 📄 SECURITY.md              # Security policy
+├── 📁 .claude/                 # Optional pointer for Claude Code (defers to root CLAUDE.md)
+│   └── CLAUDE.md
 ├── 📁 source-material/        # Reference materials (archive/notes)
 └── 📋 Configuration files      # .markdownlint*, lychee.toml, .gitignore
 ```
@@ -144,6 +148,9 @@ Cursor AI configuration:
 Community and project documentation:
 
 - **`README.md`**: Main project README with quick start guide and repository overview
+- **`AGENTS.md`**: **AI agent entry point** — how assistants should navigate rules, ReAct/CoT expectations, and updates to structure docs
+- **`CLAUDE.md`**: **Short project brief** for Claude / Anthropic-oriented tools (full map remains in `AGENTS.md` and `.cursor/rules/`)
+- **`.claude/CLAUDE.md`**: Optional pointer for tools that expect a `.claude/` directory; defers to root `CLAUDE.md` and `AGENTS.md`
 - **`LICENSE`**: MIT License
 - **`CONTRIBUTING.md`**: Contributing guidelines aligned with educational content rules and quality standards
 - **`CODE_OF_CONDUCT.md`**: Community code of conduct for a welcoming, inclusive learning environment
@@ -254,4 +261,4 @@ Community and project documentation:
 
 ---
 
-**Last Updated**: December 2025
+**Last Updated**: April 2026
