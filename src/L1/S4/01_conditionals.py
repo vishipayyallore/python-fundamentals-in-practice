@@ -1,6 +1,10 @@
 # Filename: src/L1/S4/01_conditionals.py
+# Session 4: Conditionals — practice script
 
 print("=== Conditional Statements Demo ===\n")
+
+# For now, type whole numbers only for age (we handle bad input in a later session).
+print("(Tip: use digits only for age—e.g. 16, not sixteen.)\n")
 
 # Simple if-else
 age = int(input("Enter your age: "))
@@ -9,12 +13,18 @@ if age >= 18:
     print("You are an adult! 🧑")
 else:
     print("You are a minor! 👶")
-print("I belong to main block")
+
+# This line is NOT inside the if/else—it always runs after that block finishes.
+print("This line runs no matter which branch ran above.")
 
 # if-elif-else chain
 print("\n=== Grade Calculator ===")
+print("(Tip: enter an integer score 0–100.)\n")
+print("Think about: What band is 89? 100? 101? (Code uses >=, so boundaries matter.)\n")
+
 score = int(input("Enter your score (0-100): "))
 
+# Grades are integer bands; 89.9 would need floats—try that in the REPL later.
 if score >= 90:
     grade = "A"
     message = "Excellent! 🌟"
@@ -34,11 +44,12 @@ else:
 print(f"\nYour grade: {grade}")
 print(f"Message: {message}")
 
-# Nested conditionals
+# Nested conditionals — inner if/else only runs when the outer if is True.
 print("\n=== Movie Theater ===")
 has_ticket = input("Do you have a ticket? (yes/no): ").lower() == "yes"
 
 if has_ticket:
+    # Second question only matters if the first condition (has ticket) is True.
     age = int(input("What's your age? "))
     if age >= 18:
         print("Enjoy the R-rated movie! 🎬")
