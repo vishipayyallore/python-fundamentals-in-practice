@@ -28,6 +28,8 @@ This file is the **entry point for AI coding agents** (Cursor, Claude Code, GitH
 | **Claude Code folder (optional)** | `.claude/CLAUDE.md` | Confirms root instructions; use when tools expect `.claude/` |
 | **Cursor (modular rules)** | `.cursor/rules/*.mdc` | Mandatory and scoped rules; see `.cursor/rules/README.md` |
 | **GitHub Copilot** | `.github/copilot-instructions.md` | In-browser / Copilot alignment with Cursor rules |
+| **Copilot prompts (reusable)** | `.github/prompts/*.prompt.md` | Agent-mode starters: `create-session`, `review-content`, `create-practice-file`, `fix-references` |
+| **Copilot instructions (scoped)** | `.github/instructions/*.instructions.md` | File-scoped rules: `python-practice` → `src/**/*.py`; `session-docs` → `docs/sessions/**` |
 | **CI (docs)** | `.github/workflows/docs-quality.yml` | Markdown lint + Lychee on doc paths |
 | **CI (Python)** | `.github/workflows/python-quality.yml` | Ruff + `compileall` on `src/` (no separate pytest suite) |
 | **Contributing (humans + agents)** | `CONTRIBUTING.md` | How to contribute and review |

@@ -16,6 +16,8 @@
 | `CLAUDE.md` | Short project brief for Claude/Anthropic-oriented tools; defers to `AGENTS.md` for the full map |
 | `.claude/CLAUDE.md` | Optional pointer for workflows that look under `.claude/`; canonical text remains at the repo root |
 | `.cursor/rules/*.mdc` | Mandatory modular rules; see `.cursor/rules/README.md` for the index (aligned with this file) |
+| `.github/prompts/*.prompt.md` | **Reusable agent-mode starters** — `create-session`, `review-content`, `create-practice-file`, `fix-references` |
+| `.github/instructions/*.instructions.md` | **Scoped rules** — `python-practice` (applies to `src/**/*.py`), `session-docs` (applies to `docs/sessions/**`) |
 
 **Structure details:** Always use [`docs/02_RepositoryStructure.md`](../docs/02_RepositoryStructure.md) as the single source of truth for paths, naming, and inventory.
 
