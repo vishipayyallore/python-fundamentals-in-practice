@@ -36,6 +36,7 @@ else:
         print(f"\n📉 Too high! The number was {secret}.")
 
     # How far off? (only when guess was in 1..10)
+    # abs() gives positive difference (distance between numbers)
     difference = abs(guess - secret)
     if difference == 0:
         print("Perfect guess!")

@@ -16,7 +16,7 @@ on:
       - ".markdownlint.*"
       - ".github/workflows/docs-quality.yml"
   push:
-    branches: [main]
+    branches: [main, "swamy/**"]
     paths:
       - "README.md"
       - "AGENTS.md"

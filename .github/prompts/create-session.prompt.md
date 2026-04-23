@@ -29,13 +29,13 @@ You are creating educational content for the **Python Fundamentals in Practice**
 
 ### REASON
 
-4. List prerequisite sessions — verify they are numbered **before** this one.
-5. List sessions this content **enables** — verify they are numbered **after** this one.
-6. Sketch two original examples (no copying from books, tutorials, or prior art).
+1. List prerequisite sessions — verify they are numbered **before** this one.
+2. List sessions this content **enables** — verify they are numbered **after** this one.
+3. Sketch two original examples (no copying from books, tutorials, or prior art).
 
 ### ACT
 
-7. Write `docs/sessions/L{level}/{nn}_S{session}.md` with this structure:
+1. Write `docs/sessions/L{level}/{nn}_S{session}.md` with this structure:
    - Session Overview (30 min, level, session number)
    - Learning Objectives (measurable)
    - Prerequisites
@@ -43,17 +43,17 @@ You are creating educational content for the **Python Fundamentals in Practice**
    - Practice Files (references to `src/`)
    - Key Takeaways
    - Troubleshooting (common errors)
-8. Write each practice file `src/L{level}/S{session}/{nn}_{name}.py` with:
+2. Write each practice file `src/L{level}/S{session}/{nn}_{name}.py` with:
    - Header comment: `# Filename: src/L{level}/S{session}/{nn}_{name}.py` + session reference
    - Educational comments explaining the "why" of each decision
    - Working code (no syntax errors, no TODOs)
 
 ### VERIFY
 
-9. All code runs without errors — test mentally or with `python <file>`.
-10. All file references inside the markdown resolve to **existing** files.
-11. Session numbering respects the learning-dependency order in `01_educational-content-rules.mdc`.
-12. Zero-Copy: no sentence or example structure borrowed from external sources.
+1. All code runs without errors — test mentally or with `python <file>`.
+2. All file references inside the markdown resolve to **existing** files.
+3. Session numbering respects the learning-dependency order in `01_educational-content-rules.mdc`.
+4. Zero-Copy: no sentence or example structure borrowed from external sources.
 
 ## Hard rules
 

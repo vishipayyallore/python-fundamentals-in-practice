@@ -51,23 +51,23 @@ For **each** file individually:
 
 ### REASON
 
-2. Identify patterns across files — systemic issues vs. one-offs.
-3. Prioritise: **critical** (broken code, broken links) → **warning** (missing sections) → **info** (style).
+1. Identify patterns across files — systemic issues vs. one-offs.
+2. Prioritise: **critical** (broken code, broken links) → **warning** (missing sections) → **info** (style).
 
 ### VERIFY
 
-4. Cross-check every flagged path against the actual directory tree.
-5. Re-run the checklist for any file you fixed.
+1. Cross-check every flagged path against the actual directory tree.
+2. Re-run the checklist for any file you fixed.
 
 ### ACT
 
-6. Fix all critical issues in-place.
-7. Report a summary table:
+1. Fix all critical issues in-place.
+2. Report a summary table:
 
    | File | Issue | Severity | Status |
    |------|-------|----------|--------|
 
-8. After fixes, run:
+3. After fixes, run:
    - `npx --yes markdownlint-cli2 "docs/**/*.md"`
    - `ruff check src` (Python files)
 
