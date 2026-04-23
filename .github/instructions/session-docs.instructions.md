@@ -20,9 +20,13 @@ Session docs must include all of the following content, but heading names and ex
 
 Examples of acceptable heading variants:
 
-- "Session mission", "Outcome", or "Before you begin" for context/prerequisites
+- "Session mission", "Outcome", or "Before you begin" for session context
+- "Learning objectives", "What you will learn", or "Outcomes" for objectives
+- "Prerequisites", "Builds on", or "Before you begin" for prerequisites/builds-on
+- "Concepts", "Core content", or "Parts 1..N" for core teaching content
 - "Practice files", "Hands-on practice", or "Practice file structure" for file mapping
-- "Key takeaways", "What you can do now", or "Progress check" for summary
+- "Key takeaways", "What you can do now", or "Progress check" for wrap-up summary
+- "Troubleshooting", "Common mistakes", or "Common errors" for troubleshooting guidance
 
 YAML front-matter is **optional**; clear content coverage and pedagogical flow take priority over rigid heading templates.
 
