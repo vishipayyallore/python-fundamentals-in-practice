@@ -6,17 +6,29 @@ applyTo: docs/sessions/**/*.md
 
 These rules apply to every `.md` file under `docs/sessions/`.
 
-## Required sections (in order)
+## Required content coverage
 
-1. **Session Overview** — duration (30 min), type, level, session number
-2. **Learning Objectives** — measurable, specific ("Students will be able to…")
-3. **Prerequisites** — link to prior sessions if applicable
-4. **Content Sections** — progressive: simple → complex
-5. **Practice Files** — explicit links to `src/L{level}/S{session}/` files
-6. **Key Takeaways** — 3–5 bullet summary
-7. **Troubleshooting** — common errors and fixes (include for S3 onwards)
+Session docs must include all of the following content, but heading names and exact order can be adapted to the authored teaching style:
 
-YAML front-matter is **optional**; clear headings take priority over metadata.
+1. **Session context** — duration (30 min), type, level, session number
+2. **Learning objectives/outcomes** — measurable, specific ("Students will be able to…")
+3. **Prerequisites/builds-on** — link to prior sessions when applicable
+4. **Core teaching content** — progressive: simple → complex
+5. **Practice file mapping** — explicit references to `src/L{level}/S{session}/` files
+6. **Wrap-up summary** — key takeaways / progress check / "what you can do now"
+7. **Troubleshooting guidance** — common errors and fixes (required from S3 onwards; encouraged earlier)
+
+Examples of acceptable heading variants:
+
+- "Session mission", "Outcome", or "Before you begin" for session context
+- "Learning objectives", "What you will learn", or "Outcomes" for objectives
+- "Prerequisites", "Builds on", or "Before you begin" for prerequisites/builds-on
+- "Concepts", "Core content", or "Parts 1..N" for core teaching content
+- "Practice files", "Hands-on practice", or "Practice file structure" for file mapping
+- "Key takeaways", "What you can do now", or "Progress check" for wrap-up summary
+- "Troubleshooting", "Common mistakes", or "Common errors" for troubleshooting guidance
+
+YAML front-matter is **optional**; clear content coverage and pedagogical flow take priority over rigid heading templates.
 
 ## File naming
 
