@@ -2,11 +2,11 @@
 name = "python-fundamentals-in-practice"
 version = "0.0.0"
 description = "Educational Python curriculum (documentation + practice scripts; not a distributable package)."
-requires-python = ">=3.12"
+requires-python = ">=3.13"
 readme = "README.md"
 
 [tool.ruff]
-target-version = "py312"
+target-version = "py313"
 line-length = 120
 src = ["src"]
 
