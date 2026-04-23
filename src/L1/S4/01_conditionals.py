@@ -6,9 +6,9 @@ print("=== Conditional Statements Demo ===\n")
 # For now, type whole numbers only for age (we handle bad input in a later session).
 print("(Tip: use digits only for age—e.g. 16, not sixteen.)\n")
 
-# Simple if-else
 age = int(input("Enter your age: "))
 
+# Simple if-else
 if age >= 18:
     print("You are an adult! 🧑")
 else:
