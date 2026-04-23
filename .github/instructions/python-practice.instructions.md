@@ -8,12 +8,15 @@ These rules apply to every `.py` file under `src/`.
 
 ## Mandatory header
 
-Every file must open with exactly these two comment lines:
+Every file should open with a clear header. Minimum requirement:
 
 ```python
 # Filename: src/L{level}/S{session}/{nn}_{name}.py
 # Session {session}: {Session Title}
 ```
+
+The first line (`# Filename: ...`) is required.  
+The second line must provide session context, but wording may vary (for example: `# Session 1 — optional preview`).
 
 ## Code quality
 
@@ -24,9 +27,14 @@ Every file must open with exactly these two comment lines:
 
 ## File naming
 
-- Numeric prefix required: `01_`, `02_`, … matching position within the session.
+- Numeric prefix is the default for ordered practice files: `01_`, `02_`, …
 - Descriptive suffix in snake_case: `01_hello.py`, `03_comparison_operators.py`.
 - Location: `src/L{level}/S{session}/` — never `src/S{session}/` (legacy).
+
+### Naming exceptions
+
+- Non-numeric descriptive filenames are allowed when intentionally used for special demos or support scripts in a session (for example, `bytecode_demo.py` in `src/L1/S1/`).
+- Do not rename existing curriculum files only to enforce numbering unless explicitly requested.
 
 ## Linting
 

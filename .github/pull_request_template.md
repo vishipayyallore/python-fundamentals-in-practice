@@ -58,6 +58,7 @@ Related to #(issue number)
 - [ ] All Python code runs without errors
 - [ ] File naming follows conventions (`01_`, `02_`, `_Plan.md`)
 - [ ] Directory structure uses `L{level}/S{session}/` format
+- [ ] Python baseline policy is aligned across docs + tooling (`README.md`, `AGENTS.md`, `pyproject.toml`, `.github/workflows/python-quality.yml`)
 - [ ] All file references are correct and validated
 - [ ] Markdown linting passes: `./tools/psscripts/docs-lint.ps1`
 - [ ] Link validation passes: `./tools/psscripts/docs-links.ps1`

@@ -75,6 +75,13 @@ Before submitting, run our quality checks:
 ./tools/psscripts/docs-links.ps1
 ```
 
+If your PR touches Python version policy, keep these files aligned:
+
+- `README.md`
+- `AGENTS.md`
+- `pyproject.toml`
+- `.github/workflows/python-quality.yml`
+
 ### **5. Commit and Push**
 
 ```bash
