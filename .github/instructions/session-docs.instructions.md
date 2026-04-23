@@ -19,6 +19,7 @@ Session docs must include all of the following content, but heading names and ex
 7. **Troubleshooting guidance** — common errors and fixes (required from S3 onwards; encouraged earlier)
 
 Examples of acceptable heading variants:
+
 - "Session mission", "Outcome", or "Before you begin" for context/prerequisites
 - "Practice files", "Hands-on practice", or "Practice file structure" for file mapping
 - "Key takeaways", "What you can do now", or "Progress check" for summary
