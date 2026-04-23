@@ -1,0 +1,48 @@
+name: Python Quality
+
+on:
+  workflow_dispatch: {}
+  pull_request:
+    paths:
+      - "src/**/*.py"
+      - "pyproject.toml"
+      - ".github/workflows/python-quality.yml"
+  push:
+    branches: [ main, "swamy/**" ]
+    paths:
+      - "src/**/*.py"
+      - "pyproject.toml"
+      - ".github/workflows/python-quality.yml"
+
+concurrency:
+  group: python-quality-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+jobs:
+  ruff-and-compile:
+    name: Ruff + compileall
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install Ruff
+        run: pip install "ruff~=0.8.0"
+      - name: Ruff check
+        run: ruff check src
+      - name: Byte-compile all practice modules
+        run: python -m compileall -q src
+
+  frontend-placeholder:
+    name: Frontend (N/A)
+    runs-on: ubuntu-latest
+    steps:
+      - name: No JavaScript/TypeScript packages in this repository
+        run: |
+          echo "This educational repo has no package.json, ESLint, or TypeScript sources."
+          echo "Skipping frontend lint by design."

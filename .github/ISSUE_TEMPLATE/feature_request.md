@@ -41,7 +41,7 @@ Describe how you envision this feature working:
 - [ ] Existing session: `docs/sessions/LX/YY_SY.md`
 - [ ] Practice files: `src/LX/SY/...`
 - [ ] Documentation: `docs/...`
-- [ ] Tools/scripts: `scripts/...`
+- [ ] Tools/scripts: `tools/psscripts/...`
 - [ ] Other: `...`
 
 ---

@@ -1,7 +1,7 @@
 # Cursor AI Project Rules - Python Fundamentals
 
-**Version**: 1.0  
-**Last Updated**: December 2025
+**Version**: 1.1  
+**Last Updated**: April 2026
 
 This directory contains modular rule files for Cursor AI, customized for the Python Fundamentals educational curriculum repository.
 
@@ -59,9 +59,13 @@ This rule set is customized for the **Python Fundamentals** repository:
 
 ## 🔗 Related Files
 
-- **GitHub Copilot**: `.github/copilot-instructions.md` (similar rules for GitHub Copilot)
+- **Agent entry (all tools)**: `AGENTS.md` (policy map, ReAct/CoT, how to use these rules)
+- **Skills pointer**: `skills.md` (this repo does not commit Cursor SKILL packs; use `AGENTS.md` and this folder)
+- **Claude short brief**: `CLAUDE.md` and `.claude/CLAUDE.md` (optional pointer; root is canonical)
+- **GitHub Copilot**: `.github/copilot-instructions.md` (rules aligned with this directory)
+- **Repository structure (source of truth)**: `docs/02_RepositoryStructure.md`
 - **Main README**: `README.md` (repository overview and structure)
-- **Session Documentation**: `docs/sessions/L1/_Plan.md` (Level 1 curriculum plan)
+- **Session documentation**: `docs/sessions/L1/_Plan.md` (Level 1 curriculum plan)
 
 ---
 
