@@ -34,6 +34,7 @@ print(f"Go outside? {go_outside}")
 print("('not' flips True/False.)\n")
 
 # Combined example — age is reused from the first block
+# Reusing 'age' from earlier input — same value continues here
 print("=== Discount Calculator ===")
 is_member = input("Are you a store member? (yes/no): ").lower() == "yes"
 

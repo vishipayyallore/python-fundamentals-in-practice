@@ -41,6 +41,7 @@ else:
     grade = "F"
     message = "Keep trying! 💪"
 
+# Only ONE of the above branches runs (first True condition)
 print(f"\nYour grade: {grade}")
 print(f"Message: {message}")
 
