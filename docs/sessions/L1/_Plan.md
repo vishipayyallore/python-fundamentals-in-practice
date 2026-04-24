@@ -154,8 +154,6 @@ flowchart TB
 
 ---
 
-## 📅 **Session-by-Session Breakdown**
-
 ## 📅 **Phase A: Core Foundations + Mini Project 1**
 
 ### ✅ Session 1: Python Introduction & Environment Setup
