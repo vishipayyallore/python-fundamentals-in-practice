@@ -236,7 +236,8 @@ flowchart TB
 * Runs until user quits
 * Clean, structured code
 
-🧪 *Deliverable*: `simple_calculator.py`
+🧪 *Practice Pack*: `src/L1/MP1/01_simple_calculator.py`, `src/L1/MP1/02_simple_calculator_loop.py`  
+📖 *Project Guide*: [05_MP1.md](05_MP1.md)
 
 🎯 *Stretch Goals*:
 

@@ -71,6 +71,9 @@ python-fundamentals-in-practice/
 │   └── 02_RepositoryStructure.md
 ├── src/
 │   ├── L1/
+│   │   ├── MP1/
+│   │   │   ├── 01_simple_calculator.py
+│   │   │   └── 02_simple_calculator_loop.py
 │   │   ├── S1/
 │   │   │   ├── 01_hello.py
 │   │   │   ├── 02_interactive_hello.py
@@ -143,6 +146,7 @@ The following are roadmap items and may be referenced in planning docs, but they
 - Location: `src/L{level}/S{session}/`
 - Default pattern: `{nn}_{descriptive_name}.py`
 - Allowed special-case non-numbered filename (current tracked example): `src/L1/S1/bytecode_demo.py`
+- Mini-project packs may use `src/L{level}/MP{number}/` (for example `src/L1/MP1/01_simple_calculator.py`)
 
 ### Tools and policy files
 
@@ -162,7 +166,7 @@ The following are roadmap items and may be referenced in planning docs, but they
 - **Session 2**: [sessions/L1/02_S2.md](sessions/L1/02_S2.md)
 - **Session 3**: [sessions/L1/03_S3.md](sessions/L1/03_S3.md)
 - **Session 4**: [sessions/L1/04_S4.md](sessions/L1/04_S4.md)
-- **Mini Project 1 (stub)**: [sessions/L1/05_MP1.md](sessions/L1/05_MP1.md)
+- **Mini Project 1**: [sessions/L1/05_MP1.md](sessions/L1/05_MP1.md)
 - **Session 5**: [sessions/L1/06_S5.md](sessions/L1/06_S5.md)
 
 ---
