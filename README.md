@@ -29,7 +29,7 @@ This is **Swamy's personal learning** repository, not official course material o
    - Check current implementation status
 
 2. **📖 [Level 1 Plan](docs/sessions/L1/_Plan.md)** - Begin with Level 1: Noob → Nerd
-   - Full L1 roadmap: 10 sessions; **Sessions 1–4** (docs and `src/L1/S1`–`S4/` practice) are in-repo
+   - Full L1 roadmap: 10 sessions; **Sessions 1–5** (docs and `src/L1/S1`–`S5/` practice) are in-repo
    - [Mini Project 1](docs/sessions/L1/05_MP1.md) is a stub for now; goals live in the plan
    - Step-by-step learning path
 

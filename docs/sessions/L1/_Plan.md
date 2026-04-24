@@ -58,7 +58,7 @@ sessions:
     topic: "Loops & Iteration"
     duration: "30 min"
     type: "Knowledge"
-    status: "Planned"
+    status: "Ready"
     file: "docs/sessions/L1/06_S5.md"
   - session: 6
     topic: "Basic Debugging, Reading Errors & Built-in Functions"
@@ -110,7 +110,7 @@ sessions:
 | A     | 3       | Operators & Expressions                                | 30 min    | 📚 Knowledge | ✅ Ready   |
 | A     | 4       | Conditionals, Indentation & Introduction to Modules    | 30 min    | 📚 Knowledge | ✅ Ready   |
 | A     | 🚀 MP1  | Mini Project 1: Simple Calculator *(after Session 4)*  | 30–45 min | 🛠️ Project   | 🔄 Planned |
-| B     | 5       | Loops & Iteration                                      | 30 min    | 📚 Knowledge | 🔄 Planned |
+| B     | 5       | Loops & Iteration                                      | 30 min    | 📚 Knowledge | ✅ Ready   |
 | B     | 6       | Basic Debugging, Reading Errors & Built-in Functions   | 30 min    | 📚 Knowledge | 🔄 Planned |
 | B     | 7       | Lists & Loops                                          | 30 min    | 📚 Knowledge | 🔄 Planned |
 | B     | 8       | Dictionaries & Basic Testing                           | 30 min    | 📚 Knowledge | 🔄 Planned |
@@ -247,12 +247,17 @@ flowchart TB
 
 ## 📅 **Phase B: Expanding Skills + Mini Project 2**
 
-### 🔄 Session 5: Loops & Iteration *(Planned)*
+### ✅ Session 5: Loops & Iteration
 
 * `for` loops with `range()` and iterables
 * `while` loops and loop conditions
 * Loop controls: `break`, `continue`, `pass`
 * Nested loops and performance considerations
+
+🧪 *Practice Files*:  
+`src/L1/S5/01_for_loops.py`, `src/L1/S5/02_while_loops.py`, `src/L1/S5/03_loop_controls_fizzbuzz.py`
+
+📖 *Documentation*: [06_S5.md](06_S5.md)
 
 🧪 *Mini Practice*: FizzBuzz challenge, countdown timer, pattern printing.  
 📌 *Feeds into Mini Project 2*: Looping over profiles.
