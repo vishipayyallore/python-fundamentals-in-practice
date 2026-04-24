@@ -139,7 +139,7 @@ python -m compileall -q src
 Config: `pyproject.toml` · Workflow: `.github/workflows/python-quality.yml`  
 There is **no** `package.json` or front-end stack; see the workflow job “Frontend (N/A)” for ESLint/TypeScript.
 
-### **Optional runtime smoke checks (interactive scripts)**
+### **Runtime smoke checks (interactive scripts)**
 
 For quick local confidence on interactive scripts, you can pipe sample input instead of typing manually:
 
@@ -148,7 +148,7 @@ printf "+\n10\n5\n" | python src/L1/MP1/01_simple_calculator.py
 printf "+\n10\n5\nq\n" | python src/L1/MP1/02_simple_calculator_loop.py
 ```
 
-These are convenience checks only (not CI gates).
+These checks are also run in CI for MP1 scripts (see `.github/workflows/python-quality.yml`).
 
 ### **CI/CD Quality Workflow (Docs)**
 
