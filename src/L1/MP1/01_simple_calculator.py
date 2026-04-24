@@ -1,18 +1,10 @@
 # Filename: src/L1/MP1/01_simple_calculator.py
 # Mini Project 1: Simple Calculator (single run)
 
+from calculator_utils import is_valid_number_text
+
 print("=== Mini Project 1: Simple Calculator ===")
 print("Supported operations: +  -  *  /")
-
-
-def is_valid_number_text(value):
-    # Why: keep validation logic in one place so both inputs follow the same rule.
-    normalized = value[1:] if value.startswith("-") else value
-    return (
-        normalized not in {"", "."}
-        and normalized.count(".") <= 1
-        and normalized.replace(".", "", 1).isdigit()
-    )
 
 
 operation = input("Choose operation (+, -, *, /): ").strip()

@@ -1,19 +1,11 @@
 # Filename: src/L1/MP1/02_simple_calculator_loop.py
 # Mini Project 1: Simple Calculator (loop version)
 
+from calculator_utils import is_valid_number_text
+
 print("=== Mini Project 1: Simple Calculator (Loop) ===")
 print("Operations: +  -  *  /")
 print("Type q to quit.\n")
-
-
-def is_valid_number_text(value):
-    # Why: keep one validation rule so every loop round behaves consistently.
-    normalized = value[1:] if value.startswith("-") else value
-    return (
-        normalized not in {"", "."}
-        and normalized.count(".") <= 1
-        and normalized.replace(".", "", 1).isdigit()
-    )
 
 
 while True:
