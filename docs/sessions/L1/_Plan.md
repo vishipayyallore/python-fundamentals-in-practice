@@ -2,7 +2,7 @@
 learning_level: "Noob → Nerd"
 level_number: 1
 prerequisites: []
-total_duration: "~6–7 hours"
+total_duration: "~5–6 hours"
 format: "2 phases × (4 sessions + 1 mini project) = 10 sessions total"
 outcome: "2 Mini Projects to cement your foundation"
 transformation_focus: "Evolving mindset from complete beginner to someone genuinely curious about programming"
@@ -93,7 +93,7 @@ sessions:
 > 1. **Level:** Noob → Nerd *(first exposure, installing Python, printing output)*
 > 1. **Format:** 2 phases × (4 sessions + 1 mini project) = 10 sessions total
 > 1. **Outcome:** 2 Mini Projects to cement your foundation  
-> 1. **Total Duration:** ~6–7 hours (10 × 30–45 min)
+> 1. **Total Duration:** ~5–6 hours (8 × 30 min + 2 × 30–45 min)
 
 ## Powered by ShyvnTech & Swamy's Tech Skills Academy
 
