@@ -4,7 +4,7 @@
 
 Date: 20-Dec-2025
 
-Event URL: (Meetup link will be updated here)  
+Event URL: TBD (link not published yet)  
 
 🔹 Session Agenda:
 
@@ -50,7 +50,7 @@ Perfect For:
 
 Date: 17-Dec-2025  
 
-Event URL: (Meetup link will be updated here)  
+Event URL: TBD (link not published yet)  
 
 🔹 Session Agenda:
 
@@ -127,11 +127,11 @@ Learn f-string formatting for dynamic text output
 Hands-on Practice:
 We'll build three Python scripts together:
 
-01_hello.py - Your first "Hello, World!" program
+`src/L1/S1/01_hello.py` - Your first "Hello, World!" program
 
-02_interactive_hello.py - Interactive greeting with user input
+`src/L1/S1/02_interactive_hello.py` - Interactive greeting with user input
 
-bytecode_demo.py - See Python's internal magic in action
+`src/L1/S1/bytecode_demo.py` - See Python's internal magic in action
 
 Perfect For:
 
