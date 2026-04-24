@@ -12,6 +12,7 @@ on:
       - "docs/**/*.md"
       - ".github/**/*.md"
       - ".claude/**/*.md"
+      - ".cursor/rules/README.md"
       - "lychee.toml"
       - ".markdownlint.*"
       - ".github/workflows/docs-quality.yml"
@@ -25,6 +26,7 @@ on:
       - "docs/**/*.md"
       - ".github/**/*.md"
       - ".claude/**/*.md"
+      - ".cursor/rules/README.md"
       - "lychee.toml"
       - ".markdownlint.*"
       - ".github/workflows/docs-quality.yml"
@@ -53,6 +55,7 @@ jobs:
             docs/**/*.md
             .github/**/*.md
             .claude/**/*.md
+            .cursor/rules/README.md
 
   link-check:
     name: Link Check (Lychee)
@@ -75,6 +78,7 @@ jobs:
             docs/**/*.md
             .github/**/*.md
             .claude/**/*.md
+            .cursor/rules/README.md
           fail: true
       - name: Upload Lychee report
         if: always()

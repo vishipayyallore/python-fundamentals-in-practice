@@ -15,8 +15,10 @@ You are creating educational content for the **Python Fundamentals in Practice**
 
 ## Authoritative paths
 
-- Session doc  → `docs/sessions/L{level}/{nn}_S{session}.md`  (e.g. `docs/sessions/L1/06_S5.md`)
-- Practice code → `src/L{level}/S{session}/`  (e.g. `src/L1/S5/`)
+- Session doc (regular session) → `docs/sessions/L{level}/{nn}_S{session}.md` (e.g. `docs/sessions/L1/06_S5.md`)
+- Session doc (mini project) → `docs/sessions/L{level}/{nn}_MP{project}.md` (e.g. `docs/sessions/L1/05_MP1.md`)
+- Practice code (regular session) → `src/L{level}/S{session}/` (e.g. `src/L1/S5/`)
+- Practice code (mini project) → `src/L{level}/MP{project}/` (e.g. `src/L1/MP1/`)
 - Structure ref → `docs/02_RepositoryStructure.md`
 
 ## Workflow: THINK → REASON → ACT → VERIFY
@@ -35,7 +37,10 @@ You are creating educational content for the **Python Fundamentals in Practice**
 
 ### ACT
 
-1. Write `docs/sessions/L{level}/{nn}_S{session}.md` with this structure:
+1. Write the session document path that matches the input:
+   - Regular session: `docs/sessions/L{level}/{nn}_S{session}.md`
+   - Mini project: `docs/sessions/L{level}/{nn}_MP{project}.md`
+   with this structure:
    - Session Overview (30 min, level, session number)
    - Learning Objectives (measurable)
    - Prerequisites
@@ -43,8 +48,10 @@ You are creating educational content for the **Python Fundamentals in Practice**
    - Practice Files (references to `src/`)
    - Key Takeaways
    - Troubleshooting (common errors)
-2. Write each practice file `src/L{level}/S{session}/{nn}_{name}.py` with:
-   - Header comment: `# Filename: src/L{level}/S{session}/{nn}_{name}.py` + session reference
+2. Write each practice file in the matching directory:
+   - Regular session: `src/L{level}/S{session}/{nn}_{name}.py`
+   - Mini project: `src/L{level}/MP{project}/{nn}_{name}.py`
+   - Header comment: `# Filename: ...` + session/project reference
    - Educational comments explaining the "why" of each decision
    - Working code (no syntax errors, no TODOs)
 
