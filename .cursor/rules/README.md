@@ -60,7 +60,7 @@ This rule set is customized for the **Python Fundamentals** repository:
 ## 🔗 Related Files
 
 - **Agent entry (all tools)**: `AGENTS.md` (policy map, ReAct/CoT, how to use these rules)
-- **Skills pointer**: `skills.md` (this repo does not commit Cursor SKILL packs; use `AGENTS.md` and this folder)
+- **Skills pointer**: `skills.md` (this repo includes `.cursor/skills/python-fundamentals-curriculum/SKILL.md`; use `AGENTS.md` and this folder)
 - **Claude short brief**: `CLAUDE.md` and `.claude/CLAUDE.md` (optional pointer; root is canonical)
 - **GitHub Copilot**: `.github/copilot-instructions.md` (rules aligned with this directory)
 - **Repository structure (source of truth)**: `docs/02_RepositoryStructure.md`

@@ -1,37 +1,73 @@
-├── .gitignore
-├── .markdownlint-cli2.yaml
-├── .markdownlint.json
-├── .markdownlintignore
-├── LICENSE
-├── lychee.toml
-├── README.md
-├── .copilot
-│   └── settings.json
-├── .github
-│   ├── copilot-instructions.md
-│   ├── prompts
-│   │   └── .gitkeep
-│   └── workflows
-│       └── docs-quality.yml
-├── docs
-│   ├── images
-│   │   └── S1
-│   │       ├── Help_V1.PNG
-│   │       ├── Help_V2.PNG
-│   │       └── Py_Source_ByteCode.PNG
-│   └── sessions
-│       └── L1
-│           ├── Plan.md
-│           ├── req.md
-│           └── S1.md
-├── scripts
-│   ├── docs-links.ps1
-│   ├── docs-lint.ps1
-│   ├── repo-structure.txt
-│   └── show-tree.ps1
-└── src
-    └── L1
-        └── S1
-            ├── 01_hello.py
-            ├── 02_interactive_hello.py
-            └── bytecode_demo.py
+# Snapshot generated from git ls-files
+# Regenerate with: git ls-files > tools/psscripts/repo-structure.txt
+
+.claude/CLAUDE.md
+.copilot/settings.json
+.cursor/agents/docs-verifier.md
+.cursor/agents/python-practice-code.md
+.cursor/agents/session-content.md
+.cursor/rules/01_educational-content-rules.mdc
+.cursor/rules/02_repository-structure.mdc
+.cursor/rules/03_quality-assurance.mdc
+.cursor/rules/04_markdown-standards.mdc
+.cursor/rules/05_primary-directives.mdc
+.cursor/rules/06_cross-level-integration.mdc
+.cursor/rules/README.md
+.cursor/skills/python-fundamentals-curriculum/SKILL.md
+.github/ISSUE_TEMPLATE/bug_report.md
+.github/ISSUE_TEMPLATE/config.yml
+.github/ISSUE_TEMPLATE/documentation_improvement.md
+.github/ISSUE_TEMPLATE/feature_request.md
+.github/copilot-instructions.md
+.github/instructions/python-practice.instructions.md
+.github/instructions/session-docs.instructions.md
+.github/prompts/create-practice-file.prompt.md
+.github/prompts/create-session.prompt.md
+.github/prompts/fix-references.prompt.md
+.github/prompts/review-content.prompt.md
+.github/pull_request_template.md
+.github/workflows/docs-quality.yml
+.github/workflows/python-quality.yml
+.gitignore
+.markdownlint-cli2.yaml
+.markdownlint.json
+.markdownlintignore
+AGENTS.md
+CLAUDE.md
+CODE_OF_CONDUCT.md
+CONTRIBUTING.md
+LICENSE
+README.md
+SECURITY.md
+docs/01_Python-Fundamentals-MasterPlan.md
+docs/02_RepositoryStructure.md
+docs/images/S1/Help_V1.PNG
+docs/images/S1/Help_V2.PNG
+docs/images/S1/Py_Source_ByteCode.PNG
+docs/meetup/L1/meetup-sessions.md
+docs/sessions/L1/01_S1.md
+docs/sessions/L1/02_S2.md
+docs/sessions/L1/03_S3.md
+docs/sessions/L1/04_S4.md
+docs/sessions/L1/05_MP1.md
+docs/sessions/L1/_Plan.md
+lychee.toml
+pyproject.toml
+skills.md
+src/L1/S1/01_hello.py
+src/L1/S1/02_interactive_hello.py
+src/L1/S1/bytecode_demo.py
+src/L1/S2/01_variables.py
+src/L1/S2/02_data_types.py
+src/L1/S2/03_type_conversion.py
+src/L1/S3/01_arithmetic.py
+src/L1/S3/02_comparisons.py
+src/L1/S3/03_mini_calculator.py
+src/L1/S4/01_conditionals.py
+src/L1/S4/02_boolean_logic.py
+src/L1/S4/03_number_guessing_game.py
+src/L2/.gitkeep
+tools/psscripts/docs-links.ps1
+tools/psscripts/docs-lint.ps1
+tools/psscripts/repo-structure.txt
+tools/psscripts/show-tree.ps1

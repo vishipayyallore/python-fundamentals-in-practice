@@ -8,7 +8,7 @@ Some Claude Code or Anthropic workflows look for project context under **`.claud
 
 1. **`/CLAUDE.md`** (repo root) — short Claude-specific brief and guardrails  
 2. **`/AGENTS.md`** (repo root) — full agent map, ReAct/CoT, and policy table  
-3. **`/skills.md`** — pointer: no in-repo Cursor SKILL packs; rules + `AGENTS.md` are canonical  
+3. **`/skills.md`** — pointer to skill/rule entry points, including `.cursor/skills/python-fundamentals-curriculum/SKILL.md`  
 4. **`/docs/02_RepositoryStructure.md`** — authoritative folder layout and naming  
 5. **`/.cursor/rules/README.md`** — index of Cursor `.mdc` rules (educational content, QA, markdown, etc.)  
 6. **`/.github/copilot-instructions.md`** — GitHub Copilot alignment (same project policies)

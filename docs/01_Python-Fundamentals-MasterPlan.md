@@ -43,7 +43,7 @@ Status Legend:
 ### **🌱 Level 1: Noob → Nerd** _(Foundation Building)_
 
 **Focus:** Environment setup, basic syntax, curiosity ignition  
-**Duration:** 5 hours (10 sessions × 30 min)  
+**Duration:** ~5–6 hours (8 sessions × 30 min + 2 mini projects × 30–45 min)  
 **Status:** 🚧 **In Progress** - Sessions 1–4 (knowledge) available; Mini Project 1 page is a [stub](sessions/L1/05_MP1.md) until the full project write-up ships
 
 **Actual Session Breakdown:**

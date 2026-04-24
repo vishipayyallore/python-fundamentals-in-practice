@@ -18,7 +18,7 @@ You are correcting broken paths and links in **Python Fundamentals in Practice**
 ## Common error patterns and corrections
 
 | Wrong (legacy) | Correct |
-|----------------|---------|
+| -------------- | ------- |
 | `src/S1/01_hello.py` | `src/L1/S1/01_hello.py` |
 | `docs/sessions/S1.md` | `docs/sessions/L1/01_S1.md` |
 | `docs/sessions/L1/S2.md` | `docs/sessions/L1/02_S2.md` |
