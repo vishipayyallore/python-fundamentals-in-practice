@@ -1,9 +1,8 @@
 blank_issues_enabled: false
 contact_links:
   - name: 📚 Educational Content Questions
-    url: https://github.com/YOUR_USERNAME/python-fundamentals/discussions
+    url: https://github.com/Swamy-s-Tech-Skills-Academy-2026/python-fundamentals-in-practice/discussions
     about: Ask questions about educational content, learning paths, or curriculum structure
   - name: 💬 General Discussion
-    url: https://github.com/YOUR_USERNAME/python-fundamentals/discussions
+    url: https://github.com/Swamy-s-Tech-Skills-Academy-2026/python-fundamentals-in-practice/discussions
     about: General questions and community discussions
-

@@ -46,8 +46,8 @@ Before contributing, please familiarize yourself with our content creation rules
 ```bash
 # Fork the repository on GitHub
 # Then clone your fork
-git clone https://github.com/YOUR_USERNAME/python-fundamentals.git
-cd python-fundamentals
+git clone https://github.com/YOUR_USERNAME/python-fundamentals-in-practice.git
+cd python-fundamentals-in-practice
 ```
 
 ### **2. Create a Branch**

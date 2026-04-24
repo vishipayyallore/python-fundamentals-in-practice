@@ -1,4 +1,5 @@
 # Filename: src/L1/S1/02_interactive_hello.py
+# Session 1: Python Introduction & Environment Setup
 
 # Interactive greeting script
 print("=== Python Interactive Greeting ===")
