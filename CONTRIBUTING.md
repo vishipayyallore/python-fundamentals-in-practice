@@ -24,7 +24,7 @@ We welcome contributions in many forms:
 Before contributing, please familiarize yourself with our content creation rules:
 
 - **🤖 [AGENTS.md](AGENTS.md)** - How AI-assisted editors should navigate this repo, ReAct/CoT expectations, and update protocol (for contributors using tools)
-- **📎 [skills.md](skills.md)** - Pointer: no in-repo Cursor SKILL packs; use `AGENTS.md` and `.cursor/rules/`
+- **📎 [skills.md](skills.md)** - Pointer to repo skill/rule entry points, including `.cursor/skills/python-fundamentals-curriculum/SKILL.md`
 - **📖 [Educational Content Rules](.cursor/rules/01_educational-content-rules.mdc)** - Zero-copy policy, transformative workflow, quality standards
 - **📁 [Repository Structure](docs/02_RepositoryStructure.md)** - File naming, directory structure, organization
 - **✅ [Quality Assurance](.cursor/rules/03_quality-assurance.mdc)** - Quality checklists and validation requirements
@@ -46,8 +46,8 @@ Before contributing, please familiarize yourself with our content creation rules
 ```bash
 # Fork the repository on GitHub
 # Then clone your fork
-git clone https://github.com/YOUR_USERNAME/python-fundamentals.git
-cd python-fundamentals
+git clone https://github.com/YOUR_USERNAME/python-fundamentals-in-practice.git
+cd python-fundamentals-in-practice
 ```
 
 ### **2. Create a Branch**

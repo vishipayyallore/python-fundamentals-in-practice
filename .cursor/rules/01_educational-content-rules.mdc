@@ -176,7 +176,7 @@ OBSERVE: Now the concept is clear - variables make code flexible and reusable
 
 ### ⚠️ CRITICAL: Splitting vs. Trimming Policy
 
-**MANDATORY APPROACH**: When content exceeds 150 lines, **ALWAYS SPLIT** into multiple parts. **NEVER TRIM** or condense content.
+**MANDATORY APPROACH**: When content becomes too long for a focused session (for example, around 150+ lines), **PREFER SPLITTING** into multiple parts. **NEVER TRIM** or condense content.
 
 **Why Splitting is Required:**
 - ✅ **Preserves ALL educational content** - No loss of examples, explanations, or concepts
