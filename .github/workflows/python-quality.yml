@@ -37,6 +37,10 @@ jobs:
         run: ruff check src
       - name: Byte-compile all practice modules
         run: python -m compileall -q src
+      - name: MP1 runtime smoke checks
+        run: |
+          printf "+\n10\n5\n" | python src/L1/MP1/01_simple_calculator.py
+          printf "+\n10\n5\nq\n" | python src/L1/MP1/02_simple_calculator_loop.py
 
   frontend-placeholder:
     name: Frontend (N/A)
