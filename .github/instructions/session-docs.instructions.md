@@ -14,7 +14,7 @@ Session docs must include all of the following content, but heading names and ex
 2. **Learning objectives/outcomes** — measurable, specific ("Students will be able to…")
 3. **Prerequisites/builds-on** — link to prior sessions when applicable
 4. **Core teaching content** — progressive: simple → complex
-5. **Practice file mapping** — explicit references to `src/L{level}/S{session}/` files
+5. **Practice file mapping** — explicit references to `src/L{level}/S{session}/` files (or `src/L{level}/MP{number}/` for mini projects)
 6. **Wrap-up summary** — key takeaways / progress check / "what you can do now"
 7. **Troubleshooting guidance** — common errors and fixes (required from S3 onwards; encouraged earlier)
 
@@ -32,13 +32,16 @@ YAML front-matter is **optional**; clear content coverage and pedagogical flow t
 
 ## File naming
 
-- Format: `{nn}_S{session}.md` — e.g. `03_S3.md`, `_Plan.md`
+- Regular session format: `{nn}_S{session}.md` — e.g. `03_S3.md`
+- Mini project format: `{nn}_MP{number}.md` — e.g. `05_MP1.md`
+- Level plan file: `_Plan.md`
 - Stored at: `docs/sessions/L{level}/` — never `docs/sessions/` root
 - Numeric prefix `{nn}` must match session number two-digit padded
 
 ## Links and references
 
-- All links to practice files must use `src/L{level}/S{session}/{nn}_name.py` format.
+- Session links to practice files must use `src/L{level}/S{session}/{nn}_name.py` format.
+- Mini-project links to practice files must use `src/L{level}/MP{number}/{nn}_name.py` format.
 - Verify every linked file **exists** before committing.
 - Image refs: `../../images/S{session}/filename.png` (relative from session doc).
 

@@ -17,7 +17,8 @@ You are auditing educational content in **Python Fundamentals in Practice**.
 
 1. List **every** file in scope — no sampling.
    - Session docs: `docs/sessions/L{level}/`
-   - Practice files: `src/L{level}/S{session}/`
+   - Practice files (sessions): `src/L{level}/S{session}/`
+   - Practice files (mini projects): `src/L{level}/MP{number}/`
 
 ### ANALYZE
 
@@ -28,23 +29,23 @@ For **each** file individually:
 - [ ] Session Overview present (duration, level, session number)
 - [ ] Learning Objectives are measurable
 - [ ] Prerequisites listed
-- [ ] Practice files referenced with correct `src/L{level}/S{session}/{nn}_name.py` paths
+- [ ] Practice files referenced with correct session/mini-project paths (`src/L{level}/S{session}/...` or `src/L{level}/MP{number}/...`)
 - [ ] Key Takeaways section present
 - [ ] All links resolve to existing files
-- [ ] File name format: `{nn}_S{session}.md`
+- [ ] File name format: `{nn}_S{session}.md` or `{nn}_MP{number}.md`
 
 #### Practice file checklist
 
 - [ ] Header comment includes filename + session reference
 - [ ] Code runs without syntax errors
 - [ ] Beginner-friendly comments explain the "why"
-- [ ] File name format: `{nn}_{name}.py`
+- [ ] File name format: ordered files use `{nn}_{name}.py` (non-numbered support scripts are allowed when intentional)
 - [ ] No TODOs or placeholder code
 
 #### Cross-cutting checklist
 
-- [ ] Directory structure: `L{level}/S{session}/` everywhere (not legacy `S{session}/`)
-- [ ] Numeric prefixes (`01_`, `02_`, …) on all files
+- [ ] Directory structure: `L{level}/S{session}/` or `L{level}/MP{number}/` as appropriate (not legacy `S{session}/`)
+- [ ] Numeric prefixes (`01_`, `02_`, …) on ordered files (allow intentional non-numbered support files)
 - [ ] Zero-Copy: no verbatim text, no mirrored outlines
 - [ ] Reasoning visible: code decisions explain WHY, not just WHAT
 - [ ] Session ordering follows learning dependencies (variables before operators, etc.)
