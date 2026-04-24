@@ -15,7 +15,7 @@ You are creating educational content for the **Python Fundamentals in Practice**
 
 ## Authoritative paths
 
-- Session doc  → `docs/sessions/L{level}/{nn}_S{session}.md`  (e.g. `docs/sessions/L1/05_S5.md`)
+- Session doc  → `docs/sessions/L{level}/{nn}_S{session}.md`  (e.g. `docs/sessions/L1/06_S5.md`)
 - Practice code → `src/L{level}/S{session}/`  (e.g. `src/L1/S5/`)
 - Structure ref → `docs/02_RepositoryStructure.md`
 

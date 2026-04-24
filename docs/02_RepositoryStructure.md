@@ -65,6 +65,7 @@ python-fundamentals-in-practice/
 │   │       ├── 03_S3.md
 │   │       ├── 04_S4.md
 │   │       ├── 05_MP1.md
+│   │       ├── 06_S5.md
 │   │       └── _Plan.md
 │   ├── 01_Python-Fundamentals-MasterPlan.md
 │   └── 02_RepositoryStructure.md
@@ -82,10 +83,14 @@ python-fundamentals-in-practice/
 │   │   │   ├── 01_arithmetic.py
 │   │   │   ├── 02_comparisons.py
 │   │   │   └── 03_mini_calculator.py
-│   │   └── S4/
-│   │       ├── 01_conditionals.py
-│   │       ├── 02_boolean_logic.py
-│   │       └── 03_number_guessing_game.py
+│   │   ├── S4/
+│   │   │   ├── 01_conditionals.py
+│   │   │   ├── 02_boolean_logic.py
+│   │   │   └── 03_number_guessing_game.py
+│   │   └── S5/
+│   │       ├── 01_for_loops.py
+│   │       ├── 02_while_loops.py
+│   │       └── 03_loop_controls_fizzbuzz.py
 │   └── L2/
 │       └── .gitkeep
 ├── tools/
@@ -116,7 +121,6 @@ python-fundamentals-in-practice/
 
 The following are roadmap items and may be referenced in planning docs, but they are not currently present as tracked files:
 
-- `docs/sessions/L1/06_S5.md` (planned)
 - `docs/sessions/L1/07_S6.md` (planned)
 - `docs/sessions/L1/08_S7.md` (planned)
 - `docs/sessions/L1/09_S8.md` (planned)
@@ -159,6 +163,7 @@ The following are roadmap items and may be referenced in planning docs, but they
 - **Session 3**: [sessions/L1/03_S3.md](sessions/L1/03_S3.md)
 - **Session 4**: [sessions/L1/04_S4.md](sessions/L1/04_S4.md)
 - **Mini Project 1 (stub)**: [sessions/L1/05_MP1.md](sessions/L1/05_MP1.md)
+- **Session 5**: [sessions/L1/06_S5.md](sessions/L1/06_S5.md)
 
 ---
 

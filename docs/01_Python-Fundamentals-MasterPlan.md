@@ -44,7 +44,7 @@ Status Legend:
 
 **Focus:** Environment setup, basic syntax, curiosity ignition  
 **Duration:** 5 hours (10 sessions × 30 min)  
-**Status:** 🚧 **In Progress** - Sessions 1–4 (knowledge) available; Mini Project 1 page is a [stub](sessions/L1/05_MP1.md) until the full project write-up ships
+**Status:** 🚧 **In Progress** - Sessions 1–5 (knowledge) available; Mini Project 1 page is a [stub](sessions/L1/05_MP1.md) until the full project write-up ships
 
 **Actual Session Breakdown:**
 
@@ -55,7 +55,7 @@ Status Legend:
 | A | 3 | **Operators & Expressions** | 📚 Knowledge | ✅ **Ready** |
 | A | 4 | **Conditionals, Indentation & Introduction to Modules** | 📚 Knowledge | ✅ **Ready** |
 | A | MP1 | **🚀 Mini Project 1: Simple Calculator** | 🛠️ Project | 🔄 **Planned** |
-| B | 5 | **Loops & Iteration** | 📚 Knowledge | 🔄 **Planned** |
+| B | 5 | **Loops & Iteration** | 📚 Knowledge | ✅ **Ready** |
 | B | 6 | **Basic Debugging & Built-in Functions** | 📚 Knowledge | 🔄 **Planned** |
 | B | 7 | **Lists & Loops** | 📚 Knowledge | 🔄 **Planned** |
 | B | 8 | **Dictionaries & Testing** | 📚 Knowledge | 🔄 **Planned** |
@@ -107,7 +107,7 @@ Before moving to Level 2, you should be able to:
 
 ## 🚧 **Current Implementation Status**
 
-- **🚧 Level 1:** In Progress - Sessions 1–4 (docs + `src/L1/S1`–`S4`) available. [Mini Project 1](sessions/L1/05_MP1.md) stub; see [Level 1 Plan](sessions/L1/_Plan.md) for the full roll-out
+- **🚧 Level 1:** In Progress - Sessions 1–5 (docs + `src/L1/S1`–`S5`) available. [Mini Project 1](sessions/L1/05_MP1.md) stub; see [Level 1 Plan](sessions/L1/_Plan.md) for the full roll-out
 - **⏭️ Level 2-9:** Coming soon
 
 ---
