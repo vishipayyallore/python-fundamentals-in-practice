@@ -9,7 +9,7 @@
 
 ## 📋 **Course Architecture Overview**
 
-**Format:** 9 levels → each level is 2 phases × (4 sessions + 1 mini project) = 10 sessions total; each session is ~30 minutes with practice files in `src/` and matching docs in `docs/sessions/`.  
+**Format:** 9 levels → each level is 2 phases × (4 sessions + 1 mini project) = 10 sessions total; core sessions are ~30 minutes and mini projects are ~30–45 minutes, with practice files in `src/` and matching docs in `docs/sessions/`.  
 **Outcome:** Complete transformation from absolute beginner to curious professional  
 **Approach:** Progressive complexity with practical application at every step
 
@@ -43,7 +43,7 @@ Status Legend:
 ### **🌱 Level 1: Noob → Nerd** _(Foundation Building)_
 
 **Focus:** Environment setup, basic syntax, curiosity ignition  
-**Duration:** 5 hours (10 sessions × 30 min)  
+**Duration:** ~5–6 hours (8 sessions × 30 min + 2 mini projects × 30–45 min)  
 **Status:** 🚧 **In Progress** - Sessions 1–5 (knowledge) available; Mini Project 1 page is a [stub](sessions/L1/05_MP1.md) until the full project write-up ships
 
 **Actual Session Breakdown:**

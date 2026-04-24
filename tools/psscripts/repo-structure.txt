@@ -2,36 +2,102 @@
 ├── .markdownlint-cli2.yaml
 ├── .markdownlint.json
 ├── .markdownlintignore
+├── AGENTS.md
+├── CLAUDE.md
+├── CODE_OF_CONDUCT.md
+├── CONTRIBUTING.md
 ├── LICENSE
 ├── lychee.toml
+├── pyproject.toml
 ├── README.md
+├── SECURITY.md
+├── skills.md
+├── .claude
+│   └── CLAUDE.md
 ├── .copilot
 │   └── settings.json
+├── .cursor
+│   ├── agents
+│   │   ├── docs-verifier.md
+│   │   ├── python-practice-code.md
+│   │   └── session-content.md
+│   ├── rules
+│   │   ├── 01_educational-content-rules.mdc
+│   │   ├── 02_repository-structure.mdc
+│   │   ├── 03_quality-assurance.mdc
+│   │   ├── 04_markdown-standards.mdc
+│   │   ├── 05_primary-directives.mdc
+│   │   ├── 06_cross-level-integration.mdc
+│   │   └── README.md
+│   └── skills
+│       └── python-fundamentals-curriculum
+│           └── SKILL.md
 ├── .github
 │   ├── copilot-instructions.md
+│   ├── pull_request_template.md
+│   ├── instructions
+│   │   ├── python-practice.instructions.md
+│   │   └── session-docs.instructions.md
+│   ├── ISSUE_TEMPLATE
+│   │   ├── bug_report.md
+│   │   ├── config.yml
+│   │   ├── documentation_improvement.md
+│   │   └── feature_request.md
 │   ├── prompts
-│   │   └── .gitkeep
+│   │   ├── create-practice-file.prompt.md
+│   │   ├── create-session.prompt.md
+│   │   ├── fix-references.prompt.md
+│   │   └── review-content.prompt.md
 │   └── workflows
-│       └── docs-quality.yml
+│       ├── docs-quality.yml
+│       └── python-quality.yml
 ├── docs
+│   ├── 01_Python-Fundamentals-MasterPlan.md
+│   ├── 02_RepositoryStructure.md
 │   ├── images
 │   │   └── S1
 │   │       ├── Help_V1.PNG
 │   │       ├── Help_V2.PNG
 │   │       └── Py_Source_ByteCode.PNG
+│   ├── meetup
+│   │   └── L1
+│   │       └── meetup-sessions.md
 │   └── sessions
 │       └── L1
-│           ├── Plan.md
-│           ├── req.md
-│           └── S1.md
-├── scripts
-│   ├── docs-links.ps1
-│   ├── docs-lint.ps1
-│   ├── repo-structure.txt
-│   └── show-tree.ps1
-└── src
-    └── L1
-        └── S1
-            ├── 01_hello.py
-            ├── 02_interactive_hello.py
-            └── bytecode_demo.py
+│           ├── _Plan.md
+│           ├── 01_S1.md
+│           ├── 02_S2.md
+│           ├── 03_S3.md
+│           ├── 04_S4.md
+│           ├── 05_MP1.md
+│           └── 06_S5.md
+├── src
+│   ├── L1
+│   │   ├── S1
+│   │   │   ├── 01_hello.py
+│   │   │   ├── 02_interactive_hello.py
+│   │   │   └── bytecode_demo.py
+│   │   ├── S2
+│   │   │   ├── 01_variables.py
+│   │   │   ├── 02_data_types.py
+│   │   │   └── 03_type_conversion.py
+│   │   ├── S3
+│   │   │   ├── 01_arithmetic.py
+│   │   │   ├── 02_comparisons.py
+│   │   │   └── 03_mini_calculator.py
+│   │   ├── S4
+│   │   │   ├── 01_conditionals.py
+│   │   │   ├── 02_boolean_logic.py
+│   │   │   └── 03_number_guessing_game.py
+│   │   └── S5
+│   │       ├── 01_for_loops.py
+│   │       ├── 02_while_loops.py
+│   │       └── 03_loop_controls_fizzbuzz.py
+│   └── L2
+│       └── .gitkeep
+└── tools
+    └── psscripts
+        ├── docs-links.ps1
+        ├── docs-lint.ps1
+        ├── repo-structure.txt
+        └── show-tree.ps1

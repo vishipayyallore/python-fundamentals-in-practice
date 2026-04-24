@@ -9,13 +9,13 @@
 
 A comprehensive, transformation-focused Python curriculum designed to take you from complete beginner to confident Python programmer through 9 progressive levels.
 
-> **Format:** Each level contains 5 hours of training (10 sessions × 30 minutes) culminating in 2 hands-on mini projects.
+> **Format:** Each level contains ~5–6 hours of training (8 sessions × 30 minutes + 2 mini projects × 30–45 minutes), culminating in 2 hands-on mini projects.
 
 ---
 
 ## 📌 Disclaimer
 
-This is **Swamy's personal learning** repository, not official course material or a structured curriculum.
+This is **Swamy's personal learning and curriculum-development** repository. Content is evolving and in progress (not an accredited or final published course).
 
 ---
 
