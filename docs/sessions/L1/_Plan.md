@@ -52,7 +52,7 @@ sessions:
     topic: "Mini Project 1: Simple Calculator"
     duration: "30–45 min"
     type: "Project"
-    status: "Planned"
+    status: "Ready"
     file: "docs/sessions/L1/05_MP1.md"
   - session: 5
     topic: "Loops & Iteration"
@@ -109,7 +109,7 @@ sessions:
 | A     | 2       | Variables & Data Types                                 | 30 min    | 📚 Knowledge | ✅ Ready   |
 | A     | 3       | Operators & Expressions                                | 30 min    | 📚 Knowledge | ✅ Ready   |
 | A     | 4       | Conditionals, Indentation & Introduction to Modules    | 30 min    | 📚 Knowledge | ✅ Ready   |
-| A     | 🚀 MP1  | Mini Project 1: Simple Calculator *(after Session 4)*  | 30–45 min | 🛠️ Project   | 🔄 Planned |
+| A     | 🚀 MP1  | Mini Project 1: Simple Calculator *(after Session 4)*  | 30–45 min | 🛠️ Project   | ✅ Ready   |
 | B     | 5       | Loops & Iteration                                      | 30 min    | 📚 Knowledge | ✅ Ready   |
 | B     | 6       | Basic Debugging, Reading Errors & Built-in Functions   | 30 min    | 📚 Knowledge | 🔄 Planned |
 | B     | 7       | Lists & Loops                                          | 30 min    | 📚 Knowledge | 🔄 Planned |
@@ -224,7 +224,7 @@ flowchart TB
 
 ---
 
-### 🚀 Mini Project 1: Simple Calculator *(Planned)*
+### 🚀 Mini Project 1: Simple Calculator *(Ready)*
 
 **Goal:** Build a command-line calculator for basic arithmetic.
 

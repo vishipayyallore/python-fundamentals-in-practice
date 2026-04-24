@@ -54,7 +54,7 @@ Status Legend:
 | A | 2 | **Variables & Data Types** | 📚 Knowledge | ✅ **Ready** |
 | A | 3 | **Operators & Expressions** | 📚 Knowledge | ✅ **Ready** |
 | A | 4 | **Conditionals, Indentation & Introduction to Modules** | 📚 Knowledge | ✅ **Ready** |
-| A | MP1 | **🚀 Mini Project 1: Simple Calculator** | 🛠️ Project | 🔄 **Planned** |
+| A | MP1 | **🚀 Mini Project 1: Simple Calculator** | 🛠️ Project | ✅ **Ready** |
 | B | 5 | **Loops & Iteration** | 📚 Knowledge | ✅ **Ready** |
 | B | 6 | **Basic Debugging & Built-in Functions** | 📚 Knowledge | 🔄 **Planned** |
 | B | 7 | **Lists & Loops** | 📚 Knowledge | 🔄 **Planned** |
