@@ -30,7 +30,7 @@ This is **Swamy's personal learning and curriculum-development** repository. Con
 
 2. **📖 [Level 1 Plan](docs/sessions/L1/_Plan.md)** - Begin with Level 1: Noob → Nerd
    - Full L1 roadmap: 10 sessions; **Sessions 1–5** (docs and `src/L1/S1`–`S5/` practice) are in-repo
-   - [Mini Project 1](docs/sessions/L1/05_MP1.md) is a stub for now; goals live in the plan
+   - [Mini Project 1](docs/sessions/L1/05_MP1.md) now includes a full guide and starter practice pack (`src/L1/MP1/`)
    - Step-by-step learning path
 
 3. **🎥 [Watch Level 1 Playlist](https://www.youtube.com/watch?v=Cy6DqbRjsF0&list=PLdLQDTLMjAzpRBxP4q1XJOuLhFG4pSfBB)** - Video walkthroughs for Level 1 sessions
@@ -138,6 +138,17 @@ python -m compileall -q src
 
 Config: `pyproject.toml` · Workflow: `.github/workflows/python-quality.yml`  
 There is **no** `package.json` or front-end stack; see the workflow job “Frontend (N/A)” for ESLint/TypeScript.
+
+### **Optional runtime smoke checks (interactive scripts)**
+
+For quick local confidence on interactive scripts, you can pipe sample input instead of typing manually:
+
+```bash
+printf "+\n10\n5\n" | python src/L1/MP1/01_simple_calculator.py
+printf "+\n10\n5\nq\n" | python src/L1/MP1/02_simple_calculator_loop.py
+```
+
+These are convenience checks only (not CI gates).
 
 ### **CI/CD Quality Workflow (Docs)**
 
