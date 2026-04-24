@@ -119,6 +119,8 @@ Before finalizing session documentation:
 
 ### Common Broken Reference Patterns
 
+> Note: Any legacy path shown below is intentionally incorrect and is included only for anti-pattern recognition.
+
 #### ❌ **ERROR: Incorrect Path Format**
 
 **Problem Pattern:**

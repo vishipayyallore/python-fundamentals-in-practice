@@ -196,8 +196,10 @@ REVIEW:   OBSERVE → ANALYZE → REASON → VERIFY → ACT
 
 ### **Path Updates:**
 
+> Legacy path examples in this section are intentionally incorrect and should never be reused directly.
+
 ```markdown
-# OLD (incorrect)
+# LEGACY (incorrect)
 src/S1/01_hello.py
 
 # NEW (correct)
@@ -217,7 +219,7 @@ print("🚀 Advanced Python Preview")
 ### **Link Corrections:**
 
 ```markdown
-# OLD (incorrect)
+# LEGACY (incorrect)
 [Session 1](docs/sessions/S1.md)
 
 # NEW (correct)
