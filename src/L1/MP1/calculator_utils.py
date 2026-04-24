@@ -5,6 +5,12 @@
 def is_valid_number_text(value):
     """Return True when text represents a simple signed integer or float.
 
+    Args:
+        value (str): Text entered by the learner.
+
+    Returns:
+        bool: True when the text is a valid number format; otherwise False.
+
     Valid examples: "10", "-3", "4.5"
     Invalid examples: "", ".", "1.2.3", "abc"
     """
