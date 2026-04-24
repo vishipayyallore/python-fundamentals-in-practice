@@ -5,6 +5,17 @@ print("=== Mini Project 1: Simple Calculator (Loop) ===")
 print("Operations: +  -  *  /")
 print("Type q to quit.\n")
 
+
+def is_valid_number_text(value):
+    # Why: keep one validation rule so every loop round behaves consistently.
+    normalized = value[1:] if value.startswith("-") else value
+    return (
+        normalized not in {"", "."}
+        and normalized.count(".") <= 1
+        and normalized.replace(".", "", 1).isdigit()
+    )
+
+
 while True:
     operation = input("Choose operation (+, -, *, /) or q to quit: ").strip().lower()
 
@@ -21,8 +32,8 @@ while True:
     second_raw = input("Enter second number: ").strip()
 
     # Why: validating text first prevents conversion failures and keeps the loop stable.
-    first_is_number = first_raw.replace(".", "", 1).lstrip("-").isdigit()
-    second_is_number = second_raw.replace(".", "", 1).lstrip("-").isdigit()
+    first_is_number = is_valid_number_text(first_raw)
+    second_is_number = is_valid_number_text(second_raw)
 
     if not first_is_number or not second_is_number:
         print("Invalid number input. Use digits like 10, -3, or 4.5.\n")

@@ -4,6 +4,17 @@
 print("=== Mini Project 1: Simple Calculator ===")
 print("Supported operations: +  -  *  /")
 
+
+def is_valid_number_text(value):
+    # Why: keep validation logic in one place so both inputs follow the same rule.
+    normalized = value[1:] if value.startswith("-") else value
+    return (
+        normalized not in {"", "."}
+        and normalized.count(".") <= 1
+        and normalized.replace(".", "", 1).isdigit()
+    )
+
+
 operation = input("Choose operation (+, -, *, /): ").strip()
 
 # Why: fail fast on unknown operations so the program stays predictable.
@@ -14,8 +25,8 @@ else:
     second_raw = input("Enter second number: ").strip()
 
     # Why: input() returns text; we validate text before float conversion to avoid runtime crashes.
-    first_is_number = first_raw.replace(".", "", 1).lstrip("-").isdigit()
-    second_is_number = second_raw.replace(".", "", 1).lstrip("-").isdigit()
+    first_is_number = is_valid_number_text(first_raw)
+    second_is_number = is_valid_number_text(second_raw)
 
     if not first_is_number or not second_is_number:
         print("Invalid number input. Use digits like 10, -3, or 4.5.")
