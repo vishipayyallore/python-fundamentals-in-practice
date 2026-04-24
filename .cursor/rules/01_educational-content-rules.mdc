@@ -172,11 +172,11 @@ OBSERVE: Now the concept is clear - variables make code flexible and reusable
 ✅ **Modular content** designed for focused 30-minute sessions  
 ✅ **Multi-Part Structure**: Complex topics split into Part 1, Part 2, ... Part N  
 ✅ **One-Shot Learning**: Each segment complete and actionable within time limit  
-✅ **Target Length**: 150 lines of content maximum per response (flexible for educational clarity)
+✅ **Target Length**: no rigid line cap; optimize for clear 30-minute teaching chunks and readability
 
 ### ⚠️ CRITICAL: Splitting vs. Trimming Policy
 
-**MANDATORY APPROACH**: When content exceeds 150 lines, **ALWAYS SPLIT** into multiple parts. **NEVER TRIM** or condense content.
+**MANDATORY APPROACH**: **NEVER TRIM** educational content. Split into multiple parts when one file becomes hard to navigate, review, or teach effectively in a focused session.
 
 **Why Splitting is Required:**
 - ✅ **Preserves ALL educational content** - No loss of examples, explanations, or concepts
@@ -197,11 +197,11 @@ OBSERVE: Now the concept is clear - variables make code flexible and reusable
 4. **Use proper naming** - Follow naming convention: `Part1-A.md`, `Part1-B.md`, etc.
 5. **Update references** - Update all file references after splitting
 
-**Example**: If a file has 300 lines covering "Factory Pattern Fundamentals" and "Factory Pattern Advanced", split into:
-- `01_Factory-Pattern-Part1-A.md` (Fundamentals - 150 lines)
-- `01_Factory-Pattern-Part1-B.md` (Advanced - 150 lines)
+**Example**: If a file combines "Factory Pattern Fundamentals" and "Factory Pattern Advanced" in one long document, split into:
+- `01_Factory-Pattern-Part1-A.md` (Fundamentals)
+- `01_Factory-Pattern-Part1-B.md` (Advanced)
 
-**NOT**: Condense to 150 lines by removing examples or explanations.
+**NOT**: Condense to an arbitrary line limit by removing examples or explanations.
 
 ---
 
@@ -330,7 +330,7 @@ All content must demonstrate:
 3. ✅ Would a learner understand this without the original source?
 4. ✅ Are the examples relevant and practical?
 5. ✅ Does this content add educational value beyond the reference?
-6. ✅ Is this content within 150 lines for effective delivery?
+6. ✅ Is this content easy to navigate and teach in focused chunks without trimming core learning value?
 
 ---
 
