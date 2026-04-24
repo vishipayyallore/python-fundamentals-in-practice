@@ -44,7 +44,7 @@ This Code of Conduct applies within all community spaces, and also applies when 
 
 ## Enforcement
 
-Instances of abusive, harassing, or otherwise unacceptable behavior may be reported to the community leaders responsible for enforcement at [contact information]. All complaints will be reviewed and investigated promptly and fairly.
+Instances of abusive, harassing, or otherwise unacceptable behavior may be reported to the community leaders responsible for enforcement via direct maintainer contact through [ShyvnTech](https://www.linkedin.com/company/shyvntech) or [Swamy's Tech Skills Academy](https://www.linkedin.com/company/swamy-s-tech-skills-academy). All complaints will be reviewed and investigated promptly and fairly.
 
 All community leaders are obligated to respect the privacy and security of the reporter of any incident.
 
@@ -57,4 +57,3 @@ This Code of Conduct is adapted from the [Contributor Covenant](https://www.cont
 **Our Goal**: Create a welcoming, inclusive learning environment where everyone can grow their Python skills with confidence and support.
 
 **Powered by [ShyvnTech](https://www.linkedin.com/company/shyvntech) & [Swamy's Tech Skills Academy](https://www.linkedin.com/company/swamy-s-tech-skills-academy)**
-

@@ -57,7 +57,7 @@ You are creating educational content for the **Python Fundamentals in Practice**
 
 ## Hard rules
 
-- **Never trim content** — if material exceeds 150 lines, split into `Part A`, `Part B` files.
+- **Never trim content** — if material becomes hard to navigate in one file, split into `Part A`, `Part B` files.
 - **Numeric prefixes mandatory** — `01_`, `02_`, … on all files.
 - **Path format** — `src/L1/S5/` not `src/S5/` or `src/L1/5/`.
 - After creating files, update `docs/02_RepositoryStructure.md` if the tree changes.

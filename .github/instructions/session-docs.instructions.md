@@ -45,7 +45,7 @@ YAML front-matter is **optional**; clear content coverage and pedagogical flow t
 ## Content standards
 
 - **Zero-Copy**: no verbatim text from books, tutorials, or other third-party sources.
-- **Split, never trim**: if a session exceeds ~150 lines, split into `Part A` / `Part B` files; do not delete content.
+- **Split, never trim**: avoid hard line caps; split into `Part A` / `Part B` when content becomes hard to navigate in one file, and do not delete educational content.
 - **Reasoning visible**: code design decisions must explain the *why*, not just state the *what*.
 - **Mermaid-first diagrams**: use Mermaid for conceptual diagrams; add ASCII fallback.
 
