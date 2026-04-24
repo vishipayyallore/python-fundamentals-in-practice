@@ -23,7 +23,7 @@ Examples: `src/L1/S3/03_comparison_operators.py`, `src/L1/MP1/01_simple_calculat
 ## File template
 
 ```python
-# Filename: src/L{level}/S{session}/{nn}_{name}.py
+# Filename: src/L{level}/S{session}/{nn}_{name}.py  OR  src/L{level}/MP{project}/{nn}_{name}.py
 # Session {session} or Mini Project {project}: {Title}
 # Concept: {concept being demonstrated}
 
