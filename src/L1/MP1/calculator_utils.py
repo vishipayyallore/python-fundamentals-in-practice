@@ -3,6 +3,11 @@
 
 
 def is_valid_number_text(value):
+    """Return True when text represents a simple signed integer or float.
+
+    Valid examples: "10", "-3", "4.5"
+    Invalid examples: "", ".", "1.2.3", "abc"
+    """
     # Why: one validation rule keeps both calculator scripts consistent.
     normalized = value[1:] if value.startswith("-") else value
     return (
