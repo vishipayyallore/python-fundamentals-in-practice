@@ -73,7 +73,8 @@ python-fundamentals-in-practice/
 │   ├── L1/
 │   │   ├── MP1/
 │   │   │   ├── 01_simple_calculator.py
-│   │   │   └── 02_simple_calculator_loop.py
+│   │   │   ├── 02_simple_calculator_loop.py
+│   │   │   └── calculator_utils.py
 │   │   ├── S1/
 │   │   │   ├── 01_hello.py
 │   │   │   ├── 02_interactive_hello.py

@@ -10,7 +10,7 @@ You are creating educational content for the **Python Fundamentals in Practice**
 ## Required inputs (ask if not provided)
 
 - **Level** — `L1`–`L9`
-- **Session number** — `S1`–`S10` or `MP1`/`MP2`
+- **Session number** — `S1`–`S8` or `MP1`/`MP2`
 - **Topic** — brief description of the concept to teach
 
 ## Authoritative paths
