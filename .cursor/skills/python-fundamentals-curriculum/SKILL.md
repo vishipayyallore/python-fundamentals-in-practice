@@ -30,7 +30,7 @@ description: >-
 ## Quality (when a significant doc or code change is done)
 
 - Docs (paths under CI): `tools/psscripts/docs-lint.ps1` and `docs-links.ps1`, or the `npx`/Docker flow in `README.md`
-- Python: `ruff check src` and `python -m compileall src` (see `pyproject.toml` and `python-quality.yml`)
+- Python: `ruff check src` and `python -m compileall -q src` (see `pyproject.toml` and `python-quality.yml`)
 
 ## If unsure
 

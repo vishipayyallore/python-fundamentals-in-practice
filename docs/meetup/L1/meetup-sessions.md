@@ -4,7 +4,7 @@
 
 Date: 20-Dec-2025
 
-Event URL: (Meetup link will be updated here)  
+Event URL: TBD (link not published yet)  
 
 🔹 Session Agenda:
 
@@ -50,7 +50,7 @@ Perfect For:
 
 Date: 17-Dec-2025  
 
-Event URL: (Meetup link will be updated here)  
+Event URL: TBD (link not published yet)  
 
 🔹 Session Agenda:
 

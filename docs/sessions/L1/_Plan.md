@@ -20,8 +20,7 @@ learning_objectives:
 related_topics:
   prerequisites: []
   builds_upon: []
-  enables:
-    - "docs/sessions/L2/_Plan.md"
+  enables: []
   cross_refs: []
 sessions:
   - session: 1
