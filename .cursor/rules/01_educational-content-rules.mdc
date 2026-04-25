@@ -172,17 +172,17 @@ OBSERVE: Now the concept is clear - variables make code flexible and reusable
 ✅ **Modular content** designed for focused 30-minute sessions  
 ✅ **Multi-Part Structure**: Complex topics split into Part 1, Part 2, ... Part N  
 ✅ **One-Shot Learning**: Each segment complete and actionable within time limit  
-✅ **Target Length**: 150 lines of content maximum per response (flexible for educational clarity)
+✅ **Target Length**: no rigid line cap; optimize for clear 30-minute teaching chunks and readability
 
 ### ⚠️ CRITICAL: Splitting vs. Trimming Policy
 
-**MANDATORY APPROACH**: When content becomes too long for a focused session (for example, around 150+ lines), **PREFER SPLITTING** into multiple parts. **NEVER TRIM** or condense content.
+**MANDATORY APPROACH**: **NEVER TRIM** educational content. Split into multiple parts when one file becomes hard to navigate, review, or teach effectively in a focused session.
 
 **Why Splitting is Required:**
 - ✅ **Preserves ALL educational content** - No loss of examples, explanations, or concepts
 - ✅ **Maintains learning value** - Each part remains complete and actionable
 - ✅ **Better learning experience** - Learners get comprehensive coverage across parts
-- ✅ **Follows 25-minute principle** - Each part fits within focused learning session
+- ✅ **Follows 30-minute session principle** - Each part fits within focused learning session
 
 **Why Trimming is Prohibited:**
 - ❌ **Loses educational content** - Examples, explanations, or concepts may be removed
@@ -197,11 +197,11 @@ OBSERVE: Now the concept is clear - variables make code flexible and reusable
 4. **Use proper naming** - Follow naming convention: `Part1-A.md`, `Part1-B.md`, etc.
 5. **Update references** - Update all file references after splitting
 
-**Example**: If a file has 300 lines covering "Factory Pattern Fundamentals" and "Factory Pattern Advanced", split into:
-- `01_Factory-Pattern-Part1-A.md` (Fundamentals - 150 lines)
-- `01_Factory-Pattern-Part1-B.md` (Advanced - 150 lines)
+**Example**: If a file combines "Factory Pattern Fundamentals" and "Factory Pattern Advanced" in one long document, split into:
+- `01_Factory-Pattern-Part1-A.md` (Fundamentals)
+- `01_Factory-Pattern-Part1-B.md` (Advanced)
 
-**NOT**: Condense to 150 lines by removing examples or explanations.
+**NOT**: Condense to an arbitrary line limit by removing examples or explanations.
 
 ---
 
@@ -211,7 +211,7 @@ OBSERVE: Now the concept is clear - variables make code flexible and reusable
 
 Every session documentation file MUST include:
 
-**Session Documentation Structure** (docs/sessions/L{level}/S{session}.md):
+**Session Documentation Structure** (docs/sessions/L{level}/{nn}_S{session}.md):
 1. **Session Overview** - Duration (30 minutes), type, level
 2. **Learning Objectives** - What students will learn
 3. **Prerequisites** - What's needed before starting
@@ -330,7 +330,7 @@ All content must demonstrate:
 3. ✅ Would a learner understand this without the original source?
 4. ✅ Are the examples relevant and practical?
 5. ✅ Does this content add educational value beyond the reference?
-6. ✅ Is this content within 150 lines for effective delivery?
+6. ✅ Is this content easy to navigate and teach in focused chunks without trimming core learning value?
 
 ---
 
@@ -408,8 +408,8 @@ print('Hello, World!')
    - Plan content structure following session documentation format
 
 2. **CREATE**: Develop session content following Educational Content Rules
-   - Write session documentation in `docs/sessions/L{level}/S{session}.md`
-   - Create practice files in `src/L{level}/S{session}/`
+    - Write session documentation in `docs/sessions/L{level}/{nn}_S{session}.md` (or `{nn}_MP{project}.md` for mini projects)
+    - Create practice files in `src/L{level}/S{session}/` (or `src/L{level}/MP{project}/` for mini projects)
    - Ensure all code examples are working and tested
    - Follow 30-minute session format
 
@@ -434,7 +434,7 @@ print('Hello, World!')
 **Policy**:
 - ✅ Create `L{level}/S{session}/` directories when you have content ready to add
 - ✅ Follow the 9-level progression structure (L1 through L9)
-- ✅ Each level contains 10 sessions (S1 through S10) plus 2 mini projects
+- ✅ Each level contains 8 core sessions (S1 through S8) plus 2 mini projects (MP1 and MP2), for 10 total learning blocks
 - ✅ Add content progressively following Educational Content Rules
 - ✅ Create folder structure incrementally as curriculum develops
 
@@ -553,7 +553,7 @@ Before committing:
 
 **Review EACH AND EVERY file individually** - no file should be skipped:
 
-#### 1. Session Documentation Review (docs/sessions/L{level}/S{session}.md)
+#### 1. Session Documentation Review (docs/sessions/L{level}/{nn}_S{session}.md)
 - [ ] Session overview present (duration, type, level)
 - [ ] Learning objectives are clear and measurable
 - [ ] Prerequisites listed (if any)

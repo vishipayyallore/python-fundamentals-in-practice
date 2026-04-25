@@ -1,6 +1,6 @@
 ---
 mode: agent
-description: Create a new Python practice file in the correct src/L{level}/S{session}/ location.
+description: Create a new Python practice file in the correct session or mini-project src location.
 ---
 
 # Create Practice File
@@ -9,21 +9,22 @@ You are adding a Python practice file to **Python Fundamentals in Practice**.
 
 ## Required inputs (ask if not provided)
 
-- **Level and session** — e.g. `L1/S3`
+- **Level and target** — e.g. `L1/S3` or `L1/MP1`
 - **Concept to demonstrate** — e.g. "comparison operators"
-- **File number** — next available `{nn}` in the session folder
+- **File number** — next available `{nn}` in the target folder (if creating an ordered practice file)
 
 ## Authoritative path
 
-`src/L{level}/S{session}/{nn}_{descriptive_name}.py`
+Session file path: `src/L{level}/S{session}/{nn}_{descriptive_name}.py`  
+Mini-project file path: `src/L{level}/MP{project}/{nn}_{descriptive_name}.py`
 
-Example: `src/L1/S3/03_comparison_operators.py`
+Examples: `src/L1/S3/03_comparison_operators.py`, `src/L1/MP1/01_simple_calculator.py`
 
 ## File template
 
 ```python
-# Filename: src/L{level}/S{session}/{nn}_{name}.py
-# Session {session}: {Session Title}
+# Filename: src/L{level}/S{session}/{nn}_{name}.py  OR  src/L{level}/MP{project}/{nn}_{name}.py
+# Session {session} or Mini Project {project}: {Title}
 # Concept: {concept being demonstrated}
 
 # --- Why this example? ---
@@ -41,9 +42,9 @@ Example: `src/L1/S3/03_comparison_operators.py`
 3. **Working code only** — no syntax errors, no TODOs, no placeholder values.
 4. **Beginner vocabulary** — avoid jargon not yet introduced in earlier sessions.
 5. **Original examples** — no examples copied from books, tutorials, or Stack Overflow.
-6. **Numeric prefix** — `{nn}_` prefix matching the next available number in the session.
-7. **Path validation** — after writing, confirm `src/L{level}/S{session}/` exists; create if needed.
-8. **Update session doc** — add a reference to the new file in `docs/sessions/L{level}/{nn}_S{session}.md` under the Practice Files section.
+6. **Numeric prefix** — `{nn}_` prefix for ordered practice files; intentional support/helper files may be non-numbered.
+7. **Path validation** — after writing, confirm the correct target folder exists (`src/L{level}/S{session}/` or `src/L{level}/MP{project}/`); create if needed.
+8. **Update doc reference** — add a reference to the new file in the matching session/mini-project document under Practice Files.
 
 ## ReAct pattern for code design
 

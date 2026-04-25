@@ -12,7 +12,7 @@
 | File | Use |
 | --- | --- |
 | `AGENTS.md` | **Primary agent entry** — ReAct/CoT expectations, policy map, links to all rules (Cursor, Copilot, Claude) |
-| `skills.md` | Points to repo skills/rules, including `.cursor/skills/python-fundamentals-curriculum/SKILL.md` and `AGENTS.md` |
+| `skills.md` | Skills pointer; this repo includes one project skill pack at `.cursor/skills/python-fundamentals-curriculum/SKILL.md`, while policy remains in `AGENTS.md` and `.cursor/rules/` |
 | `CLAUDE.md` | Short project brief for Claude/Anthropic-oriented tools; defers to `AGENTS.md` for the full map |
 | `.claude/CLAUDE.md` | Optional pointer for workflows that look under `.claude/`; canonical text remains at the repo root |
 | `.cursor/rules/*.mdc` | Mandatory modular rules; see `.cursor/rules/README.md` for the index (aligned with this file) |
@@ -196,8 +196,10 @@ REVIEW:   OBSERVE → ANALYZE → REASON → VERIFY → ACT
 
 ### **Path Updates:**
 
+> Legacy path examples in this section are intentionally incorrect and should never be reused directly.
+
 ```markdown
-# OLD (incorrect)
+# LEGACY (incorrect)
 src/S1/01_hello.py
 
 # NEW (correct)
@@ -217,7 +219,7 @@ print("🚀 Advanced Python Preview")
 ### **Link Corrections:**
 
 ```markdown
-# OLD (incorrect)
+# LEGACY (incorrect)
 [Session 1](docs/sessions/S1.md)
 
 # NEW (correct)

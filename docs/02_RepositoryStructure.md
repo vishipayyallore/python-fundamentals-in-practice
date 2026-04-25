@@ -65,11 +65,16 @@ python-fundamentals-in-practice/
 │   │       ├── 03_S3.md
 │   │       ├── 04_S4.md
 │   │       ├── 05_MP1.md
+│   │       ├── 06_S5.md
 │   │       └── _Plan.md
 │   ├── 01_Python-Fundamentals-MasterPlan.md
 │   └── 02_RepositoryStructure.md
 ├── src/
 │   ├── L1/
+│   │   ├── MP1/
+│   │   │   ├── 01_simple_calculator.py
+│   │   │   ├── 02_simple_calculator_loop.py
+│   │   │   └── calculator_utils.py
 │   │   ├── S1/
 │   │   │   ├── 01_hello.py
 │   │   │   ├── 02_interactive_hello.py
@@ -82,10 +87,14 @@ python-fundamentals-in-practice/
 │   │   │   ├── 01_arithmetic.py
 │   │   │   ├── 02_comparisons.py
 │   │   │   └── 03_mini_calculator.py
-│   │   └── S4/
-│   │       ├── 01_conditionals.py
-│   │       ├── 02_boolean_logic.py
-│   │       └── 03_number_guessing_game.py
+│   │   ├── S4/
+│   │   │   ├── 01_conditionals.py
+│   │   │   ├── 02_boolean_logic.py
+│   │   │   └── 03_number_guessing_game.py
+│   │   └── S5/
+│   │       ├── 01_for_loops.py
+│   │       ├── 02_while_loops.py
+│   │       └── 03_loop_controls_fizzbuzz.py
 │   └── L2/
 │       └── .gitkeep
 ├── tools/
@@ -116,7 +125,6 @@ python-fundamentals-in-practice/
 
 The following are roadmap items and may be referenced in planning docs, but they are not currently present as tracked files:
 
-- `docs/sessions/L1/06_S5.md` (planned)
 - `docs/sessions/L1/07_S6.md` (planned)
 - `docs/sessions/L1/08_S7.md` (planned)
 - `docs/sessions/L1/09_S8.md` (planned)
@@ -139,6 +147,7 @@ The following are roadmap items and may be referenced in planning docs, but they
 - Location: `src/L{level}/S{session}/`
 - Default pattern: `{nn}_{descriptive_name}.py`
 - Allowed special-case non-numbered filename (current tracked example): `src/L1/S1/bytecode_demo.py`
+- Mini-project packs may use `src/L{level}/MP{number}/` (for example `src/L1/MP1/01_simple_calculator.py`)
 
 ### Tools and policy files
 
@@ -158,7 +167,8 @@ The following are roadmap items and may be referenced in planning docs, but they
 - **Session 2**: [sessions/L1/02_S2.md](sessions/L1/02_S2.md)
 - **Session 3**: [sessions/L1/03_S3.md](sessions/L1/03_S3.md)
 - **Session 4**: [sessions/L1/04_S4.md](sessions/L1/04_S4.md)
-- **Mini Project 1 (stub)**: [sessions/L1/05_MP1.md](sessions/L1/05_MP1.md)
+- **Mini Project 1**: [sessions/L1/05_MP1.md](sessions/L1/05_MP1.md)
+- **Session 5**: [sessions/L1/06_S5.md](sessions/L1/06_S5.md)
 
 ---
 

@@ -24,7 +24,7 @@ We welcome contributions in many forms:
 Before contributing, please familiarize yourself with our content creation rules:
 
 - **🤖 [AGENTS.md](AGENTS.md)** - How AI-assisted editors should navigate this repo, ReAct/CoT expectations, and update protocol (for contributors using tools)
-- **📎 [skills.md](skills.md)** - Pointer to repo skill/rule entry points, including `.cursor/skills/python-fundamentals-curriculum/SKILL.md`
+- **📎 [skills.md](skills.md)** - Skills pointer and policy index; this repo includes one project skill pack at `.cursor/skills/python-fundamentals-curriculum/SKILL.md` while `AGENTS.md` and `.cursor/rules/` remain canonical for policy
 - **📖 [Educational Content Rules](.cursor/rules/01_educational-content-rules.mdc)** - Zero-copy policy, transformative workflow, quality standards
 - **📁 [Repository Structure](docs/02_RepositoryStructure.md)** - File naming, directory structure, organization
 - **✅ [Quality Assurance](.cursor/rules/03_quality-assurance.mdc)** - Quality checklists and validation requirements

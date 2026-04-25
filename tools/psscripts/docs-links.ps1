@@ -10,7 +10,8 @@ $patterns = @(
     'skills.md',
     'docs/**/*.md',
     '.github/**/*.md',
-    '.claude/**/*.md'
+    '.claude/**/*.md',
+    '.cursor/rules/README.md'
 )
 
 if ($DumpOnly) {

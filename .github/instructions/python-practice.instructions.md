@@ -38,11 +38,11 @@ The second line must provide session context, but wording may vary (for example:
 
 ## Linting
 
-CI runs `ruff check src` and `python -m compileall src`. Match that locally with:
+CI runs `ruff check src` and `python -m compileall -q src`. Match that locally with:
 
 ```bash
 ruff check src
-python -m compileall src
+python -m compileall -q src
 ```
 
 Do not commit files that fail either check.

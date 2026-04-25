@@ -60,7 +60,7 @@ This rule set is customized for the **Python Fundamentals** repository:
 ## 🔗 Related Files
 
 - **Agent entry (all tools)**: `AGENTS.md` (policy map, ReAct/CoT, how to use these rules)
-- **Skills pointer**: `skills.md` (this repo includes `.cursor/skills/python-fundamentals-curriculum/SKILL.md`; use `AGENTS.md` and this folder)
+- **Skills pointer**: `skills.md` (this repo includes one project skill pack at `.cursor/skills/python-fundamentals-curriculum/SKILL.md`)
 - **Claude short brief**: `CLAUDE.md` and `.claude/CLAUDE.md` (optional pointer; root is canonical)
 - **GitHub Copilot**: `.github/copilot-instructions.md` (rules aligned with this directory)
 - **Repository structure (source of truth)**: `docs/02_RepositoryStructure.md`
@@ -87,7 +87,7 @@ This rule set is customized for the **Python Fundamentals** repository:
 
 - Markdown linting: `npx --yes markdownlint-cli2 "docs/**/*.md"`
 - Link checking: Use lychee with `lychee.toml`
-- Python testing: Test all `.py` files manually
+- Python quality checks: `ruff check src` and `python -m compileall -q src`
 
 ---
 
