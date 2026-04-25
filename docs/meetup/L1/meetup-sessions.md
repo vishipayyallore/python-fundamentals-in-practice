@@ -2,7 +2,7 @@
 
 ## Level 1 - Session 4: Conditionals, Indentation & Introduction to Modules
 
-Date: Refer Meetup event page
+Date: TBD (see event page for published schedule)
 
 Event URL: <https://www.meetup.com/dot-net-learners-house-hyderabad/events/314378351/?eventOrigin=group_past_events>  
 
@@ -14,8 +14,6 @@ Duration: 30 minutes
 Prerequisites: Completed Session 3 (Operators & Expressions)
 
 - Optional: Watch the recording/playlist: [Python Fundamentals – Level 1 (YouTube playlist)](https://www.youtube.com/watch?v=Cy6DqbRjsF0&list=PLdLQDTLMjAzpRBxP4q1XJOuLhFG4pSfBB)
-
-Session 4: Conditionals, Indentation & Introduction to Modules
 
 🎙️ Speaker: Viswanatha Swamy / Swamy's Tech Skills Academy  
 🕘 9:00 AM - 9:30 AM (30 minutes)
