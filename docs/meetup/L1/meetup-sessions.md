@@ -2,9 +2,9 @@
 
 ## Level 1 - Session 4: Conditionals, Indentation & Introduction to Modules
 
-Date: TBD (see event page for published schedule)
+Date: See event page
 
-Event URL: <https://www.meetup.com/dot-net-learners-house-hyderabad/events/314378351/?eventOrigin=group_past_events>  
+Event URL: <https://www.meetup.com/dot-net-learners-house-hyderabad/events/314378351/>  
 
 🔹 Session Agenda:
 
@@ -48,7 +48,7 @@ Perfect For:
 
 Date: 20-Dec-2025
 
-Event URL: <https://www.meetup.com/dot-net-learners-house-hyderabad/events/312511467/?eventOrigin=group_events_list>  
+Event URL: <https://www.meetup.com/dot-net-learners-house-hyderabad/events/312511467/>  
 
 🔹 Session Agenda:
 
