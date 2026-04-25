@@ -1,22 +1,22 @@
 # Meetup Session: Python for Absolute Beginners - Level 1
 
-## Level 1 - Session 4: Conditionals, Indentation & Introduction to Modules
+## Level 1 - Session 4: Decision Making in Python (Indentation, Conditionals, Modules)
 
-Date: See event page
+Date: Thursday, Apr 23 · 9:00 AM to 10:00 AM IST
 
 Event URL: <https://www.meetup.com/dot-net-learners-house-hyderabad/events/314378351/>  
 
 🔹 Session Agenda:
 
 Level: Noob → Nerd (Level 1, Session 4)  
-Format: Live coding session with interactive Q&A  
-Duration: 30 minutes  
+Format: Live Coding + Interactive Q&A  
+Duration: 30 Minutes  
 Prerequisites: Completed Session 3 (Operators & Expressions)
 
 - Optional: Watch the recording/playlist: [Python Fundamentals – Level 1 (YouTube playlist)](https://www.youtube.com/watch?v=Cy6DqbRjsF0&list=PLdLQDTLMjAzpRBxP4q1XJOuLhFG4pSfBB)
 
-🎙️ Speaker: Viswanatha Swamy / Swamy's Tech Skills Academy  
-🕘 9:00 AM - 9:30 AM (30 minutes)
+🎙️ Speaker: Viswanatha Swamy — Swamy's Tech Skills Academy  
+🕘 Time: 09:00 AM – 09:30 AM
 
 What You'll Learn:
 
