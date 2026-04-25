@@ -6,6 +6,9 @@ on:
   pull_request:
     paths:
       - "README.md"
+      - "CONTRIBUTING.md"
+      - "CODE_OF_CONDUCT.md"
+      - "SECURITY.md"
       - "AGENTS.md"
       - "CLAUDE.md"
       - "skills.md"
@@ -21,6 +24,9 @@ on:
     branches: [main, "swamy/**"]
     paths:
       - "README.md"
+      - "CONTRIBUTING.md"
+      - "CODE_OF_CONDUCT.md"
+      - "SECURITY.md"
       - "AGENTS.md"
       - "CLAUDE.md"
       - "skills.md"
@@ -51,6 +57,9 @@ jobs:
         with:
           globs: |
             README.md
+            CONTRIBUTING.md
+            CODE_OF_CONDUCT.md
+            SECURITY.md
             AGENTS.md
             CLAUDE.md
             skills.md
@@ -74,6 +83,9 @@ jobs:
           args: >-
             --config lychee.toml --no-progress
             README.md
+            CONTRIBUTING.md
+            CODE_OF_CONDUCT.md
+            SECURITY.md
             AGENTS.md
             CLAUDE.md
             skills.md
