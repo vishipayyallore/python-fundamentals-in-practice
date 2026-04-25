@@ -92,9 +92,9 @@ Perfect For:
 
 ## Level 1 - Session 2: Variables & Data Types
 
-Date: 17-Dec-2025  
+Date: Wed, Dec 17, 2025 · 9:00 PM to 10:00 PM IST  
 
-Event URL: TBD (link not published yet)  
+Event URL: <https://www.meetup.com/dot-net-learners-house-hyderabad/events/312470860/?eventOrigin=group_events_list>  
 
 🔹 Session Agenda:
 
