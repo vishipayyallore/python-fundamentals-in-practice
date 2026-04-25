@@ -1,10 +1,56 @@
 # Meetup Session: Python for Absolute Beginners - Level 1
 
+## Level 1 - Session 4: Conditionals, Indentation & Introduction to Modules
+
+Date: Refer Meetup event page
+
+Event URL: <https://www.meetup.com/dot-net-learners-house-hyderabad/events/314378351/?eventOrigin=group_past_events>  
+
+🔹 Session Agenda:
+
+Level: Noob → Nerd (Level 1, Session 4)  
+Format: Live coding session with interactive Q&A  
+Duration: 30 minutes  
+Prerequisites: Completed Session 3 (Operators & Expressions)
+
+- Optional: Watch the recording/playlist: [Python Fundamentals – Level 1 (YouTube playlist)](https://www.youtube.com/watch?v=Cy6DqbRjsF0&list=PLdLQDTLMjAzpRBxP4q1XJOuLhFG4pSfBB)
+
+Session 4: Conditionals, Indentation & Introduction to Modules
+
+🎙️ Speaker: Viswanatha Swamy / Swamy's Tech Skills Academy  
+🕘 9:00 AM - 9:30 AM (30 minutes)
+
+What You'll Learn:
+
+- Understand why indentation is mandatory in Python and how it defines code blocks
+- Use `if`, `elif`, and `else` to make decisions based on conditions
+- Combine conditions using Boolean logic: `and`, `or`, and `not`
+- Avoid common mistakes like `=` vs `==`, missing `:`, and indentation errors
+- Import modules and use the `random` module for simple interactive logic
+- Build a one-guess number game using conditionals and `random.randint()`
+
+Hands-on Practice:  
+We'll write and run three focused practice scripts:
+
+- `src/L1/S4/01_conditionals.py` – Branching with `if/elif/else`, grading, and nested conditionals
+- `src/L1/S4/02_boolean_logic.py` – Practical Boolean logic with interactive inputs
+- `src/L1/S4/03_number_guessing_game.py` – One-guess game with `random` and result feedback
+
+Perfect For:
+
+- Learners who can already use operators and comparisons from Session 3
+- Beginners ready to write programs that choose different outcomes
+- Anyone preparing for Mini Project 1 where decision logic is essential
+
+📢 Join us to learn how Python programs make decisions with confidence and clarity, setting you up for calculator-style project logic and stronger control-flow skills.
+
+---
+
 ## Level 1 - Session 3: Operators & Expressions
 
 Date: 20-Dec-2025
 
-Event URL: TBD (link not published yet)  
+Event URL: <https://www.meetup.com/dot-net-learners-house-hyderabad/events/312511467/?eventOrigin=group_events_list>  
 
 🔹 Session Agenda:
 
