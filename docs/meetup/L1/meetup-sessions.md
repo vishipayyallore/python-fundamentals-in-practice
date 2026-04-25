@@ -2,7 +2,7 @@
 
 ## Level 1 - Session 4: Decision Making in Python (Indentation, Conditionals, Modules)
 
-Date: Thursday, Apr 23 · 9:00 AM to 10:00 AM IST
+Date: Thursday, Apr 23 · 9:00 AM to 9:30 AM IST
 
 Event URL: <https://www.meetup.com/dot-net-learners-house-hyderabad/events/314378351/>  
 
@@ -92,7 +92,7 @@ Perfect For:
 
 ## Level 1 - Session 2: Variables & Data Types
 
-Date: Wed, Dec 17, 2025 · 9:00 PM to 10:00 PM IST  
+Date: Wed, Dec 17, 2025 · 9:00 AM to 9:30 AM IST  
 
 Event URL: <https://www.meetup.com/dot-net-learners-house-hyderabad/events/312470860/?eventOrigin=group_events_list>  
 
