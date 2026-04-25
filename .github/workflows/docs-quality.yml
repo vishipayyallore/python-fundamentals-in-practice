@@ -12,6 +12,7 @@ on:
       - "docs/**/*.md"
       - ".github/**/*.md"
       - ".claude/**/*.md"
+      - ".cursor/rules/*.mdc"
       - ".cursor/rules/README.md"
       - "lychee.toml"
       - ".markdownlint.*"
@@ -26,6 +27,7 @@ on:
       - "docs/**/*.md"
       - ".github/**/*.md"
       - ".claude/**/*.md"
+      - ".cursor/rules/*.mdc"
       - ".cursor/rules/README.md"
       - "lychee.toml"
       - ".markdownlint.*"
@@ -78,6 +80,7 @@ jobs:
             docs/**/*.md
             .github/**/*.md
             .claude/**/*.md
+            .cursor/rules/*.mdc
             .cursor/rules/README.md
           fail: true
       - name: Upload Lychee report
