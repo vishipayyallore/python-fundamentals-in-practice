@@ -11,6 +11,7 @@ $patterns = @(
     'docs/**/*.md',
     '.github/**/*.md',
     '.claude/**/*.md',
+    '.cursor/rules/*.mdc',
     '.cursor/rules/README.md'
 )
 

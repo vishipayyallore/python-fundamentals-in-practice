@@ -152,6 +152,31 @@ flowchart TB
     class B5,C5 project
 ```
 
+ASCII fallback:
+
+```text
+[🎯 Noob]
+    |
+    v
+[📘 Phase A: Core Foundations]
+    ├─ [📚 Session 1: Intro & Environment]
+    ├─ [📚 Session 2: Variables & Data Types]
+    ├─ [🔢 Session 3: Operators & Expressions]
+    ├─ [🤔 Session 4: Conditionals & Modules]
+    └─ [🚀 MP1: Mini Project 1: Calculator]
+    |
+    v
+[📘 Phase B: Expanding Skills]
+    ├─ [🔄 Session 5: Loops & Iteration]
+    ├─ [🐛 Session 6: Debugging & Built-ins]
+    ├─ [📋 Session 7: Lists & Loops]
+    ├─ [📚 Session 8: Dicts & Testing]
+    └─ [🚀 MP2: Mini Project 2: Profile Generator]
+    |
+    v
+[🎓 Nerd]
+```
+
 ---
 
 ## 📅 **Phase A: Core Foundations + Mini Project 1**

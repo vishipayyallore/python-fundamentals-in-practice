@@ -48,7 +48,7 @@ This project **expects explicit reasoning** in learning material and in agent wo
 
 - **THINK (CoT):** Objectives, chunk the topic, order from simple to complex, anticipate misconceptions.
 - **REASON:** Prerequisites, links to other sessions, original examples, pitfalls.
-- **ACT:** Write docs, `src/` practice files, Mermaid/ASCII diagrams, exercises.
+- **ACT:** Write docs, `src/` practice files, Mermaid-first diagrams with ASCII fallback, exercises.
 - **VERIFY:** Clarity, completeness, fit in the sequence, originality (zero-copy).
 
 **Content or repo review (audits, “review everything” requests):**  
