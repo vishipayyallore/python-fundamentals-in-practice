@@ -46,7 +46,7 @@ Perfect For:
 
 ## Level 1 - Session 3: Operators & Expressions
 
-Date: 20-Dec-2025
+Date: Sat, Dec 20, 2025 · 9:00 AM to 9:30 AM IST
 
 Event URL: <https://www.meetup.com/dot-net-learners-house-hyderabad/events/312511467/>  
 
@@ -137,7 +137,7 @@ Perfect For:
 
 ## Level 1 - Session 1: Python Introduction & Environment Setup
 
-Date: 14-Dec-2025
+Date: Sun, Dec 14, 2025 · 9:00 AM to 9:30 AM IST
 
 Event URL: <https://www.meetup.com/dot-net-learners-house-hyderabad/events/312432302>  
 
