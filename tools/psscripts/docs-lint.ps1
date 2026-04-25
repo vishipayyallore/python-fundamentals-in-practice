@@ -5,6 +5,9 @@ param(
 # Run markdownlint-cli2 across repo docs. Use --fix if -Fix is supplied.
 $patterns = @(
     'README.md',
+    'CONTRIBUTING.md',
+    'CODE_OF_CONDUCT.md',
+    'SECURITY.md',
     'AGENTS.md',
     'CLAUDE.md',
     'skills.md',
