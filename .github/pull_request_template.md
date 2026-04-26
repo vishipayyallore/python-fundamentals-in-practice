@@ -74,10 +74,10 @@ Related to #(issue number)
 
 - [ ] Updated `_Plan.md` if adding new sessions
 - [ ] Updated Master Plan if adding new content
-- [ ] Updated [Repository Structure](docs/02_RepositoryStructure.md) if layout, naming, or agent doc inventory changed
+- [ ] Updated [Repository Structure](../docs/02_RepositoryStructure.md) if layout, naming, or agent doc inventory changed
 - [ ] Updated `README.md` if contributor-facing structure or commands changed
 - [ ] Updated `AGENTS.md` / `CLAUDE.md` (and `.claude/CLAUDE.md` if used) if agent entry points or policies changed
-- [ ] Updated [Copilot instructions](.github/copilot-instructions.md) and/or [.cursor/rules](.cursor/rules/) if needed for consistency
+- [ ] Updated [Copilot instructions](copilot-instructions.md) and/or [.cursor/rules](../.cursor/rules/) if needed for consistency
 - [ ] All cross-references updated
 
 ---

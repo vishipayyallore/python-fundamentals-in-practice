@@ -6,12 +6,16 @@ on:
   pull_request:
     paths:
       - "README.md"
+      - "CONTRIBUTING.md"
+      - "CODE_OF_CONDUCT.md"
+      - "SECURITY.md"
       - "AGENTS.md"
       - "CLAUDE.md"
       - "skills.md"
       - "docs/**/*.md"
       - ".github/**/*.md"
       - ".claude/**/*.md"
+      - ".cursor/rules/*.mdc"
       - ".cursor/rules/README.md"
       - "lychee.toml"
       - ".markdownlint.*"
@@ -20,12 +24,16 @@ on:
     branches: [main, "swamy/**"]
     paths:
       - "README.md"
+      - "CONTRIBUTING.md"
+      - "CODE_OF_CONDUCT.md"
+      - "SECURITY.md"
       - "AGENTS.md"
       - "CLAUDE.md"
       - "skills.md"
       - "docs/**/*.md"
       - ".github/**/*.md"
       - ".claude/**/*.md"
+      - ".cursor/rules/*.mdc"
       - ".cursor/rules/README.md"
       - "lychee.toml"
       - ".markdownlint.*"
@@ -49,6 +57,9 @@ jobs:
         with:
           globs: |
             README.md
+            CONTRIBUTING.md
+            CODE_OF_CONDUCT.md
+            SECURITY.md
             AGENTS.md
             CLAUDE.md
             skills.md
@@ -72,12 +83,16 @@ jobs:
           args: >-
             --config lychee.toml --no-progress
             README.md
+            CONTRIBUTING.md
+            CODE_OF_CONDUCT.md
+            SECURITY.md
             AGENTS.md
             CLAUDE.md
             skills.md
             docs/**/*.md
             .github/**/*.md
             .claude/**/*.md
+            .cursor/rules/*.mdc
             .cursor/rules/README.md
           fail: true
       - name: Upload Lychee report

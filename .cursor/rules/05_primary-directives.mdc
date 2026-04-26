@@ -15,17 +15,18 @@ See: `01_educational-content-rules.mdc` for complete details.
 
 ### 2. Automation-First Approach
 
-✅ **ALWAYS**: Create reusable PowerShell scripts for repetitive tasks  
-✅ **ALWAYS**: Use existing scripts in `tools/psscripts/` first  
-✅ **ALWAYS**: Enhance existing scripts rather than duplicating  
-❌ **NEVER**: Execute individual commands for tasks repeated 2+ times
+✅ **ALWAYS**: Check for an existing PowerShell script in `tools/psscripts/` first  
+✅ **ALWAYS**: Reuse or enhance existing scripts for repeatable workflows  
+✅ **PREFER**: Add a reusable script when the same multi-step task is likely to recur  
+✅ **ALLOWED**: Use direct one-off commands for quick diagnostics, exploration, or single-use checks
 
 **Decision Tree**:
 
-1. Check `tools/psscripts/` for existing script
-2. Enhance existing script if close match
-3. Create new `.ps1` for any repeated task
-4. Document with examples and parameters
+1. Check `tools/psscripts/` for an existing script
+2. Enhance an existing script when it is a close match
+3. Create a new `.ps1` when the workflow is expected to be reused
+4. Use direct commands when the task is clearly one-off
+5. Document scripts with examples and parameters
 
 **Available Automation** (`tools/psscripts/`):
 

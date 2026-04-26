@@ -5,12 +5,16 @@ param(
 # Run Lychee link checker in Docker. Uses lychee.toml config.
 $patterns = @(
     'README.md',
+    'CONTRIBUTING.md',
+    'CODE_OF_CONDUCT.md',
+    'SECURITY.md',
     'AGENTS.md',
     'CLAUDE.md',
     'skills.md',
     'docs/**/*.md',
     '.github/**/*.md',
     '.claude/**/*.md',
+    '.cursor/rules/*.mdc',
     '.cursor/rules/README.md'
 )
 

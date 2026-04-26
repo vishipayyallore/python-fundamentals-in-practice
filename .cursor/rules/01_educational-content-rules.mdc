@@ -588,7 +588,7 @@ Before committing:
 
 #### 5. Content Quality Review
 - [ ] Code examples are working and tested
-- [ ] Diagrams are clear (Mermaid or ASCII)
+- [ ] Diagrams are clear (Mermaid with ASCII fallback)
 - [ ] Content is transformative (not copied)
 - [ ] Learning objectives are clear and measurable
 - [ ] Progressive scaffolding present (Foundations → Practice → Next Steps)
@@ -597,7 +597,7 @@ Before committing:
 - [ ] No verbatim text from sources
 - [ ] No mirrored outlines or section order
 - [ ] Original examples and explanations
-- [ ] Diagrams are original (Mermaid/ASCII, not embedded copyrighted figures)
+- [ ] Diagrams are original (Mermaid with ASCII fallback, not embedded copyrighted figures)
 - [ ] Content adds educational value beyond source
 
 #### 7. Learning Progression Review
@@ -645,7 +645,7 @@ Before committing:
 
 4. **Content Quality Analysis**
    - Check for code examples
-   - Check for diagrams (Mermaid/ASCII)
+   - Check for diagrams (Mermaid with ASCII fallback)
    - Check for headings
    - Check for suspicious patterns
    - Verify zero-copy compliance
