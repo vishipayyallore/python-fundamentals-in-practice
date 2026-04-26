@@ -1,5 +1,48 @@
 # Meetup Session: Python for Absolute Beginners - Level 1
 
+## Level 1 - Session 5: Loops & Iteration
+
+Date: TBD
+
+Event URL: TBD  
+
+🔹 Session Agenda:
+
+Level: Noob → Nerd (Level 1, Session 5)  
+Format: Live Coding + Interactive Q&A  
+Duration: 30 Minutes  
+Prerequisites: Completed Session 4 (Decision Making in Python)
+
+- Optional: Watch the recording/playlist: [Python Fundamentals – Level 1 (YouTube playlist)](https://www.youtube.com/watch?v=Cy6DqbRjsF0&list=PLdLQDTLMjAzpRBxP4q1XJOuLhFG4pSfBB)
+
+🎙️ Speaker: Viswanatha Swamy — Swamy's Tech Skills Academy  
+🕘 Time: 09:00 AM – 09:30 AM
+
+What You'll Learn:
+
+- Understand why loops are better than repeating the same code manually
+- Use `for` loops with `range()` for fixed-count repetition
+- Use `while` loops for condition-based repetition
+- Apply `break`, `continue`, and `pass` with clear intent
+- Build small loop-based programs like countdown and beginner FizzBuzz
+
+Hands-on Practice:  
+We'll write and run three focused practice scripts:
+
+- `src/L1/S5/01_for_loops.py` – `for` loops, `range()`, and iteration patterns
+- `src/L1/S5/02_while_loops.py` – `while` loops, conditions, and safe loop updates
+- `src/L1/S5/03_loop_controls_fizzbuzz.py` – `break` / `continue` / `pass` and beginner FizzBuzz
+
+Perfect For:
+
+- Learners who completed Session 4 and are ready to eliminate repetitive code
+- Beginners who want to automate repeated tasks cleanly
+- Anyone preparing for upcoming sessions that combine loops with collections
+
+📢 Join us to master repetition in Python with confidence and clarity, building a core skill used in almost every real program.
+
+---
+
 ## Level 1 - Session 4: Decision Making in Python (Indentation, Conditionals, Modules)
 
 Date: Thursday, Apr 23 · 9:00 AM to 9:30 AM IST
