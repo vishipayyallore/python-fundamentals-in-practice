@@ -41,7 +41,8 @@ You are correcting broken paths and links in **Python Fundamentals in Practice**
 
 - All Python practice files live under `src/L{level}/S{session}/`
 - All session docs live under `docs/sessions/L{level}/`
-- File names include numeric prefix — `01_`, `02_`, … (never bare `S1.md`)
+- Python practice files include numeric prefixes — `01_`, `02_`, …
+- Session docs use `S{session}.md`; mini-project docs use `S{session}_MP{number}.md`
 - Directory names use `L{number}` and `S{number}` (no hyphens, no spaces)
 
 ## After fixing
