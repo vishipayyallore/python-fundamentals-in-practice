@@ -32,12 +32,12 @@ YAML front-matter is **optional**; clear content coverage and pedagogical flow t
 
 ## File naming
 
-- Regular session format: `{nn}_S{session}.md` — e.g. `S3.md`
-- Mini project format: `{nn}_MP{number}.md` — e.g. `S5_MP1.md`
+- Regular session format: `S{session}.md` — e.g. `S3.md`
+- Mini project format: `S{session}_MP{number}.md` — e.g. `S5_MP1.md`
 - Level plan file: `_Plan.md`
 - Mini-project numbering follows curriculum sequence within the level (for example `S5_MP1.md`, `S10_MP2.md`).
 - Stored at: `docs/sessions/L{level}/` — never `docs/sessions/` root
-- Numeric prefix `{nn}` must match session number two-digit padded
+- Session number in the filename must match curriculum sequence
 
 ## Links and references
 

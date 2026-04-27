@@ -231,7 +231,7 @@ Every session documentation file MUST include:
 
 **Session Documentation** (docs/sessions/L{level}/):
 - ✅ Use numbered format with level and session identifiers: `S1.md`, `S2.md`, `_Plan.md`
-- ✅ Format: `{number}_S{session}.md` or `_Plan.md` (underscore prefix sorts first)
+- ✅ Format: `S{session}.md`, `S{session}_MP{number}.md`, or `_Plan.md`
 - ✅ Example: `L1/S1.md`, `L1/S2.md`, `L1/_Plan.md`
 
 **Directory Structure**:
