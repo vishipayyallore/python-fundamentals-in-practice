@@ -199,7 +199,7 @@ Before finalizing session documentation:
 **Problem Pattern:**
 
 ```markdown
-# WRONG - Missing level or session in path
+# WRONG - Missing level identifier in path
 [Session 2](docs/sessions/S2.md)
 [Practice File](src/S2/01_variables.py)
 ```
