@@ -21,7 +21,7 @@ You are correcting broken paths and links in **Python Fundamentals in Practice**
 | --- | --- |
 | `src/S1/01_hello.py` | `src/L1/S1/01_hello.py` |
 | `docs/sessions/S1.md` | `docs/sessions/L1/S1.md` |
-| `docs/sessions/L1/S2.md` | `docs/sessions/L1/S2.md` |
+| `docs/sessions/S2.md` | `docs/sessions/L1/S2.md` |
 | `[Session 1](docs/sessions/S1.md)` | `[Session 1](docs/sessions/L1/S1.md)` |
 
 ## Workflow
