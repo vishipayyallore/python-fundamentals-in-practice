@@ -230,15 +230,15 @@ Every session documentation file MUST include:
 - ✅ Example: `01_hello.py`, `02_interactive_hello.py`, `bytecode_demo.py`
 
 **Session Documentation** (docs/sessions/L{level}/):
-- ✅ Use numbered format with level and session identifiers: `01_S1.md`, `02_S2.md`, `_Plan.md`
+- ✅ Use numbered format with level and session identifiers: `S1.md`, `S2.md`, `_Plan.md`
 - ✅ Format: `{number}_S{session}.md` or `_Plan.md` (underscore prefix sorts first)
-- ✅ Example: `L1/01_S1.md`, `L1/02_S2.md`, `L1/_Plan.md`
+- ✅ Example: `L1/S1.md`, `L1/S2.md`, `L1/_Plan.md`
 
 **Directory Structure**:
 - ✅ Levels: Always use `L{number}` format (L1, L2, L3, etc.)
 - ✅ Sessions: Always use `S{number}` format (S1, S2, S3, etc.)
 - ✅ Path references: Use `src/L1/S1/` not `src/S1/`
-- ✅ Documentation paths: Use `docs/sessions/L1/01_S1.md` (numbered session files) not `docs/sessions/S1.md`
+- ✅ Documentation paths: Use `docs/sessions/L1/S1.md` (numbered session files) not `docs/sessions/S1.md`
 
 **Why This Rule Exists**:
 - Maintains consistent numbering across the repository
@@ -380,7 +380,7 @@ print('Hello, World!')
 
 **Session Documentation** (docs/sessions/L{level}/):
 - Store all session documentation in `docs/sessions/L{level}/` directories
-- Format: `01_S1.md`, `02_S2.md`, `_Plan.md` (underscore prefix sorts first)
+- Format: `S1.md`, `S2.md`, `_Plan.md` (underscore prefix sorts first)
 - Each session should reference practice files in `src/L{level}/S{session}/`
 
 **Practice Code** (src/L{level}/S{session}/):
@@ -452,7 +452,7 @@ print('Hello, World!')
 
 1. ✅ **Verify file exists** before adding reference
 2. ✅ **Use exact file names** - match actual file names exactly
-3. ✅ **Use correct paths** - `src/L1/S1/01_hello.py`, `docs/sessions/L1/01_S1.md`
+3. ✅ **Use correct paths** - `src/L1/S1/01_hello.py`, `docs/sessions/L1/S1.md`
 4. ✅ **Test references** - verify all links work in markdown preview
 5. ✅ **Update after changes** - when renaming files, update ALL references immediately
 
@@ -469,7 +469,7 @@ print('Hello, World!')
 ### Reference Patterns
 
 - **Practice Files**: Reference as `src/L1/S1/01_hello.py` in session documentation
-- **Session Documentation**: Reference as `docs/sessions/L1/01_S1.md` or `[Session 1](docs/sessions/L1/01_S1.md)`
+- **Session Documentation**: Reference as `docs/sessions/L1/S1.md` or `[Session 1](docs/sessions/L1/S1.md)`
 - **Images**: Reference as `../../images/S1/Help_V1.PNG` from session documentation
 - **Planned Content**: References to files that don't exist yet are acceptable IF clearly marked as planned
 
@@ -573,7 +573,7 @@ Before committing:
 
 #### 3. File Naming Review
 - [ ] Python files use numeric prefixes: `01_`, `02_`, etc.
-- [ ] Session docs use format: `01_S1.md`, `02_S2.md`, `_Plan.md`
+- [ ] Session docs use format: `S1.md`, `S2.md`, `_Plan.md`
 - [ ] Directory structure uses: `L{level}/S{session}/`
 - [ ] All paths are consistent
 

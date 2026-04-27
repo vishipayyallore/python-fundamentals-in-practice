@@ -69,7 +69,7 @@ When including code examples in session documentation:
 
 **Structure**:
 - `_Plan.md` - Complete level curriculum plan (underscore prefix sorts first)
-- `01_S1.md`, `02_S2.md`, etc. - Numbered session documentation
+- `S1.md`, `S2.md`, etc. - Numbered session documentation
 - Each session document references practice files in `src/L{level}/S{session}/`
 
 ### Practice Code Files
@@ -121,7 +121,7 @@ When including code examples in session documentation:
 - **Main Documentation**: `README.md`
 - **📋 Single Source of Truth**: `docs/02_RepositoryStructure.md` - **This is the authoritative repository structure documentation**
 - **Level 1 Plan**: `docs/sessions/L1/_Plan.md`
-- **Session 1**: `docs/sessions/L1/01_S1.md`
+- **Session 1**: `docs/sessions/L1/S1.md`
 - **GitHub Copilot Instructions**: `.github/copilot-instructions.md` (should reference `docs/02_RepositoryStructure.md`)
 - **Utility Scripts**: `tools/psscripts/` directory
 

@@ -25,7 +25,7 @@ assignees: ''
 **File(s) affected:**
 
 ```text
-(e.g., docs/sessions/L1/01_S1.md, README.md, docs/01_Python-Fundamentals-MasterPlan.md)
+(e.g., docs/sessions/L1/S1.md, README.md, docs/01_Python-Fundamentals-MasterPlan.md)
 ```
 
 **Specific section:**
