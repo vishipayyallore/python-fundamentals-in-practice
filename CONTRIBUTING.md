@@ -58,7 +58,7 @@ git checkout -b feature/your-contribution-name
 
 ### **3. Make Your Changes**
 
-- Follow the file naming conventions (`01_name.py`, `01_S1.md`, etc.)
+- Follow the file naming conventions (`01_name.py`, `S1.md`, etc.)
 - Use the `L{level}/S{session}/` directory structure
 - Ensure all code examples work
 - Test your changes locally

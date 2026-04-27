@@ -73,7 +73,7 @@ This project **expects explicit reasoning** in learning material and in agent wo
    Do not remove or condense teaching content to “save space” — **split** into parts if length is an issue. Session numbering must reflect real dependencies (e.g. variables before operators at L1).
 
 3. **Paths and names**  
-   Use `L{level}/S{session}/` (e.g. `src/L1/S1/01_hello.py`, `docs/sessions/L1/01_S1.md`). Validate references before commit.
+   Use `L{level}/S{session}/` (e.g. `src/L1/S1/01_hello.py`, `docs/sessions/L1/S1.md`). Validate references before commit.
 
 4. **Automation and quality**  
    Prefer `tools/psscripts/docs-lint.ps1` and `tools/psscripts/docs-links.ps1` (or the `npx` / Docker commands in `README.md`) before large documentation merges. Match CI in `.github/workflows/docs-quality.yml` where possible. For practice code, CI runs **Ruff** and `compileall` (see `pyproject.toml` and `.github/workflows/python-quality.yml`).
