@@ -138,8 +138,8 @@ The following are roadmap items and may be referenced in planning docs, but they
 ### Session documentation
 
 - Location: `docs/sessions/L{level}/`
-- Pattern: `{nn}_S{session}.md` (for example `S1.md`)
-- Mini projects: `{nn}_MP{number}.md` (for example `S5_MP1.md`)
+- Pattern: `S{session}.md` (for example `S1.md`)
+- Mini projects: `S{session}_MP{number}.md` (for example `S5_MP1.md`)
 - Level plan: `_Plan.md`
 
 ### Practice files

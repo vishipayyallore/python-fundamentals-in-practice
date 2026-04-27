@@ -32,7 +32,7 @@ For **each** file individually:
 - [ ] Practice files referenced with correct session/mini-project paths (`src/L{level}/S{session}/...` or `src/L{level}/MP{number}/...`)
 - [ ] Key Takeaways section present
 - [ ] All links resolve to existing files
-- [ ] File name format: `{nn}_S{session}.md` or `{nn}_MP{number}.md`
+- [ ] File name format: `S{session}.md` or `S{session}_MP{number}.md`
 
 #### Practice file checklist
 

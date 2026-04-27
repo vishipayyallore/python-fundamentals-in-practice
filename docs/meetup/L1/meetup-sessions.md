@@ -2,9 +2,9 @@
 
 ## Level 1 - Session 5: Loops & Iteration
 
-Date: TBD
+Date: To be announced (planned)
 
-Event URL: TBD  
+Event URL: To be announced (planned)  
 
 🔹 Session Agenda:
 
