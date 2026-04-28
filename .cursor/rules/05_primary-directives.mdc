@@ -54,7 +54,7 @@ See: `01_educational-content-rules.mdc` for complete details.
 **Before creating or committing ANY numbered file, validate naming**:
 
 1. ✅ **Python files**: Use `01_`, `02_`, etc. prefixes (e.g., `01_hello.py`)
-2. ✅ **Session docs**: Use `01_S1.md`, `02_S2.md`, `_Plan.md` format (underscore prefix sorts first)
+2. ✅ **Session docs**: Use `S1.md`, `S2.md`, `_Plan.md` format (`_Plan.md` uses the underscore prefix)
 3. ✅ **Directory structure**: Use `L{level}/S{session}/` format
 4. ✅ **Verify paths**: All references use correct `L{level}/S{session}/` structure
 

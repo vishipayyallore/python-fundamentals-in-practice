@@ -28,61 +28,61 @@ sessions:
     duration: "30 min"
     type: "Knowledge"
     status: "Ready"
-    file: "docs/sessions/L1/01_S1.md"
+    file: "docs/sessions/L1/S1.md"
   - session: 2
     topic: "Variables & Data Types"
     duration: "30 min"
     type: "Knowledge"
     status: "Ready"
-    file: "docs/sessions/L1/02_S2.md"
+    file: "docs/sessions/L1/S2.md"
   - session: 3
     topic: "Operators & Expressions"
     duration: "30 min"
     type: "Knowledge"
     status: "Ready"
-    file: "docs/sessions/L1/03_S3.md"
+    file: "docs/sessions/L1/S3.md"
   - session: 4
     topic: "Conditionals, Indentation & Introduction to Modules"
     duration: "30 min"
     type: "Knowledge"
     status: "Ready"
-    file: "docs/sessions/L1/04_S4.md"
+    file: "docs/sessions/L1/S4.md"
   - session: "MP1"
     topic: "Mini Project 1: Simple Calculator"
     duration: "30–45 min"
     type: "Project"
     status: "Ready"
-    file: "docs/sessions/L1/05_MP1.md"
+    file: "docs/sessions/L1/S5_MP1.md"
   - session: 5
     topic: "Loops & Iteration"
     duration: "30 min"
     type: "Knowledge"
     status: "Ready"
-    file: "docs/sessions/L1/06_S5.md"
+    file: "docs/sessions/L1/S6.md"
   - session: 6
     topic: "Basic Debugging, Reading Errors & Built-in Functions"
     duration: "30 min"
     type: "Knowledge"
     status: "Planned"
-    file: "docs/sessions/L1/07_S6.md"
+    file: "docs/sessions/L1/S7.md"
   - session: 7
     topic: "Lists & Loops"
     duration: "30 min"
     type: "Knowledge"
     status: "Planned"
-    file: "docs/sessions/L1/08_S7.md"
+    file: "docs/sessions/L1/S8.md"
   - session: 8
     topic: "Dictionaries & Basic Testing"
     duration: "30 min"
     type: "Knowledge"
     status: "Planned"
-    file: "docs/sessions/L1/09_S8.md"
+    file: "docs/sessions/L1/S9.md"
   - session: "MP2"
     topic: "Mini Project 2: Personal Profile Generator"
     duration: "30–45 min"
     type: "Project"
     status: "Planned"
-    file: "docs/sessions/L1/10_MP2.md"
+    file: "docs/sessions/L1/S10_MP2.md"
 ---
 
 # 🐍 Level 1: Noob → Nerd - Python Fundamentals
@@ -194,7 +194,7 @@ ASCII fallback:
 🧪 *Practice Files*:  
 `src/L1/S1/01_hello.py`, `src/L1/S1/02_interactive_hello.py`, `src/L1/S1/bytecode_demo.py`
 
-📖 *Documentation*: [01_S1.md](01_S1.md)
+📖 *Documentation*: [S1.md](S1.md)
 
 ---
 
@@ -208,7 +208,7 @@ ASCII fallback:
 🧪 *Practice Files*:  
 `src/L1/S2/01_variables.py`, `src/L1/S2/02_data_types.py`, `src/L1/S2/03_type_conversion.py`
 
-📖 *Documentation*: [02_S2.md](02_S2.md)
+📖 *Documentation*: [S2.md](S2.md)
 
 🧪 *Mini Practice*: Store and display personal details with different data types.  
 📌 *Feeds into Mini Project 1*: User input and storage are core to the calculator.
@@ -225,7 +225,7 @@ ASCII fallback:
 🧪 *Practice Files*:  
 `src/L1/S3/01_arithmetic.py`, `src/L1/S3/02_comparisons.py`, `src/L1/S3/03_mini_calculator.py`
 
-📖 *Documentation*: [03_S3.md](03_S3.md)
+📖 *Documentation*: [S3.md](S3.md)
 
 🧪 *Mini Practice*: Build a basic calculator with different operations.  
 📌 *Feeds into Mini Project 1*: Calculator logic.
@@ -259,7 +259,7 @@ ASCII fallback:
 * Clean, structured code
 
 🧪 *Practice Pack*: `src/L1/MP1/01_simple_calculator.py`, `src/L1/MP1/02_simple_calculator_loop.py`  
-📖 *Project Guide*: [05_MP1.md](05_MP1.md)
+📖 *Project Guide*: [S5_MP1.md](S5_MP1.md)
 
 🎯 *Stretch Goals*:
 
@@ -280,7 +280,7 @@ ASCII fallback:
 🧪 *Practice Files*:  
 `src/L1/S5/01_for_loops.py`, `src/L1/S5/02_while_loops.py`, `src/L1/S5/03_loop_controls_fizzbuzz.py`
 
-📖 *Documentation*: [06_S5.md](06_S5.md)
+📖 *Documentation*: [S6.md](S6.md)
 
 🧪 *Mini Practice*: FizzBuzz challenge, countdown timer, pattern printing.  
 📌 *Feeds into Mini Project 2*: Looping over profiles.

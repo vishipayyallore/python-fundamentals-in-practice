@@ -23,7 +23,7 @@ Educational **Python** curriculum: levels `L*`, sessions `S*`, session docs in `
 
 1. **Zero-copy, transformative only** — See `.cursor/rules/01_educational-content-rules.mdc` (no verbatim third-party text; no mirrored outlines; original examples).
 2. **Minimal diffs** for fixes unless the user requests refactors; preserve pedagogy, headings, and session flow.
-3. **Correct paths** — e.g. `src/L1/S1/01_hello.py`, `docs/sessions/L1/01_S1.md` (not legacy `src/S1/` or session names without numeric prefix).
+3. **Correct paths** — e.g. `src/L1/S1/01_hello.py`, `docs/sessions/L1/S1.md` (not legacy `src/S1/` or session names without numeric prefix).
 4. **Reasoning in teaching material** — Prefer “why” and trade-offs, not only syntax (see CoT section in the same `01_` rules file and in `AGENTS.md`).
 5. **Quality before merge** (when changing Markdown under CI paths): lint and link-check as in `README.md` / `tools/psscripts/docs-lint.ps1` and `docs-links.ps1`. For `src/`, run `ruff check src` (see `pyproject.toml`).
 

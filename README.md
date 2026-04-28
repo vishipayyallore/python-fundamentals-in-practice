@@ -30,7 +30,7 @@ This is **Swamy's personal learning and curriculum-development** repository. Con
 
 2. **📖 [Level 1 Plan](docs/sessions/L1/_Plan.md)** - Begin with Level 1: Noob → Nerd
    - Full L1 roadmap: 10 sessions; **Sessions 1–5** (docs and `src/L1/S1`–`S5/` practice) are in-repo
-   - [Mini Project 1](docs/sessions/L1/05_MP1.md) now includes a full guide and starter practice pack (`src/L1/MP1/`)
+   - [Mini Project 1](docs/sessions/L1/S5_MP1.md) now includes a full guide and starter practice pack (`src/L1/MP1/`)
    - Step-by-step learning path
 
 3. **🎥 [Watch Level 1 Playlist](https://www.youtube.com/watch?v=Cy6DqbRjsF0&list=PLdLQDTLMjAzpRBxP4q1XJOuLhFG4pSfBB)** - Video walkthroughs for Level 1 sessions

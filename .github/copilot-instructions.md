@@ -74,7 +74,7 @@
 
 **File Relationships:**
 
-- `docs/sessions/L1/01_S1.md` ↔ `src/L1/S1/` (practice files)
+- `docs/sessions/L1/S1.md` ↔ `src/L1/S1/` (practice files)
 - `docs/sessions/L1/_Plan.md` → Overall curriculum structure
 - `README.md` → Entry point with navigation links
 
@@ -223,22 +223,22 @@ print("🚀 Advanced Python Preview")
 [Session 1](docs/sessions/S1.md)
 
 # NEW (correct)
-[Session 1](docs/sessions/L1/01_S1.md)
+[Session 1](docs/sessions/L1/S1.md)
 ```
 
 ### **File Reference Validation:**
 
 **CRITICAL**: All file references must:
 
-- ✅ Include numeric prefixes (`01_`, `02_`, etc.) in file names
+- ✅ Use expected filename patterns (`S1.md`, `S5_MP1.md`, `01_name.py`, etc.)
 - ✅ Use correct `L{level}/S{session}/` directory structure
 - ✅ Match actual file names exactly
 - ✅ Be verified before committing
 
 **Common Errors to Avoid:**
 
-- ❌ Missing numeric prefixes: `S1.md` → ✅ `01_S1.md`
-- ❌ Missing level identifier: `sessions/S1/` → ✅ `sessions/L1/01_S1.md`
+- ❌ Using legacy prefixed session docs: `01_S1.md` → ✅ `S1.md`
+- ❌ Missing level identifier: `sessions/S1/` → ✅ `sessions/L1/S1.md`
 - ❌ Incorrect path structure: `src/S1/` → ✅ `src/L1/S1/`
 
 **See `.cursor/rules/04_markdown-standards.mdc` for detailed file reference validation patterns.**

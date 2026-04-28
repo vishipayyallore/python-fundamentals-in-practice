@@ -60,12 +60,12 @@ python-fundamentals-in-practice/
 │   │       └── meetup-sessions.md
 │   ├── sessions/
 │   │   └── L1/
-│   │       ├── 01_S1.md
-│   │       ├── 02_S2.md
-│   │       ├── 03_S3.md
-│   │       ├── 04_S4.md
-│   │       ├── 05_MP1.md
-│   │       ├── 06_S5.md
+│   │       ├── S1.md
+│   │       ├── S2.md
+│   │       ├── S3.md
+│   │       ├── S4.md
+│   │       ├── S5_MP1.md
+│   │       ├── S6.md
 │   │       └── _Plan.md
 │   ├── 01_Python-Fundamentals-MasterPlan.md
 │   └── 02_RepositoryStructure.md
@@ -125,10 +125,10 @@ python-fundamentals-in-practice/
 
 The following are roadmap items and may be referenced in planning docs, but they are not currently present as tracked files:
 
-- `docs/sessions/L1/07_S6.md` (planned)
-- `docs/sessions/L1/08_S7.md` (planned)
-- `docs/sessions/L1/09_S8.md` (planned)
-- `docs/sessions/L1/10_MP2.md` (planned)
+- `docs/sessions/L1/S7.md` (planned)
+- `docs/sessions/L1/S8.md` (planned)
+- `docs/sessions/L1/S9.md` (planned)
+- `docs/sessions/L1/S10_MP2.md` (planned)
 - Level 2+ session docs and practice packs (planned)
 
 ---
@@ -138,8 +138,8 @@ The following are roadmap items and may be referenced in planning docs, but they
 ### Session documentation
 
 - Location: `docs/sessions/L{level}/`
-- Pattern: `{nn}_S{session}.md` (for example `01_S1.md`)
-- Mini projects: `{nn}_MP{number}.md` (for example `05_MP1.md`)
+- Pattern: `S{session}.md` (for example `S1.md`)
+- Mini projects: `S{session}_MP{number}.md` (for example `S5_MP1.md`)
 - Level plan: `_Plan.md`
 
 ### Practice files
@@ -163,12 +163,12 @@ The following are roadmap items and may be referenced in planning docs, but they
 - **README**: [../README.md](../README.md)
 - **Master Plan**: [01_Python-Fundamentals-MasterPlan.md](01_Python-Fundamentals-MasterPlan.md)
 - **Level 1 Plan**: [sessions/L1/_Plan.md](sessions/L1/_Plan.md)
-- **Session 1**: [sessions/L1/01_S1.md](sessions/L1/01_S1.md)
-- **Session 2**: [sessions/L1/02_S2.md](sessions/L1/02_S2.md)
-- **Session 3**: [sessions/L1/03_S3.md](sessions/L1/03_S3.md)
-- **Session 4**: [sessions/L1/04_S4.md](sessions/L1/04_S4.md)
-- **Mini Project 1**: [sessions/L1/05_MP1.md](sessions/L1/05_MP1.md)
-- **Session 5**: [sessions/L1/06_S5.md](sessions/L1/06_S5.md)
+- **Session 1**: [sessions/L1/S1.md](sessions/L1/S1.md)
+- **Session 2**: [sessions/L1/S2.md](sessions/L1/S2.md)
+- **Session 3**: [sessions/L1/S3.md](sessions/L1/S3.md)
+- **Session 4**: [sessions/L1/S4.md](sessions/L1/S4.md)
+- **Mini Project 1**: [sessions/L1/S5_MP1.md](sessions/L1/S5_MP1.md)
+- **Session 5**: [sessions/L1/S6.md](sessions/L1/S6.md)
 
 ---
 
