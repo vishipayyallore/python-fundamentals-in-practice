@@ -40,8 +40,8 @@ jobs:
       - name: MP1 runtime smoke checks
         run: |
           set -e
-          printf "+\n10\n5\n" | python src/L1/MP1/01_simple_calculator.py
-          printf "+\n10\n5\nq\n" | python src/L1/MP1/02_simple_calculator_loop.py
+          printf "+\n10\n5\n" | python src/L1/S5_MP1/01_simple_calculator.py
+          printf "+\n10\n5\nq\n" | python src/L1/S5_MP1/02_simple_calculator_loop.py
 
   frontend-placeholder:
     name: Frontend (N/A)

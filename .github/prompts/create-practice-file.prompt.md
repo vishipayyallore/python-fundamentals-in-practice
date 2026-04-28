@@ -16,14 +16,14 @@ You are adding a Python practice file to **Python Fundamentals in Practice**.
 ## Authoritative path
 
 Session file path: `src/L{level}/S{session}/{nn}_{descriptive_name}.py`  
-Mini-project file path: `src/L{level}/MP{project}/{nn}_{descriptive_name}.py`
+Mini-project file path: `src/L{level}/S{session}_MP{project}/{nn}_{descriptive_name}.py`
 
-Examples: `src/L1/S3/03_comparison_operators.py`, `src/L1/MP1/01_simple_calculator.py`
+Examples: `src/L1/S3/03_comparison_operators.py`, `src/L1/S5_MP1/01_simple_calculator.py`
 
 ## File template
 
 ```python
-# Filename: src/L{level}/S{session}/{nn}_{name}.py  OR  src/L{level}/MP{project}/{nn}_{name}.py
+# Filename: src/L{level}/S{session}/{nn}_{name}.py  OR  src/L{level}/S{session}_MP{project}/{nn}_{name}.py
 # Session {session} or Mini Project {project}: {Title}
 # Concept: {concept being demonstrated}
 
@@ -43,7 +43,7 @@ Examples: `src/L1/S3/03_comparison_operators.py`, `src/L1/MP1/01_simple_calculat
 4. **Beginner vocabulary** — avoid jargon not yet introduced in earlier sessions.
 5. **Original examples** — no examples copied from books, tutorials, or Stack Overflow.
 6. **Numeric prefix** — `{nn}_` prefix for ordered practice files; intentional support/helper files may be non-numbered.
-7. **Path validation** — after writing, confirm the correct target folder exists (`src/L{level}/S{session}/` or `src/L{level}/MP{project}/`); create if needed.
+7. **Path validation** — after writing, confirm the correct target folder exists (`src/L{level}/S{session}/` or `src/L{level}/S{session}_MP{project}/`); create if needed.
 8. **Update doc reference** — add a reference to the new file in the matching session/mini-project document under Practice Files.
 
 ## ReAct pattern for code design

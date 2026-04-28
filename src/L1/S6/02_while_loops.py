@@ -1,4 +1,4 @@
-# Filename: src/L1/S5/02_while_loops.py
+# Filename: src/L1/S6/02_while_loops.py
 # Session 5: Loops & Iteration — while loops and conditions
 
 print("=== Session 5: while loops ===\n")
