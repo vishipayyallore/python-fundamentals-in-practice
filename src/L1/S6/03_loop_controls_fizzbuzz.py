@@ -1,5 +1,5 @@
 # Filename: src/L1/S6/03_loop_controls_fizzbuzz.py
-# Session 5: Loops & Iteration — break, continue, pass, and FizzBuzz
+# Session 6: Loops & Iteration (Session 5 content slot) — break, continue, pass, and FizzBuzz
 
 print("=== Loop controls demo ===\n")
 

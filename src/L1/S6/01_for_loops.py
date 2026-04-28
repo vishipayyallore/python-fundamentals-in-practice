@@ -1,5 +1,5 @@
 # Filename: src/L1/S6/01_for_loops.py
-# Session 5: Loops & Iteration — for loops and range
+# Session 6: Loops & Iteration (Session 5 content slot) — for loops and range
 
 print("=== Session 5: for loops ===\n")
 
