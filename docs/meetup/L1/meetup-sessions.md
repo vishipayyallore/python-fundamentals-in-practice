@@ -29,9 +29,9 @@ What You'll Learn:
 Hands-on Practice:  
 We'll write and run three focused practice scripts:
 
-- `src/L1/S5/01_for_loops.py` – `for` loops, `range()`, and iteration patterns
-- `src/L1/S5/02_while_loops.py` – `while` loops, conditions, and safe loop updates
-- `src/L1/S5/03_loop_controls_fizzbuzz.py` – `break` / `continue` / `pass` and beginner FizzBuzz
+- `src/L1/S6/01_for_loops.py` – `for` loops, `range()`, and iteration patterns
+- `src/L1/S6/02_while_loops.py` – `while` loops, conditions, and safe loop updates
+- `src/L1/S6/03_loop_controls_fizzbuzz.py` – `break` / `continue` / `pass` and beginner FizzBuzz
 
 Perfect For:
 

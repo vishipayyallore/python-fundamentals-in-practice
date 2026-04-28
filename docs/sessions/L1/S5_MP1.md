@@ -75,12 +75,12 @@ This project then builds toward:
 
 ## 🧪 Practice file mapping
 
-**Project practice folder:** `src/L1/MP1/`
+**Project practice folder:** `src/L1/S5_MP1/`
 
 | File | Purpose |
 | --- | --- |
-| `src/L1/MP1/01_simple_calculator.py` | One-run calculator with operation choice, numeric validation, and divide-by-zero handling |
-| `src/L1/MP1/02_simple_calculator_loop.py` | Loop-enabled calculator that repeats until user quits |
+| `src/L1/S5_MP1/01_simple_calculator.py` | One-run calculator with operation choice, numeric validation, and divide-by-zero handling |
+| `src/L1/S5_MP1/02_simple_calculator_loop.py` | Loop-enabled calculator that repeats until user quits |
 
 ---
 

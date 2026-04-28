@@ -1,4 +1,4 @@
-# Filename: src/L1/MP1/01_simple_calculator.py
+# Filename: src/L1/S5_MP1/01_simple_calculator.py
 # Mini Project 1: Simple Calculator (single run)
 
 from calculator_utils import is_valid_number_text
