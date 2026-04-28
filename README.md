@@ -29,7 +29,8 @@ This is **Swamy's personal learning and curriculum-development** repository. Con
    - Check current implementation status
 
 2. **📖 [Level 1 Plan](docs/sessions/L1/_Plan.md)** - Begin with Level 1: Noob → Nerd
-   - Full L1 roadmap: 10 sessions; **Sessions 1–5** (docs and `src/L1/S1`–`S5/` practice) are in-repo
+   - Full L1 roadmap: 10 sessions; core content for **Sessions 1–5** is in-repo (`S1.md`–`S4.md`, `S6.md`, and `src/L1/S1`–`S5/` practice)
+   - File naming note: Session 5 content is stored in `docs/sessions/L1/S6.md` because `S5_MP1.md` is the mini-project slot
    - [Mini Project 1](docs/sessions/L1/S5_MP1.md) now includes a full guide and starter practice pack (`src/L1/MP1/`)
    - Step-by-step learning path
 
