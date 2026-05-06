@@ -26,6 +26,7 @@ Educational **Python** curriculum: levels `L*`, sessions `S*`, session docs in `
 3. **Correct paths** — e.g. `src/L1/S1/01_hello.py`, `docs/sessions/L1/S1.md` (not legacy `src/S1/` or session names without numeric prefix).
 4. **Reasoning in teaching material** — Prefer “why” and trade-offs, not only syntax (see CoT section in the same `01_` rules file and in `AGENTS.md`).
 5. **Quality before merge** (when changing Markdown under CI paths): lint and link-check as in `README.md` / `tools/psscripts/docs-lint.ps1` and `docs-links.ps1`. For `src/`, run `ruff check src` (see `pyproject.toml`).
+6. **Session-bucketing safety** — Add new content to planned/new sessions by default; do not add new material to completed sessions without explicit user approval.
 
 ---
 
@@ -53,3 +54,5 @@ If a tool also reads **`.claude/CLAUDE.md`**, that file defers to this repositor
 ## When stuck
 
 Read **`docs/02_RepositoryStructure.md`**, then the relevant **`.mdc`** rule, then open the files you will edit. Do not invent paths or session numbers.
+
+For meetup content placement in Level 1, use `docs/meetup/L1/meetup-sessions.md` status table and ask permission before editing completed sessions.

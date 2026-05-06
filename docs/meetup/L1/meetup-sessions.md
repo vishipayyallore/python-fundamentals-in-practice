@@ -1,5 +1,15 @@
 # Meetup Session: Python for Absolute Beginners - Level 1
 
+## Table
+
+| Session | Status |
+| --- | --- |
+| Session 1 | Completed |
+| Session 2 | Completed |
+| Session 3 | Completed |
+| Session 4 | Completed |
+| Session 5 | Planned |
+
 ## Level 1 - Session 5: Loops & Iteration
 
 Date: To be announced (planned)

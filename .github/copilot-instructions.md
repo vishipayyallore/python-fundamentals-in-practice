@@ -59,6 +59,13 @@
 
 **See `.cursor/rules/01_educational-content-rules.mdc` for complete Zero-Copy Policy and Transformative Workflow details.**
 
+### **5. 🗂️ SESSION BUCKETING SAFETY (New Content Placement)**
+
+- Treat `docs/meetup/L1/meetup-sessions.md` as the status guard for Level 1 meetup content placement.
+- New content from `source-material/` or `src/Working/` must be routed to planned/new sessions by default.
+- Do **not** insert new educational content into completed sessions unless the user explicitly approves it.
+- If status is unclear, stop and ask permission before editing completed sessions.
+
 ---
 
 ## 📋 **PROJECT STRUCTURE OVERVIEW**
