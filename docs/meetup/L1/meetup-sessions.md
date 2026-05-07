@@ -8,9 +8,14 @@
 | Session 2 | Completed |
 | Session 3 | Completed |
 | Session 4 | Completed |
-| Session 5 | Planned |
+| Session 5 (MP1) | Ready |
+| Session 6 | Planned |
+| Session 7 | Pending |
+| Session 8 | Pending |
+| Session 9 | Pending |
+| Session 10 | Pending |
 
-## Level 1 - Session 5: Loops & Iteration
+## Level 1 - Session 6: Loops & Iteration
 
 Date: To be announced (planned)
 
@@ -18,10 +23,10 @@ Event URL: To be announced (planned)
 
 🔹 Session Agenda:
 
-Level: Noob → Nerd (Level 1, Session 5)  
+Level: Noob → Nerd (Level 1, Session 6)  
 Format: Live Coding + Interactive Q&A  
 Duration: 30 Minutes  
-Prerequisites: Completed Session 4 (Decision Making in Python)
+Prerequisites: Completed Session 5 (Mini Project 1: Simple Calculator), or Sessions 1–4 with equivalent comfort using `input`, validation, and `if` / `elif` / `else` in a small program
 
 - Optional: Watch the recording/playlist: [Python Fundamentals – Level 1 (YouTube playlist)](https://www.youtube.com/watch?v=Cy6DqbRjsF0&list=PLdLQDTLMjAzpRBxP4q1XJOuLhFG4pSfBB)
 
@@ -45,7 +50,7 @@ We'll write and run three focused practice scripts:
 
 Perfect For:
 
-- Learners who completed Session 4 and are ready to eliminate repetitive code
+- Learners who completed Session 5 (Mini Project 1) and are ready to eliminate repetitive code
 - Beginners who want to automate repeated tasks cleanly
 - Anyone preparing for upcoming sessions that combine loops with collections
 

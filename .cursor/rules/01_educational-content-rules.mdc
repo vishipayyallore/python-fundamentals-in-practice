@@ -403,7 +403,7 @@ print('Hello, World!')
 
 **Content Workflow**:
 
-1. **Create Session Documentation**: Write session content in `docs/sessions/L{level}/{number}_S{session}.md`
+1. **Create Session Documentation**: Write session content in `docs/sessions/L{level}/S{session}.md` (or `S{session}_MP{project}.md` for mini projects)
 2. **Create Practice Files**: Write working Python code in `src/L{level}/S{session}/`
 3. **Link Together**: Reference practice files in session documentation
 4. **Test Everything**: Ensure all code runs and all links work
