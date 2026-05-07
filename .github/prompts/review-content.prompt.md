@@ -44,7 +44,7 @@ For **each** file individually:
 
 #### Cross-cutting checklist
 
-- [ ] Directory structure: `L{level}/S{session}/` or `L{level}/MP{number}/` as appropriate (not legacy `S{session}/`)
+- [ ] Directory structure: `L{level}/S{session}/` or `L{level}/S{session}_MP{number}/` as appropriate (not legacy `S{session}/`)
 - [ ] Numeric prefixes (`01_`, `02_`, …) on ordered files (allow intentional non-numbered support files)
 - [ ] Zero-Copy: no verbatim text, no mirrored outlines
 - [ ] Reasoning visible: code decisions explain WHY, not just WHAT
