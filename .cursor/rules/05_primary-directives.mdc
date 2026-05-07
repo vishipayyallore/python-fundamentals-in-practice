@@ -59,3 +59,10 @@ See: `01_educational-content-rules.mdc` for complete details.
 4. ✅ **Verify paths**: All references use correct `L{level}/S{session}/` structure
 
 **Self-Check Question**: "Do all file references use the correct L{level}/S{session}/ format?" - If no, FIX immediately.
+
+### 5. Completed Session Protection (CRITICAL)
+
+✅ Use `docs/meetup/L1/meetup-sessions.md` status table as placement context for Level 1 meetup updates  
+✅ Place newly added content into planned/new sessions by default  
+❌ Do not add new authored content into completed sessions unless explicit user permission is received in the current request  
+✅ If destination or status is unclear, ask before editing completed sessions

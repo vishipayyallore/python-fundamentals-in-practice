@@ -18,7 +18,7 @@ You are auditing educational content in **Python Fundamentals in Practice**.
 1. List **every** file in scope — no sampling.
    - Session docs: `docs/sessions/L{level}/`
    - Practice files (sessions): `src/L{level}/S{session}/`
-   - Practice files (mini projects): `src/L{level}/MP{number}/`
+   - Practice files (mini projects): `src/L{level}/S{session}_MP{number}/`
 
 ### ANALYZE
 
@@ -29,7 +29,7 @@ For **each** file individually:
 - [ ] Session Overview present (duration, level, session number)
 - [ ] Learning Objectives are measurable
 - [ ] Prerequisites listed
-- [ ] Practice files referenced with correct session/mini-project paths (`src/L{level}/S{session}/...` or `src/L{level}/MP{number}/...`)
+- [ ] Practice files referenced with correct session/mini-project paths (`src/L{level}/S{session}/...` or `src/L{level}/S{session}_MP{number}/...`)
 - [ ] Key Takeaways section present
 - [ ] All links resolve to existing files
 - [ ] File name format: `S{session}.md` or `S{session}_MP{number}.md`

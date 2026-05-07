@@ -258,7 +258,7 @@ ASCII fallback:
 * Runs until user quits
 * Clean, structured code
 
-🧪 *Practice Pack*: `src/L1/MP1/01_simple_calculator.py`, `src/L1/MP1/02_simple_calculator_loop.py`  
+🧪 *Practice Pack*: `src/L1/S5_MP1/01_simple_calculator.py`, `src/L1/S5_MP1/02_simple_calculator_loop.py`  
 📖 *Project Guide*: [S5_MP1.md](S5_MP1.md)
 
 🎯 *Stretch Goals*:
@@ -278,7 +278,7 @@ ASCII fallback:
 * Nested loops and performance considerations
 
 🧪 *Practice Files*:  
-`src/L1/S5/01_for_loops.py`, `src/L1/S5/02_while_loops.py`, `src/L1/S5/03_loop_controls_fizzbuzz.py`
+`src/L1/S6/01_for_loops.py`, `src/L1/S6/02_while_loops.py`, `src/L1/S6/03_loop_controls_fizzbuzz.py`
 
 📖 *Documentation*: [S6.md](S6.md)
 
@@ -337,7 +337,7 @@ ASCII fallback:
 * Handle multiple profiles
 * Basic input validation
 
-🧪 *Deliverable*: `profile_generator.py`
+🧪 *Planned Deliverable Path*: `src/L1/MP2/01_profile_generator.py` (follow `src/L1/MP2/{nn}_name.py` naming)
 
 🎯 *Stretch Goals*:
 

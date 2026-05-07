@@ -71,7 +71,7 @@ python-fundamentals-in-practice/
 │   └── 02_RepositoryStructure.md
 ├── src/
 │   ├── L1/
-│   │   ├── MP1/
+│   │   ├── S5_MP1/
 │   │   │   ├── 01_simple_calculator.py
 │   │   │   ├── 02_simple_calculator_loop.py
 │   │   │   └── calculator_utils.py
@@ -91,7 +91,7 @@ python-fundamentals-in-practice/
 │   │   │   ├── 01_conditionals.py
 │   │   │   ├── 02_boolean_logic.py
 │   │   │   └── 03_number_guessing_game.py
-│   │   └── S5/
+│   │   └── S6/
 │   │       ├── 01_for_loops.py
 │   │       ├── 02_while_loops.py
 │   │       └── 03_loop_controls_fizzbuzz.py
@@ -147,7 +147,7 @@ The following are roadmap items and may be referenced in planning docs, but they
 - Location: `src/L{level}/S{session}/`
 - Default pattern: `{nn}_{descriptive_name}.py`
 - Allowed special-case non-numbered filename (current tracked example): `src/L1/S1/bytecode_demo.py`
-- Mini-project packs may use `src/L{level}/MP{number}/` (for example `src/L1/MP1/01_simple_calculator.py`)
+- Mini-project packs may use `src/L{level}/S{session}_MP{number}/` (for example `src/L1/S5_MP1/01_simple_calculator.py`)
 
 ### Tools and policy files
 

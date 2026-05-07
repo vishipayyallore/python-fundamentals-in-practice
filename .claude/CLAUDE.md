@@ -14,3 +14,5 @@ Some Claude Code or Anthropic workflows look for project context under **`.claud
 6. **`/.github/copilot-instructions.md`** — GitHub Copilot alignment (same project policies)
 
 Do not duplicate long policy here; change root **`CLAUDE.md`** or **`AGENTS.md`** and update **`docs/02_RepositoryStructure.md`** if you document new top-level files.
+
+Placement guardrail: use `docs/meetup/L1/meetup-sessions.md` status table for Level 1 meetup updates, place new content in planned/new sessions first, and ask permission before touching completed sessions.

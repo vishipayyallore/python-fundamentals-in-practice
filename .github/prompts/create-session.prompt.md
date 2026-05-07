@@ -17,8 +17,8 @@ You are creating educational content for the **Python Fundamentals in Practice**
 
 - Session doc (regular session) → `docs/sessions/L{level}/S{session}.md` (e.g. `docs/sessions/L1/S6.md`)
 - Session doc (mini project) → `docs/sessions/L{level}/S{session}_MP{project}.md` (e.g. `docs/sessions/L1/S5_MP1.md`)
-- Practice code (regular session) → `src/L{level}/S{session}/` (e.g. `src/L1/S5/`)
-- Practice code (mini project) → `src/L{level}/MP{project}/` (e.g. `src/L1/MP1/`)
+- Practice code (regular session) → `src/L{level}/S{session}/` (e.g. `src/L1/S6/`)
+- Practice code (mini project) → `src/L{level}/S{session}_MP{project}/` (e.g. `src/L1/S5_MP1/`)
 - Structure ref → `docs/02_RepositoryStructure.md`
 
 ## Workflow: THINK → REASON → ACT → VERIFY
@@ -50,7 +50,7 @@ You are creating educational content for the **Python Fundamentals in Practice**
    - Troubleshooting (common errors)
 2. Write each practice file in the matching directory:
    - Regular session: `src/L{level}/S{session}/{nn}_{name}.py`
-   - Mini project: `src/L{level}/MP{project}/{nn}_{name}.py`
+   - Mini project: `src/L{level}/S{session}_MP{project}/{nn}_{name}.py`
    - Header comment: `# Filename: ...` + session/project reference
    - Educational comments explaining the "why" of each decision
    - Working code (no syntax errors, no TODOs)
@@ -66,5 +66,5 @@ You are creating educational content for the **Python Fundamentals in Practice**
 
 - **Never trim content** — if material becomes hard to navigate in one file, split into `Part A`, `Part B` files.
 - **Numeric prefixes mandatory** — `01_`, `02_`, … on ordered practice files.
-- **Path format** — `src/L1/S5/` not `src/S5/` or `src/L1/5/`.
+- **Path format** — `src/L1/S6/` not `src/S6/` or `src/L1/6/`.
 - After creating files, update `docs/02_RepositoryStructure.md` if the tree changes.
