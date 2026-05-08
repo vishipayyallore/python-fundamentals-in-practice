@@ -1,7 +1,7 @@
 # Filename: src/L1/S6/01_for_loops.py
-# Session 6: Loops & Iteration (Session 5 content slot) — for loops and range
+# Session 6: Loops & Iteration — for loops and range
 
-print("=== Session 5: for loops ===\n")
+print("=== Session 6: for loops ===\n")
 
 # Why for-loop: use it when the number of repeats is known.
 print("Count from 1 to 5:")
