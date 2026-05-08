@@ -52,37 +52,37 @@ sessions:
     duration: "30–45 min"
     type: "Project"
     status: "Ready"
-    file: "docs/sessions/L1/S5_MP1.md"
-  - session: 5
+    file: "docs/sessions/L1/S5.md"
+  - session: 6
     topic: "Loops & Iteration"
     duration: "30 min"
     type: "Knowledge"
     status: "Ready"
     file: "docs/sessions/L1/S6.md"
-  - session: 6
+  - session: 7
     topic: "Basic Debugging, Reading Errors & Built-in Functions"
     duration: "30 min"
     type: "Knowledge"
-    status: "Planned"
+    status: "Ready"
     file: "docs/sessions/L1/S7.md"
-  - session: 7
+  - session: 8
     topic: "Lists & Loops"
     duration: "30 min"
     type: "Knowledge"
-    status: "Planned"
+    status: "Ready"
     file: "docs/sessions/L1/S8.md"
-  - session: 8
+  - session: 9
     topic: "Dictionaries & Basic Testing"
     duration: "30 min"
     type: "Knowledge"
-    status: "Planned"
+    status: "Ready"
     file: "docs/sessions/L1/S9.md"
   - session: "MP2"
     topic: "Mini Project 2: Personal Profile Generator"
     duration: "30–45 min"
     type: "Project"
-    status: "Planned"
-    file: "docs/sessions/L1/S10_MP2.md"
+    status: "Ready"
+    file: "docs/sessions/L1/S10.md"
 ---
 
 # 🐍 Level 1: Noob → Nerd - Python Fundamentals
@@ -109,11 +109,11 @@ sessions:
 | A     | 3       | Operators & Expressions                                | 30 min    | 📚 Knowledge | ✅ Ready   |
 | A     | 4       | Conditionals, Indentation & Introduction to Modules    | 30 min    | 📚 Knowledge | ✅ Ready   |
 | A     | 🚀 MP1  | Mini Project 1: Simple Calculator *(after Session 4)*  | 30–45 min | 🛠️ Project   | ✅ Ready   |
-| B     | 5       | Loops & Iteration                                      | 30 min    | 📚 Knowledge | ✅ Ready   |
-| B     | 6       | Basic Debugging, Reading Errors & Built-in Functions   | 30 min    | 📚 Knowledge | 🔄 Planned |
-| B     | 7       | Lists & Loops                                          | 30 min    | 📚 Knowledge | 🔄 Planned |
-| B     | 8       | Dictionaries & Basic Testing                           | 30 min    | 📚 Knowledge | 🔄 Planned |
-| B     | 🚀 MP2  | Mini Project 2: Personal Profile Generator *(after 8)* | 30–45 min | 🛠️ Project   | 🔄 Planned |
+| B     | 6       | Loops & Iteration                                      | 30 min    | 📚 Knowledge | ✅ Ready   |
+| B     | 7       | Basic Debugging, Reading Errors & Built-in Functions   | 30 min    | 📚 Knowledge | ✅ Ready   |
+| B     | 8       | Lists & Loops                                          | 30 min    | 📚 Knowledge | ✅ Ready   |
+| B     | 9       | Dictionaries & Basic Testing                           | 30 min    | 📚 Knowledge | ✅ Ready   |
+| B     | 🚀 MP2  | Mini Project 2: Personal Profile Generator *(after Session 9)* | 30–45 min | 🛠️ Project   | ✅ Ready   |
 
 ---
 
@@ -135,10 +135,10 @@ flowchart TB
     end
 
     subgraph PhaseB[📘 Phase B: Expanding Skills]
-        C1[🔄 Session 5<br/>Loops & Iteration]
-        C2[🐛 Session 6<br/>Debugging & Built-ins]
-        C3[📋 Session 7<br/>Lists & Loops]
-        C4[📚 Session 8<br/>Dicts & Testing]
+        C1[🔄 Session 6<br/>Loops & Iteration]
+        C2[🐛 Session 7<br/>Debugging & Built-ins]
+        C3[📋 Session 8<br/>Lists & Loops]
+        C4[📚 Session 9<br/>Dicts & Testing]
         C5[🚀 MP2<br/>Mini Project 2: Profile Generator]
         C1 --> C2 --> C3 --> C4 --> C5
     end
@@ -167,10 +167,10 @@ ASCII fallback:
     |
     v
 [📘 Phase B: Expanding Skills]
-    ├─ [🔄 Session 5: Loops & Iteration]
-    ├─ [🐛 Session 6: Debugging & Built-ins]
-    ├─ [📋 Session 7: Lists & Loops]
-    ├─ [📚 Session 8: Dicts & Testing]
+    ├─ [🔄 Session 6: Loops & Iteration]
+    ├─ [🐛 Session 7: Debugging & Built-ins]
+    ├─ [📋 Session 8: Lists & Loops]
+    ├─ [📚 Session 9: Dicts & Testing]
     └─ [🚀 MP2: Mini Project 2: Profile Generator]
     |
     v
@@ -255,11 +255,11 @@ ASCII fallback:
 * Addition, subtraction, multiplication, division
 * User-friendly input handling
 * Input validation
-* Runs until user quits
+* One-run calculator flow (single calculation per execution)
 * Clean, structured code
 
-🧪 *Practice Pack*: `src/L1/S5_MP1/01_simple_calculator.py`, `src/L1/S5_MP1/02_simple_calculator_loop.py`  
-📖 *Project Guide*: [S5_MP1.md](S5_MP1.md)
+🧪 *Practice Pack*: `src/L1/S5/01_PEP8_naming_and_spacing.py`, `src/L1/S5/02_del_and_bool_arithmetic.py`, `src/L1/S5/03_simple_calculator.py`, `src/L1/S5/calculator_utils.py`
+📖 *Project Guide*: [S5.md](S5.md)
 
 🎯 *Stretch Goals*:
 
@@ -270,7 +270,7 @@ ASCII fallback:
 
 ## 📅 **Phase B: Expanding Skills + Mini Project 2**
 
-### ✅ Session 5: Loops & Iteration
+### ✅ Session 6: Loops & Iteration
 
 * `for` loops with `range()` and iterables
 * `while` loops and loop conditions
@@ -278,7 +278,7 @@ ASCII fallback:
 * Nested loops and performance considerations
 
 🧪 *Practice Files*:  
-`src/L1/S6/01_for_loops.py`, `src/L1/S6/02_while_loops.py`, `src/L1/S6/03_loop_controls_fizzbuzz.py`
+`src/L1/S6/01_for_loops.py`, `src/L1/S6/02_while_loops.py`, `src/L1/S6/03_loop_controls_fizzbuzz.py`, `src/L1/S6/04_calculator_loop.py`, `src/L1/S6/05_values_to_variables.py`, `src/L1/S6/06_chained_and_multi_assignment.py`, `src/L1/S6/07_conversion_limits.py`
 
 📖 *Documentation*: [S6.md](S6.md)
 
@@ -287,32 +287,42 @@ ASCII fallback:
 
 ---
 
-### 🔄 Session 6: Basic Debugging & Built-in Functions *(Planned)*
+### ✅ Session 7: Basic Debugging & Built-in Functions *(Ready)*
 
 * Error types: syntax vs runtime
 * Reading error messages
 * Common beginner mistakes
 * Debugging with `print()`
-* Built-in functions: `len()`, `max()`, `min()`, `sum()`, `type()`
+* Built-in functions: `len()`, `max()`, `min()`, `sum()`, `abs()`, `round()`
+
+🧪 *Practice Files*:  
+`src/L1/S7/01_error_examples.py`, `src/L1/S7/02_debug_practice.py`, `src/L1/S7/03_builtin_functions.py`, `src/L1/S7/04_pep8_style_refactor.py`, `src/L1/S7/05_pep8_indentation.py`
+
+📖 *Documentation*: [S7.md](S7.md)
 
 🧪 *Mini Practice*: Debug broken code samples.  
 📌 *Feeds into Mini Project 2*: Debugging profile input.
 
 ---
 
-### 🔄 Session 7: Lists & Loops *(Planned)*
+### ✅ Session 8: Lists & Loops *(Ready)*
 
 * List creation, indexing, slicing, basic methods
 * Operations: `append()`, `remove()`, `len()`, accessing elements
 * Iteration with lists
 * Practical list usage: filtering, modifying, building from user input
 
+🧪 *Practice Files*:  
+`src/L1/S8/01_list_basics.py`, `src/L1/S8/02_list_methods.py`, `src/L1/S8/03_task_manager.py`
+
+📖 *Documentation*: [S8.md](S8.md)
+
 🧪 *Mini Practice*: Task list manager with lists + loops.  
 📌 *Feeds into Mini Project 2*: Storing multiple hobbies or goals.
 
 ---
 
-### 🔄 Session 8: Dictionaries & Basic Testing *(Planned)*
+### ✅ Session 9: Dictionaries & Basic Testing *(Ready)*
 
 * Dictionaries: creation, update, deletion
 * Methods: `.keys()`, `.values()`, `.items()`, `.get()`
@@ -320,12 +330,17 @@ ASCII fallback:
 * Why testing matters
 * Manual testing vs using `assert`
 
+🧪 *Practice Files*:  
+`src/L1/S9/01_dict_basics.py`, `src/L1/S9/02_dict_iteration.py`, `src/L1/S9/03_gradebook.py`
+
+📖 *Documentation*: [S9.md](S9.md)
+
 🧪 *Mini Practice*: Student gradebook with dictionaries + asserts.  
 📌 *Feeds into Mini Project 2*: User profiles as dictionaries + validation.
 
 ---
 
-### 🚀 Mini Project 2: Personal Profile Generator *(Planned)*
+### 🚀 Mini Project 2: Personal Profile Generator *(Ready)*
 
 **Goal:** Create an interactive profile generator and display system.
 
@@ -337,7 +352,7 @@ ASCII fallback:
 * Handle multiple profiles
 * Basic input validation
 
-🧪 *Planned Deliverable Path*: `src/L1/S10_MP2/01_profile_generator.py` (follow `src/L1/S10_MP2/{nn}_name.py` naming)
+🧪 *Deliverable*: `src/L1/S10/profile_generator.py`
 
 🎯 *Stretch Goals*:
 
@@ -371,7 +386,7 @@ By completing Level 1, you will:
 
 **Mini Project Success Indicators:**
 
-* Calculator works with all four operations, validates input, runs continuously.
+* Calculator works with all four operations, validates input, and handles divide-by-zero safely.
 * Profile generator collects + displays user data, supports multiple profiles, validates inputs.
 
 ---
@@ -391,6 +406,12 @@ After Level 1, you’re ready to explore:
 * VS Code with Python extension
 * Git for version control
 * (Optional) Jupyter Notebook, PyCharm, Replit
+
+---
+
+## Sandbox (`src/Working/`)
+
+New **draft** scripts and meetup scribbles belong in the Working tree first. Folder names mirror formal targets (`Module1/` for early foundations, `S5/` … `S10/` for later sessions). **Learner-facing session write-ups only link promoted files under `src/L1/…`.** See [`docs/RepositoryStructure.md`](../../RepositoryStructure.md) (section **src/Working/**) for the Working sandbox layout and promotion expectations.
 
 ---
 
