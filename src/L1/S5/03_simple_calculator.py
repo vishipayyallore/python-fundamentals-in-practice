@@ -1,5 +1,12 @@
-# Filename: src/L1/S5_MP1/01_simple_calculator.py
+# Filename: src/L1/S5/03_simple_calculator.py
 # Mini Project 1: Simple Calculator (single run)
+# Run from any directory: python src/L1/S5/03_simple_calculator.py
+
+import os
+import sys
+
+# Allow imports from this folder regardless of working directory
+sys.path.insert(0, os.path.dirname(__file__))
 
 from calculator_utils import is_valid_number_text
 

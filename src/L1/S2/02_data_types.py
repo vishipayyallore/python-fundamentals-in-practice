@@ -2,7 +2,9 @@
 # Session 2: The four common types — predict, then run
 
 print("=== Python's four fundamental types ===\n")
-print("Guess the type before we print: int or float? str or int? (Ask → run → explain.)\n")
+print(
+    "Guess the type before we print: int or float? str or int? (Ask → run → explain.)\n"
+)
 
 # 1. Integers (int)
 print("1. INTEGERS (int):")
@@ -48,7 +50,7 @@ text_25 = "25"
 num_25 = 25
 print(type(text_25))  # str
 print(type(num_25))  # int
-print('Quotes mean text (str), even if digits look like a number.\n')
+print("Quotes mean text (str), even if digits look like a number.\n")
 
 # type() and light isinstance (keep isinstance minimal for 30 min)
 print("=== type() and isinstance (quick) ===")

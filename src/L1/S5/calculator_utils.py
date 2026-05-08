@@ -1,4 +1,4 @@
-# Filename: src/L1/S5_MP1/calculator_utils.py
+# Filename: src/L1/S5/calculator_utils.py
 # Mini Project 1: Shared helpers for calculator scripts
 
 

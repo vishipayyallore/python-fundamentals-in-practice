@@ -1,7 +1,7 @@
 # Filename: src/L1/S1/01_hello.py
 # Session 1: Python Introduction & Environment Setup
 
-print('Hello, World!')
+print("Hello, World!")
 print("Welcome to Python Fundamentals!")
 print("This is Session 1")
 

@@ -1,7 +1,7 @@
 # Filename: src/L1/S6/02_while_loops.py
-# Session 6: Loops & Iteration (Session 5 content slot) — while loops and conditions
+# Session 6: Loops & Iteration — while loops and conditions
 
-print("=== Session 5: while loops ===\n")
+print("=== Session 6: while loops ===\n")
 
 # Why while-loop: repeat until a condition becomes False.
 # The update step is critical; without it, loops may never end.
