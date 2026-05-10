@@ -2,7 +2,7 @@
 
 **Last updated:** April 2026
 
-Machine-readable guidance lives in **`.cursor/`** and the root entry files. [Cursor **skills**](https://docs.cursor.com) and [**subagents**](https://cursor.com/docs/agent/subagents) add optional, discoverable layers on top of rules.
+Machine-readable guidance lives in **`.cursor/`** and the root entry files. [Cursor **skills**](https://cursor.com/docs) and [**subagents**](https://cursor.com/docs/subagents) add optional, discoverable layers on top of rules.
 
 | Location | Purpose |
 | --- | --- |

@@ -298,7 +298,7 @@ ASCII fallback:
 🧪 *Practice Files*:  
 `src/L1/S7/01_error_examples.py`, `src/L1/S7/02_debug_practice.py`, `src/L1/S7/03_builtin_functions.py`, `src/L1/S7/04_pep8_style_refactor.py`, `src/L1/S7/05_pep8_indentation.py`
 
-📖 *Documentation*: [S7.md](S7.md)
+📖 *Documentation*: `S7.md` *(Planned)*
 
 🧪 *Mini Practice*: Debug broken code samples.  
 📌 *Feeds into Mini Project 2*: Debugging profile input.
@@ -315,7 +315,7 @@ ASCII fallback:
 🧪 *Practice Files*:  
 `src/L1/S8/01_list_basics.py`, `src/L1/S8/02_list_methods.py`, `src/L1/S8/03_task_manager.py`
 
-📖 *Documentation*: [S8.md](S8.md)
+📖 *Documentation*: `S8.md` *(Planned)*
 
 🧪 *Mini Practice*: Task list manager with lists + loops.  
 📌 *Feeds into Mini Project 2*: Storing multiple hobbies or goals.
@@ -333,7 +333,7 @@ ASCII fallback:
 🧪 *Practice Files*:  
 `src/L1/S9/01_dict_basics.py`, `src/L1/S9/02_dict_iteration.py`, `src/L1/S9/03_gradebook.py`
 
-📖 *Documentation*: [S9.md](S9.md)
+📖 *Documentation*: `S9.md` *(Planned)*
 
 🧪 *Mini Practice*: Student gradebook with dictionaries + asserts.  
 📌 *Feeds into Mini Project 2*: User profiles as dictionaries + validation.
@@ -411,7 +411,7 @@ After Level 1, you’re ready to explore:
 
 ## Sandbox (`src/Working/`)
 
-New **draft** scripts and meetup scribbles belong in the Working tree first. Folder names mirror formal targets (`Module1/` for early foundations, `S5/` … `S10/` for later sessions). **Learner-facing session write-ups only link promoted files under `src/L1/…`.** See [`docs/RepositoryStructure.md`](../../RepositoryStructure.md) (section **src/Working/**) for the Working sandbox layout and promotion expectations.
+New **draft** scripts and meetup scribbles belong in the Working tree first. Folder names mirror formal targets (`Module1/` for early foundations, `S5/` … `S10/` for later sessions). **Learner-facing session write-ups only link promoted files under `src/L1/…`.** See [`docs/02_RepositoryStructure.md`](../../02_RepositoryStructure.md) (section **src/Working/**) for the Working sandbox layout and promotion expectations.
 
 ---
 
