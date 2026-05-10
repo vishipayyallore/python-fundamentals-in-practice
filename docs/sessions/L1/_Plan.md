@@ -113,7 +113,7 @@ sessions:
 | B     | 7       | Basic Debugging, Reading Errors & Built-in Functions   | 30 min    | 📚 Knowledge | 🔜 Planned |
 | B     | 8       | Lists & Loops                                          | 30 min    | 📚 Knowledge | 🔜 Planned |
 | B     | 9       | Dictionaries & Basic Testing                           | 30 min    | 📚 Knowledge | 🔜 Planned |
-| B     | 🚀 MP2  | Mini Project 2: Personal Profile *(after Session 9)*  | 30–45 min | 🛠️ Project   | 🔜 Planned |
+| B     | 🚀 MP2  | Mini Project 2: Personal Profile *(after Session 9)*  | 30–45 min | 🛠️ Project   | 🔜 Planned  |
 
 ---
 
