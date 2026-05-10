@@ -58,6 +58,51 @@ Perfect For:
 
 ---
 
+## Level 1 - Session 5 (MP1): Mini Project 1 — Simple Calculator
+
+Date: To be announced (ready)
+
+Event URL: To be announced (ready)
+
+🔹 Session Agenda:
+
+Level: Noob → Nerd (Level 1, Session 5 — Mini Project 1)  
+Format: Live Coding + Interactive Q&A  
+Duration: 30 Minutes  
+Prerequisites: Completed Sessions 1–4 (Python setup, variables/types, operators, and conditionals)
+
+- Optional: Watch the recording/playlist: [Python Fundamentals – Level 1 (YouTube playlist)](https://www.youtube.com/watch?v=Cy6DqbRjsF0&list=PLdLQDTLMjAzpRBxP4q1XJOuLhFG4pSfBB)
+
+🎙️ Speaker: Viswanatha Swamy — Swamy's Tech Skills Academy  
+🕘 Time: 09:00 AM – 09:30 AM
+
+What You'll Learn:
+
+- Understand and apply PEP 8 style rules for clean, readable code (naming, spacing, comments)
+- Revisit core scalar concepts: `del`, bool arithmetic, and type conversion edge cases
+- Build a working CLI calculator that supports `+`, `-`, `*`, `/`
+- Validate and convert user input before calculation to avoid type-related failures
+- Use `if/elif/else` branching to select operations and handle divide-by-zero safely
+- Apply `# Why:` comments to explain decisions, not just actions
+
+Hands-on Practice:  
+We'll write and run three focused practice scripts:
+
+- `src/L1/S5/01_PEP8_naming_and_spacing.py` – Demonstrate the 5 key PEP 8 rules with side-by-side examples
+- `src/L1/S5/02_del_and_bool_arithmetic.py` – Explore `del` and how `bool` behaves in arithmetic
+- `src/L1/S5/03_simple_calculator.py` – One-run calculator with operation choice, numeric validation, and divide-by-zero handling
+- `src/L1/S5/calculator_utils.py` – Shared helper: `is_valid_number_text()` (imported by the calculator)
+
+Perfect For:
+
+- Learners who completed Sessions 1–4 and are ready to integrate everything into one real program
+- Beginners who want to understand why style, validation, and branching matter together
+- Anyone preparing for Session 6 where the same validated-input pattern extends into loops
+
+📢 Join us to build your first complete Python program — a calculator that handles real input, makes decisions, and fails gracefully — while learning the style rules that make your code readable and professional.
+
+---
+
 ## Level 1 - Session 4: Decision Making in Python (Indentation, Conditionals, Modules)
 
 Date: Thursday, Apr 23 · 9:00 AM to 9:30 AM IST
