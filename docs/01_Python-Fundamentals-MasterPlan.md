@@ -133,8 +133,8 @@ Before moving to Level 2, you should be able to:
 
 ## 📚 **Additional Resources**
 
-- 🌐 **Official Python Tutorial:** [docs.python.org/tutorial](https://docs.python.org/tutorial/)
-- 📖 **Python.org Beginner's Guide:** [python.org/about/gettingstarted](https://python.org/about/gettingstarted/)
+- 🌐 **Official Python Tutorial:** [docs.python.org/tutorial](https://docs.python.org/3/tutorial/)
+- 📖 **Python.org Beginner's Guide:** [python.org/about/gettingstarted](https://www.python.org/about/gettingstarted/)
 - 🎥 **Python Installation Video:** Search "Python installation [your OS]"
 - 💬 **Community:** r/learnpython, Python Discord, Stack Overflow
 - 🎥 **Video Playlist – Level 1 (Noob → Nerd)**: [Python Fundamentals – Level 1 (YouTube playlist)](https://www.youtube.com/watch?v=Cy6DqbRjsF0&list=PLdLQDTLMjAzpRBxP4q1XJOuLhFG4pSfBB)

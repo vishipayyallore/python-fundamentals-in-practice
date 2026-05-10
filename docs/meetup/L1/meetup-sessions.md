@@ -242,7 +242,7 @@ Perfect For:
 
 Date: Sun, Dec 14, 2025 · 9:00 AM to 9:30 AM IST
 
-Event URL: <https://www.meetup.com/dot-net-learners-house-hyderabad/events/312432302>  
+Event URL: <https://www.meetup.com/dot-net-learners-house-hyderabad/events/312432302/>  
 
 🔹 Session Agenda:
 
