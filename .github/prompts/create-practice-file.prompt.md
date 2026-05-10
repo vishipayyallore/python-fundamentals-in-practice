@@ -18,7 +18,7 @@ You are adding a Python practice file to **Python Fundamentals in Practice**.
 Session file path: `src/L{level}/S{session}/{nn}_{descriptive_name}.py`  
 Mini-project file path: `src/L{level}/S{session}_MP{project}/{nn}_{descriptive_name}.py`
 
-Examples: `src/L1/S3/03_comparison_operators.py`, `src/L1/S5_MP1/01_simple_calculator.py`
+Examples: `src/L1/S3/03_comparison_operators.py`, `src/L1/S5/03_simple_calculator.py`
 
 ## File template
 

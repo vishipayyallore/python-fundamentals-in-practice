@@ -237,7 +237,7 @@ print("🚀 Advanced Python Preview")
 
 **CRITICAL**: All file references must:
 
-- ✅ Use expected filename patterns (`S1.md`, `S5_MP1.md`, `01_name.py`, etc.)
+- ✅ Use expected filename patterns (`S1.md`, `S5.md` for Mini Project 1 doc slot, `S10_MP2.md`-style when using an explicit suffix, `01_name.py`, etc.)
 - ✅ Use correct `L{level}/S{session}/` directory structure
 - ✅ Match actual file names exactly
 - ✅ Be verified before committing

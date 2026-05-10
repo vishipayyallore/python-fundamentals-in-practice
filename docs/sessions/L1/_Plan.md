@@ -63,25 +63,25 @@ sessions:
     topic: "Basic Debugging, Reading Errors & Built-in Functions"
     duration: "30 min"
     type: "Knowledge"
-    status: "Ready"
+    status: "Planned"
     file: "docs/sessions/L1/S7.md"
   - session: 8
     topic: "Lists & Loops"
     duration: "30 min"
     type: "Knowledge"
-    status: "Ready"
+    status: "Planned"
     file: "docs/sessions/L1/S8.md"
   - session: 9
     topic: "Dictionaries & Basic Testing"
     duration: "30 min"
     type: "Knowledge"
-    status: "Ready"
+    status: "Planned"
     file: "docs/sessions/L1/S9.md"
   - session: "MP2"
     topic: "Mini Project 2: Personal Profile Generator"
     duration: "30–45 min"
     type: "Project"
-    status: "Ready"
+    status: "Planned"
     file: "docs/sessions/L1/S10.md"
 ---
 
@@ -110,10 +110,10 @@ sessions:
 | A     | 4       | Conditionals, Indentation & Introduction to Modules    | 30 min    | 📚 Knowledge | ✅ Ready   |
 | A     | 🚀 MP1  | Mini Project 1: Simple Calculator *(after Session 4)*  | 30–45 min | 🛠️ Project   | ✅ Ready   |
 | B     | 6       | Loops & Iteration                                      | 30 min    | 📚 Knowledge | ✅ Ready   |
-| B     | 7       | Basic Debugging, Reading Errors & Built-in Functions   | 30 min    | 📚 Knowledge | ✅ Ready   |
-| B     | 8       | Lists & Loops                                          | 30 min    | 📚 Knowledge | ✅ Ready   |
-| B     | 9       | Dictionaries & Basic Testing                           | 30 min    | 📚 Knowledge | ✅ Ready   |
-| B     | 🚀 MP2  | Mini Project 2: Personal Profile Generator *(after Session 9)* | 30–45 min | 🛠️ Project   | ✅ Ready   |
+| B     | 7       | Basic Debugging, Reading Errors & Built-in Functions   | 30 min    | 📚 Knowledge | 🔜 Planned |
+| B     | 8       | Lists & Loops                                          | 30 min    | 📚 Knowledge | 🔜 Planned |
+| B     | 9       | Dictionaries & Basic Testing                           | 30 min    | 📚 Knowledge | 🔜 Planned |
+| B     | 🚀 MP2  | Mini Project 2: Personal Profile *(after Session 9)*      | 30–45 min | 🛠️ Project   | 🔜 Planned |
 
 ---
 

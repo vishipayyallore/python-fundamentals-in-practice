@@ -16,9 +16,9 @@ You are creating educational content for the **Python Fundamentals in Practice**
 ## Authoritative paths
 
 - Session doc (regular session) → `docs/sessions/L{level}/S{session}.md` (e.g. `docs/sessions/L1/S6.md`)
-- Session doc (mini project) → `docs/sessions/L{level}/S{session}_MP{project}.md` (e.g. `docs/sessions/L1/S5_MP1.md`)
+- Session doc (mini project) → prefer `docs/sessions/L{level}/S{n}.md` when the doc occupies session slot *n* (e.g. `docs/sessions/L1/S5.md`); optional explicit suffix `S{session}_MP{project}.md` (e.g. `docs/sessions/L1/S10_MP2.md`)
 - Practice code (regular session) → `src/L{level}/S{session}/` (e.g. `src/L1/S6/`)
-- Practice code (mini project) → `src/L{level}/S{session}_MP{project}/` (e.g. `src/L1/S5_MP1/`)
+- Practice code (mini project) → same folder pattern as the doc slot (e.g. `src/L1/S5/`) or `src/L{level}/S{session}_MP{project}/` when using a dedicated mini-project folder
 - Structure ref → `docs/02_RepositoryStructure.md`
 
 ## Workflow: THINK → REASON → ACT → VERIFY

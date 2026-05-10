@@ -44,7 +44,7 @@ Status Legend:
 
 **Focus:** Environment setup, basic syntax, curiosity ignition  
 **Duration:** ~5–6 hours (8 sessions × 30 min + 2 mini projects × 30–45 min)  
-**Status:** 🚧 **In Progress** - Sessions 1–5 (knowledge) available; [Mini Project 1](sessions/L1/S5_MP1.md) guide and starter practice pack (`src/L1/S5_MP1/`) are now in-repo
+**Status:** 🚧 **In Progress** - Sessions 1–4 plus [Mini Project 1](sessions/L1/S5.md) (`src/L1/S5/`) and Session 6 loops (`S6.md`, `src/L1/S6/`) are in-repo; later Level 1 sessions are planned
 
 **Actual Session Breakdown:**
 
@@ -107,7 +107,7 @@ Before moving to Level 2, you should be able to:
 
 ## 🚧 **Current Implementation Status**
 
-- **🚧 Level 1:** In Progress - Sessions 1–5 docs available (`S1.md`–`S4.md`, `S6.md`), with practice files in `src/L1/S1`–`S4` and `src/L1/S6`, plus [Mini Project 1](sessions/L1/S5_MP1.md) starter practice files in `src/L1/S5_MP1/`; see [Level 1 Plan](sessions/L1/_Plan.md) for full roll-out
+- **🚧 Level 1:** In Progress - `S1.md`–`S4.md`, `S5.md` (Mini Project 1), and `S6.md` with matching `src/L1/` practice; sessions 7–10 are planned. See [Level 1 Plan](sessions/L1/_Plan.md)
 - **⏭️ Level 2-9:** Coming soon
 
 ---

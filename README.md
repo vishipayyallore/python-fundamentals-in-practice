@@ -29,9 +29,8 @@ This is **Swamy's personal learning and curriculum-development** repository. Con
    - Check current implementation status
 
 2. **📖 [Level 1 Plan](docs/sessions/L1/_Plan.md)** - Begin with Level 1: Noob → Nerd
-   - Full L1 roadmap: 10 sessions; core content for **Sessions 1–5** is in-repo (`S1.md`–`S4.md`, `S6.md`, and `src/L1/S1`–`S4/` + `src/L1/S6/` practice)
-   - File naming note: Session 5 content is stored in `docs/sessions/L1/S6.md` because `S5_MP1.md` is the mini-project slot
-   - [Mini Project 1](docs/sessions/L1/S5_MP1.md) now includes a full guide and starter practice pack (`src/L1/S5_MP1/`)
+   - Full L1 roadmap: 10 sessions; in-repo today: **Sessions 1–4**, **Mini Project 1** ([`S5.md`](docs/sessions/L1/S5.md), practice under [`src/L1/S5/`](src/L1/S5/)), and **Session 6** ([`S6.md`](docs/sessions/L1/S6.md), practice under [`src/L1/S6/`](src/L1/S6/))
+   - Sessions 7–10 and Mini Project 2 are planned; see the plan file and [`docs/02_RepositoryStructure.md`](docs/02_RepositoryStructure.md)
    - Step-by-step learning path
 
 3. **🎥 [Watch Level 1 Playlist](https://www.youtube.com/watch?v=Cy6DqbRjsF0&list=PLdLQDTLMjAzpRBxP4q1XJOuLhFG4pSfBB)** - Video walkthroughs for Level 1 sessions
@@ -145,11 +144,11 @@ There is **no** `package.json` or front-end stack; see the workflow job “Front
 For quick local confidence on interactive scripts, you can pipe sample input instead of typing manually:
 
 ```bash
-printf "+\n10\n5\n" | python src/L1/S5_MP1/01_simple_calculator.py
-printf "+\n10\n5\nq\n" | python src/L1/S5_MP1/02_simple_calculator_loop.py
+printf "+\n10\n5\n" | python src/L1/S5/03_simple_calculator.py
+printf "+\n10\n5\nq\n" | python src/L1/S6/04_calculator_loop.py
 ```
 
-These checks are also run in CI for MP1 scripts (see `.github/workflows/python-quality.yml`).
+These checks are also run in CI (see `.github/workflows/python-quality.yml`).
 
 ### **CI/CD Quality Workflow (Docs)**
 

@@ -20,6 +20,7 @@ select = [
 ]
 ignore = [
   "E501",  # line length (handled by formatter preference; educational long lines in strings OK)
+  "UP003",  # keep print(type(...)) in lessons — students must see type(), not only class names
 ]
 
 [tool.ruff.lint.isort]
