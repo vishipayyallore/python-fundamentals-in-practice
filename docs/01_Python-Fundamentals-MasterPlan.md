@@ -44,7 +44,7 @@ Status Legend:
 
 **Focus:** Environment setup, basic syntax, curiosity ignition  
 **Duration:** ~5–6 hours (8 sessions × 30 min + 2 mini projects × 30–45 min)  
-**Status:** 🚧 **In Progress** - Sessions 1–5 (knowledge) available; [Mini Project 1](sessions/L1/S5_MP1.md) guide and starter practice pack (`src/L1/S5_MP1/`) are now in-repo
+**Status:** 🚧 **In Progress** - Sessions 1–4 plus [Mini Project 1](sessions/L1/S5.md) (`src/L1/S5/`) and Session 6 loops (`S6.md`, `src/L1/S6/`) are in-repo; later Level 1 sessions are planned
 
 **Actual Session Breakdown:**
 
@@ -107,7 +107,7 @@ Before moving to Level 2, you should be able to:
 
 ## 🚧 **Current Implementation Status**
 
-- **🚧 Level 1:** In Progress - Sessions 1–5 docs available (`S1.md`–`S4.md`, `S6.md`), with practice files in `src/L1/S1`–`S4` and `src/L1/S6`, plus [Mini Project 1](sessions/L1/S5_MP1.md) starter practice files in `src/L1/S5_MP1/`; see [Level 1 Plan](sessions/L1/_Plan.md) for full roll-out
+- **🚧 Level 1:** In Progress - `S1.md`–`S4.md`, `S5.md` (Mini Project 1), and `S6.md` with matching `src/L1/` practice; sessions 7–10 are planned. See [Level 1 Plan](sessions/L1/_Plan.md)
 - **⏭️ Level 2-9:** Coming soon
 
 ---
@@ -133,8 +133,8 @@ Before moving to Level 2, you should be able to:
 
 ## 📚 **Additional Resources**
 
-- 🌐 **Official Python Tutorial:** [docs.python.org/tutorial](https://docs.python.org/tutorial/)
-- 📖 **Python.org Beginner's Guide:** [python.org/about/gettingstarted](https://python.org/about/gettingstarted/)
+- 🌐 **Official Python Tutorial:** [docs.python.org/tutorial](https://docs.python.org/3/tutorial/)
+- 📖 **Python.org Beginner's Guide:** [python.org/about/gettingstarted](https://www.python.org/about/gettingstarted/)
 - 🎥 **Python Installation Video:** Search "Python installation [your OS]"
 - 💬 **Community:** r/learnpython, Python Discord, Stack Overflow
 - 🎥 **Video Playlist – Level 1 (Noob → Nerd)**: [Python Fundamentals – Level 1 (YouTube playlist)](https://www.youtube.com/watch?v=Cy6DqbRjsF0&list=PLdLQDTLMjAzpRBxP4q1XJOuLhFG4pSfBB)

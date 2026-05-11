@@ -34,7 +34,9 @@ print(f"Is score between 70 and 80? {70 <= score <= 80}")
 print("\n=== From compare to 'decision' (Session 4 next) ===\n")
 age = int(input("Enter your age: "))
 print("Can vote (age >= 18)?", age >= 18)
-print("👉 This expression is True or False — if/else will *act* on that next session.\n")
+print(
+    "👉 This expression is True or False — if/else will *act* on that next session.\n"
+)
 
 # Grade check (reuses "thinking" with another input)
 print("--- Test score check ---")

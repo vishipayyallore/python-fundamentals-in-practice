@@ -11,7 +11,9 @@ print(f"a = {a}, b = {b}")
 print(f"Addition:       a + b = {a + b}")
 print(f"Subtraction:    a - b = {a - b}")
 print(f"Multiplication: a * b = {a * b}")
-print(f"Division:       a / b = {a / b}   👉 / always gives float in Python 3, even 10/2 → 5.0")
+print(
+    f"Division:       a / b = {a / b}   👉 / always gives float in Python 3, even 10/2 → 5.0"
+)
 print(f"Floor division: a // b = {a // b}")
 print(f"Modulo:         a % b = {a % b}")
 print(f"Exponentiation: a ** 2 = {a ** 2}")

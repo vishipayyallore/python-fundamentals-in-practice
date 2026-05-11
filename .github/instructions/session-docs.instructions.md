@@ -14,7 +14,7 @@ Session docs must include all of the following content, but heading names and ex
 2. **Learning objectives/outcomes** — measurable, specific ("Students will be able to…")
 3. **Prerequisites/builds-on** — link to prior sessions when applicable
 4. **Core teaching content** — progressive: simple → complex
-5. **Practice file mapping** — explicit references to `src/L{level}/S{session}/` files (or `src/L{level}/S{session}_MP{number}/` for mini projects)
+5. **Practice file mapping** — explicit references to `src/L{level}/S{session}/` files (mini projects may live in the same slot folder, e.g. `src/L1/S5/`, or under `src/L{level}/S{session}_MP{number}/` when used)
 6. **Wrap-up summary** — key takeaways / progress check / "what you can do now"
 7. **Troubleshooting guidance** — common errors and fixes (required from S3 onwards; encouraged earlier)
 
@@ -33,16 +33,16 @@ YAML front-matter is **optional**; clear content coverage and pedagogical flow t
 ## File naming
 
 - Regular session format: `S{session}.md` — e.g. `S3.md`
-- Mini project format: `S{session}_MP{number}.md` — e.g. `S5_MP1.md`
+- Mini project format: often `S{n}.md` for the numbered slot (e.g. `S5.md` for Mini Project 1), or `S{session}_MP{number}.md` when you want an explicit suffix (e.g. `S10_MP2.md`)
 - Level plan file: `_Plan.md`
-- Mini-project numbering follows curriculum sequence within the level (for example `S5_MP1.md`, `S10_MP2.md`).
+- Mini-project numbering follows curriculum sequence within the level.
 - Stored at: `docs/sessions/L{level}/` — never `docs/sessions/` root
 - Session number in the filename must match curriculum sequence
 
 ## Links and references
 
 - Session links to practice files must use `src/L{level}/S{session}/{nn}_name.py` format.
-- Mini-project links to practice files must use `src/L{level}/S{session}_MP{number}/{nn}_name.py` format.
+- Mini-project links to practice files use the same path pattern when the pack lives in the session slot folder; otherwise `src/L{level}/S{session}_MP{number}/{nn}_name.py`.
 - Verify every linked file **exists** before committing.
 - Image refs: `../../images/S{session}/filename.png` (relative from session doc).
 

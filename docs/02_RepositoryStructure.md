@@ -64,16 +64,17 @@ python-fundamentals-in-practice/
 │   │       ├── S2.md
 │   │       ├── S3.md
 │   │       ├── S4.md
-│   │       ├── S5_MP1.md
+│   │       ├── S5.md
 │   │       ├── S6.md
 │   │       └── _Plan.md
 │   ├── 01_Python-Fundamentals-MasterPlan.md
 │   └── 02_RepositoryStructure.md
 ├── src/
 │   ├── L1/
-│   │   ├── S5_MP1/
-│   │   │   ├── 01_simple_calculator.py
-│   │   │   ├── 02_simple_calculator_loop.py
+│   │   ├── S5/
+│   │   │   ├── 01_PEP8_naming_and_spacing.py
+│   │   │   ├── 02_del_and_bool_arithmetic.py
+│   │   │   ├── 03_simple_calculator.py
 │   │   │   └── calculator_utils.py
 │   │   ├── S1/
 │   │   │   ├── 01_hello.py
@@ -94,7 +95,11 @@ python-fundamentals-in-practice/
 │   │   └── S6/
 │   │       ├── 01_for_loops.py
 │   │       ├── 02_while_loops.py
-│   │       └── 03_loop_controls_fizzbuzz.py
+│   │       ├── 03_loop_controls_fizzbuzz.py
+│   │       ├── 04_calculator_loop.py
+│   │       ├── 05_values_to_variables.py
+│   │       ├── 06_chained_and_multi_assignment.py
+│   │       └── 07_conversion_limits.py
 │   └── L2/
 │       └── .gitkeep
 ├── tools/
@@ -139,7 +144,7 @@ The following are roadmap items and may be referenced in planning docs, but they
 
 - Location: `docs/sessions/L{level}/`
 - Pattern: `S{session}.md` (for example `S1.md`)
-- Mini projects: `S{session}_MP{number}.md` (for example `S5_MP1.md`)
+- Mini projects: often `S{n}.md` for the curriculum slot (for example `S5.md` for Mini Project 1), or `S{session}_MP{number}.md` when you want an explicit suffix (for example `S10_MP2.md`)
 - Level plan: `_Plan.md`
 
 ### Practice files
@@ -147,7 +152,7 @@ The following are roadmap items and may be referenced in planning docs, but they
 - Location: `src/L{level}/S{session}/`
 - Default pattern: `{nn}_{descriptive_name}.py`
 - Allowed special-case non-numbered filename (current tracked example): `src/L1/S1/bytecode_demo.py`
-- Mini-project packs may use `src/L{level}/S{session}_MP{number}/` (for example `src/L1/S5_MP1/01_simple_calculator.py`)
+- Mini-project packs use `src/L{level}/S{session}/` alongside other session practice (for example `src/L1/S5/03_simple_calculator.py`); alternate layout `S{session}_MP{number}/` is allowed when a pack spans multiple starter files
 
 ### Tools and policy files
 
@@ -167,8 +172,8 @@ The following are roadmap items and may be referenced in planning docs, but they
 - **Session 2**: [sessions/L1/S2.md](sessions/L1/S2.md)
 - **Session 3**: [sessions/L1/S3.md](sessions/L1/S3.md)
 - **Session 4**: [sessions/L1/S4.md](sessions/L1/S4.md)
-- **Mini Project 1**: [sessions/L1/S5_MP1.md](sessions/L1/S5_MP1.md)
-- **Session 5**: [sessions/L1/S6.md](sessions/L1/S6.md)
+- **Mini Project 1 (doc slot S5)**: [sessions/L1/S5.md](sessions/L1/S5.md)
+- **Session 6 (loops)**: [sessions/L1/S6.md](sessions/L1/S6.md)
 
 ---
 

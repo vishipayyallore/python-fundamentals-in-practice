@@ -69,13 +69,14 @@
 │           ├── S2.md
 │           ├── S3.md
 │           ├── S4.md
-│           ├── S5_MP1.md
+│           ├── S5.md
 │           └── S6.md
 ├── src
 │   ├── L1
-│   │   ├── MP1
-│   │   │   ├── 01_simple_calculator.py
-│   │   │   ├── 02_simple_calculator_loop.py
+│   │   ├── S5
+│   │   │   ├── 01_PEP8_naming_and_spacing.py
+│   │   │   ├── 02_del_and_bool_arithmetic.py
+│   │   │   ├── 03_simple_calculator.py
 │   │   │   └── calculator_utils.py
 │   │   ├── S1
 │   │   │   ├── 01_hello.py
@@ -93,10 +94,14 @@
 │   │   │   ├── 01_conditionals.py
 │   │   │   ├── 02_boolean_logic.py
 │   │   │   └── 03_number_guessing_game.py
-│   │   └── S5
+│   │   └── S6
 │   │       ├── 01_for_loops.py
 │   │       ├── 02_while_loops.py
-│   │       └── 03_loop_controls_fizzbuzz.py
+│   │       ├── 03_loop_controls_fizzbuzz.py
+│   │       ├── 04_calculator_loop.py
+│   │       ├── 05_values_to_variables.py
+│   │       ├── 06_chained_and_multi_assignment.py
+│   │       └── 07_conversion_limits.py
 │   └── L2
 │       └── .gitkeep
 └── tools
