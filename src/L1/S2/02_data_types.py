@@ -2,9 +2,7 @@
 # Session 2: The four common types — predict, then run
 
 print("=== Python's four fundamental types ===\n")
-print(
-    "Guess the type before we print: int or float? str or int? (Ask → run → explain.)\n"
-)
+print("Guess the type before we print: int or float? str or int? (Ask → run → explain.)\n")
 
 # 1. Integers (int)
 print("1. INTEGERS (int):")

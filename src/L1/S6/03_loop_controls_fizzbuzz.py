@@ -1,36 +1,59 @@
+"""Session 6: break, continue, pass, and a FizzBuzz loop."""
+
 # Filename: src/L1/S6/03_loop_controls_fizzbuzz.py
-# Session 6: Loops & Iteration — break, continue, pass, and FizzBuzz
 
-print("=== Loop controls demo ===\n")
+import sys
 
-print("continue demo (skip 3):")
-for value in range(1, 6):
-    if value == 3:
-        # Why continue: skip this one case, keep loop alive for others.
-        continue
-    print(value)
+HELP_TEXT = """03_loop_controls_fizzbuzz.py
 
-print("\nbreak demo (stop at 4):")
-for value in range(1, 8):
-    if value == 4:
-        # Why break: we are done with the loop entirely.
-        break
-    print(value)
+Purpose
+    Demonstrate `continue`, `break`, and `pass`, then apply condition checks in
+    a classic FizzBuzz loop.
 
-print("\npass demo (placeholder branch):")
-for value in range(1, 4):
-    if value == 2:
-        # pass keeps syntax valid when you intentionally do nothing.
-        pass
-    print(f"Value: {value}")
+Usage
+    python src/L1/S6/03_loop_controls_fizzbuzz.py
+"""
 
-print("\nFizzBuzz 1..20:")
-for number in range(1, 21):
-    if number % 3 == 0 and number % 5 == 0:
-        print("FizzBuzz")
-    elif number % 3 == 0:
-        print("Fizz")
-    elif number % 5 == 0:
-        print("Buzz")
-    else:
-        print(number)
+
+def main(argv: list[str]) -> int:
+    if any(arg in {"-h", "--help"} for arg in argv[1:]):
+        print(HELP_TEXT)
+        return 0
+
+    print("=== Loop controls demo ===\n")
+
+    print("continue demo (skip 3):")
+    for value in range(1, 6):
+        if value == 3:
+            # Why continue: skip this one case, keep loop alive for others.
+            continue
+        print(value)
+
+    print("\nbreak demo (stop at 4):")
+    for value in range(1, 8):
+        if value == 4:
+            # Why break: we are done with the loop entirely.
+            break
+        print(value)
+
+    print("\npass demo (placeholder branch):")
+    for value in range(1, 4):
+        if value == 2:
+            # pass keeps syntax valid when you intentionally do nothing.
+            pass
+        print(f"Value: {value}")
+
+    print("\nFizzBuzz 1..20:")
+    for number in range(1, 21):
+        if number % 3 == 0 and number % 5 == 0:
+            print("FizzBuzz")
+        elif number % 3 == 0:
+            print("Fizz")
+        elif number % 5 == 0:
+            print("Buzz")
+        else:
+            print(number)
+    return 0
+
+
+raise SystemExit(main(sys.argv))

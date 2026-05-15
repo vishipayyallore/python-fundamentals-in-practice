@@ -7,7 +7,6 @@ Teaching arc:
   3. try/except ValueError — catch a conversion that cannot succeed
      and explain why (preview of formal error-handling in S7)
 
-Promoted from: src/Working/Module1/05_sample.py
 """
 
 # Filename: src/L1/S6/07_conversion_limits.py

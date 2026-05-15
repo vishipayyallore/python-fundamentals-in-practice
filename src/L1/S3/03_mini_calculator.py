@@ -1,9 +1,7 @@
 # Filename: src/L1/S3/03_mini_calculator.py
 # Session 3: Puts S1 input + S2 types + S3 operators in one place
 
-print(
-    "👉 This combines everything so far: input, numbers, and many operations on the same data.\n"
-)
+print("👉 This combines everything so far: input, numbers, and many operations on the same data.\n")
 print("=== Mini calculator ===\n")
 print("(Enter numbers like 10 or 5.5 — plain digits/decimal.)\n")
 
@@ -33,11 +31,7 @@ if num1 == 0 and num2 < 0:
 else:
     print(f"Power:          {num1} ** {num2} = {num1**num2}")
 
-print(
-    "\n👉 We just performed many operations on the same two values — that is real program behavior.\n"
-)
-print(
-    "👉 Which operation do you use most in real life? (No wrong answer — just notice.)\n"
-)
+print("\n👉 We just performed many operations on the same two values — that is real program behavior.\n")
+print("👉 Which operation do you use most in real life? (No wrong answer — just notice.)\n")
 
 print("✨ Calculation complete!")

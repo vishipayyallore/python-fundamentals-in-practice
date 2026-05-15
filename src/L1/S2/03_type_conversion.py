@@ -13,9 +13,7 @@ num1 = int(num1)
 num2 = int(num2)
 print("After int():", num1 + num2, "  ← now real addition.\n")
 
-print(
-    "👉 input() always returns a string → convert when you need numbers (Session 1 + Session 2).\n"
-)
+print("👉 input() always returns a string → convert when you need numbers (Session 1 + Session 2).\n")
 
 # More conversion patterns
 print("=== Type conversion reference ===\n")
@@ -33,9 +31,7 @@ age = 25
 print(f"   str({age}) → {repr(str(age))}")
 
 print("\n4. TO bool (samples):")
-print(
-    f"   bool(1)={bool(1)}, bool(0)={bool(0)}, bool('')={bool('')}, bool('hi')={bool('hi')}"
-)
+print(f"   bool(1)={bool(1)}, bool(0)={bool(0)}, bool('')={bool('')}, bool('hi')={bool('hi')}")
 
 # int() can fail: int("hello") — mention in class, not required to demo crash in script
 print("\n=== Practical: simulated input (always str) ===")
