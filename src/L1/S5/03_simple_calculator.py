@@ -4,6 +4,8 @@
 
 import sys
 
+from calculator_utils import is_valid_number_text
+
 HELP_TEXT = """03_simple_calculator.py
 
 Purpose
@@ -13,8 +15,6 @@ Purpose
 Usage
     python src/L1/S5/03_simple_calculator.py
 """
-
-from calculator_utils import is_valid_number_text
 
 
 def main(argv: list[str]) -> int:
