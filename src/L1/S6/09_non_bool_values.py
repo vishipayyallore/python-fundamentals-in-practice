@@ -45,7 +45,7 @@ def demo_and_first_falsy_wins() -> None:
     print("\n=== 3) and - first falsy value is returned ===")
     # All three are evaluated left-to-right; empty string '' is first falsy
     result = "" and "loop" and "list" and []
-    print(f'  "" and "loop" and "list" and []')
+    print('  "" and "loop" and "list" and []')
     print(f"  -> {repr(result)}")
     print("  ('' is falsy; Python stops immediately and returns '')")
     print("  (does NOT reach 'loop', 'list', or [])")
@@ -68,19 +68,19 @@ def demo_practical_idioms() -> None:
     # Default value pattern
     user_input = ""
     name = user_input or "Guest"
-    print(f'  user_input = ""')
+    print('  user_input = ""')
     print(f'  name = user_input or "Guest"  -> {repr(name)}')
 
     # Guard before accessing
     items = []
     first = items and items[0]
-    print(f"\n  items = []")
+    print("\n  items = []")
     print(f"  first = items and items[0]    -> {repr(first)}")
     print("  (empty list is falsy; short-circuit avoids IndexError)")
 
     items = ["apple", "banana"]
     first = items and items[0]
-    print(f"\n  items = ['apple', 'banana']")
+    print("\n  items = ['apple', 'banana']")
     print(f"  first = items and items[0]    -> {repr(first)}")
 
 
