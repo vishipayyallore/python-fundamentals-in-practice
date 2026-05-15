@@ -12,9 +12,7 @@ has_license = input("Do you have a license? (yes/no): ").lower() == "yes"
 can_drive = age >= 18 and has_license
 print(f"Age: {age}, Has License: {has_license}")
 print(f"Can drive? {can_drive}")
-print(
-    "Evaluate: (age >= 18) and (has_license) — mentally check each part, then the whole 'and'."
-)
+print("Evaluate: (age >= 18) and (has_license) — mentally check each part, then the whole 'and'.")
 print("(Both must be True for 'and' to be True.)\n")
 
 # Using 'or'
@@ -43,9 +41,7 @@ is_member = input("Are you a store member? (yes/no): ").lower() == "yes"
 # Seniors (65+) OR members get discount — mentally check each side of "or"
 if age >= 65 or is_member:
     print("🎉 You get a 20% discount!")
-    print(
-        "   (Why? Ask: is age >= 65? is member? If *either* is True, the whole 'or' is True.)"
-    )
+    print("   (Why? Ask: is age >= 65? is member? If *either* is True, the whole 'or' is True.)")
 else:
     print("Regular price applies.")
     print("   (Why? Both age >= 65 and membership were False, so the 'or' is False.)")

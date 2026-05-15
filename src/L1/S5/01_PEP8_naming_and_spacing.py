@@ -19,7 +19,7 @@ Purpose
     5. Comments explain WHY, not WHAT
 
 Usage
-    python 01_PEP8_naming_and_spacing.py
+    python src/L1/S5/01_PEP8_naming_and_spacing.py
 """
 
 
@@ -32,9 +32,7 @@ def demo_rule1_meaningful_names() -> None:
     first_number = 10
     second_number = 5
     result = first_number + second_number
-    print(
-        f"✅ Good names: operation={operation}, first_number={first_number}, second_number={second_number}"
-    )
+    print(f"✅ Good names: operation={operation}, first_number={first_number}, second_number={second_number}")
     print(f"   Result: {result}\n")
 
     # ❌ POOR: Single letters don't explain intent
@@ -99,9 +97,7 @@ def demo_rule5_comments_explain_why() -> None:
     # # check if second is zero
     # if second == 0:
     #     print("Cannot divide")
-    print(
-        "❌ Bad comment: '# check if second is zero' — we can see that from the code\n"
-    )
+    print("❌ Bad comment: '# check if second is zero' — we can see that from the code\n")
 
     # ✅ GOOD: Comment explains the reason (WHY)
     second = 0

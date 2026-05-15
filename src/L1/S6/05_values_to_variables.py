@@ -7,7 +7,6 @@ Teaching arc:
   4. Why variables? — avoid rewriting the same value repeatedly
   5. Assignment, reassignment, and del
 
-Promoted from: src/Working/Module1/02_sample.py (prior draft: sample1.py)
 """
 
 # Filename: src/L1/S6/05_values_to_variables.py
@@ -36,8 +35,8 @@ def demo_raw_values() -> None:
     print(5.2 + 6.8)  # 12.0 — stays float (one float operand → float result)
 
     print("\n--- String literals ---")
-    print("hello data science")  # double quotes
-    print("hello data science")  # single quotes — same result
+    print("hello python learners")  # double quotes
+    print('hello python learners')  # single quotes — same result
 
     print("\n--- Boolean in arithmetic ---")
     print(True * 7)  # 7  (True == 1)
@@ -49,7 +48,7 @@ def demo_type_function() -> None:
     print("--- type() on values ---")
     print(type(5.9))  # <class 'float'>
     print(type(7))  # <class 'int'>
-    print(type("hello data science"))  # <class 'str'>
+    print(type("hello python learners"))  # <class 'str'>
     print(type(True))  # <class 'bool'>
 
     print("\n--- type() on an expression ---")
