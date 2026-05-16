@@ -99,7 +99,9 @@ python-fundamentals-in-practice/
 │   │       ├── 04_calculator_loop.py
 │   │       ├── 05_values_to_variables.py
 │   │       ├── 06_chained_and_multi_assignment.py
-│   │       └── 07_conversion_limits.py
+│   │       ├── 07_conversion_limits.py
+│   │       ├── 08_boolean_logic_precedence.py
+│   │       └── 09_non_bool_values.py
 │   └── L2/
 │       └── .gitkeep
 ├── tools/

@@ -26,9 +26,7 @@ print("    print('Hello World')")
 print("\n💾 Python's Bytecode (what the compiler creates):")
 dis.dis(greet)
 
-print(
-    "\n🎯 Your source became bytecode; the PVM runs it. No need to memorize this yet."
-)
+print("\n🎯 Your source became bytecode; the PVM runs it. No need to memorize this yet.")
 
 print("\n" + "=" * 50)
 print("🚀 Amazing! You've just seen Python's internal magic!")

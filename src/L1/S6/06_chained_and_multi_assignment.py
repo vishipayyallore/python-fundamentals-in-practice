@@ -6,7 +6,6 @@ Teaching arc:
      to different names in a single statement
   3. Variable swap — swap two values without a temporary variable
 
-Promoted from: src/Working/Module1/04_sample.py
 """
 
 # Filename: src/L1/S6/06_chained_and_multi_assignment.py
@@ -37,17 +36,12 @@ def demo_chained_assignment() -> None:
     # Standard delivery zones all share a 2-business-day lead time.
     # Reading right-to-left: 2 is stored in east, then central, south, north.
     north = south = central = east = 2
-    print(
-        "Standard zones (days) - "
-        f"North: {north}, South: {south}, Central: {central}, East: {east}"
-    )
+    print("Standard zones (days) - " f"North: {north}, South: {south}, Central: {central}, East: {east}")
 
     # Remote delivery zones share a 5-business-day lead time.
     highland = island = offshore = border = 5
     print(
-        "Remote zones   (days) - "
-        f"Highland: {highland}, Island: {island}, "
-        f"Offshore: {offshore}, Border: {border}"
+        "Remote zones   (days) - " f"Highland: {highland}, Island: {island}, " f"Offshore: {offshore}, Border: {border}"
     )
 
     print()
