@@ -25,3 +25,7 @@ ignore = [
 
 [tool.ruff.lint.isort]
 known-first-party = []
+
+[tool.ruff.lint.per-file-ignores]
+"src/L1/S5/03_simple_calculator.py" = ["E402"]
+"src/L1/S6/09_non_bool_values.py" = ["F541"]

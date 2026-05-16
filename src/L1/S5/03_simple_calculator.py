@@ -2,9 +2,8 @@
 
 # Filename: src/L1/S5/03_simple_calculator.py
 
+import os
 import sys
-
-from calculator_utils import is_valid_number_text
 
 HELP_TEXT = """03_simple_calculator.py
 
@@ -15,6 +14,11 @@ Purpose
 Usage
     python src/L1/S5/03_simple_calculator.py
 """
+
+# Allow imports from this folder regardless of working directory
+sys.path.insert(0, os.path.dirname(__file__))
+
+from calculator_utils import is_valid_number_text
 
 
 def main(argv: list[str]) -> int:
