@@ -76,6 +76,21 @@ def demo_rule3_no_spaces_in_parens() -> None:
     print('❌ Poor: float( "123.45" ) — spaces inside parentheses are incorrect\n')
 
 
+def demo_rule3b_indentation_and_wrapping() -> None:
+    """Extension: 4-space indentation and readable wrapped calls."""
+    print("=== Rule 3B: Indentation and Wrapping ===\n")
+
+    print("✅ Good: Python uses indentation to show which lines belong together.")
+    print("✅ Good: Use 4 spaces for each new block level.\n")
+
+    print("✅ Good wrapped call:")
+    print("result = max(\n    10,\n    25,\n    18,\n)")
+    print()
+    print("❌ Poor wrapped call:")
+    print("result = max(10,\n25,\n18)")
+    print("The second version works against readability because the continuation lines lose structure.\n")
+
+
 def demo_rule4_space_after_commas() -> None:
     """Rule 4: One space after every comma."""
     print("=== Rule 4: Space After Commas ===\n")
@@ -114,6 +129,7 @@ def main(argv: list[str]) -> int:
     demo_rule1_meaningful_names()
     demo_rule2_spaces_around_operators()
     demo_rule3_no_spaces_in_parens()
+    demo_rule3b_indentation_and_wrapping()
     demo_rule4_space_after_commas()
     demo_rule5_comments_explain_why()
 

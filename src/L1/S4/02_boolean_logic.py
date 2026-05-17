@@ -33,6 +33,16 @@ print(f"Is raining: {is_raining}")
 print(f"Go outside? {go_outside}")
 print("('not' flips True/False.)\n")
 
+print("--- Precedence preview ---")
+is_logged_in = True
+is_admin = False
+has_override = False
+preview = is_logged_in and not is_admin or has_override
+print("Expression: is_logged_in and not is_admin or has_override")
+print(f"Result: {preview}")
+print("Python reads this as: (is_logged_in and (not is_admin)) or has_override")
+print("Use parentheses whenever a mixed condition makes you pause.\n")
+
 # Combined example — age is reused from the first block
 # Reusing 'age' from earlier input — same value continues here
 print("=== Discount Calculator ===")

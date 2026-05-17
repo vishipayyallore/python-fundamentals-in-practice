@@ -35,6 +35,17 @@ num = 144
 sqrt = num**0.5
 print(f"Square root of {num} is {sqrt}")
 
+print("\n=== Assignment shortcuts ===\n")
+score = 15
+print(f"Start score = {score}")
+score += 10
+print(f"After score += 10 -> {score}")
+score *= 2
+print(f"After score *= 2  -> {score}")
+score //= 5
+print(f"After score //= 5 -> {score}")
+print("These shortcuts mean 'update the same variable using its current value'.")
+
 # Precedence — prediction loop: 14 or 20?
 print("\n=== Operator precedence (predict, then run) ===\n")
 print("👉 What is 2 + 3 * 4?  (14 or 20?)\n")
