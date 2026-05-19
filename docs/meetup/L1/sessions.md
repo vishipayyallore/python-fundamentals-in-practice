@@ -15,101 +15,45 @@
 | Session 9 | Pending |
 | Session 10 (MP 2) | Pending |
 
-## Level 1 - Session 6: Loops & Iteration
+## Level 1 - Session 10 (MP 2): Mini Project 2 — Personal Profile Generator
 
-Date: To be announced (planned)
+Date: To be announced (pending)
 
-Event URL: To be announced (planned)  
+Event URL: To be announced (pending)
 
 🔹 Session Agenda:
 
-Level: Noob → Nerd (Level 1, Session 6)  
-Format: Live Coding + Interactive Q&A  
-Duration: 30 Minutes  
-Prerequisites: Completed Session 5 (Mini Project 1: Simple Calculator), or Sessions 1–4 with equivalent comfort using `input`, validation, and `if` / `elif` / `else` in a small program
+Level: Noob → Nerd (Level 1, Session 10 — Mini Project 2)
+Format: Live Coding + Interactive Q&A
+Duration: 30–45 Minutes
+Prerequisites: Completed Session 9 (Dictionaries & Basic Testing)
 
-- Optional: Watch the recording/playlist: [Python Fundamentals – Level 1 (YouTube playlist)](https://www.youtube.com/watch?v=Cy6DqbRjsF0&list=PLdLQDTLMjAzpRBxP4q1XJOuLhFG4pSfBB)
-
-🎙️ Speaker: Viswanatha Swamy — Swamy's Tech Skills Academy  
-🕘 Time: 09:00 AM – 09:30 AM
-
-What You'll Learn:
-
-- Understand why loops are better than repeating the same code manually
-- Use `for` loops with `range()` for fixed-count repetition
-- Use `while` loops for condition-based repetition
-- Apply `break`, `continue`, and `pass` with clear intent
-- Build small loop-based programs like countdown and beginner FizzBuzz
-
-Hands-on Practice:  
-We'll write and run three focused practice scripts:
-
-- `src/L1/S6/01_for_loops.py` – `for` loops, `range()`, and iteration patterns
-- `src/L1/S6/02_while_loops.py` – `while` loops, conditions, and safe loop updates
-- `src/L1/S6/03_loop_controls_fizzbuzz.py` – `break` / `continue` / `pass` and beginner FizzBuzz
-
-Optional reinforcement (compound `while` conditions / boolean order):
-
-- `src/L1/S6/08_boolean_logic_precedence.py` – `and` / `or` / `not` precedence + a small compound `while` demo
-- `src/L1/S6/09_non_bool_values.py` – truthy/falsy values + short-circuit evaluation with non-bool operands
-
-Perfect For:
-
-- Learners who completed Session 5 (Mini Project 1) and are ready to eliminate repetitive code
-- Beginners who want to automate repeated tasks cleanly
-- Anyone preparing for upcoming sessions that combine loops with collections
-
-📢 Join us to master repetition in Python with confidence and clarity, building a core skill used in almost every real program.
+- Session details are pending final meetup scheduling.
+- Curriculum source: `docs/sessions/L1/S10.md`
+- Practice file:
+  - `src/L1/S10/profile_generator.py`
 
 ---
 
-## Level 1 - Session 7: Basic Debugging & Built-in Functions
+## Level 1 - Session 9: Dictionaries & Basic Testing
 
-Date: To be announced (planned)
+Date: To be announced (pending)
 
-Event URL: To be announced (planned)
+Event URL: To be announced (pending)
 
 🔹 Session Agenda:
 
-Level: Noob → Nerd (Level 1, Session 7)
+Level: Noob → Nerd (Level 1, Session 9)
 Format: Live Coding + Interactive Q&A
 Duration: 30 Minutes
-Prerequisites: Completed Session 6 (Loops & Iteration)
+Prerequisites: Completed Session 8 (Lists & Loops)
 
-- Optional: Watch the recording/playlist: [Python Fundamentals – Level 1 (YouTube playlist)](https://www.youtube.com/watch?v=Cy6DqbRjsF0&list=PLdLQDTLMjAzpRBxP4q1XJOuLhFG4pSfBB)
-
-🎙️ Speaker: Viswanatha Swamy — Swamy's Tech Skills Academy
-🕘 Time: 09:00 AM – 09:30 AM
-
-What You'll Learn:
-
-- Apply core PEP 8 rules for naming, spacing, and comments
-- Distinguish syntax errors from runtime errors
-- Read and interpret Python tracebacks quickly
-- Use `print()` strategically for debugging
-- Apply essential built-in functions: `len()`, `max()`, `min()`, `sum()`, `abs()`, `round()`
-
-Hands-on Practice:
-We'll write and run five focused practice scripts:
-
-- `src/L1/S7/01_error_examples.py` – guided examples of common runtime exceptions
-- `src/L1/S7/02_debug_practice.py` – bug-hunt exercises with print-debugging
-- `src/L1/S7/03_builtin_functions.py` – built-in function demonstrations
-- `src/L1/S7/04_pep8_style_refactor.py` – PEP 8 naming, spacing, and comment quality
-- `src/L1/S7/05_pep8_indentation.py` – PEP 8 indentation rules and multi-line wrapping
-
-Optional reinforcement (Concepts Revisited from Session 1):
-
-- `src/L1/S7/06_print_sep_end.py` – `print()` `sep` / `end` parameters for readable debug output
-- `src/L1/S7/07_escape_sequences.py` – `\n`, `\t`, and quote escaping for structured output
-
-Perfect For:
-
-- Learners who completed Session 6 and want to debug loops and conditions confidently
-- Beginners ready to write cleaner, more readable code
-- Anyone preparing for Session 8 where list indexing bugs are common
-
-📢 Join us to develop a fast, reliable debugging habit and build the built-in function toolkit you'll use in every Python program.
+- Session details are pending final meetup scheduling.
+- Curriculum source: `docs/sessions/L1/S9.md`
+- Practice files:
+  - `src/L1/S9/01_dict_basics.py`
+  - `src/L1/S9/02_dict_iteration.py`
+  - `src/L1/S9/03_gradebook.py`
 
 ---
 
@@ -168,45 +112,101 @@ Perfect For:
 
 ---
 
-## Level 1 - Session 9: Dictionaries & Basic Testing
+## Level 1 - Session 7: Basic Debugging & Built-in Functions
 
-Date: To be announced (pending)
+Date: To be announced (planned)
 
-Event URL: To be announced (pending)
+Event URL: To be announced (planned)
 
 🔹 Session Agenda:
 
-Level: Noob → Nerd (Level 1, Session 9)
+Level: Noob → Nerd (Level 1, Session 7)
 Format: Live Coding + Interactive Q&A
 Duration: 30 Minutes
-Prerequisites: Completed Session 8 (Lists & Loops)
+Prerequisites: Completed Session 6 (Loops & Iteration)
 
-- Session details are pending final meetup scheduling.
-- Curriculum source: `docs/sessions/L1/S9.md`
-- Practice files:
-  - `src/L1/S9/01_dict_basics.py`
-  - `src/L1/S9/02_dict_iteration.py`
-  - `src/L1/S9/03_gradebook.py`
+- Optional: Watch the recording/playlist: [Python Fundamentals – Level 1 (YouTube playlist)](https://www.youtube.com/watch?v=Cy6DqbRjsF0&list=PLdLQDTLMjAzpRBxP4q1XJOuLhFG4pSfBB)
+
+🎙️ Speaker: Viswanatha Swamy — Swamy's Tech Skills Academy
+🕘 Time: 09:00 AM – 09:30 AM
+
+What You'll Learn:
+
+- Apply core PEP 8 rules for naming, spacing, and comments
+- Distinguish syntax errors from runtime errors
+- Read and interpret Python tracebacks quickly
+- Use `print()` strategically for debugging
+- Apply essential built-in functions: `len()`, `max()`, `min()`, `sum()`, `abs()`, `round()`
+
+Hands-on Practice:
+We'll write and run five focused practice scripts:
+
+- `src/L1/S7/01_error_examples.py` – guided examples of common runtime exceptions
+- `src/L1/S7/02_debug_practice.py` – bug-hunt exercises with print-debugging
+- `src/L1/S7/03_builtin_functions.py` – built-in function demonstrations
+- `src/L1/S7/04_pep8_style_refactor.py` – PEP 8 naming, spacing, and comment quality
+- `src/L1/S7/05_pep8_indentation.py` – PEP 8 indentation rules and multi-line wrapping
+
+Optional reinforcement (Concepts Revisited from Session 1):
+
+- `src/L1/S7/06_print_sep_end.py` – `print()` `sep` / `end` parameters for readable debug output
+- `src/L1/S7/07_escape_sequences.py` – `\n`, `\t`, and quote escaping for structured output
+
+Perfect For:
+
+- Learners who completed Session 6 and want to debug loops and conditions confidently
+- Beginners ready to write cleaner, more readable code
+- Anyone preparing for Session 8 where list indexing bugs are common
+
+📢 Join us to develop a fast, reliable debugging habit and build the built-in function toolkit you'll use in every Python program.
 
 ---
 
-## Level 1 - Session 10 (MP 2): Mini Project 2 — Personal Profile Generator
+## Level 1 - Session 6: Loops & Iteration
 
-Date: To be announced (pending)
+Date: To be announced (planned)
 
-Event URL: To be announced (pending)
+Event URL: To be announced (planned)  
 
 🔹 Session Agenda:
 
-Level: Noob → Nerd (Level 1, Session 10 — Mini Project 2)
-Format: Live Coding + Interactive Q&A
-Duration: 30–45 Minutes
-Prerequisites: Completed Session 9 (Dictionaries & Basic Testing)
+Level: Noob → Nerd (Level 1, Session 6)  
+Format: Live Coding + Interactive Q&A  
+Duration: 30 Minutes  
+Prerequisites: Completed Session 5 (Mini Project 1: Simple Calculator), or Sessions 1–4 with equivalent comfort using `input`, validation, and `if` / `elif` / `else` in a small program
 
-- Session details are pending final meetup scheduling.
-- Curriculum source: `docs/sessions/L1/S10.md`
-- Practice file:
-  - `src/L1/S10/profile_generator.py`
+- Optional: Watch the recording/playlist: [Python Fundamentals – Level 1 (YouTube playlist)](https://www.youtube.com/watch?v=Cy6DqbRjsF0&list=PLdLQDTLMjAzpRBxP4q1XJOuLhFG4pSfBB)
+
+🎙️ Speaker: Viswanatha Swamy — Swamy's Tech Skills Academy  
+🕘 Time: 09:00 AM – 09:30 AM
+
+What You'll Learn:
+
+- Understand why loops are better than repeating the same code manually
+- Use `for` loops with `range()` for fixed-count repetition
+- Use `while` loops for condition-based repetition
+- Apply `break`, `continue`, and `pass` with clear intent
+- Build small loop-based programs like countdown and beginner FizzBuzz
+
+Hands-on Practice:  
+We'll write and run three focused practice scripts:
+
+- `src/L1/S6/01_for_loops.py` – `for` loops, `range()`, and iteration patterns
+- `src/L1/S6/02_while_loops.py` – `while` loops, conditions, and safe loop updates
+- `src/L1/S6/03_loop_controls_fizzbuzz.py` – `break` / `continue` / `pass` and beginner FizzBuzz
+
+Optional reinforcement (compound `while` conditions / boolean order):
+
+- `src/L1/S6/08_boolean_logic_precedence.py` – `and` / `or` / `not` precedence + a small compound `while` demo
+- `src/L1/S6/09_non_bool_values.py` – truthy/falsy values + short-circuit evaluation with non-bool operands
+
+Perfect For:
+
+- Learners who completed Session 5 (Mini Project 1) and are ready to eliminate repetitive code
+- Beginners who want to automate repeated tasks cleanly
+- Anyone preparing for upcoming sessions that combine loops with collections
+
+📢 Join us to master repetition in Python with confidence and clarity, building a core skill used in almost every real program.
 
 ---
 
