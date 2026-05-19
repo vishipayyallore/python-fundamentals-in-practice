@@ -57,7 +57,7 @@ python-fundamentals-in-practice/
 │   │       └── Py_Source_ByteCode.PNG
 │   ├── meetup/
 │   │   └── L1/
-│   │       └── meetup-sessions.md
+│   │       └── sessions.md
 │   ├── sessions/
 │   │   └── L1/
 │   │       ├── S1.md
