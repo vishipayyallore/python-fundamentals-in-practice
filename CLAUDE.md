@@ -55,4 +55,4 @@ If a tool also reads **`.claude/CLAUDE.md`**, that file defers to this repositor
 
 Read **`docs/02_RepositoryStructure.md`**, then the relevant **`.mdc`** rule, then open the files you will edit. Do not invent paths or session numbers.
 
-For meetup content placement in Level 1, use `docs/meetup/L1/meetup-sessions.md` status table and ask permission before editing completed sessions.
+For meetup content placement in Level 1, use `docs/meetup/L1/sessions.md` status table and ask permission before editing completed sessions.
