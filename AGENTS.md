@@ -82,7 +82,7 @@ This project **expects explicit reasoning** in learning material and in agent wo
    Update in order: `docs/02_RepositoryStructure.md` → `README.md` / `.github/copilot-instructions.md` as needed → `.cursor/rules/` cross-references → this file and `CLAUDE.md` if agent workflows changed.
 
 6. **Session bucketing safety (new content placement)**
- Treat `docs/meetup/L1/meetup-sessions.md` status table as the placement guard for Level 1 meetup updates. New content from `source-material/` or `src/Working/` should go to planned/new sessions by default. Do not add newly authored content to completed sessions unless the user explicitly approves it in the current request.
+ Treat `docs/meetup/L1/sessions.md` status table as the placement guard for Level 1 meetup updates. New content from `source-material/` or `src/Working/` should go to planned/new sessions by default. Do not add newly authored content to completed sessions unless the user explicitly approves it in the current request.
 
 ---
 

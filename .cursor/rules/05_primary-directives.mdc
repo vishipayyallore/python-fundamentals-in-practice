@@ -62,7 +62,7 @@ See: `01_educational-content-rules.mdc` for complete details.
 
 ### 5. Completed Session Protection (CRITICAL)
 
-✅ Use `docs/meetup/L1/meetup-sessions.md` status table as placement context for Level 1 meetup updates  
+✅ Use `docs/meetup/L1/sessions.md` status table as placement context for Level 1 meetup updates  
 ✅ Place newly added content into planned/new sessions by default  
 ❌ Do not add new authored content into completed sessions unless explicit user permission is received in the current request  
 ✅ If destination or status is unclear, ask before editing completed sessions

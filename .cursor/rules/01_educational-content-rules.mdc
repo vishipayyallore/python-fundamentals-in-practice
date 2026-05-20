@@ -23,7 +23,7 @@
 ✅ Promote `src/Working/` examples only after cleanup, renaming, and session-outcome alignment  
 ✅ Route newly added content to planned/new sessions first  
 ❌ Do not insert newly authored content into completed sessions unless the user explicitly approves  
-✅ Use `docs/meetup/L1/meetup-sessions.md` status table as placement context for Level 1 meetup updates  
+✅ Use `docs/meetup/L1/sessions.md` status table as placement context for Level 1 meetup updates  
 ✅ If session status or destination is ambiguous, ask permission before placing content
 
 ---
