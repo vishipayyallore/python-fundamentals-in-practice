@@ -21,15 +21,15 @@ Short guide for effective prompts in this repository.
 
 ## Example prompts
 
-**Session doc**
+### Session Doc
 
 > Review `docs/sessions/L1/S6.md` against `.github/instructions/session-docs.instructions.md`; report missing practice mappings, troubleshooting gaps, and any concepts introduced too early.
 
-**Practice code**
+### Practice Code
 
 > Update `src/L1/S6/04_calculator_loop.py` so the loop behavior matches the session doc, then run `ruff check src` and `python -m compileall -q src`.
 
-**Docs**
+### Docs
 
 > Verify all links from `README.md`, `skills.md`, `.clinerules/**/*.md`, and `.opencode/**/*.md` point to existing files or clearly external URLs.
 

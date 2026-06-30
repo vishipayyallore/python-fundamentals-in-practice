@@ -19,11 +19,11 @@ $patterns = @(
     '.opencode/**/*.md'
 )
 
-$args = @()
+$lintArgs = @()
 if ($Fix) {
-    $args += '--fix'
+    $lintArgs += '--fix'
 }
-$args += $patterns
+$lintArgs += $patterns
 
 Write-Host 'Running markdownlint-cli2...' -ForegroundColor Cyan
-npx --yes markdownlint-cli2 @args
+npx --yes markdownlint-cli2 @lintArgs
