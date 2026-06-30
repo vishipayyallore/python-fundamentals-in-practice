@@ -1,10 +1,11 @@
-# Repository structure
+# Repository Structure
 
-Canonical: `docs/01-repository-structure.md`
+Canonical: `docs/02_RepositoryStructure.md`.
 
 ```text
-src/frontend/    src/backend/    src/mcp-server/
-docs/            presentation/demo-0N/
+docs/sessions/L1/S1.md       src/L1/S1/01_hello.py
+docs/sessions/L1/_Plan.md    src/L1/S6/04_calculator_loop.py
+docs/images/S1/              tools/psscripts/
 ```
 
-Sessions extend one app; tags: `v1.0-build-your-first-agent` … `v15.0-enterprise-capstone`.
+Use `L{level}/S{session}/` everywhere. Planned sessions may be referenced only as planned; do not invent files that are not listed in the structure document.

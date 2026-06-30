@@ -1,54 +1,51 @@
-# AGENTS.md — agentic-engineering-in-practice
+# AGENTS.md - Cline Entry
 
-**Canonical index:** root [`AGENTS.md`](../AGENTS.md) (precedence, skills, subagents, recovery).
+**Canonical index:** root [`AGENTS.md`](../AGENTS.md).
 
-**Repository:** `D:\GitHub\agentic-engineering-in-practice`
+**Repository:** `python-fundamentals-in-practice`
 
-Hands-on **Agentic Engineering in Practice** codebase — one evolving app (React + FastAPI + OpenAI Agent SDK + MCP) through a 15-session **Swamy's Tech Skills Academy** curriculum.
+Educational **Python Fundamentals** curriculum for Swamy's Tech Skills Academy. This repo is documentation plus beginner-friendly practice scripts, not a web application.
 
-## Read first
+## Read First
 
-1. `README.md` — demo roadmap and stack
-2. `docs/01-repository-structure.md` — folder layout
-3. `.github/copilot-instructions.md` — development guidelines
-4. `CLAUDE.md` — governance map
+1. `AGENTS.md` - full agent map, ReAct/CoT, zero-copy and placement guardrails
+2. `docs/02_RepositoryStructure.md` - authoritative paths, names, and current inventory
+3. `.cursor/rules/*.mdc` - canonical modular rules
+4. `.github/copilot-instructions.md` - Copilot-aligned policy summary
+5. `CLAUDE.md` and `.claude/CLAUDE.md` - short Claude-oriented pointers
 
 ## Structure
 
 ```text
-src/frontend/    src/backend/    src/mcp-server/
-docs/            presentation/demo-0N/
+docs/sessions/L1/     src/L1/S1/     src/L1/S6/
+docs/images/S1/       tools/psscripts/
 ```
 
-## Subagents
+## Cline Subagents
 
-Canonical definitions live in `.github/agents/`; `.clinerules/agents/` is a Cline-facing mirror.
+These are Cline-facing mirrors of the repo's current assistant roles.
 
 | Agent | Use when |
-|-------|----------|
-| `agent-ci-verify` | After code or governance edits |
-| `demo-roadmap-review` | Reviewing a Session 1–15 milestone |
-| `docs-originality-review` | Doc rewrites under `docs/` |
+| --- | --- |
+| `agent-ci-verify` | After docs, Python, or governance edits |
+| `session-roadmap-review` | Reviewing session docs, plans, and practice-file parity |
+| `docs-originality-review` | Checking docs for zero-copy and source-integrity risk |
 
-## CI workflows
+## CI Workflows
 
 | Workflow | Scope |
-| -------- | ----- |
-| `ci-python.yml` | Ruff + pytest |
-| `ci-frontend.yml` | ESLint + Vite build |
-| `ci-documentation.yml` | Markdown lint + links |
-| `ci-skills-parity.yml` | Skills mirror parity |
-| `ci-agent-docs-guard.yml` | Governance + agent mirrors |
+| --- | --- |
+| `docs-quality.yml` | Markdown lint + Lychee links |
+| `python-quality.yml` | Ruff, `compileall`, calculator smoke checks |
 
-Local runner: `.github/skills/ci-checks/SKILL.md` (Cline mirror: `.clinerules/skills/ci-checks.md`).
+Local runners: `./tools/psscripts/docs-lint.ps1`, `./tools/psscripts/docs-links.ps1`, `ruff check src`, and `python -m compileall -q src`.
 
 ## Rules
 
-Canonical rules live in `.github/rules/`; `.clinerules/rules/` is a Cline-facing mirror.
+Canonical rules live in `.cursor/rules/`. Files under `.clinerules/rules/` are compact Cline-facing summaries.
 
-Numbered `01`–`09` — aligned with `.cursor/rules/`.
+## Do Not
 
-## Do not
-
-- Create `demo1/`, `demo2/` parallel app folders
-- Apply ML week-bundle or notebook conventions from other repos
+- Apply React, FastAPI, MCP, notebook, or demo-roadmap conventions from other repositories.
+- Use legacy `src/S1/` paths.
+- Add new Level 1 meetup content to completed sessions without explicit user approval.

@@ -1,7 +1,9 @@
-# Copilot instructions extract
+# Copilot Instructions Extract
 
 See `.github/copilot-instructions.md` for full detail.
 
-**Repo:** agentic-engineering-in-practice — one evolving agent app, five demo tags, `src/frontend` + `src/backend` + `src/mcp-server`.
+**Repo:** `python-fundamentals-in-practice` - educational Python curriculum with session docs under `docs/sessions/` and practice scripts under `src/`.
 
-Keep governance mirrors in sync; CI: `ci-skills-parity.yml`, `ci-agent-docs-guard.yml`, `ci-python.yml`, `ci-frontend.yml`, `ci-documentation.yml`.
+Keep governance aligned across root `AGENTS.md`, `CLAUDE.md`, `.claude/`, `.cursor/`, `.github/`, `.clinerules/`, `.opencode/`, `skills.md`, and `docs/02_RepositoryStructure.md`.
+
+Quality checks: `docs-quality.yml` for Markdown/link validation and `python-quality.yml` for Ruff, `compileall`, and calculator smoke checks.

@@ -1,50 +1,49 @@
 ---
 name: workspace-review
-description: Comprehensive workspace review for Agentic Engineering in Practice — structure, demo roadmap, governance mirrors, stack scaffolding, and docs/code alignment.
+description: Comprehensive workspace review for Python Fundamentals in Practice - structure, curriculum status, governance mirrors, docs links, and Python practice health.
 ---
 
-# Workspace review
+# Workspace Review
 
 Full audit checklist for this repository.
 
 ## 1. Repository structure
 
-- [ ] `src/frontend/`, `src/backend/`, `src/mcp-server/` match `docs/01-repository-structure.md`
-- [ ] No stray ML/week-bundle folders from other repos
-- [ ] `presentation/demo-0N/` present for planned sessions
+- [ ] Current tracked inventory matches `docs/02_RepositoryStructure.md`.
+- [ ] Session docs use `docs/sessions/L{level}/S{session}.md`.
+- [ ] Practice files use `src/L{level}/S{session}/`.
+- [ ] No stale app-stack, demo-roadmap, notebook, or week-bundle conventions remain in agent docs.
 
-## 2. Demo roadmap
+## 2. Curriculum roadmap
 
-- [ ] README table reflects actual demo status
-- [ ] Code implements current demo scope only (no half-finished future-demo leaks without docs)
-- [ ] Git tags documented for completed milestones
+- [ ] README quick start reflects implemented sessions.
+- [ ] `docs/sessions/L1/_Plan.md` and `docs/meetup/L1/sessions.md` are used appropriately.
+- [ ] Planned sessions are marked clearly.
 
 ## 3. Governance parity
 
-- [ ] `.github/skills/` ↔ `.cursor/skills/` byte-identical
-- [ ] `.github/agents/` ↔ `.cursor/agents/` byte-identical
-- [ ] `.github/rules/` ↔ `.cursor/rules/` aligned
-- [ ] `CLAUDE.md` references current rule and skill paths
-- [ ] `.github/copilot-instructions.md` matches repo purpose
+- [ ] Root `AGENTS.md`, `CLAUDE.md`, `.claude/CLAUDE.md`, `.github/copilot-instructions.md`, and `skills.md` agree on canonical paths.
+- [ ] `.cursor/rules/` remains canonical for modular rules.
+- [ ] `.clinerules/` and `.opencode/` are tool-specific mirrors, not alternate sources of truth.
+- [ ] Docs CI includes tracked assistant customization Markdown.
 
-## 4. Stack health (when scaffolded)
+## 4. Python health
 
-- [ ] Backend: Ruff + pytest pass
-- [ ] MCP: tests pass; tools documented
-- [ ] Frontend: lint + build pass
-- [ ] `.env.example` complete
+- [ ] `ruff check src` passes.
+- [ ] `python -m compileall -q src` passes.
+- [ ] Calculator smoke checks pass when relevant.
 
 ## 5. Documentation
 
 - [ ] No broken internal links
-- [ ] Agent architecture diagrams current
-- [ ] Getting started section in README accurate
+- [ ] Markdown lint passes for docs and tracked customization files
+- [ ] Getting started and structure sections in README are accurate
 
 ## 6. Security
 
-- [ ] No committed secrets
-- [ ] `.gitignore` covers `.env`, `node_modules/`, `.venv/`
+- [ ] No committed secrets.
+- [ ] `.gitignore` covers `.env`, generated caches, `.venv/`, and tool dependency folders where applicable.
 
 ## Output
 
-Executive summary + prioritized action list (P0 blocking, P1 before next demo, P2 nice-to-have).
+Executive summary plus prioritized action list: P0 blocking, P1 before commit, P2 nice-to-have.

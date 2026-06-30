@@ -1,33 +1,36 @@
-# Cline rules — agentic-engineering-in-practice
+# Cline Rules - Python Fundamentals in Practice
 
-Mirrors Cursor/GitHub governance for Cline. **Canonical source:** `.cursor/rules/` and `.github/copilot-instructions.md`.
+This folder adapts the repository's agent governance for Cline. It is a tool-facing mirror, not the canonical policy source.
 
-## Sync sources
+## Canonical Sources
 
-| Cline path | Canonical |
-|------------|-----------|
-| `rules/` | `.cursor/rules/*.mdc` (same numbering, `.md` extension) |
-| `skills/` | `.github/skills/*/SKILL.md` |
-| `agents/` | `.github/agents/*.md` |
-| `AGENTS.md` | Workspace entry for Cline |
+| Cline path | Source of truth |
+| --- | --- |
+| `AGENTS.md` | Root `AGENTS.md` |
+| `agentic-core-context.md` | Root `AGENTS.md`, `CLAUDE.md`, `skills.md` |
+| `rules/` | `.cursor/rules/*.mdc` plus `docs/02_RepositoryStructure.md` |
+| `skills/` | `.cursor/skills/python-fundamentals-curriculum/SKILL.md` and `skills.md` |
+| `agents/` | `.cursor/agents/*.md` |
+| `workflows/` | `README.md`, `.github/workflows/*.yml`, and `tools/psscripts/` |
 
-## Bundled skills
+## Bundled Skills
 
-- `agentic-engineering`
-- `demo-companions`
+- `python-fundamentals-curriculum`
 - `ci-checks`
 - `docs-verification`
 - `workspace-review`
-- `e2e-testing`
+- `session-companions`
+- `practice-smoke-testing`
 
 ## Subagents
 
 - `agent-ci-verify`
-- `demo-roadmap-review`
+- `session-roadmap-review`
 - `docs-originality-review`
 
-When editing governance, update canonical paths first, then resync this tree.
+## Local Checks
 
-## CI workflows
+- Docs: `./tools/psscripts/docs-lint.ps1` and `./tools/psscripts/docs-links.ps1`
+- Python: `ruff check src` and `python -m compileall -q src`
 
-`ci-python.yml`, `ci-frontend.yml`, `ci-documentation.yml`, `ci-skills-parity.yml`, `ci-agent-docs-guard.yml` — see `CLAUDE.md`.
+When governance changes, update canonical files first, then keep this folder aligned.

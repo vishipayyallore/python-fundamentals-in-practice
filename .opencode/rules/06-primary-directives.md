@@ -1,10 +1,9 @@
-# Primary directives
+# Primary Directives
 
-**This is a web application:** React + FastAPI + MCP + OpenAI Agent SDK.
+Canonical detail: `.cursor/rules/05_primary-directives.mdc`.
 
-- Session 1 in progress; sessions 2–15 planned
-- Incremental complexity per session
-- Clean separation: frontend, backend, mcp-server
-- Document as you build
-
-Stack: Python 3.13, FastAPI, React/TypeScript/Vite, MCP/FastMCP, uv + npm.
+- Read before editing: root `AGENTS.md`, `docs/02_RepositoryStructure.md`, and the relevant `.cursor/rules/*.mdc` file.
+- Preserve existing teaching flow and formatting unless the user asks for a broader rewrite.
+- Add new Level 1 meetup content only according to `docs/meetup/L1/sessions.md`; ask before editing completed sessions.
+- Prefer small, targeted fixes; do not reorganize curriculum files casually.
+- Target Python 3.13+ for practice code.

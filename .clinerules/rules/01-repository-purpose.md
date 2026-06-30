@@ -1,9 +1,9 @@
-# Repository purpose
+# Repository Purpose
 
-This repository (`agentic-engineering-in-practice`) is the **Agentic Engineering in Practice** codebase, taught through **Swamy's Tech Skills Academy** sessions.
+This repository (`python-fundamentals-in-practice`) is an educational Python fundamentals curriculum for Swamy's Tech Skills Academy.
 
-1. **One app, 15 sessions** — extend incrementally; Git tags mark milestones.
-2. **Code-first learning** — software, docs, and presentations grow together.
-3. **Engineering audience** — practical patterns for software engineers.
+1. **Progressive course material** - levels and sessions build from beginner concepts toward confident Python practice.
+2. **Docs plus runnable practice** - session write-ups live under `docs/sessions/L{level}/`; matching scripts live under `src/L{level}/S{session}/`.
+3. **Beginner-first pedagogy** - explanations, examples, and comments must teach the reasoning behind each concept.
 
-Do not create parallel `demo1/`, `demo2/` application trees.
+Do not introduce unrelated app-stack conventions, demo folders, or legacy `src/S1/` paths.

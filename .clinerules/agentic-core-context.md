@@ -1,36 +1,33 @@
-# Agentic core context
+# Cline Core Context
 
-**Repository:** `agentic-engineering-in-practice`
+**Repository:** `python-fundamentals-in-practice`
 
 ## Purpose
 
-Single **Agentic Engineering in Practice** application that grows through the **Swamy's Tech Skills Academy** curriculum:
+Beginner-focused Python curriculum with session documentation, runnable practice scripts, and governance files for multiple coding assistants.
 
-| Session | Tag | Capability |
-|---------|-----|------------|
-| 1 | `v1.0-build-your-first-agent` | Agent Runtime, calculator + weather MCP |
-| 2 | `v2.0-stateful-agents` | Conversation state, streaming, tracing |
-| 3 | `v3.0-multi-provider-agents` | OpenAI + AWS Bedrock provider interface |
-| 4 | `v4.0-context-engineering` | Application state, LLM context, context policies |
-| 5 | `v5.0-knowledge-driven-agents` | RAG, vector store, knowledge tools |
-| 6 | `v6.0-multi-agent-engineering` | Planner, specialists, coordinator |
-| 7 | `v7.0-production-foundations` | Docker, CI, smoke tests, observability |
-| 8 | `v8.0-evaluation-guardrails` | Evaluations, guardrails, quality gates |
-| 9 | `v9.0-local-capstone` | Local capstone assembled from prior capabilities |
-| 10-15 | `v10.0-distributed-persistence` … `v15.0-enterprise-capstone` | Phase II platform, cloud, Kubernetes, enterprise operations |
+| Area | Canonical path | Notes |
+| --- | --- | --- |
+| Structure | `docs/02_RepositoryStructure.md` | Single source of truth for paths and inventory |
+| Session docs | `docs/sessions/L1/` | Level 1 sessions and plan |
+| Practice code | `src/L1/S*/` | Python 3.13+ beginner scripts |
+| Meetup status | `docs/meetup/L1/sessions.md` | Guard for completed vs planned content placement |
+| Tooling | `tools/psscripts/` | Docs lint/link helper scripts |
 
-## Stack
+## Governance Map
 
-- **Frontend:** React, TypeScript, Vite, Tailwind (`src/frontend/`)
-- **Backend:** Python 3.13, FastAPI, OpenAI Agent SDK (`src/backend/`)
-- **Tools:** MCP server (`src/mcp-server/`)
+- Root `AGENTS.md`: full policy and agent entry.
+- Root `CLAUDE.md` and `.claude/CLAUDE.md`: Claude-oriented brief and pointer.
+- `.cursor/rules/*.mdc`: canonical modular rules.
+- `.github/copilot-instructions.md`: Copilot alignment.
+- `skills.md`: skill and assistant-layer index.
+- `.clinerules/` and `.opencode/`: tool-specific mirrors and workflow notes.
 
-## Docs map
+## Quality Commands
 
-- `docs/01-repository-structure.md` — canonical layout
-- `docs/04-introduction.md` … `docs/13-observability-dashboard.md` — topic guides
-- `docs/02-master-plan.md` — series master plan
-
-## Governance
-
-Skills and agents mirror `.github/skills/` and `.github/agents/`.
+```powershell
+./tools/psscripts/docs-lint.ps1
+./tools/psscripts/docs-links.ps1
+ruff check src
+python -m compileall -q src
+```

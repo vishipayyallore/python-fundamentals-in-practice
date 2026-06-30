@@ -1,7 +1,7 @@
-# Run CI checks (Cline workflow)
+# Run CI Checks (Cline Workflow)
 
-1. Read canonical `.github/skills/ci-checks/SKILL.md` (Cline mirror: `.clinerules/skills/ci-checks.md`)
-2. Run applicable checks (SKIP if not scaffolded)
-3. Report PASS / FAIL / SKIP table
+1. Read `.clinerules/skills/ci-checks.md`, `README.md`, and `.github/workflows/*.yml`.
+2. Run docs and Python checks that apply to the changed files.
+3. Report a PASS / FAIL / SKIP table with concise failure output.
 
-Tags: `agentic-engineering`, `ci`, `demo-01`
+Tags: `python-fundamentals`, `ci`, `docs`, `ruff`

@@ -1,61 +1,43 @@
 ---
 name: e2e-testing
-description: Smoke verification for Agentic Engineering in Practice — environment, service health, chat flow, and MCP tool calls when the stack is runnable.
+description: Legacy folder retained. Smoke verification for Python Fundamentals practice scripts - compileall plus selected interactive calculator input checks.
 ---
 
-# E2E smoke testing
+# Practice Smoke Testing
 
-Run when `src/backend`, `src/mcp-server`, and `src/frontend` are scaffolded.
+This repository has no web service or end-to-end browser flow. Use script-level smoke checks instead.
 
 ## Prerequisites
 
-- `.env` configured from `.env.example` (OpenAI API key, etc.)
-- `uv sync --all-groups` from **repository root**
-- `npm install` in `src/frontend`
+- Python 3.13+.
+- Ruff available when linting is needed.
 
 ## Smoke steps
 
-### 1. MCP server (manual smoke only)
+### 1. Compile all practice scripts
 
 ```powershell
-$env:PYTHONPATH = "src/mcp-server"
-uv run python src/mcp-server/server.py
+python -m compileall -q src
 ```
 
-Verify server starts without import errors (Ctrl+C after health check). In Demo 1 the backend starts MCP via stdio automatically.
-
-### 2. Backend (from repo root)
+### 2. Mini calculator
 
 ```powershell
-uv run uvicorn app.main:app --app-dir src/backend --reload --port 8000
+printf "+\n10\n5\n" | python src/L1/S5/03_simple_calculator.py
 ```
 
-- `GET /health` returns OK
-- Chat endpoint accepts a test message
-
-### 3. Frontend
+### 3. Looping calculator
 
 ```powershell
-cd src/frontend
-npm run dev
+printf "+\n10\n5\nq\n" | python src/L1/S6/04_calculator_loop.py
 ```
 
-- Chat UI loads at [http://localhost:5173](http://localhost:5173)
-- Send a message that triggers a tool call
-
-### 4. Tool-call verification (Demo 1)
-
-| User message | Expected tool |
-|--------------|---------------|
-| "What is 15 * 23?" | calculate |
-| "Weather in Seattle" | get_weather |
+Add targeted script checks only when they match the session's introduced vocabulary and do not require unexplained setup.
 
 ## Report format
 
 | Step | Status | Notes |
-|------|--------|-------|
-| MCP start | | |
-| Backend start | | |
-| Frontend load | | |
-| Chat round-trip | | |
-| Tool call | | |
+| --- | --- | --- |
+| compileall | | |
+| S5 calculator | | |
+| S6 calculator loop | | |

@@ -1,43 +1,43 @@
 ---
 name: demo-companions
-description: Demo companion architecture for agentic-engineering-in-practice — parity checks between docs, presentation assets, and src/ code for each session milestone (demo-01 … demo-15).
+description: Legacy folder retained. Session companion checklist for Python Fundamentals in Practice - parity between session docs, practice scripts, images, README references, and meetup status.
 ---
 
-# Demo companions
+# Session Companions
 
-**Scope:** `agentic-engineering-in-practice` only.
+**Scope:** `python-fundamentals-in-practice` only.
 
-## Three-layer demo bundle
+## Session bundle
 
-Each session milestone should have aligned artifacts:
+Each session should keep aligned artifacts:
 
 | Layer | Path | Contains |
-|-------|------|----------|
-| Docs | `docs/` | Concept guides; demo-specific doc when applicable |
-| Presentation | `presentation/demo-0N/` | Session slides, scripts, diagrams |
-| Code | `src/frontend`, `src/backend`, `src/mcp-server` | Runnable features for that session |
+| --- | --- | --- |
+| Docs | `docs/sessions/L{level}/S{session}.md` | Teaching narrative, objectives, practice mapping |
+| Practice | `src/L{level}/S{session}/` | Runnable Python scripts |
+| Images | `docs/images/S{session}/` | Diagrams/screenshots when used |
+| Status | `docs/meetup/L1/sessions.md` | Placement guard for completed vs planned work |
 
 ## Definition of done (per session)
 
-- [ ] README session row updated (status, topics)
-- [ ] Relevant `docs/NN-*.md` sections reflect new capabilities
-- [ ] `presentation/demo-0N/` has session assets (or placeholder README if pre-session)
-- [ ] Code implements advertised features
-- [ ] Git tag applied (`vN.N-…`) when milestone is complete
-- [ ] `.env.example` updated if new env vars are required
+- [ ] Session doc has context, objectives, prerequisites, teaching content, practice mapping, wrap-up, and troubleshooting where expected.
+- [ ] Practice files exist and match the session doc references.
+- [ ] README and structure docs are updated only when inventory or public navigation changes.
+- [ ] New Level 1 content respects `docs/meetup/L1/sessions.md`.
+- [ ] Code runs with `ruff check src` and `python -m compileall -q src`.
 
 ## Parity checks
 
-1. **README ↔ code** — listed tools and features exist and run
-2. **docs ↔ code** — architecture diagrams match routes and MCP tools
-3. **presentation ↔ docs** — session narrative matches documented flow
+1. **Docs to practice** - listed files exist and demonstrate the described concept.
+2. **Practice to docs** - scripts do not introduce unexplained concepts too early.
+3. **Status to placement** - completed sessions are not silently expanded with new content.
 
 ## Cross-session rules
 
-- Session N builds on Session N−1 — no duplicate parallel implementations
-- Retire or gate incomplete features behind clear "planned" labels in docs
+- Session N builds on earlier prerequisites.
+- Planned future sessions must be marked clearly and not treated as implemented inventory.
 
 ## Related
 
-- Structure: `docs/01-repository-structure.md`
-- Subagent: `.cursor/agents/demo-roadmap-review.md`
+- Structure: `docs/02_RepositoryStructure.md`
+- Subagent: `.cursor/agents/session-content.md`

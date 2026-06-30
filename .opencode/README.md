@@ -1,40 +1,37 @@
-# OpenCode — agentic-engineering-in-practice
+# OpenCode - Python Fundamentals in Practice
 
-OpenCode plugin config for this repository. Governance canonical sources: `.github/copilot-instructions.md`, `.cursor/rules/`, `.github/skills/`.
+OpenCode plugin config for this repository. Canonical governance sources are root `AGENTS.md`, `docs/02_RepositoryStructure.md`, `.cursor/rules/`, and `.github/copilot-instructions.md`.
 
 ## Layout
 
 ```text
-src/frontend/    src/backend/    src/mcp-server/
+docs/sessions/L1/     src/L1/S*/     tools/psscripts/
 ```
 
 ## Rules
 
-`rules/` mirrors `.cursor/rules/` (01–09).
+`rules/` contains OpenCode-facing summaries. Canonical rules remain `.cursor/rules/*.mdc`.
 
 ## Skills
 
-Same bundles as `.github/skills/` — see `skills/README.md`.
+See `skills/README.md`. This repo's canonical project skill is `.cursor/skills/python-fundamentals-curriculum/SKILL.md`.
 
 ## Agents
 
 - `agent-ci-verify`
-- `demo-roadmap-review`
+- `demo-roadmap-review` (legacy name; reviews Python session parity)
 - `docs-originality-review`
-- `demo-code-audit` (OpenCode-only: frontend + backend + MCP spot check)
+- `demo-code-audit` (legacy name; audits Python practice code alignment)
 
-## CI workflows
+## CI Workflows
 
 | Workflow | Scope |
-| -------- | ----- |
-| `ci-python.yml` | Ruff + pytest |
-| `ci-frontend.yml` | ESLint + Vite build |
-| `ci-documentation.yml` | Markdown lint + links |
-| `ci-skills-parity.yml` | Skills mirror parity |
-| `ci-agent-docs-guard.yml` | Governance + agent mirrors |
+| --- | --- |
+| `python-quality.yml` | Ruff, `compileall`, calculator smoke checks |
+| `docs-quality.yml` | Markdown lint + Lychee links |
 
 Local runner: `skills/ci-checks/SKILL.md`.
 
 ## Package
 
-`package.json` pins `@opencode-ai/plugin` for local OpenCode integration.
+`package.json` pins `@opencode-ai/plugin` for local OpenCode integration. `node_modules/` remains ignored by `.opencode/.gitignore`.

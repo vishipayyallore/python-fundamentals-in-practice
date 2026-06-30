@@ -1,67 +1,65 @@
 ---
 name: ci-checks
-description: Run CI-aligned checks for Agentic Engineering in Practice (backend Ruff/pytest, frontend lint/build when scaffolded, markdown lint, optional Lychee). Use when asked to run CI, lint, or verify code quality.
+description: Run CI-aligned checks for Python Fundamentals in Practice - Ruff, compileall, calculator smoke checks, markdownlint, and Lychee. Use when asked to run CI, lint, or verify quality.
 ---
 
-# CI Checks — Local Runner
+# CI Checks - Local Runner
 
-Commands mirror `.github/workflows/ci-python.yml`, `.github/workflows/ci-frontend.yml`, and `.github/workflows/ci-documentation.yml`.
+Commands mirror `.github/workflows/python-quality.yml` and `.github/workflows/docs-quality.yml`.
 
-Run Python checks from the **repository root** (`pyproject.toml` + `uv.lock`).
+Run all checks from the repository root.
 
 ## Policy
 
-- Quality expectations: `.cursor/rules/04_quality-assurance.mdc` and `.github/copilot-instructions.md`
+- Quality expectations: `.cursor/rules/03_quality-assurance.mdc`, `.github/copilot-instructions.md`, and `README.md`.
 
 ## Prerequisites
 
-- **Python:** `uv` at repo root — `uv sync --all-groups`
-- **Node.js:** 20.x for frontend and markdownlint
-- **Link checks:** Docker + `lycheeverse/lychee` when `lychee.toml` exists
+- **Python:** Python 3.13+ with Ruff installed or available on PATH.
+- **Node.js:** available for `markdownlint-cli2` through `npx`.
+- **Link checks:** Docker for `lycheeverse/lychee`, or skip locally and rely on CI if Docker is unavailable.
 
 ## Checks to run
 
-Report each as PASS, FAIL, or SKIP (if not yet scaffolded).
+Report each as PASS, FAIL, or SKIP.
 
-### 1. Ruff (backend + MCP)
+### 1. Ruff
 
 ```powershell
-uv run ruff check src/backend src/mcp-server
-uv run ruff format --check src/backend src/mcp-server
+ruff check src
 ```
 
-### 2. pytest (all Python tests)
+### 2. Compileall
 
 ```powershell
-uv run pytest -q
+python -m compileall -q src
 ```
 
-### 3. Frontend (when `src/frontend/package.json` exists)
+### 3. Runtime smoke checks
 
 ```powershell
-cd src/frontend
-npm ci
-npm run lint
-npm run build
+printf "+\n10\n5\n" | python src/L1/S5/03_simple_calculator.py
+printf "+\n10\n5\nq\n" | python src/L1/S6/04_calculator_loop.py
 ```
 
 ### 4. markdownlint-cli2
 
 ```powershell
-npx --yes markdownlint-cli2 "README.md" "docs/**/*.md" "presentation/**/*.md" ".cursor/**/*.md" ".github/**/*.md" "CLAUDE.md"
+./tools/psscripts/docs-lint.ps1
 ```
 
-### Optional — Lychee
+### 5. Lychee
 
 ```powershell
-docker run --rm -v "${PWD}:/workspace" -w /workspace lycheeverse/lychee:latest --config lychee.toml --cache --max-cache-age 1d '**/*.md'
+./tools/psscripts/docs-links.ps1
 ```
 
 ## Summary format
 
 | # | Check | Status | Notes |
-|---|--------|--------|-------|
+| --- | --- | --- | --- |
 | 1 | ruff | | |
-| 2 | pytest | | |
-| 3 | frontend lint/build | | |
+| 2 | compileall | | |
+| 3 | calculator smoke | | |
 | 4 | markdownlint | | |
+| 5 | Lychee | | |

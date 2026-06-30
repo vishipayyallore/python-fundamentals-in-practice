@@ -1,5 +1,5 @@
-# Workspace review (Cline workflow)
+# Workspace Review (Cline Workflow)
 
-Follow canonical `.github/skills/workspace-review/SKILL.md` checklist (Cline mirror: `.clinerules/skills/workspace-review.md`).
+Follow `.clinerules/skills/workspace-review.md`, root `AGENTS.md`, `skills.md`, and `docs/02_RepositoryStructure.md`.
 
-Tags: `workspace-review`, `governance`
+Tags: `workspace-review`, `governance`, `curriculum`
