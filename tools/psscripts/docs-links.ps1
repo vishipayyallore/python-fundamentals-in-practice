@@ -17,7 +17,11 @@ $patterns = @(
     '.cursor/rules/*.mdc',
     '.cursor/rules/README.md',
     '.clinerules/**/*.md',
-    '.opencode/**/*.md'
+    '.opencode/README.md',
+    '.opencode/agents/**/*.md',
+    '.opencode/prompts/**/*.md',
+    '.opencode/rules/**/*.md',
+    '.opencode/skills/**/*.md'
 )
 
 if ($DumpOnly) {

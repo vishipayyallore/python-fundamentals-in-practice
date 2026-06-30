@@ -116,7 +116,7 @@ Run link checker to validate all links in documentation:
 
 ```powershell
 # Validate all links (recommended; matches CI behavior)
- docker run --rm -w /input -v "${PWD}:/input" lycheeverse/lychee:latest --config lychee.toml --no-progress README.md CONTRIBUTING.md CODE_OF_CONDUCT.md SECURITY.md AGENTS.md CLAUDE.md skills.md docs/**/*.md .github/**/*.md .claude/**/*.md .cursor/rules/*.mdc .cursor/rules/README.md .clinerules/**/*.md .opencode/**/*.md
+ docker run --rm -w /input -v "${PWD}:/input" lycheeverse/lychee:latest --config lychee.toml --no-progress README.md CONTRIBUTING.md CODE_OF_CONDUCT.md SECURITY.md AGENTS.md CLAUDE.md skills.md docs/**/*.md .github/**/*.md .claude/**/*.md .cursor/rules/*.mdc .cursor/rules/README.md .clinerules/**/*.md .opencode/README.md .opencode/agents/**/*.md .opencode/prompts/**/*.md .opencode/rules/**/*.md .opencode/skills/**/*.md
 ```
 
 **Shortcut on Windows (PowerShell):**
