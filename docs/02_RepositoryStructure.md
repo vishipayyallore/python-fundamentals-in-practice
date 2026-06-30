@@ -12,6 +12,37 @@ Snapshot source: `git ls-files` (current branch).
 python-fundamentals-in-practice/
 ├── .claude/
 │   └── CLAUDE.md
+├── .clinerules/
+│   ├── agents/
+│   │   ├── agent-ci-verify.md
+│   │   ├── demo-roadmap-review.md
+│   │   └── docs-originality-review.md
+│   ├── rules/
+│   │   ├── 01-repository-purpose.md
+│   │   ├── 02-educational-content-rules.md
+│   │   ├── 03-repository-structure.md
+│   │   ├── 04-quality-assurance.md
+│   │   ├── 05-markdown-standards.md
+│   │   ├── 06-primary-directives.md
+│   │   ├── 07-reference-docs-rules.md
+│   │   ├── 08-file-naming-conventions.md
+│   │   ├── 09-copilot-instructions-extract.md
+│   │   └── README.md
+│   ├── skills/
+│   │   ├── README.md
+│   │   ├── agentic-engineering.md
+│   │   ├── ci-checks.md
+│   │   ├── demo-companions.md
+│   │   ├── docs-verification.md
+│   │   ├── e2e-testing.md
+│   │   └── workspace-review.md
+│   ├── workflows/
+│   │   ├── demo-roadmap-review.md
+│   │   ├── run-ci-checks.md
+│   │   └── workspace-review.md
+│   ├── AGENTS.md
+│   ├── README.md
+│   └── agentic-core-context.md
 ├── .copilot/
 │   └── settings.json
 ├── .cursor/
@@ -49,6 +80,44 @@ python-fundamentals-in-practice/
 │   │   └── python-quality.yml
 │   ├── copilot-instructions.md
 │   └── pull_request_template.md
+├── .opencode/
+│   ├── agents/
+│   │   ├── agent-ci-verify.md
+│   │   ├── demo-code-audit.md
+│   │   ├── demo-roadmap-review.md
+│   │   └── docs-originality-review.md
+│   ├── prompts/
+│   │   ├── smart-prompt-framework-guide.md
+│   │   └── task-prompt.md
+│   ├── rules/
+│   │   ├── 01-repository-purpose.md
+│   │   ├── 02-educational-content-rules.md
+│   │   ├── 03-repository-structure.md
+│   │   ├── 04-quality-assurance.md
+│   │   ├── 05-markdown-standards.md
+│   │   ├── 06-primary-directives.md
+│   │   ├── 07-reference-docs-rules.md
+│   │   ├── 08-file-naming-conventions.md
+│   │   ├── 09-copilot-instructions-extract.md
+│   │   └── README.md
+│   ├── skills/
+│   │   ├── agentic-engineering/
+│   │   │   └── SKILL.md
+│   │   ├── ci-checks/
+│   │   │   └── SKILL.md
+│   │   ├── demo-companions/
+│   │   │   └── SKILL.md
+│   │   ├── docs-verification/
+│   │   │   └── SKILL.md
+│   │   ├── e2e-testing/
+│   │   │   └── SKILL.md
+│   │   ├── workspace-review/
+│   │   │   └── SKILL.md
+│   │   └── README.md
+│   ├── .gitignore
+│   ├── README.md
+│   ├── package-lock.json
+│   └── package.json
 ├── docs/
 │   ├── images/
 │   │   └── S1/
@@ -162,6 +231,8 @@ The following are roadmap items and may be referenced in planning docs, but they
 - CI workflows: `.github/workflows/`
 - Scoped Copilot instructions: `.github/instructions/`
 - Cursor modular rules: `.cursor/rules/`
+- Cline-facing mirrors: `.clinerules/`
+- OpenCode plugin and mirrors: `.opencode/`
 
 ---
 

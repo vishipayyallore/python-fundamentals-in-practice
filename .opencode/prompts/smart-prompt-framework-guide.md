@@ -1,40 +1,40 @@
-# SMART prompt framework — Agentic Engineering
+# SMART Prompt Framework - Python Fundamentals
 
 Short guide for effective prompts in this repository.
 
 ## Roles
 
 | Role | Focus |
-|------|-------|
-| **Agent Engineer** | OpenAI Agent SDK, instructions, tool routing |
-| **MCP Tool Author** | `src/mcp-server/tools/`, schemas, tests |
-| **FastAPI Integrator** | Routes, Pydantic models, streaming |
-| **Frontend Builder** | Agent Dashboard UI, hooks, services |
+| --- | --- |
+| **Session Author** | `docs/sessions/L{level}/`, objectives, examples, exercises |
+| **Practice Code Author** | `src/L{level}/S{session}/`, beginner Python scripts, Ruff |
+| **Docs Verifier** | links, file references, Markdown standards, Lychee |
+| **Governance Maintainer** | `.cursor`, `.github`, `.clinerules`, `.opencode`, `AGENTS.md` |
 
 ## SMART pattern
 
-- **Specific:** Layer (`frontend` / `backend` / `mcp-server`) and session (1–15)
-- **Measurable:** e.g. "weather tool called when user asks about Seattle"
+- **Specific:** Level/session and path, such as `docs/sessions/L1/S6.md` or `src/L1/S6/`.
+- **Measurable:** e.g. "practice file runs with `python -m compileall -q src` and is linked from the session doc".
 - **Achievable:** One capability per change when possible
-- **Relevant:** Aligns with README session roadmap
-- **Time-bound:** Scoped to current demo unless explicitly future work
+- **Relevant:** Aligns with the Level 1 plan and repository structure document.
+- **Time-bound:** Scoped to current session unless explicitly future work.
 
 ## Example prompts
 
-**Demo 1 — tool wiring**
+**Session doc**
 
-> In `src/backend/app/agent_runtime/`, ensure the agent runtime calls the calculator MCP tool when the user message contains arithmetic. Add a pytest that mocks the MCP client and asserts `calculate` is invoked.
+> Review `docs/sessions/L1/S6.md` against `.github/instructions/session-docs.instructions.md`; report missing practice mappings, troubleshooting gaps, and any concepts introduced too early.
 
-**Demo 2 — streaming**
+**Practice code**
 
-> Add SSE streaming from `POST /chat` in FastAPI and consume it in `useChatStream` so tokens render incrementally in `ConversationPanel`.
+> Update `src/L1/S6/04_calculator_loop.py` so the loop behavior matches the session doc, then run `ruff check src` and `python -m compileall -q src`.
 
 **Docs**
 
-> Update `docs/08-tool-calling.md` with a Mermaid sequence diagram and ASCII fallback for calculator tool calling that matches the current `src/mcp-server/tools/calculator.py` schema.
+> Verify all links from `README.md`, `skills.md`, `.clinerules/**/*.md`, and `.opencode/**/*.md` point to existing files or clearly external URLs.
 
 ## Avoid
 
-- Week-bundle / notebook / from-scratch ML phrasing from other repos
-- New `demo2/` application folders
-- Undocumented environment variables (update `.env.example`)
+- Week-bundle, notebook, frontend, FastAPI, MCP, or demo-app phrasing from other repos
+- Legacy `src/S1/` paths
+- Adding new Level 1 content to completed meetup sessions without explicit approval

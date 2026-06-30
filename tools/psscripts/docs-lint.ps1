@@ -14,7 +14,9 @@ $patterns = @(
     'docs/**/*.md',
     '.github/**/*.md',
     '.claude/**/*.md',
-    '.cursor/rules/README.md'
+    '.cursor/rules/README.md',
+    '.clinerules/**/*.md',
+    '.opencode/**/*.md'
 )
 
 $args = @()

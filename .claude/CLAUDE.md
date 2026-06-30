@@ -11,7 +11,8 @@ Some Claude Code or Anthropic workflows look for project context under **`.claud
 3. **`/skills.md`** — pointer to skills/rules: this repo includes one project skill pack at `/.cursor/skills/python-fundamentals-curriculum/SKILL.md`; rules + `AGENTS.md` are canonical  
 4. **`/docs/02_RepositoryStructure.md`** — authoritative folder layout and naming  
 5. **`/.cursor/rules/README.md`** — index of Cursor `.mdc` rules (educational content, QA, markdown, etc.)  
-6. **`/.github/copilot-instructions.md`** — GitHub Copilot alignment (same project policies)
+6. **`/.github/copilot-instructions.md`** — GitHub Copilot alignment (same project policies)  
+7. **`/.clinerules/`** and **`/.opencode/`** — tool-specific mirrors; do not treat them as canonical over root/`.cursor` files
 
 Do not duplicate long policy here; change root **`CLAUDE.md`** or **`AGENTS.md`** and update **`docs/02_RepositoryStructure.md`** if you document new top-level files.
 

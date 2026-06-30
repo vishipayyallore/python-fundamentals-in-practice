@@ -1,24 +1,25 @@
-# Task prompt — agentic-engineering-in-practice audit
+# Task Prompt - Python Fundamentals Audit
 
 Use this template when requesting a structured repository audit.
 
 ```json
 {
-  "repo_name": "agentic-engineering-in-practice",
-  "audit_type": "workspace | demo | ci | docs",
-  "demo_number": 1,
-  "focus_paths": ["src/backend", "docs"],
+  "repo_name": "python-fundamentals-in-practice",
+  "audit_type": "workspace | session | ci | docs | practice-code | governance",
+  "level": "L1",
+  "session": "S6",
+  "focus_paths": ["docs/sessions/L1/S6.md", "src/L1/S6", ".clinerules", ".opencode"],
   "checks": [
-    "structure_vs_docs_01_repository_structure",
-    "demo_readme_parity",
-    "governance_mirrors",
-    "backend_ruff_pytest",
-    "frontend_lint_build",
-    "mcp_tool_tests",
+    "structure_vs_docs_02_repository_structure",
+    "session_doc_practice_parity",
+    "meetup_status_guard",
+    "governance_alignment",
+    "ruff_check_src",
+    "compileall_src",
     "markdownlint"
   ],
   "output_format": "executive_summary + table(Path, Status, Notes)"
 }
 ```
 
-Replace `demo_number` and `focus_paths` per task. Use `agent-ci-verify` subagent for CI-aligned runs.
+Replace `level`, `session`, and `focus_paths` per task. Use `agent-ci-verify` subagent for CI-aligned runs.
