@@ -31,11 +31,12 @@ Before contributing, please familiarize yourself with our content creation rules
 
 ### **Key Principles**
 
-1. **Zero-Copy Policy**: All content must be original and transformative, not copied from other sources
-2. **30-Minute Sessions**: Content should fit within focused 30-minute learning segments
-3. **Beginner-Friendly**: All content should be accessible to complete beginners
-4. **Working Code**: All Python examples must run without errors
-5. **Quality First**: Follow our quality assurance checklist before submitting
+1. **Python-only scope**: This repository is for the **Python Fundamentals** educational curriculum only — not AWS, cloud, Bedrock, or other non-Python course material
+2. **Zero-Copy Policy**: All content must be original and transformative, not copied from other sources
+3. **30-Minute Sessions**: Content should fit within focused 30-minute learning segments
+4. **Beginner-Friendly**: All content should be accessible to complete beginners
+5. **Working Code**: All Python examples must run without errors
+6. **Quality First**: Follow our quality assurance checklist before submitting
 
 ---
 

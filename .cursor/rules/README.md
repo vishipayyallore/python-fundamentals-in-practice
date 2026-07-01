@@ -1,7 +1,7 @@
 # Cursor AI Project Rules - Python Fundamentals
 
-**Version**: 1.1  
-**Last Updated**: April 2026
+**Version**: 1.2  
+**Last Updated**: July 2026
 
 This directory contains modular rule files for Cursor AI, customized for the **Python Fundamentals** educational curriculum repository.
 

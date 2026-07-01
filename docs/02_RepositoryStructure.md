@@ -207,7 +207,7 @@ The following are roadmap items and may be referenced in planning docs, but they
 - `docs/sessions/L1/S10_MP2.md` (planned)
 - Level 2+ session docs and practice packs (planned)
 
-Ignored instructor intake such as `source-material/` is not part of tracked curriculum inventory. When migrated, rewrite it into `docs/` as original educational content.
+Ignored instructor intake such as `source-material/` is not part of tracked curriculum inventory. **Python-only migration:** promote intake into `docs/sessions/` and `src/L{level}/` only when it supports the Python Fundamentals curriculum; rewrite as original educational content. Do **not** migrate non-Python intake (e.g. AWS, cloud, or Bedrock meetup outlines) into this repository.
 
 ---
 
@@ -262,4 +262,4 @@ When structure changes (add/move/rename/delete files), update in this order:
 
 ---
 
-**Last Updated**: April 2026
+**Last Updated**: July 2026

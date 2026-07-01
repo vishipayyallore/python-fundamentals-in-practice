@@ -17,6 +17,8 @@ A comprehensive, transformation-focused Python curriculum designed to take you f
 
 This is **Swamy's personal learning and curriculum-development** repository. Content is evolving and in progress (not an accredited or final published course).
 
+**Scope:** This repository is **Python fundamentals only** — session docs, practice code, and Level 1 meetup material. It is not for AWS, cloud, Bedrock, or other non-Python course tracks.
+
 ---
 
 ## 🚀 **Quick Start**

@@ -1,8 +1,10 @@
 # Skills — pointer for this repository
 
-**Last updated:** April 2026
+**Last updated:** July 2026
 
 Machine-readable guidance lives in **`.cursor/`** and the root entry files. [Cursor **skills**](https://cursor.com/docs) and [**subagents**](https://cursor.com/docs/subagents) add optional, discoverable layers on top of rules.
+
+**Python-only repository:** `python-fundamentals-in-practice` teaches Python fundamentals only — session docs (`docs/sessions/`), practice scripts (`src/L{level}/`), and Level 1 meetup summaries (`docs/meetup/L1/`). Not AWS, cloud, Bedrock, or other non-Python tracks. Do not migrate non-Python `source-material/` intake into this repo.
 
 | Location | Purpose |
 | --- | --- |
@@ -18,4 +20,4 @@ Machine-readable guidance lives in **`.cursor/`** and the root entry files. [Cur
 
 **Personal** skills can also live under your user `~/.cursor/skills/`; this repo’s **policy** still comes from `AGENTS.md` and **`.cursor/rules/`** so those stay the single source of truth for policies.
 
-When adding new educational content, default placement is planned/new sessions; do not inject into completed sessions without explicit user permission.
+When adding new educational content, default placement is planned/new sessions; do not inject into completed sessions without explicit user permission. Only promote **Python fundamentals** material from `source-material/` or `src/Working/`.
