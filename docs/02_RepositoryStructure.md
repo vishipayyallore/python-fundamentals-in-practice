@@ -207,6 +207,8 @@ The following are roadmap items and may be referenced in planning docs, but they
 - `docs/sessions/L1/S10_MP2.md` (planned)
 - Level 2+ session docs and practice packs (planned)
 
+Ignored instructor intake such as `source-material/` is not part of tracked curriculum inventory. When migrated, rewrite it into `docs/` as original educational content.
+
 ---
 
 ## 📝 Naming Conventions
