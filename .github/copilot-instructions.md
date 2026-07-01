@@ -15,6 +15,8 @@
 | `skills.md` | Skills pointer; this repo includes one project skill pack at `.cursor/skills/python-fundamentals-curriculum/SKILL.md`, while policy remains in `AGENTS.md` and `.cursor/rules/` |
 | `CLAUDE.md` | Short project brief for Claude/Anthropic-oriented tools; defers to `AGENTS.md` for the full map |
 | `.claude/CLAUDE.md` | Optional pointer for workflows that look under `.claude/`; canonical text remains at the repo root |
+| `.clinerules/` | Cline-facing mirrors of rules, skills, agents, and workflows; canonical policy remains in root/`.cursor` files |
+| `.opencode/` | OpenCode plugin config plus tool-facing mirrors; canonical policy remains in root/`.cursor` files |
 | `.cursor/rules/*.mdc` | Mandatory modular rules; see `.cursor/rules/README.md` for the index (aligned with this file) |
 | `.github/prompts/*.prompt.md` | **Reusable agent-mode starters** — `create-session`, `review-content`, `create-practice-file`, `fix-references` |
 | `.github/instructions/*.instructions.md` | **Scoped rules** — `python-practice` (applies to `src/**/*.py`), `session-docs` (applies to `docs/sessions/**`) |

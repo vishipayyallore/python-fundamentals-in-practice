@@ -45,6 +45,8 @@ Educational **Python** curriculum: levels `L*`, sessions `S*`, session docs in `
 | `AGENTS.md` | Full agent entry (Cursor, Copilot, Claude) |
 | `.cursor/rules/README.md` | Index of `.mdc` rules |
 | `.github/copilot-instructions.md` | Copilot-specific instructions (aligned with this repo) |
+| `.clinerules/` | Cline-facing mirrors; canonical policy remains root/`.cursor` |
+| `.opencode/` | OpenCode config and tool-facing mirrors; canonical policy remains root/`.cursor` |
 | `CONTRIBUTING.md` | Human and review expectations |
 
 If a tool also reads **`.claude/CLAUDE.md`**, that file defers to this repository root and **`AGENTS.md`**.

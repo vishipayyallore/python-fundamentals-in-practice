@@ -25,6 +25,8 @@ This file is the **entry point for AI coding agents** (Cursor, Claude Code, GitH
 | **Agent entry (this file)** | `AGENTS.md` | How agents should behave; pointers to all rules |
 | **Skills pointer** | `skills.md` | Index; project skill in `.cursor/skills/python-fundamentals-curriculum/SKILL.md` |
 | **Cursor subagents** | `.cursor/agents/*.md` | Optional custom subagents (session content, practice code, doc verification) |
+| **Cline mirror** | `.clinerules/` | Cline-facing rules, skills, agents, and workflows; root and `.cursor/` remain canonical |
+| **OpenCode config** | `.opencode/` | OpenCode plugin config plus tool-facing rules, skills, agents, and prompts |
 | **Claude / Anthropic (short form)** | `CLAUDE.md` (repo root) | Condensed guardrails; same project as this file |
 | **Claude Code folder (optional)** | `.claude/CLAUDE.md` | Confirms root instructions; use when tools expect `.claude/` |
 | **Cursor (modular rules)** | `.cursor/rules/*.mdc` | Mandatory and scoped rules; see `.cursor/rules/README.md` |

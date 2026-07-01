@@ -48,8 +48,10 @@ For detailed repository structure, see **[Repository Structure](docs/02_Reposito
 - **📚 docs/**: Educational documentation (sessions, images, master plan)
 - **💻 src/**: Practice code files organized by level and session
 - **🔧 tools/psscripts/**: PowerShell utility scripts for development (docs lint, link check, tree)
-- **⚙️ .github/**: CI/CD workflows and copilot instructions
-- **⚙️ .cursor/**: Cursor AI configuration and rules
+- **⚙️ .github/**: CI/CD workflows and Copilot instructions
+- **⚙️ .cursor/**: Cursor AI rules, skills, and subagents
+- **⚙️ .clinerules/**: Cline-facing rule, skill, agent, and workflow mirrors
+- **⚙️ .opencode/**: OpenCode plugin config, rules, skills, agents, and prompts
 - **📄 AGENTS.md** / **CLAUDE.md** / **.claude/**: AI agent entry points (aligned with [Repository Structure](docs/02_RepositoryStructure.md))
 
 ---
@@ -93,7 +95,7 @@ Run Markdown lint against README and all documentation before opening a PR:
 
 ```powershell
 # From repo root - lint all markdown files
-npx --yes markdownlint-cli2 "README.md" "AGENTS.md" "CLAUDE.md" "skills.md" "docs/**/*.md" ".github/**/*.md" ".claude/**/*.md" ".cursor/rules/README.md"
+npx --yes markdownlint-cli2 "README.md" "AGENTS.md" "CLAUDE.md" "skills.md" "docs/**/*.md" ".github/**/*.md" ".claude/**/*.md" ".cursor/rules/README.md" ".clinerules/**/*.md" ".opencode/**/*.md"
 ```
 
 This uses the repository's `.markdownlint.json` configuration automatically.
@@ -114,7 +116,7 @@ Run link checker to validate all links in documentation:
 
 ```powershell
 # Validate all links (recommended; matches CI behavior)
- docker run --rm -w /input -v "${PWD}:/input" lycheeverse/lychee:latest --config lychee.toml --no-progress README.md CONTRIBUTING.md CODE_OF_CONDUCT.md SECURITY.md AGENTS.md CLAUDE.md skills.md docs/**/*.md .github/**/*.md .claude/**/*.md .cursor/rules/*.mdc .cursor/rules/README.md
+ docker run --rm -w /input -v "${PWD}:/input" lycheeverse/lychee:latest --config lychee.toml --no-progress README.md CONTRIBUTING.md CODE_OF_CONDUCT.md SECURITY.md AGENTS.md CLAUDE.md skills.md docs/**/*.md .github/**/*.md .claude/**/*.md .cursor/rules/*.mdc .cursor/rules/README.md .clinerules/**/*.md .opencode/README.md .opencode/agents/**/*.md .opencode/prompts/**/*.md .opencode/rules/**/*.md .opencode/skills/**/*.md
 ```
 
 **Shortcut on Windows (PowerShell):**

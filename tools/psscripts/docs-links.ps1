@@ -15,7 +15,13 @@ $patterns = @(
     '.github/**/*.md',
     '.claude/**/*.md',
     '.cursor/rules/*.mdc',
-    '.cursor/rules/README.md'
+    '.cursor/rules/README.md',
+    '.clinerules/**/*.md',
+    '.opencode/README.md',
+    '.opencode/agents/**/*.md',
+    '.opencode/prompts/**/*.md',
+    '.opencode/rules/**/*.md',
+    '.opencode/skills/**/*.md'
 )
 
 if ($DumpOnly) {

@@ -17,6 +17,8 @@ on:
       - ".claude/**/*.md"
       - ".cursor/rules/*.mdc"
       - ".cursor/rules/README.md"
+      - ".clinerules/**/*.md"
+      - ".opencode/**/*.md"
       - "lychee.toml"
       - ".markdownlint.*"
       - ".github/workflows/docs-quality.yml"
@@ -35,6 +37,8 @@ on:
       - ".claude/**/*.md"
       - ".cursor/rules/*.mdc"
       - ".cursor/rules/README.md"
+      - ".clinerules/**/*.md"
+      - ".opencode/**/*.md"
       - "lychee.toml"
       - ".markdownlint.*"
       - ".github/workflows/docs-quality.yml"
@@ -53,7 +57,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Run markdownlint-cli2
-        uses: DavidAnson/markdownlint-cli2-action@v16
+        uses: DavidAnson/markdownlint-cli2-action@v23
         with:
           globs: |
             README.md
@@ -67,6 +71,8 @@ jobs:
             .github/**/*.md
             .claude/**/*.md
             .cursor/rules/README.md
+            .clinerules/**/*.md
+            .opencode/**/*.md
 
   link-check:
     name: Link Check (Lychee)
@@ -94,6 +100,12 @@ jobs:
             .claude/**/*.md
             .cursor/rules/*.mdc
             .cursor/rules/README.md
+            .clinerules/**/*.md
+            .opencode/README.md
+            .opencode/agents/**/*.md
+            .opencode/prompts/**/*.md
+            .opencode/rules/**/*.md
+            .opencode/skills/**/*.md
           fail: true
       - name: Upload Lychee report
         if: always()
