@@ -2,14 +2,16 @@
 
 ## Table
 
+Note: Pending | Planned | Ready | Published | Completed
+
 | Session | Status |
 | --- | --- |
 | Session 1 | Completed |
 | Session 2 | Completed |
 | Session 3 | Completed |
 | Session 4 | Completed |
-| Session 5 (MP 1) | Ready |
-| Session 6 | Planned |
+| Session 5 (MP 1) | Event Published |
+| Session 6 | Ready |
 | Session 7 | Planned |
 | Session 8 | Planned |
 | Session 9 | Pending |
@@ -212,9 +214,9 @@ Perfect For:
 
 ## Level 1 - Session 5 (MP 1): Mini Project 1 — Simple Calculator
 
-Date: To be announced (ready)
+Date: Saturday, Jul 4 · 4:00 PM to 5:00 PM IST
 
-Event URL: To be announced (ready)
+Event URL: <https://www.meetup.com/dot-net-learners-house-hyderabad/events/315495266/?eventOrigin=group_upcoming_events>
 
 🔹 Session Agenda:
 
