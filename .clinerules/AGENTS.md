@@ -6,6 +6,10 @@
 
 Educational **Python Fundamentals** curriculum for Swamy's Tech Skills Academy. This repo is documentation plus beginner-friendly practice scripts, not a web application.
 
+## Python-only scope
+
+This repository is **Python fundamentals only**. All curriculum work belongs under `docs/sessions/`, `src/L{level}/`, and `docs/meetup/L1/`. Do **not** add or migrate AWS, cloud, Bedrock, or other non-Python course material. Non-Python intake in ignored `source-material/` stays out of this repo unless the user explicitly requests Python-related promotion.
+
 ## Read First
 
 1. `AGENTS.md` - full agent map, ReAct/CoT, zero-copy and placement guardrails
@@ -46,6 +50,8 @@ Canonical rules live in `.cursor/rules/`. Files under `.clinerules/rules/` are c
 
 ## Do Not
 
+- Add AWS, cloud platforms, Bedrock, or other non-Python course tracks to this repository.
+- Migrate non-Python instructor intake from `source-material/` into `docs/` or `src/`.
 - Apply React, FastAPI, MCP, notebook, or demo-roadmap conventions from other repositories.
 - Use legacy `src/S1/` paths.
 - Add new Level 1 meetup content to completed sessions without explicit user approval.

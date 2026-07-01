@@ -4,7 +4,9 @@
 
 ## Purpose
 
-Beginner-focused Python curriculum with session documentation, runnable practice scripts, and governance files for multiple coding assistants.
+Beginner-focused **Python fundamentals** curriculum with session documentation, runnable practice scripts, and governance files for multiple coding assistants.
+
+**Python-only boundary:** this repo is not for AWS, cloud, Bedrock, or other non-Python courses. Meetup content here is `docs/meetup/L1/` only. Ignore or skip non-Python files in `source-material/`.
 
 | Area | Canonical path | Notes |
 | --- | --- | --- |

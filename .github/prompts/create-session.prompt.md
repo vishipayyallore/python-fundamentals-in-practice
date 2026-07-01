@@ -5,7 +5,7 @@ description: Create a new session document and matching practice files for the P
 
 # Create Session
 
-You are creating educational content for the **Python Fundamentals in Practice** curriculum.
+You are creating educational content for the **Python Fundamentals in Practice** curriculum (**Python only** — not AWS, cloud, or other non-Python tracks).
 
 ## Required inputs (ask if not provided)
 

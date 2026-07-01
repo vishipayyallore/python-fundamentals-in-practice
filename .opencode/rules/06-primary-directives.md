@@ -7,3 +7,4 @@ Canonical detail: `.cursor/rules/05_primary-directives.mdc`.
 - Add new Level 1 meetup content only according to `docs/meetup/L1/sessions.md`; ask before editing completed sessions.
 - Prefer small, targeted fixes; do not reorganize curriculum files casually.
 - Target Python 3.13+ for practice code.
+- Keep this repository **Python fundamentals only** — no AWS, cloud, or other non-Python course tracks.

@@ -6,6 +6,8 @@ applyTo: docs/sessions/**/*.md
 
 These rules apply to every `.md` file under `docs/sessions/`.
 
+**Repository scope:** Python fundamentals session write-ups only. Do not add AWS, cloud, Bedrock, or other non-Python course docs under `docs/sessions/` or `docs/meetup/` (meetup for this course is `docs/meetup/L1/` only).
+
 ## Required content coverage
 
 Session docs must include all of the following content, but heading names and exact order can be adapted to the authored teaching style:

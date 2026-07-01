@@ -20,6 +20,8 @@
 ### Internal Source Intake and Session Placement Rules
 
 ✅ Treat `source-material/` as internal instructor intake only; rewrite curriculum output in a fresh voice and structure  
+✅ **Python-only intake:** promote material from `source-material/` or `src/Working/` only when it supports the **Python Fundamentals** curriculum (`docs/sessions/`, `src/L{level}/`)  
+❌ **Do not migrate** non-Python instructor intake (e.g. AWS, cloud, or Bedrock meetup outlines) into this repository — leave it in ignored `source-material/` or route to a separate repo  
 ✅ Promote `src/Working/` examples only after cleanup, renaming, and session-outcome alignment  
 ✅ Route newly added content to planned/new sessions first  
 ❌ Do not insert newly authored content into completed sessions unless the user explicitly approves  

@@ -2,6 +2,8 @@
 
 OpenCode plugin config for this repository. Canonical governance sources are root `AGENTS.md`, `docs/02_RepositoryStructure.md`, `.cursor/rules/`, and `.github/copilot-instructions.md`.
 
+**Python-only:** this repo is the **Python Fundamentals in Practice** curriculum — not AWS, cloud, Bedrock, or other non-Python tracks.
+
 ## Layout
 
 ```text

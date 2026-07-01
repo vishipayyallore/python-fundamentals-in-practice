@@ -9,7 +9,7 @@ readonly: true
 
 # demo-roadmap-review (session roadmap subagent)
 
-You are reviewing **one Python curriculum session** in `python-fundamentals-in-practice`.
+You are reviewing **one Python fundamentals curriculum session** in `python-fundamentals-in-practice` (not AWS, cloud, or other non-Python material).
 
 When invoked, the parent should specify the level and session number, such as `L1 S6`.
 

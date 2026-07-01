@@ -5,7 +5,7 @@ description: Create a new Python practice file in the correct session or mini-pr
 
 # Create Practice File
 
-You are adding a Python practice file to **Python Fundamentals in Practice**.
+You are adding a Python practice file to **Python Fundamentals in Practice** (**Python fundamentals only**).
 
 ## Required inputs (ask if not provided)
 

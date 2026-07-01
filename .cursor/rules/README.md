@@ -3,7 +3,9 @@
 **Version**: 1.1  
 **Last Updated**: April 2026
 
-This directory contains modular rule files for Cursor AI, customized for the Python Fundamentals educational curriculum repository.
+This directory contains modular rule files for Cursor AI, customized for the **Python Fundamentals** educational curriculum repository.
+
+**Python-only:** this repo teaches Python fundamentals only — not AWS, cloud, Bedrock, or other non-Python tracks. See `05_primary-directives.mdc` §6 and `01_educational-content-rules.mdc` for intake boundaries.
 
 ---
 

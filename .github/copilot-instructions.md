@@ -2,7 +2,7 @@
 
 **Project:** Python Fundamentals Curriculum  
 **Owner:** Swamy's Tech Skills Academy  
-**Purpose:** Educational content development and maintenance  
+**Purpose:** Educational **Python fundamentals** curriculum development and maintenance (**Python only** — not AWS, cloud, or other non-Python tracks)  
 **Last updated:** April 2026
 
 ---
@@ -64,9 +64,17 @@
 ### **5. 🗂️ SESSION BUCKETING SAFETY (New Content Placement)**
 
 - Treat `docs/meetup/L1/sessions.md` as the status guard for Level 1 meetup content placement.
-- New content from `source-material/` or `src/Working/` must be routed to planned/new sessions by default.
+- New **Python fundamentals** content from `source-material/` or `src/Working/` must be routed to planned/new sessions by default.
+- Do **not** migrate non-Python instructor intake (e.g. AWS, cloud, Bedrock outlines) from `source-material/` into this repository.
 - Do **not** insert new educational content into completed sessions unless the user explicitly approves it.
 - If status is unclear, stop and ask permission before editing completed sessions.
+
+### **6. 🐍 PYTHON-ONLY REPOSITORY SCOPE (Non-Negotiable)**
+
+- This repository is **Python Fundamentals in Practice only** — session docs, `src/L{level}/` practice scripts, and `docs/meetup/L1/` meetup summaries.
+- Do **not** add AWS, cloud platforms, Bedrock, or other non-Python course tracks.
+- Do **not** borrow app-stack conventions (React, FastAPI, MCP demos) from other repositories.
+- If `source-material/` contains clearly non-Python content, leave it ignored unless the user explicitly requests Python-related promotion.
 
 ---
 

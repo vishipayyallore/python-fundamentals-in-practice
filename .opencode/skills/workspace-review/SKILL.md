@@ -13,6 +13,7 @@ Full audit checklist for this repository.
 - [ ] Session docs use `docs/sessions/L{level}/S{session}.md`.
 - [ ] Practice files use `src/L{level}/S{session}/`.
 - [ ] No stale app-stack, demo-roadmap, notebook, or week-bundle conventions remain in agent docs.
+- [ ] No AWS, cloud, Bedrock, or other non-Python course content was added outside ignored `source-material/`.
 
 ## 2. Curriculum roadmap
 

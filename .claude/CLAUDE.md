@@ -16,4 +16,8 @@ Some Claude Code or Anthropic workflows look for project context under **`.claud
 
 Do not duplicate long policy here; change root **`CLAUDE.md`** or **`AGENTS.md`** and update **`docs/02_RepositoryStructure.md`** if you document new top-level files.
 
+## Python-only repository scope
+
+This repository is **Python Fundamentals in Practice only** — session docs (`docs/sessions/`), practice scripts (`src/L{level}/`), and Level 1 meetup summaries (`docs/meetup/L1/`). Do **not** add AWS, cloud platforms, Bedrock, or other non-Python course tracks here. Non-Python files in ignored `source-material/` are **out of scope** for migration into this repo.
+
 Placement guardrail: use `docs/meetup/L1/sessions.md` status table for Level 1 meetup updates, place new content in planned/new sessions first, and ask permission before touching completed sessions.

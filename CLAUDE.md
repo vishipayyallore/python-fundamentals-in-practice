@@ -1,7 +1,7 @@
 # CLAUDE.md — Python Fundamentals in Practice
 
-**Version:** 1.0  
-**Last updated:** April 2026
+**Version:** 1.1  
+**Last updated:** July 2026
 
 Use this file as the **short, Claude-oriented** project brief. The full agent map and ReAct/CoT guidance live in **`AGENTS.md`**.
 
@@ -9,7 +9,9 @@ Use this file as the **short, Claude-oriented** project brief. The full agent ma
 
 ## Project
 
-Educational **Python** curriculum: levels `L*`, sessions `S*`, session docs in `docs/sessions/`, practice code in `src/`, images under `docs/images/`, utilities in `tools/psscripts/` (PowerShell on Windows).
+Educational **Python fundamentals** curriculum only: levels `L*`, sessions `S*`, session docs in `docs/sessions/`, practice code in `src/`, images under `docs/images/`, Level 1 meetup summaries in `docs/meetup/L1/`, utilities in `tools/psscripts/` (PowerShell on Windows).
+
+**Not in scope:** AWS, cloud platforms, Bedrock, or other non-Python course tracks. Non-Python files in ignored `source-material/` are not migrated here.
 
 ---
 
@@ -27,6 +29,7 @@ Educational **Python** curriculum: levels `L*`, sessions `S*`, session docs in `
 4. **Reasoning in teaching material** — Prefer “why” and trade-offs, not only syntax (see CoT section in the same `01_` rules file and in `AGENTS.md`).
 5. **Quality before merge** (when changing Markdown under CI paths): lint and link-check as in `README.md` / `tools/psscripts/docs-lint.ps1` and `docs-links.ps1`. For `src/`, run `ruff check src` (see `pyproject.toml`).
 6. **Session-bucketing safety** — Add new content to planned/new sessions by default; do not add new material to completed sessions without explicit user approval.
+7. **Python-only scope** — Do not add or migrate AWS, cloud, Bedrock, or other non-Python course material. Promote `source-material/` or `src/Working/` intake only when it supports this Python curriculum.
 
 ---
 

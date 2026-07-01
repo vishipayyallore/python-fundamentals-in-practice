@@ -2,6 +2,8 @@
 
 This folder adapts the repository's agent governance for Cline. It is a tool-facing mirror, not the canonical policy source.
 
+**Python-only:** `python-fundamentals-in-practice` teaches Python fundamentals only — not AWS, cloud, or other non-Python tracks.
+
 ## Canonical Sources
 
 | Cline path | Source of truth |

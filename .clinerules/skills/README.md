@@ -1,6 +1,8 @@
 # Cline Skills
 
-Flat Cline-facing skill notes for this Python curriculum repository. Canonical skill guidance lives in `.cursor/skills/python-fundamentals-curriculum/SKILL.md` and `skills.md`.
+Flat Cline-facing skill notes for this **Python fundamentals** curriculum repository. Canonical skill guidance lives in `.cursor/skills/python-fundamentals-curriculum/SKILL.md` and `skills.md`.
+
+**Python-only:** not for AWS, cloud, Bedrock, or other non-Python tracks.
 
 | File | Skill |
 | --- | --- |

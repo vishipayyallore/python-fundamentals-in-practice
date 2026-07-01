@@ -5,7 +5,7 @@ description: Audit session documentation and practice code for quality, correctn
 
 # Review Content
 
-You are auditing educational content in **Python Fundamentals in Practice**.
+You are auditing educational content in **Python Fundamentals in Practice** (**Python fundamentals only** — not AWS, cloud, or other non-Python material).
 
 ## Required inputs (ask if not provided)
 

@@ -1,7 +1,7 @@
 # Agents — Python Fundamentals in Practice
 
-**Version:** 1.0  
-**Last updated:** April 2026
+**Version:** 1.1  
+**Last updated:** July 2026
 
 This file is the **entry point for AI coding agents** (Cursor, Claude Code, GitHub Copilot, and similar tools) working in this repository. It ties together project-specific rules, documentation, and how to reason about changes safely.
 
@@ -9,9 +9,11 @@ This file is the **entry point for AI coding agents** (Cursor, Claude Code, GitH
 
 ## 1. What this repository is
 
-- **Purpose:** Educational Python curriculum (progressive levels, ~30-minute sessions, practice code under `src/`, session write-ups under `docs/sessions/`).
+- **Purpose:** Educational **Python fundamentals** curriculum only (progressive levels, ~30-minute sessions, practice code under `src/`, session write-ups under `docs/sessions/`, Level 1 meetup summaries under `docs/meetup/L1/`).
 - **Tone:** Beginner-friendly, hands-on, visually clear. Content must be **transformative**, not copied from third-party materials (see Zero-Copy Policy below).
-- **Non-goals:** This is not a production app repository; code teaches concepts and must remain runnable and readable.
+- **Non-goals:** This is not a production app repository; code teaches concepts and must remain runnable and readable. This is **not** a home for AWS, cloud, Bedrock, or other non-Python course tracks.
+
+**Python-only scope:** All curriculum work belongs in `docs/sessions/`, `src/L{level}/`, `docs/images/`, and `docs/meetup/L1/`. Do **not** add or migrate non-Python instructor intake (e.g. AWS/cloud meetup outlines) from ignored `source-material/` into this repository unless the user explicitly requests Python-related promotion.
 
 **Single source of truth for folder layout, naming, and file inventory:** `docs/02_RepositoryStructure.md` — when structure or conventions change, update that document first, then align references (README, copilot instructions, and this file).
 
@@ -83,8 +85,11 @@ This project **expects explicit reasoning** in learning material and in agent wo
 5. **After structural or convention changes**  
    Update in order: `docs/02_RepositoryStructure.md` → `README.md` / `.github/copilot-instructions.md` as needed → `.cursor/rules/` cross-references → this file and `CLAUDE.md` if agent workflows changed.
 
-6. **Session bucketing safety (new content placement)**
- Treat `docs/meetup/L1/sessions.md` status table as the placement guard for Level 1 meetup updates. New content from `source-material/` or `src/Working/` should go to planned/new sessions by default. Do not add newly authored content to completed sessions unless the user explicitly approves it in the current request.
+6. **Session bucketing safety (new content placement)**  
+   Treat `docs/meetup/L1/sessions.md` status table as the placement guard for Level 1 meetup updates. New **Python fundamentals** content from `source-material/` or `src/Working/` should go to planned/new sessions by default. Do not add newly authored content to completed sessions unless the user explicitly approves it in the current request.
+
+7. **Python-only repository scope**  
+   This repository is **Python Fundamentals in Practice only**. Do **not** add AWS, cloud platforms, Bedrock, or other non-Python course tracks. Do **not** migrate non-Python files from ignored `source-material/` into `docs/` or `src/`. Do **not** borrow app-stack conventions (React, FastAPI, MCP demos) from other repositories. If intake is clearly unrelated to Python fundamentals, skip migration or ask the user.
 
 ---
 

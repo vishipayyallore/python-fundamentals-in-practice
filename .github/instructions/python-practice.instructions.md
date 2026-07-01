@@ -6,6 +6,8 @@ applyTo: src/**/*.py
 
 These rules apply to every `.py` file under `src/`.
 
+**Repository scope:** Python fundamentals curriculum only. Do not add AWS, cloud, or other non-Python practice material to `src/`.
+
 ## Mandatory header
 
 Every file should open with a clear header. Minimum requirement:

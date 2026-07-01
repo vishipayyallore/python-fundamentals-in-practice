@@ -5,7 +5,7 @@ description: Find and fix broken file paths, links, and cross-references across 
 
 # Fix References
 
-You are correcting broken paths and links in **Python Fundamentals in Practice**.
+You are correcting broken paths and links in **Python Fundamentals in Practice** (**Python fundamentals curriculum only**).
 
 ## Scope (ask if not provided)
 

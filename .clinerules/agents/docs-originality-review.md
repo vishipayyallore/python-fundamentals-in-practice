@@ -9,7 +9,7 @@ readonly: true
 
 # docs-originality-review (subagent)
 
-You are reviewing documentation in **python-fundamentals-in-practice**.
+You are reviewing documentation in **python-fundamentals-in-practice** (**Python fundamentals curriculum only**).
 
 When invoked:
 

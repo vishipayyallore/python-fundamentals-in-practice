@@ -66,3 +66,12 @@ See: `01_educational-content-rules.mdc` for complete details.
 ✅ Place newly added content into planned/new sessions by default  
 ❌ Do not add new authored content into completed sessions unless explicit user permission is received in the current request  
 ✅ If destination or status is unclear, ask before editing completed sessions
+
+### 6. Python-Only Repository Scope (CRITICAL)
+
+✅ **ONLY** create or migrate content for the **Python Fundamentals** educational curriculum  
+✅ Meetup material for this course lives under `docs/meetup/L1/` only  
+❌ **NEVER** add AWS, cloud platforms, Bedrock, or other non-Python course tracks to this repository  
+❌ **NEVER** migrate non-Python instructor intake from `source-material/` into `docs/` or `src/`  
+❌ **NEVER** borrow app-stack conventions (React, FastAPI, MCP demos) from other repositories  
+✅ If `source-material/` or `src/Working/` contains clearly non-Python content, skip migration unless the user explicitly requests Python-related promotion

@@ -8,6 +8,8 @@ description: >-
 
 # Python Fundamentals in Practice — workflow
 
+**Python-only repository:** session docs, `src/L{level}/` practice scripts, and `docs/meetup/L1/` meetup summaries. Do not add or migrate AWS, cloud, Bedrock, or other non-Python course material.
+
 ## When to use
 
 - `docs/sessions/`, `docs/images/`, `docs/0*_*.md`, or curriculum text in the repo root
@@ -26,6 +28,7 @@ description: >-
 - **Zero-copy, transformative only** — no long verbatim third-party text; own examples; brief quotes with attribution. See `01_educational-content-rules.mdc`.
 - **Do not “compress away” teaching** — split or continue in the next part instead of cutting pedagogy
 - **Paths and numbering** — match `L{level}/S{session}/` in `src/` and numbered session files under `docs/sessions/`
+- **Python-only scope** — do not add AWS, cloud, or other non-Python tracks; skip non-Python `source-material/` intake
 
 ## Quality (when a significant doc or code change is done)
 

@@ -8,3 +8,4 @@ Canonical detail: `.cursor/rules/01_educational-content-rules.mdc`.
 - Pair concepts with small runnable practice scripts where useful.
 - Use Mermaid-first diagrams with ASCII fallback for conceptual flows.
 - Preserve beginner vocabulary and the existing curriculum sequence.
+- **Python-only:** migrate intake from `source-material/` or `src/Working/` only when it supports this Python curriculum; do not add AWS/cloud or other non-Python material.

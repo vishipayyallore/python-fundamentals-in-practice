@@ -11,7 +11,7 @@ readonly: true
 
 # agent-ci-verify (subagent)
 
-You are validating the **python-fundamentals-in-practice** workspace.
+You are validating the **python-fundamentals-in-practice** workspace (**Python fundamentals only**).
 
 When invoked:
 

@@ -1,5 +1,7 @@
 # Task Prompt - Python Fundamentals Audit
 
+**Python-only repository:** audit the Python fundamentals curriculum only — not AWS, cloud, or other non-Python material.
+
 Use this template when requesting a structured repository audit.
 
 ```json

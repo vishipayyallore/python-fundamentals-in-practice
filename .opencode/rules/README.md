@@ -15,3 +15,5 @@ These OpenCode-facing summaries point back to the canonical Cursor rules and rep
 | `09-copilot-instructions-extract.md` | Condensed Copilot-aligned guardrails |
 
 Canonical files remain `.cursor/rules/*.mdc`, root `AGENTS.md`, and `docs/02_RepositoryStructure.md`.
+
+**Python-only:** do not add or migrate AWS, cloud, Bedrock, or other non-Python course material into this repository.

@@ -10,7 +10,7 @@ readonly: false
 
 # Session content subagent
 
-You are helping with **educational** Markdown for this repository’s Python course.
+You are helping with **educational** Markdown for this repository’s **Python fundamentals** course only (not AWS, cloud, or other non-Python tracks).
 
 1. **Read** `AGENTS.md` and `.cursor/rules/01_educational-content-rules.mdc` before making assumptions about tone, originality, and structure.
 2. **Align paths** with `docs/02_RepositoryStructure.md` and existing session files (prerequisites, `enables` links, practice file paths under `src/L1/S#/`).
