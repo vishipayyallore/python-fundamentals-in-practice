@@ -21,6 +21,7 @@ select = [
 ignore = [
   "E501",  # line length (handled by formatter preference; educational long lines in strings OK)
   "UP003",  # keep print(type(...)) in lessons — students must see type(), not only class names
+  "W292",  # Preserve existing EOF-newline style in legacy lesson snippets
 ]
 
 [tool.ruff.lint.isort]

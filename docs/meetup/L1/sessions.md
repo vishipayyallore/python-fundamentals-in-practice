@@ -214,9 +214,9 @@ Perfect For:
 
 ## Level 1 - Session 5 (MP 1): Mini Project 1 — Simple Calculator
 
-Date: To be announced (ready)
+Date: Saturday, Jul 4 · 4:00 PM to 5:00 PM IST
 
-Event URL: To be announced (ready)
+Event URL: <https://www.meetup.com/dot-net-learners-house-hyderabad/events/315495266/?eventOrigin=group_past_events>
 
 🔹 Session Agenda:
 
@@ -228,7 +228,7 @@ Prerequisites: Completed Sessions 1–4 (Python setup, variables/types, operator
 - Optional: Watch the recording/playlist: [Python Fundamentals – Level 1 (YouTube playlist)](https://www.youtube.com/watch?v=Cy6DqbRjsF0&list=PLdLQDTLMjAzpRBxP4q1XJOuLhFG4pSfBB)
 
 🎙️ Speaker: Viswanatha Swamy — Swamy's Tech Skills Academy  
-🕘 Time: 09:00 AM – 09:30 AM
+🕘 Time: 4:00 PM – 5:00 PM IST
 
 What You'll Learn:
 
