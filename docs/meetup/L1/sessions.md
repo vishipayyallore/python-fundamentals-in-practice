@@ -9,7 +9,7 @@
 | Session 3 | Completed |
 | Session 4 | Completed |
 | Session 5 (MP 1) | Completed |
-| Session 6 | Ready |
+| Session 6 | Published |
 | Session 7 | Planned |
 | Session 8 | Planned |
 | Session 9 | Pending |
@@ -166,9 +166,9 @@ Perfect For:
 
 ## Level 1 - Session 6: Loops & Iteration
 
-Date: To be announced (planned)
+Date: Wednesday, Jul 8 · 9:00 AM to 10:00 AM IST
 
-Event URL: To be announced (planned)  
+Event URL: <https://www.meetup.com/dot-net-learners-house-hyderabad/events/315544328/>
 
 🔹 Session Agenda:
 
@@ -180,7 +180,7 @@ Prerequisites: Completed Session 5 (Mini Project 1: Simple Calculator), or Sessi
 - Optional: Watch the recording/playlist: [Python Fundamentals – Level 1 (YouTube playlist)](https://www.youtube.com/watch?v=Cy6DqbRjsF0&list=PLdLQDTLMjAzpRBxP4q1XJOuLhFG4pSfBB)
 
 🎙️ Speaker: Viswanatha Swamy — Swamy's Tech Skills Academy  
-🕘 Time: 09:00 AM – 09:30 AM
+🕘 Time: 9:00 AM – 10:00 AM IST
 
 What You'll Learn:
 
@@ -220,7 +220,7 @@ Perfect For:
 
 Date: Saturday, Jul 4 · 4:00 PM to 5:00 PM IST
 
-Event URL: <https://www.meetup.com/dot-net-learners-house-hyderabad/events/315495266/?eventOrigin=group_past_events>
+Event URL: <https://www.meetup.com/dot-net-learners-house-hyderabad/events/315495266>
 
 🔹 Session Agenda:
 
