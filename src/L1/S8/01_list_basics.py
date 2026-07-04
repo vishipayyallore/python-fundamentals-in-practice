@@ -1,4 +1,4 @@
-"""Session 8: list creation, indexing, slicing, and modification."""
+"""Session 8: list creation, indexing, slicing, and nested list access."""
 
 # Filename: src/L1/S8/01_list_basics.py
 
@@ -7,7 +7,8 @@ import sys
 HELP_TEXT = """01_list_basics.py
 
 Purpose
-    Create lists, access items by index, slice sub-ranges, and update elements.
+    Demonstrate how to create lists, inspect them, access items by index,
+    reach nested list values, slice ranges, and convert a tuple into a list.
 
 Usage
     python src/L1/S8/01_list_basics.py
@@ -19,20 +20,59 @@ def main(argv: list[str]) -> int:
         print(HELP_TEXT)
         return 0
 
-    print("=== Session 8: List basics ===\n")
+    print("=== List Basics Demo ===\n")
 
-    cities = ["Hyderabad", "Pune", "Chennai"]
-    print(f"cities = {cities}")
-    print(f"first city (index 0): {cities[0]}")
-    print(f"last city (index -1): {cities[-1]}\n")
+    # Creating lists
+    print("--- Creating Lists ---")
+    numbers = [1, 2, 3, 4, 5]
+    fruits = ["apple", "banana", "cherry"]
+    study_topics = ["variables", "conditions", "loops", "functions"]
+    mixed = [42, "hello", 3.14, True, study_topics]
+    empty = []
+    tuple_values = ("practice", 25, False, study_topics)
+    converted = list(tuple_values)
 
-    print(f"slice cities[1:3] -> {cities[1:3]}")
-    cities[1] = "Bengaluru"
-    print(f"after cities[1] = 'Bengaluru': {cities}\n")
+    print(f"Numbers: {numbers}")
+    print(f"Fruits: {fruits}")
+    print(f"Mixed: {mixed}")
+    print(f"Empty: {empty}")
+    print(f"Tuple converted to list: {converted}")
 
-    numbers = list(range(1, 6))
-    print(f"numbers from range: {numbers}")
-    print(f"length via len(): {len(numbers)}")
+    # List properties
+    print("\n--- List Properties ---")
+    print(f"Length of fruits: {len(fruits)}")
+    print(f"'apple' in fruits: {'apple' in fruits}")
+    print(f"'mango' in fruits: {'mango' in fruits}")
+
+    # Indexing
+    print("\n--- Indexing ---")
+    print(f"fruits[0] = {fruits[0]}")
+    print(f"fruits[1] = {fruits[1]}")
+    print(f"fruits[-1] = {fruits[-1]}")
+    print(f"mixed[4][0] = {mixed[4][0]}")
+
+    # Slicing
+    print("\n--- Slicing ---")
+    numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+    print(f"numbers = {numbers}")
+    print(f"numbers[2:5] = {numbers[2:5]}")
+    print(f"numbers[:4] = {numbers[:4]}")
+    print(f"numbers[6:] = {numbers[6:]}")
+    print(f"numbers[::2] = {numbers[::2]}")
+    print(f"numbers[::-1] = {numbers[::-1]}")
+
+    print("\n--- Safe Error Demo ---")
+    try:
+        print(fruits[10])
+    except IndexError as error:
+        print(f"Accessing fruits[10] raises: {error}")
+
+    # Modifying
+    print("\n--- Modifying ---")
+    colors = ["red", "green", "blue"]
+    print(f"Original: {colors}")
+    colors[1] = "yellow"
+    print(f"After colors[1] = 'yellow': {colors}")
     return 0
 
 

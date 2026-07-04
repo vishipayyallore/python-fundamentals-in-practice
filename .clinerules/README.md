@@ -21,13 +21,14 @@ This folder adapts the repository's agent governance for Cline. It is a tool-fac
 - `ci-checks`
 - `docs-verification`
 - `workspace-review`
-- `session-companions`
-- `practice-smoke-testing`
+- `curriculum-practice-parity` (file: `demo-companions.md`)
+- `e2e-testing`
 
 ## Subagents
 
 - `agent-ci-verify`
 - `session-roadmap-review`
+- `python-practice-code`
 - `docs-originality-review`
 
 ## Local Checks

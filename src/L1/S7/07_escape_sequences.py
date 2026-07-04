@@ -1,17 +1,50 @@
-"""Session 7: escape sequences for structured debug and report output."""
-
 # Filename: src/L1/S7/07_escape_sequences.py
+"""Session 1 revisited — escape sequences in strings.
+
+A backslash inside a string changes how the next character prints.
+\\n and \\t help space out multi-line debug output; escaping quotes
+prevents Python from ending a string early.
+"""
 
 import sys
 
 HELP_TEXT = """07_escape_sequences.py
 
 Purpose
-    Practice \\n, \\t, and quote escaping when formatting multi-line debug text.
+    Practice escape sequences for formatting and special characters.
+    \\n and \\t are especially useful for structuring multi-line debug output.
 
 Usage
     python src/L1/S7/07_escape_sequences.py
+
+Topics Covered
+    - New line: \\n
+    - Tab space: \\t
+    - Backspace effect: \\b
+    - Escaping quotes inside strings
 """
+
+
+def demo_newline() -> None:
+    print("=== New line (\\n) ===")
+    print("Course: Python Fundamentals\nTrack: Beginner Practice")
+
+
+def demo_tab() -> None:
+    print("\n=== Tab (\\t) ===")
+    print("Name:\tPython Fundamentals")
+    print("Level:\t\tBeginner")
+
+
+def demo_backspace() -> None:
+    print("\n=== Backspace (\\b) ===")
+    print("Plan A\bB")
+
+
+def demo_escaping_quotes() -> None:
+    print("\n=== Escaping apostrophe ===")
+    print("Using double quotes:", "I'm building Python skills")
+    print('Using escape in single quotes:', 'I\'m building Python skills')
 
 
 def main(argv: list[str]) -> int:
@@ -19,31 +52,11 @@ def main(argv: list[str]) -> int:
         print(HELP_TEXT)
         return 0
 
-    print("=== Session 7: Escape sequences ===\n")
-
-    print("Newline \\n starts the next line:")
-    print("line one\nline two\n")
-
-    print("Tab \\t aligns columns in a simple report:")
-    print("name\tscore")
-    print("Ada\t92")
-    print("Lin\t88")
-    print()
-
-    print("Quote inside a string:")
-    print("She said, \"Read the traceback carefully.\"")
-    print()
-
-    print("Multi-line f-string for a debug snapshot:")
-    name = "practice_run"
-    status = "ok"
-    detail = (
-        f"--- debug ---\n"
-        f"name: {name}\n"
-        f"status: {status}\n"
-        f"-------------"
-    )
-    print(detail)
+    demo_newline()
+    demo_tab()
+    demo_backspace()
+    demo_escaping_quotes()
+    print("\n=== Done ===")
     return 0
 
 

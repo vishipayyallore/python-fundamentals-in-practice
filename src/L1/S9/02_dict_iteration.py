@@ -1,41 +1,49 @@
-"""Session 9: iterate dictionaries with keys, values, and items."""
-
 # Filename: src/L1/S9/02_dict_iteration.py
 
-import sys
+print("=== Dictionary Iteration Demo ===\n")
 
-HELP_TEXT = """02_dict_iteration.py
+grades = {"Alice": 95, "Bob": 87, "Charlie": 92, "Diana": 88}
 
-Purpose
-    Loop over .keys(), .values(), and .items() with readable output.
+# Iterating over keys
+print("--- Iterating Over Keys ---")
+for name in grades:
+    print(f"Student: {name}")
 
-Usage
-    python src/L1/S9/02_dict_iteration.py
-"""
+# Iterating over values
+print("\n--- Iterating Over Values ---")
+for grade in grades.values():
+    print(f"Grade: {grade}")
 
+# Iterating over items
+print("\n--- Iterating Over Items ---")
+for name, grade in grades.items():
+    print(f"{name}: {grade}")
 
-def main(argv: list[str]) -> int:
-    if any(arg in {"-h", "--help"} for arg in argv[1:]):
-        print(HELP_TEXT)
-        return 0
+# Practical example: Statistics
+print("\n--- Statistics ---")
+total = sum(grades.values())
+count = len(grades)
+average = total / count
+print(f"Total points: {total}")
+print(f"Number of students: {count}")
+print(f"Average grade: {average:.1f}")
 
-    print("=== Session 9: Dictionary iteration ===\n")
+# Find highest and lowest
+print("\n--- Finding Extremes ---")
+highest_name = max(grades, key=grades.get)
+lowest_name = min(grades, key=grades.get)
+print(f"Highest: {highest_name} ({grades[highest_name]})")
+print(f"Lowest: {lowest_name} ({grades[lowest_name]})")
 
-    inventory = {"notebooks": 12, "pens": 40, "markers": 8}
-    print(f"inventory = {inventory}\n")
+# Filter students with A grades
+print("\n--- A Students (90+) ---")
+a_students = []
+for name, grade in grades.items():
+    if grade >= 90:
+        a_students.append(name)
+print(f"A students: {a_students}")
 
-    print("Keys:")
-    for key in inventory.keys():
-        print(f"  {key}")
-
-    print("\nValues:")
-    for value in inventory.values():
-        print(f"  {value}")
-
-    print("\nItems (key + value pairs):")
-    for key, value in inventory.items():
-        print(f"  {key}: {value}")
-    return 0
-
-
-raise SystemExit(main(sys.argv))
+# Dictionary comprehension preview
+print("\n--- Dictionary Comprehension (Preview) ---")
+passed = {name: grade for name, grade in grades.items() if grade >= 70}
+print(f"Passed students: {passed}")

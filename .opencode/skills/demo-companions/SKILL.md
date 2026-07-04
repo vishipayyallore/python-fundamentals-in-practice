@@ -1,43 +1,37 @@
 ---
-name: demo-companions
-description: Legacy folder retained. Session companion checklist for Python Fundamentals in Practice - parity between session docs, practice scripts, images, README references, and meetup status.
+name: curriculum-practice-parity
+description: >-
+  Verify session docs reference the correct src/L1 practice files; align _Plan.md
+  and meetup status with on-disk inventory in python-fundamentals-in-practice.
 ---
 
-# Session Companions
+# curriculum-practice-parity (skill)
 
 **Scope:** `python-fundamentals-in-practice` only.
 
-## Session bundle
+## When to use
 
-Each session should keep aligned artifacts:
+- After adding or renaming practice files under `src/L1`
+- Before meetup delivery or when auditing doc ↔ code parity
+
+## Checklist
+
+1. Open `docs/02_RepositoryStructure.md` for expected file counts per session.
+2. For each `docs/sessions/L1/S{n}.md`, every cited `src/L1/S{n}/` path exists and runs.
+3. Cross-check `docs/sessions/L1/_Plan.md` three-axis status vs `docs/meetup/L1/sessions.md`.
+4. Flag orphan files under `src/L1` not referenced in session docs.
+5. New Level 1 content respects completed vs planned status in `docs/meetup/L1/sessions.md`.
+
+## Session bundle
 
 | Layer | Path | Contains |
 | --- | --- | --- |
-| Docs | `docs/sessions/L{level}/S{session}.md` | Teaching narrative, objectives, practice mapping |
-| Practice | `src/L{level}/S{session}/` | Runnable Python scripts |
+| Docs | `docs/sessions/L1/S{session}.md` | Teaching narrative, objectives, practice mapping |
+| Practice | `src/L1/S{session}/` | Runnable Python scripts |
 | Images | `docs/images/S{session}/` | Diagrams/screenshots when used |
 | Status | `docs/meetup/L1/sessions.md` | Placement guard for completed vs planned work |
 
-## Definition of done (per session)
-
-- [ ] Session doc has context, objectives, prerequisites, teaching content, practice mapping, wrap-up, and troubleshooting where expected.
-- [ ] Practice files exist and match the session doc references.
-- [ ] README and structure docs are updated only when inventory or public navigation changes.
-- [ ] New Level 1 content respects `docs/meetup/L1/sessions.md`.
-- [ ] Code runs with `ruff check src` and `python -m compileall -q src`.
-
-## Parity checks
-
-1. **Docs to practice** - listed files exist and demonstrate the described concept.
-2. **Practice to docs** - scripts do not introduce unexplained concepts too early.
-3. **Status to placement** - completed sessions are not silently expanded with new content.
-
-## Cross-session rules
-
-- Session N builds on earlier prerequisites.
-- Planned future sessions must be marked clearly and not treated as implemented inventory.
-
-## Related
+## References
 
 - Structure: `docs/02_RepositoryStructure.md`
-- Subagent: `.cursor/agents/session-content.md`
+- Subagent: `.opencode/agents/session-roadmap-review.md`

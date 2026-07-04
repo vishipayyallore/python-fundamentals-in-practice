@@ -1,17 +1,57 @@
-"""Session 7: print() sep and end for clearer debug output."""
-
 # Filename: src/L1/S7/06_print_sep_end.py
+"""Session 1 revisited — print() with sep and end.
+
+Plain print(items) joins pieces with spaces and ends with a newline by default.
+Knowing these two parameters keeps debug prints readable when you inspect
+multiple values on one line or want to avoid extra blank lines.
+"""
 
 import sys
 
 HELP_TEXT = """06_print_sep_end.py
 
 Purpose
-    Use print(sep=...) and print(end=...) to format debug lines without extra noise.
+    Demonstrate how print() handles multiple values, separators, and line endings.
+    Knowing these keeps debug prints readable.
 
 Usage
     python src/L1/S7/06_print_sep_end.py
+
+Topics Covered
+    - Printing multiple values with commas
+    - sep to change what goes between pieces
+    - end to suppress or extend the trailing newline
+    - Common beginner comma mistake
 """
+
+
+def demo_multiple_values() -> None:
+    lesson_number = 7
+    sentence = "Current lesson"
+    print("=== Multiple values in print() ===")
+    print(sentence, lesson_number)
+
+
+def demo_sep() -> None:
+    lesson_number = 7
+    sentence = "Current lesson"
+    print("\n=== Using sep ===")
+    print(sentence, lesson_number, sep="-")
+    print(sentence, lesson_number, sep=" | ")
+
+
+def demo_end() -> None:
+    lesson_number = 7
+    sentence = "Current lesson"
+    print("\n=== Using end ===")
+    print(sentence, lesson_number, sep="-", end="  <-- same line ->  ")
+    print(sentence, lesson_number, sep="-")
+
+
+def demo_common_mistake() -> None:
+    print("\n=== Common beginner mistake ===")
+    print("Wrong:  print(sentence lesson_number)")
+    print("Right:  print(sentence, lesson_number)")
 
 
 def main(argv: list[str]) -> int:
@@ -19,26 +59,11 @@ def main(argv: list[str]) -> int:
         print(HELP_TEXT)
         return 0
 
-    print("=== Session 7: print sep and end ===\n")
-
-    print("Default print adds a newline after each call:")
-    print("alpha")
-    print("beta")
-    print()
-
-    print("sep changes the separator between values on one line:")
-    print("step", 1, "done", sep=" | ")
-    print()
-
-    print("end keeps the cursor on the same line:")
-    print("loading", end=" ")
-    print("still loading", end=" ")
-    print("finished")
-    print()
-
-    tags = ["debug", "session7", "print"]
-    print("Join debug tags on one line:")
-    print(*tags, sep=", ")
+    demo_multiple_values()
+    demo_sep()
+    demo_end()
+    demo_common_mistake()
+    print("\n=== Done ===")
     return 0
 
 

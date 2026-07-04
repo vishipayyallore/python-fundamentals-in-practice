@@ -17,5 +17,6 @@ You are helping with **educational** Markdown for this repository’s **Python f
 3. **Teaching flow:** use THINK → REASON → ACT → VERIFY; surface misconceptions, bridges to next work, and prediction-style checks where the course does.
 4. **No zero-copy** violations — if you are unsure, invent new phrasing and new small examples; keep lists and “shape” of lessons original.
 5. **Markdown** — follow `.cursor/rules/04_markdown-standards.mdc` for headings, code fences, tables, and Lychee-friendly links.
+6. **Session bucketing** — check `docs/meetup/L1/sessions.md` before adding content to completed sessions.
 
 If the user only fixed a single typo, the main agent can do that without delegating here; use this for substantive session work.

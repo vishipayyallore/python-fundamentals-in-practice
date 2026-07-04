@@ -2,8 +2,6 @@
 
 ## Table
 
-Note: Pending | Planned | Ready | Published | Completed
-
 | Session | Status |
 | --- | --- |
 | Session 1 | Completed |
@@ -97,6 +95,8 @@ Optional reinforcement (Strings as Sequences — revisit before lists):
 - `src/L1/S8/04_string_basics.py` – string operators: `+`, `*`, and TypeError
 - `src/L1/S8/05_string_len.py` – `len()` on strings — spaces count as characters
 - `src/L1/S8/06_string_methods.py` – `startswith()` / `endswith()` with optional index bounds
+
+See `docs/sessions/L1/S8.md` for the full optional reinforcement list (`07`–`16`).
 
 Optional reinforcement (focused list-method drills):
 
@@ -214,9 +214,9 @@ Perfect For:
 
 ## Level 1 - Session 5 (MP 1): Mini Project 1 — Simple Calculator
 
-Date: Saturday, Jul 4 · 4:00 PM to 5:00 PM IST
+Date: To be announced (ready)
 
-Event URL: <https://www.meetup.com/dot-net-learners-house-hyderabad/events/315495266/?eventOrigin=group_upcoming_events>
+Event URL: To be announced (ready)
 
 🔹 Session Agenda:
 

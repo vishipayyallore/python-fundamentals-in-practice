@@ -26,7 +26,6 @@ python-fundamentals-in-practice/
 ├── .clinerules/
 │   ├── agents/
 │   │   ├── agent-ci-verify.md
-│   │   ├── demo-roadmap-review.md
 │   │   ├── docs-originality-review.md
 │   │   ├── python-practice-code.md
 │   │   └── session-roadmap-review.md
@@ -50,7 +49,6 @@ python-fundamentals-in-practice/
 │   │   ├── e2e-testing.md
 │   │   └── workspace-review.md
 │   ├── workflows/
-│   │   ├── demo-roadmap-review.md
 │   │   ├── run-ci-checks.md
 │   │   ├── session-roadmap-review.md
 │   │   └── workspace-review.md
@@ -97,8 +95,6 @@ python-fundamentals-in-practice/
 ├── .opencode/
 │   ├── agents/
 │   │   ├── agent-ci-verify.md
-│   │   ├── demo-code-audit.md
-│   │   ├── demo-roadmap-review.md
 │   │   ├── docs-originality-review.md
 │   │   ├── python-practice-code.md
 │   │   └── session-roadmap-review.md

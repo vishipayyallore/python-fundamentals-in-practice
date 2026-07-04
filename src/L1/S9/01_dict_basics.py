@@ -1,41 +1,55 @@
-"""Session 9: dictionary creation, access, update, and deletion."""
-
 # Filename: src/L1/S9/01_dict_basics.py
 
-import sys
+print("=== Dictionary Basics Demo ===\n")
 
-HELP_TEXT = """01_dict_basics.py
+# Creating dictionaries
+print("--- Creating Dictionaries ---")
+person = {"name": "Alice", "age": 25, "city": "New York"}
+print(f"Person: {person}")
 
-Purpose
-    Create dicts, read/update values, and remove keys safely.
+# Using dict() constructor
+student = dict(name="Bob", grade=95, subject="Math")
+print(f"Student: {student}")
 
-Usage
-    python src/L1/S9/01_dict_basics.py
-"""
+# Empty dictionary
+empty = {}
+print(f"Empty dict: {empty}")
 
+# Accessing values
+print("\n--- Accessing Values ---")
+print(f"person['name'] = {person['name']}")
+print(f"person.get('age') = {person.get('age')}")
+print(f"person.get('country') = {person.get('country')}")
+print(f"person.get('country', 'USA') = {person.get('country', 'USA')}")
 
-def main(argv: list[str]) -> int:
-    if any(arg in {"-h", "--help"} for arg in argv[1:]):
-        print(HELP_TEXT)
-        return 0
+# Modifying values
+print("\n--- Modifying Values ---")
+person["age"] = 26
+print(f"After person['age'] = 26: {person}")
 
-    print("=== Session 9: Dictionary basics ===\n")
+person["country"] = "USA"
+print(f"After adding 'country': {person}")
 
-    student = {"name": "Riya", "grade": "B", "score": 86}
-    print(f"student = {student}")
-    print(f"student['name'] -> {student['name']}")
+# Removing values
+print("\n--- Removing Values ---")
+removed = person.pop("city")
+print(f"Removed 'city': {removed}")
+print(f"After pop: {person}")
 
-    student["score"] = 91
-    student["grade"] = "A"
-    print(f"after updates: {student}")
+# Checking keys
+print("\n--- Checking Keys ---")
+print(f"'name' in person: {'name' in person}")
+print(f"'city' in person: {'city' in person}")
 
-    removed = student.pop("grade")
-    print(f"pop('grade') removed {removed!r} -> {student}")
-
-    # Why: .get() avoids KeyError when a key might be missing.
-    city = student.get("city", "unknown")
-    print(f"student.get('city', 'unknown') -> {city!r}")
-    return 0
-
-
-raise SystemExit(main(sys.argv))
+# Dictionary with different value types
+print("\n--- Mixed Value Types ---")
+profile = {
+    "name": "Charlie",
+    "age": 30,
+    "scores": [95, 87, 92],
+    "active": True,
+    "address": {"city": "Boston", "zip": "02101"},
+}
+print(f"Profile: {profile}")
+print(f"First score: {profile['scores'][0]}")
+print(f"City: {profile['address']['city']}")

@@ -10,13 +10,13 @@
 **Python Fundamentals** is a comprehensive educational Python curriculum repository for Swamy's Tech Skills Academy. It provides:
 
 - Structured learning roadmap from complete beginner to confident Python programmer
-- 9 progressive levels with 10 learning blocks each (8 core sessions + 2 mini projects)
+- **18-level master plan** in the dev repo (`python-fundamentals`); this meetup replica currently ships **Level 1** curriculum (S1–S10 on disk; meetup delivery focus S1–S6)
 - Hands-on practice files and mini projects
-- Clear progression: Noob → Nerd → Novice → Learner → Beginner → Practitioner → Skilled Coder → Specialist → Professional → Curious Learner
+- Clear progression: Noob → Nerd → Novice → … (see `docs/01_Python-Fundamentals-MasterPlan.md`)
 
 **Target Audience**: Complete beginners → Confident Python programmers
 
-**Learning Framework**: 9-level progression with 30-minute focused sessions and hands-on practice
+**Learning Framework**: 30-minute focused sessions and hands-on practice per session block
 
 ### Two-repository model (workspace)
 
