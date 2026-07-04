@@ -44,7 +44,7 @@ Status Legend:
 
 **Focus:** Environment setup, basic syntax, curiosity ignition  
 **Duration:** ~5–6 hours (8 sessions × 30 min + 2 mini projects × 30–45 min)  
-**Status:** 🚧 **In Progress** - Sessions 1–4 plus [Mini Project 1](sessions/L1/S5.md) (`src/L1/S5/`) and Session 6 loops (`S6.md`, `src/L1/S6/`) are in-repo; later Level 1 sessions are planned
+**Status:** 🚧 **In Progress** - Level 1 sessions **S1–S10** (including both mini projects) have in-repo docs and practice under `src/L1/`; meetup delivery for S7–S10 remains scheduled
 
 **Actual Session Breakdown:**
 
@@ -55,11 +55,11 @@ Status Legend:
 | A | 3 | **Operators & Expressions** | 📚 Knowledge | ✅ **Ready** |
 | A | 4 | **Conditionals, Indentation & Introduction to Modules** | 📚 Knowledge | ✅ **Ready** |
 | A | MP1 | **🚀 Mini Project 1: Simple Calculator** | 🛠️ Project | ✅ **Ready** |
-| B | 5 | **Loops & Iteration** | 📚 Knowledge | ✅ **Ready** |
-| B | 6 | **Basic Debugging & Built-in Functions** | 📚 Knowledge | 🔄 **Planned** |
-| B | 7 | **Lists & Loops** | 📚 Knowledge | 🔄 **Planned** |
-| B | 8 | **Dictionaries & Testing** | 📚 Knowledge | 🔄 **Planned** |
-| B | MP2 | **🚀 Mini Project 2: Personal Profile Generator** | 🛠️ Project | 🔄 **Planned** |
+| B | 6 | **Loops & Iteration** | 📚 Knowledge | ✅ **Ready** |
+| B | 7 | **Basic Debugging & Built-in Functions** | 📚 Knowledge | ✅ **Ready** |
+| B | 8 | **Lists & Loops** | 📚 Knowledge | ✅ **Ready** |
+| B | 9 | **Dictionaries & Testing** | 📚 Knowledge | ✅ **Ready** |
+| B | 10 (MP2) | **🚀 Mini Project 2: Personal Profile Generator** | 🛠️ Project | ✅ **Ready** |
 
 **Key Learning Focus:**
 
@@ -72,17 +72,17 @@ Status Legend:
 - Introduction to modules and the `random` module
 - **Mini Project 1: Simple Calculator** - Applying Sessions 1-4 concepts
 
-**Phase B (Sessions 5-8 + MP2):**
+**Phase B (Sessions 6-9 + MP2):**
 
 - Loops (`for`, `while`) with `range()`, `break`, `continue` controls
 - **Error reading skills** and built-in functions (`len()`, `max()`, `min()`, `sum()`, `type()`)
 - Lists fundamentals with iteration and basic operations
 - Dictionaries (key-value pairs) with **basic testing using `assert`**
-- **Mini Project 2: Personal Profile Generator** - Applying Sessions 5-8 concepts
+- **Mini Project 2: Personal Profile Generator** - Applying Sessions 6-9 concepts
 
 **Mini Projects:**
 
-- **Simple Calculator** - Command-line calculator with input validation and continuous operation
+- **Simple Calculator** - Command-line calculator with input validation and safe divide-by-zero handling (one calculation per run; see Session 6 for a looped calculator)
 - **Personal Profile Generator** - Interactive profile system using dictionaries and lists with data validation
 
 **Learning Outcome:** "I can write basic Python programs with proper structure, understand error messages, and I'm genuinely curious to learn more!"

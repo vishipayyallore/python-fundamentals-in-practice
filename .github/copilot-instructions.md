@@ -3,7 +3,7 @@
 **Project:** Python Fundamentals Curriculum  
 **Owner:** Swamy's Tech Skills Academy  
 **Purpose:** Educational **Python fundamentals** curriculum development and maintenance (**Python only** — not AWS, cloud, or other non-Python tracks)  
-**Last updated:** April 2026
+**Last updated:** July 2026
 
 ---
 

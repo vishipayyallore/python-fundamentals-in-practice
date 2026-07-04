@@ -1,6 +1,6 @@
 # .claude — instruction pointer
 
-**Last updated:** April 2026
+**Last updated:** July 2026
 
 Some Claude Code or Anthropic workflows look for project context under **`.claude/`**. This repository keeps **canonical instructions at the repository root** so all tools share one source of truth.
 

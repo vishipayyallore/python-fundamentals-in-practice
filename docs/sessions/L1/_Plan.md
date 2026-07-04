@@ -63,25 +63,25 @@ sessions:
     topic: "Basic Debugging, Reading Errors & Built-in Functions"
     duration: "30 min"
     type: "Knowledge"
-    status: "Planned"
+    status: "Ready"
     file: "docs/sessions/L1/S7.md"
   - session: 8
     topic: "Lists & Loops"
     duration: "30 min"
     type: "Knowledge"
-    status: "Planned"
+    status: "Ready"
     file: "docs/sessions/L1/S8.md"
   - session: 9
     topic: "Dictionaries & Basic Testing"
     duration: "30 min"
     type: "Knowledge"
-    status: "Planned"
+    status: "Ready"
     file: "docs/sessions/L1/S9.md"
   - session: "MP2"
     topic: "Mini Project 2: Personal Profile Generator"
     duration: "30–45 min"
     type: "Project"
-    status: "Planned"
+    status: "Ready"
     file: "docs/sessions/L1/S10.md"
 ---
 
@@ -110,10 +110,10 @@ sessions:
 | A     | 4       | Conditionals, Indentation & Introduction to Modules    | 30 min    | 📚 Knowledge | ✅ Ready   |
 | A     | 🚀 MP1  | Mini Project 1: Simple Calculator *(after Session 4)*  | 30–45 min | 🛠️ Project   | ✅ Ready   |
 | B     | 6       | Loops & Iteration                                      | 30 min    | 📚 Knowledge | ✅ Ready   |
-| B     | 7       | Basic Debugging, Reading Errors & Built-in Functions   | 30 min    | 📚 Knowledge | 🔜 Planned |
-| B     | 8       | Lists & Loops                                          | 30 min    | 📚 Knowledge | 🔜 Planned |
-| B     | 9       | Dictionaries & Basic Testing                           | 30 min    | 📚 Knowledge | 🔜 Planned |
-| B     | 🚀 MP2  | Mini Project 2: Personal Profile *(after Session 9)*   | 30–45 min | 🛠️ Project   | 🔜 Planned |
+| B     | 7       | Basic Debugging, Reading Errors & Built-in Functions   | 30 min    | 📚 Knowledge | ✅ Ready   |
+| B     | 8       | Lists & Loops                                          | 30 min    | 📚 Knowledge | ✅ Ready   |
+| B     | 9       | Dictionaries & Basic Testing                           | 30 min    | 📚 Knowledge | ✅ Ready   |
+| B     | 🚀 MP2  | Mini Project 2: Personal Profile *(after Session 9)*   | 30–45 min | 🛠️ Project   | ✅ Ready   |
 
 ---
 
@@ -278,7 +278,7 @@ ASCII fallback:
 * Nested loops and performance considerations
 
 🧪 *Practice Files*:  
-`src/L1/S6/01_for_loops.py`, `src/L1/S6/02_while_loops.py`, `src/L1/S6/03_loop_controls_fizzbuzz.py`, `src/L1/S6/04_calculator_loop.py`, `src/L1/S6/05_values_to_variables.py`, `src/L1/S6/06_chained_and_multi_assignment.py`, `src/L1/S6/07_conversion_limits.py`
+`src/L1/S6/01_for_loops.py`, `src/L1/S6/02_while_loops.py`, `src/L1/S6/03_loop_controls_fizzbuzz.py`, `src/L1/S6/04_calculator_loop.py`, `src/L1/S6/05_values_to_variables.py`, `src/L1/S6/06_chained_and_multi_assignment.py`, `src/L1/S6/07_conversion_limits.py`, `src/L1/S6/08_boolean_logic_precedence.py`, `src/L1/S6/09_non_bool_values.py`
 
 📖 *Documentation*: [S6.md](S6.md)
 
@@ -298,7 +298,7 @@ ASCII fallback:
 🧪 *Practice Files*:  
 `src/L1/S7/01_error_examples.py`, `src/L1/S7/02_debug_practice.py`, `src/L1/S7/03_builtin_functions.py`, `src/L1/S7/04_pep8_style_refactor.py`, `src/L1/S7/05_pep8_indentation.py`
 
-📖 *Documentation*: `S7.md` *(Planned)*
+📖 *Documentation*: [S7.md](S7.md)
 
 🧪 *Mini Practice*: Debug broken code samples.  
 📌 *Feeds into Mini Project 2*: Debugging profile input.
@@ -315,7 +315,7 @@ ASCII fallback:
 🧪 *Practice Files*:  
 `src/L1/S8/01_list_basics.py`, `src/L1/S8/02_list_methods.py`, `src/L1/S8/03_task_manager.py`
 
-📖 *Documentation*: `S8.md` *(Planned)*
+📖 *Documentation*: [S8.md](S8.md)
 
 🧪 *Mini Practice*: Task list manager with lists + loops.  
 📌 *Feeds into Mini Project 2*: Storing multiple hobbies or goals.
@@ -333,7 +333,7 @@ ASCII fallback:
 🧪 *Practice Files*:  
 `src/L1/S9/01_dict_basics.py`, `src/L1/S9/02_dict_iteration.py`, `src/L1/S9/03_gradebook.py`
 
-📖 *Documentation*: `S9.md` *(Planned)*
+📖 *Documentation*: [S9.md](S9.md)
 
 🧪 *Mini Practice*: Student gradebook with dictionaries + asserts.  
 📌 *Feeds into Mini Project 2*: User profiles as dictionaries + validation.
@@ -351,6 +351,8 @@ ASCII fallback:
 * Display formatted profile
 * Handle multiple profiles
 * Basic input validation
+
+📖 *Project Guide*: [S10.md](S10.md)
 
 🧪 *Deliverable*: `src/L1/S10/profile_generator.py`
 

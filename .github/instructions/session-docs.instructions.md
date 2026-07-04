@@ -69,6 +69,6 @@ Fix all errors before opening a PR.
 
 Session numbering must respect logical dependencies:
 
-> Variables (S2) → Operators (S3) → Conditionals (S4) → Loops (S5) → Lists (S7) → Dictionaries (S8)
+> Variables (S2) → Operators (S3) → Conditionals (S4) → Mini Project 1 (S5) → Loops (S6) → Debugging (S7) → Lists (S8) → Dictionaries (S9) → Mini Project 2 (S10)
 
 A session must not reference concepts from a higher-numbered session as a **prerequisite**.

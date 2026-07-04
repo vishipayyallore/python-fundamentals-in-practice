@@ -135,6 +135,10 @@ python-fundamentals-in-practice/
 │   │       ├── S4.md
 │   │       ├── S5.md
 │   │       ├── S6.md
+│   │       ├── S7.md
+│   │       ├── S8.md
+│   │       ├── S9.md
+│   │       ├── S10.md
 │   │       └── _Plan.md
 │   ├── 01_Python-Fundamentals-MasterPlan.md
 │   └── 02_RepositoryStructure.md
@@ -161,16 +165,40 @@ python-fundamentals-in-practice/
 │   │   │   ├── 01_conditionals.py
 │   │   │   ├── 02_boolean_logic.py
 │   │   │   └── 03_number_guessing_game.py
-│   │   └── S6/
-│   │       ├── 01_for_loops.py
-│   │       ├── 02_while_loops.py
-│   │       ├── 03_loop_controls_fizzbuzz.py
-│   │       ├── 04_calculator_loop.py
-│   │       ├── 05_values_to_variables.py
-│   │       ├── 06_chained_and_multi_assignment.py
-│   │       ├── 07_conversion_limits.py
-│   │       ├── 08_boolean_logic_precedence.py
-│   │       └── 09_non_bool_values.py
+│   │   ├── S6/
+│   │   │   ├── 01_for_loops.py
+│   │   │   ├── 02_while_loops.py
+│   │   │   ├── 03_loop_controls_fizzbuzz.py
+│   │   │   ├── 04_calculator_loop.py
+│   │   │   ├── 05_values_to_variables.py
+│   │   │   ├── 06_chained_and_multi_assignment.py
+│   │   │   ├── 07_conversion_limits.py
+│   │   │   ├── 08_boolean_logic_precedence.py
+│   │   │   └── 09_non_bool_values.py
+│   │   ├── S7/
+│   │   │   ├── 01_error_examples.py
+│   │   │   ├── 02_debug_practice.py
+│   │   │   ├── 03_builtin_functions.py
+│   │   │   ├── 04_pep8_style_refactor.py
+│   │   │   ├── 05_pep8_indentation.py
+│   │   │   ├── 06_print_sep_end.py
+│   │   │   └── 07_escape_sequences.py
+│   │   ├── S8/
+│   │   │   ├── 01_list_basics.py
+│   │   │   ├── 02_list_methods.py
+│   │   │   ├── 03_task_manager.py
+│   │   │   ├── 04_string_basics.py
+│   │   │   ├── 05_string_len.py
+│   │   │   ├── 06_string_methods.py
+│   │   │   ├── 13_list_append_remove.py
+│   │   │   ├── 14_list_insert_pop.py
+│   │   │   └── 15_list_sort_reverse.py
+│   │   ├── S9/
+│   │   │   ├── 01_dict_basics.py
+│   │   │   ├── 02_dict_iteration.py
+│   │   │   └── 03_gradebook.py
+│   │   └── S10/
+│   │       └── profile_generator.py
 │   └── L2/
 │       └── .gitkeep
 ├── tools/
@@ -201,13 +229,9 @@ python-fundamentals-in-practice/
 
 The following are roadmap items and may be referenced in planning docs, but they are not currently present as tracked files:
 
-- `docs/sessions/L1/S7.md` (planned)
-- `docs/sessions/L1/S8.md` (planned)
-- `docs/sessions/L1/S9.md` (planned)
-- `docs/sessions/L1/S10_MP2.md` (planned)
 - Level 2+ session docs and practice packs (planned)
 
-Ignored instructor intake such as `source-material/` is not part of tracked curriculum inventory. When migrated, rewrite it into `docs/` as original educational content.
+Ignored instructor intake such as `source-material/` is not part of tracked curriculum inventory. **Python-only migration:** promote intake into `docs/sessions/` and `src/L{level}/` only when it supports the Python Fundamentals curriculum; rewrite as original educational content. Do **not** migrate non-Python intake (e.g. AWS, cloud, or Bedrock meetup outlines) into this repository.
 
 ---
 
@@ -249,6 +273,10 @@ Ignored instructor intake such as `source-material/` is not part of tracked curr
 - **Session 4**: [sessions/L1/S4.md](sessions/L1/S4.md)
 - **Mini Project 1 (doc slot S5)**: [sessions/L1/S5.md](sessions/L1/S5.md)
 - **Session 6 (loops)**: [sessions/L1/S6.md](sessions/L1/S6.md)
+- **Session 7 (debugging)**: [sessions/L1/S7.md](sessions/L1/S7.md)
+- **Session 8 (lists)**: [sessions/L1/S8.md](sessions/L1/S8.md)
+- **Session 9 (dictionaries)**: [sessions/L1/S9.md](sessions/L1/S9.md)
+- **Mini Project 2 (doc slot S10)**: [sessions/L1/S10.md](sessions/L1/S10.md)
 
 ---
 
@@ -262,4 +290,4 @@ When structure changes (add/move/rename/delete files), update in this order:
 
 ---
 
-**Last Updated**: April 2026
+**Last Updated**: July 2026

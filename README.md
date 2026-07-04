@@ -17,6 +17,8 @@ A comprehensive, transformation-focused Python curriculum designed to take you f
 
 This is **Swamy's personal learning and curriculum-development** repository. Content is evolving and in progress (not an accredited or final published course).
 
+**Scope:** This repository is **Python fundamentals only** — session docs, practice code, and Level 1 meetup material. It is not for AWS, cloud, Bedrock, or other non-Python course tracks.
+
 ---
 
 ## 🚀 **Quick Start**
@@ -29,8 +31,8 @@ This is **Swamy's personal learning and curriculum-development** repository. Con
    - Check current implementation status
 
 2. **📖 [Level 1 Plan](docs/sessions/L1/_Plan.md)** - Begin with Level 1: Noob → Nerd
-   - Full L1 roadmap: 10 sessions; in-repo today: **Sessions 1–4**, **Mini Project 1** ([`S5.md`](docs/sessions/L1/S5.md), practice under [`src/L1/S5/`](src/L1/S5/)), and **Session 6** ([`S6.md`](docs/sessions/L1/S6.md), practice under [`src/L1/S6/`](src/L1/S6/))
-   - Sessions 7–10 and Mini Project 2 are planned; see the plan file and [`docs/02_RepositoryStructure.md`](docs/02_RepositoryStructure.md)
+   - Full L1 roadmap: 10 sessions; in-repo today: **Sessions 1–4**, **Mini Project 1** ([`S5.md`](docs/sessions/L1/S5.md), [`src/L1/S5/`](src/L1/S5/)), **Session 6** ([`S6.md`](docs/sessions/L1/S6.md)), **Sessions 7–9**, and **Mini Project 2** ([`S10.md`](docs/sessions/L1/S10.md), [`src/L1/S10/`](src/L1/S10/))
+   - See [`docs/02_RepositoryStructure.md`](docs/02_RepositoryStructure.md) for the full file inventory
    - Step-by-step learning path
 
 3. **🎥 [Watch Level 1 Playlist](https://www.youtube.com/watch?v=Cy6DqbRjsF0&list=PLdLQDTLMjAzpRBxP4q1XJOuLhFG4pSfBB)** - Video walkthroughs for Level 1 sessions
