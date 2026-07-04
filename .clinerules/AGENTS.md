@@ -2,9 +2,11 @@
 
 **Canonical index:** root [`AGENTS.md`](../AGENTS.md).
 
-**Repository:** `python-fundamentals-in-practice`
+**Repository:** `python-fundamentals-in-practice` (**meetup replica**)
 
-Educational **Python Fundamentals** curriculum for Swamy's Tech Skills Academy. This repo is documentation plus beginner-friendly practice scripts, not a web application.
+**Curriculum source of truth:** `python-fundamentals` (Swamy-only development repo)
+
+Educational **Python Fundamentals** curriculum for Swamy's Tech Skills Academy. This repo is documentation plus beginner-friendly practice scripts for **live meetup delivery**, not a web application.
 
 ## Python-only scope
 
@@ -32,7 +34,8 @@ These are Cline-facing mirrors of the repo's current assistant roles.
 | Agent | Use when |
 | --- | --- |
 | `agent-ci-verify` | After docs, Python, or governance edits |
-| `session-roadmap-review` | Reviewing session docs, plans, and practice-file parity |
+| `session-roadmap-review` | Reviewing session docs, plans, and practice-file parity (L1 S1–S6 focus) |
+| `python-practice-code` | Creating or updating `src/L1/` practice scripts |
 | `docs-originality-review` | Checking docs for zero-copy and source-integrity risk |
 
 ## CI Workflows

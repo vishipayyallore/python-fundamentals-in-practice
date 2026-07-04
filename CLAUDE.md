@@ -9,7 +9,9 @@ Use this file as the **short, Claude-oriented** project brief. The full agent ma
 
 ## Project
 
-Educational **Python fundamentals** curriculum only: levels `L*`, sessions `S*`, session docs in `docs/sessions/`, practice code in `src/`, images under `docs/images/`, Level 1 meetup summaries in `docs/meetup/L1/`, utilities in `tools/psscripts/` (PowerShell on Windows).
+Educational **Python fundamentals** curriculum for **live meetup delivery**: levels `L*`, sessions `S*`, session docs in `docs/sessions/`, practice code in `src/`, images under `docs/images/`, Level 1 meetup summaries in `docs/meetup/L1/`, utilities in `tools/psscripts/` (PowerShell on Windows).
+
+**Repository role:** This repo (**`python-fundamentals-in-practice`**) is the **meetup replica**. **`python-fundamentals`** is the **single source of truth** (Swamy-only development) — author and validate there first, then sync scoped content here.
 
 **Not in scope:** AWS, cloud platforms, Bedrock, or other non-Python course tracks. Non-Python files in ignored `source-material/` are not migrated here.
 
@@ -17,7 +19,8 @@ Educational **Python fundamentals** curriculum only: levels `L*`, sessions `S*`,
 
 ## Authoritative structure
 
-- **`docs/02_RepositoryStructure.md`** is the **single source of truth** for paths, naming, and what exists. If you change layout or naming rules, update that file, then align README, `.github/copilot-instructions.md`, and any broken references.
+- **`docs/02_RepositoryStructure.md`** — authoritative for **this repo's** paths, naming, and inventory.
+- **`python-fundamentals`** — authoritative for **curriculum content** and development workflow.
 
 ---
 

@@ -1,18 +1,14 @@
 ---
 name: demo-code-audit
 description: >-
-  Legacy filename retained. OpenCode-only spot audit of Python practice scripts for session scope, beginner vocabulary, and docs alignment.
+  DEPRECATED — use python-practice-code instead.
+  Legacy alias kept for backward compatibility with older workflow names.
 model: fast
 readonly: true
 ---
 
-# demo-code-audit (Python practice audit subagent)
+# demo-code-audit (deprecated)
 
-Review **Python fundamentals** practice-code changes against the relevant session document and repository structure (not AWS, cloud, or other non-Python material).
+This agent name is retired. Use **`python-practice-code`** from `.opencode/agents/python-practice-code.md` instead.
 
-1. Confirm edits live under `src/L{level}/S{session}/` and match `docs/02_RepositoryStructure.md`.
-2. Check each script stays within the vocabulary introduced by its session and earlier sessions.
-3. Verify headers, comments, and examples are beginner-friendly and runnable.
-4. Report gaps: **Path | Issue | Recommendation**.
-
-Read-only unless parent requests fixes.
+Same scope: `src/L1/` practice scripts aligned with session docs (current meetup focus S1–S6).

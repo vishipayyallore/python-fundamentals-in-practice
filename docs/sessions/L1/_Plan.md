@@ -270,7 +270,7 @@ ASCII fallback:
 
 ## 📅 **Phase B: Expanding Skills + Mini Project 2**
 
-### ✅ Session 6: Loops & Iteration
+### ✅ Session 6: Loops & Iteration *(Ready)*
 
 * `for` loops with `range()` and iterables
 * `while` loops and loop conditions
@@ -287,7 +287,7 @@ ASCII fallback:
 
 ---
 
-### ✅ Session 7: Basic Debugging & Built-in Functions *(Ready)*
+### ✅ Session 7: Basic Debugging & Built-in Functions *(Planned)*
 
 * Error types: syntax vs runtime
 * Reading error messages
@@ -305,7 +305,7 @@ ASCII fallback:
 
 ---
 
-### ✅ Session 8: Lists & Loops *(Ready)*
+### ✅ Session 8: Lists & Loops *(Planned)*
 
 * List creation, indexing, slicing, basic methods
 * Operations: `append()`, `remove()`, `len()`, accessing elements
@@ -322,7 +322,7 @@ ASCII fallback:
 
 ---
 
-### ✅ Session 9: Dictionaries & Basic Testing *(Ready)*
+### ✅ Session 9: Dictionaries & Basic Testing *(Pending)*
 
 * Dictionaries: creation, update, deletion
 * Methods: `.keys()`, `.values()`, `.items()`, `.get()`
@@ -340,7 +340,7 @@ ASCII fallback:
 
 ---
 
-### 🚀 Mini Project 2: Personal Profile Generator *(Ready)*
+### 🚀 Mini Project 2: Personal Profile Generator *(Pending)*
 
 **Goal:** Create an interactive profile generator and display system.
 

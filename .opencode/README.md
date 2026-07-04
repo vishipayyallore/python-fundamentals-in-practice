@@ -22,8 +22,10 @@ See `skills/README.md`. This repo's canonical project skill is `.cursor/skills/p
 
 - `agent-ci-verify`
 - `session-roadmap-review` (Level 1 session parity and meetup alignment; current focus S1–S6)
+- `python-practice-code` (Level 1 practice scripts; current focus S1–S6)
 - `docs-originality-review`
 - `demo-roadmap-review` (deprecated alias — use `session-roadmap-review`)
+- `demo-code-audit` (deprecated alias — use `python-practice-code`)
 
 ## CI Workflows
 

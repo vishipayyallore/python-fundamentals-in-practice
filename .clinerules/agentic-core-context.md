@@ -1,16 +1,18 @@
 # Cline Core Context
 
-**Repository:** `python-fundamentals-in-practice`
+**Repository:** `python-fundamentals-in-practice` (**meetup replica**)
+
+**Curriculum source of truth:** `python-fundamentals` (Swamy-only development repo)
 
 ## Purpose
 
-Beginner-focused **Python fundamentals** curriculum with session documentation, runnable practice scripts, and governance files for multiple coding assistants.
+Beginner-focused **Python fundamentals** curriculum with session documentation, runnable practice scripts, and governance files for multiple coding assistants. Sync curriculum content from the dev repo; do not author new curriculum here first.
 
 **Python-only boundary:** this repo is not for AWS, cloud, Bedrock, or other non-Python courses. Meetup content here is `docs/meetup/L1/` only. Ignore or skip non-Python files in `source-material/`.
 
 | Area | Canonical path | Notes |
 | --- | --- | --- |
-| Structure | `docs/02_RepositoryStructure.md` | Single source of truth for paths and inventory |
+| Structure | `docs/02_RepositoryStructure.md` | This repo's paths and inventory (not curriculum source of truth) |
 | Session docs | `docs/sessions/L1/` | Level 1 sessions and plan |
 | Practice code | `src/L1/S*/` | Python 3.13+ beginner scripts |
 | Meetup status | `docs/meetup/L1/sessions.md` | Guard for completed vs planned content placement |

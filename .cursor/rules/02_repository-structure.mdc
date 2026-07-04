@@ -18,6 +18,15 @@
 
 **Learning Framework**: 9-level progression with 30-minute focused sessions and hands-on practice
 
+### Two-repository model (workspace)
+
+| Repository | Role |
+| --- | --- |
+| **`python-fundamentals`** | **Single source of truth** — Swamy-only curriculum development |
+| **`python-fundamentals-in-practice`** (this repo) | **Meetup replica** — synced copy for live meetup delivery |
+
+Do not author new curriculum here first. Sync from the dev repo when meetup content is ready.
+
 ### Python-only repository scope
 
 This repository is **Python fundamentals curriculum only**. In-scope: `docs/sessions/`, `src/L{level}/`, `docs/images/`, and `docs/meetup/L1/`. Out of scope: AWS, cloud platforms, Bedrock, and other non-Python course tracks. Do not migrate non-Python files from ignored `source-material/` into this repo.
