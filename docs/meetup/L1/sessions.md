@@ -10,7 +10,7 @@ Note: Pending | Planned | Ready | Published | Completed
 | Session 2 | Completed |
 | Session 3 | Completed |
 | Session 4 | Completed |
-| Session 5 (MP 1) | Event Published |
+| Session 5 (MP 1) | Completed |
 | Session 6 | Ready |
 | Session 7 | Planned |
 | Session 8 | Planned |
