@@ -34,7 +34,7 @@ def main(argv: list[str]) -> int:
     print("\nCountdown with for-loop:")
     for left in range(5, 0, -1):
         print(f"T-minus {left}")
-    print("🚀 Lift off!")
+    print("Lift off!")
 
     # Nested loop: outer loop = rows, inner loop = columns.
     # Why nested loops matter: they help build grid/pattern style output.

@@ -197,6 +197,10 @@ We'll write and run three focused practice scripts:
 - `src/L1/S6/02_while_loops.py` – `while` loops, conditions, and safe loop updates
 - `src/L1/S6/03_loop_controls_fizzbuzz.py` – `break` / `continue` / `pass` and beginner FizzBuzz
 
+Capstone (homework or extra time after the 30-minute session):
+
+- `src/L1/S6/04_calculator_loop.py` – loop-driven calculator using `while`, `break`, and `continue` together
+
 Optional reinforcement (compound `while` conditions / boolean order):
 
 - `src/L1/S6/08_boolean_logic_precedence.py` – `and` / `or` / `not` precedence + a small compound `while` demo
