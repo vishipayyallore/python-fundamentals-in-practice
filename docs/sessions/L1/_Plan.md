@@ -57,7 +57,7 @@ sessions:
     topic: "Loops & Iteration"
     duration: "30 min"
     type: "Knowledge"
-    status: "Planned"
+    status: "Ready"
     file: "docs/sessions/L1/S6.md"
   - session: 7
     topic: "Basic Debugging, Reading Errors & Built-in Functions"
@@ -109,7 +109,7 @@ sessions:
 | A     | 3       | Operators & Expressions                                | 30 min    | 📚 Knowledge | ✅ Completed   |
 | A     | 4       | Conditionals, Indentation & Introduction to Modules    | 30 min    | 📚 Knowledge | ✅ Completed   |
 | A     | 🚀 MP1  | Mini Project 1: Simple Calculator *(after Session 4)*  | 30–45 min | 🛠️ Project   | ✅ Completed   |
-| B     | 6       | Loops & Iteration                                      | 30 min    | 📚 Knowledge | 📋 Planned     |
+| B     | 6       | Loops & Iteration                                      | 30 min    | 📚 Knowledge | ✅ Ready       |
 | B     | 7       | Basic Debugging, Reading Errors & Built-in Functions   | 30 min    | 📚 Knowledge | 📋 Planned     |
 | B     | 8       | Lists & Loops                                          | 30 min    | 📚 Knowledge | 📋 Planned     |
 | B     | 9       | Dictionaries & Basic Testing                           | 30 min    | 📚 Knowledge | ⏳ Pending     |
