@@ -21,6 +21,7 @@ exclude = [
   # Sites that often return 403 to bots
   "^https://(www\\.)?udemy\\.com/.*",
   "^https://leetcode\\.com/.*",
+  "^https://code\\.visualstudio\\.com/.*",
   # Known removed videos (to be replaced with alternatives)
   "^https://www\\.youtube\\.com/watch\\?v=pTB0EiLXL1Q$",
   "^https://www\\.youtube\\.com/watch\\?v=1ppgUMfUUJw$",
