@@ -8,7 +8,7 @@ format: "2 phases × (4 sessions + 1 mini project) = 10 sessions total"
 outcome: "2 Mini Projects to cement your foundation"
 transformation_focus: "Evolving mindset from complete beginner to someone genuinely curious about programming"
 curriculum_status: "Validated"
-delivery_status: "S1–S5 completed; S6 published; S7–S10 pending (see docs/meetup/L1/sessions.md)"
+delivery_status: "S1–S5 completed; S6 published; S7–S8 planned; S9–S10 pending (see docs/meetup/L1/sessions.md)"
 repository_status: "Implemented"
 master_plan: "docs/01_Python-Fundamentals-MasterPlan.md"
 learning_objectives:
@@ -73,7 +73,7 @@ sessions:
     duration: "30 min"
     type: "Knowledge"
     curriculum: "Validated"
-    delivery: "Ready"
+    delivery: "Published"
     file: "docs/sessions/L1/S6.md"
   - session: 7
     topic: "Basic Debugging, Reading Errors & Built-in Functions"
@@ -132,17 +132,17 @@ sessions:
 
 ## 🎯 **Level 1 Learning Path (Noob → Nerd)**
 
-| Phase | Session   | Topic                                                          | Duration  | Type         | Curriculum | Delivery   |
-| ----- | --------- | -------------------------------------------------------------- | --------- | ------------ | ---------- | ---------- |
-| A     | 1         | Python Introduction, Environment & Built-in Functions          | 30 min    | 📚 Knowledge | Validated  | Completed  |
-| A     | 2         | Variables & Data Types                                         | 30 min    | 📚 Knowledge | Validated  | Completed  |
-| A     | 3         | Operators & Expressions                                        | 30 min    | 📚 Knowledge | Validated  | Completed  |
-| A     | 4         | Conditionals, Indentation & Introduction to Modules            | 30 min    | 📚 Knowledge | Validated  | Completed  |
-| A     | 5 (MP 1)  | Mini Project 1: Simple Calculator *(after Session 4)*          | 30–45 min | 🛠️ Project   | Validated  | Completed  |
-| B     | 6         | Loops & Iteration                                              | 30 min    | 📚 Knowledge | Validated  | Ready      |
-| B     | 7         | Basic Debugging, Reading Errors & Built-in Functions           | 30 min    | 📚 Knowledge | Validated  | Planned    |
-| B     | 8         | Lists, Iteration & String Sequences                            | 30 min    | 📚 Knowledge | Validated  | Planned    |
-| B     | 9         | Dictionaries & Basic Testing                                   | 30 min    | 📚 Knowledge | Validated  | Pending    |
+| Phase | Session | Topic                                                  | Duration  | Type         | Curriculum | Delivery   |
+| ----- | ------- | ------------------------------------------------------ | --------- | ------------ | ---------- | ---------- |
+| A     | 1       | Python Introduction, Environment & Built-in Functions  | 30 min    | 📚 Knowledge | Validated  | Completed  |
+| A     | 2       | Variables & Data Types                                 | 30 min    | 📚 Knowledge | Validated  | Completed  |
+| A     | 3       | Operators & Expressions                                | 30 min    | 📚 Knowledge | Validated  | Completed  |
+| A     | 4       | Conditionals, Indentation & Introduction to Modules    | 30 min    | 📚 Knowledge | Validated  | Completed  |
+| A     | 5 (MP 1) | Mini Project 1: Simple Calculator *(after Session 4)*  | 30–45 min | 🛠️ Project   | Validated  | Completed  |
+| B     | 6       | Loops & Iteration                                      | 30 min    | 📚 Knowledge | Validated  | Published  |
+| B     | 7       | Basic Debugging, Reading Errors & Built-in Functions   | 30 min    | 📚 Knowledge | Validated  | Planned    |
+| B     | 8       | Lists, Iteration & String Sequences                    | 30 min    | 📚 Knowledge | Validated  | Planned    |
+| B     | 9       | Dictionaries & Basic Testing                           | 30 min    | 📚 Knowledge | Validated  | Pending    |
 | B     | 10 (MP 2) | Mini Project 2: Personal Profile Generator *(after Session 9)* | 30–45 min | 🛠️ Project   | Validated  | Pending    |
 
 ---
