@@ -23,9 +23,9 @@ Event URL: To be announced (pending)
 
 🔹 Session Agenda:
 
-Level: Noob → Nerd (Level 1, Session 10 — Mini Project 2)
-Format: Live coding on YouTube · Q&A in live chat
-Duration: 30 Minutes
+Level: Noob → Nerd (Level 1, Session 10 — Mini Project 2)  
+Format: Live coding on YouTube · Q&A in live chat  
+Duration: 30 Minutes  
 Prerequisites: Completed Session 9 (Dictionaries & Basic Testing)
 
 - Session details are pending final meetup scheduling.
@@ -43,9 +43,9 @@ Event URL: To be announced (pending)
 
 🔹 Session Agenda:
 
-Level: Noob → Nerd (Level 1, Session 9)
-Format: Live coding on YouTube · Q&A in live chat
-Duration: 30 Minutes
+Level: Noob → Nerd (Level 1, Session 9)  
+Format: Live coding on YouTube · Q&A in live chat  
+Duration: 30 Minutes  
 Prerequisites: Completed Session 8 (Lists & Loops)
 
 - Session details are pending final meetup scheduling.
@@ -68,7 +68,7 @@ Event URL: <https://www.meetup.com/dot-net-learners-house-hyderabad/events/31555
 Level: Noob → Nerd (Level 1, Session 8)  
 Format: Live coding on YouTube · Q&A in live chat  
 Duration: 30 Minutes  
-Prerequisites: Completed Session 7 (Basic Debugging & Built-in Functions)  
+Prerequisites: Completed Session 7 (Basic Debugging & Built-in Functions)
 
 - Optional: Watch the recording/playlist: [Python Fundamentals – Level 1 (YouTube playlist)](https://www.youtube.com/watch?v=Cy6DqbRjsF0&list=PLdLQDTLMjAzpRBxP4q1XJOuLhFG4pSfBB)
 
@@ -83,7 +83,7 @@ What You'll Learn:
 - Iterate over lists with `for` loops and `enumerate()`
 - Build lists dynamically from user input
 
-Hands-on Practice:
+Hands-on Practice:  
 We'll write and run three focused practice scripts:
 
 - `src/L1/S8/01_list_basics.py` – list creation, indexing, slicing, and modification
@@ -125,7 +125,7 @@ Event URL: <https://www.meetup.com/dot-net-learners-house-hyderabad/events/31555
 Level: Noob → Nerd (Level 1, Session 7)  
 Format: Live coding on YouTube · Q&A in live chat  
 Duration: 30 Minutes  
-Prerequisites: Completed Session 6 (Loops & Iteration)  
+Prerequisites: Completed Session 6 (Loops & Iteration)
 
 - Optional: Watch the recording/playlist: [Python Fundamentals – Level 1 (YouTube playlist)](https://www.youtube.com/watch?v=Cy6DqbRjsF0&list=PLdLQDTLMjAzpRBxP4q1XJOuLhFG4pSfBB)
 
@@ -140,7 +140,7 @@ What You'll Learn:
 - Use `print()` strategically for debugging
 - Apply essential built-in functions: `len()`, `max()`, `min()`, `sum()`, `abs()`, `round()`
 
-Hands-on Practice:
+Hands-on Practice:  
 We'll write and run five focused practice scripts:
 
 - `src/L1/S7/01_error_examples.py` – guided examples of common runtime exceptions
@@ -315,7 +315,7 @@ Event URL: <https://www.meetup.com/dot-net-learners-house-hyderabad/events/31251
 
 Level: Noob → Nerd (Level 1, Session 3)  
 Format: Live coding on YouTube · Q&A in live chat  
-Duration: 30 minutes
+Duration: 30 Minutes  
 Prerequisites: Completed Previous Sessions
 
 - Optional: Watch the recording/playlist: [Python Fundamentals – Level 1 (YouTube playlist)](https://www.youtube.com/watch?v=Cy6DqbRjsF0&list=PLdLQDTLMjAzpRBxP4q1XJOuLhFG4pSfBB)
@@ -334,7 +334,7 @@ What You'll Learn:
 - Control calculation order using parentheses
 - Build a working mini calculator that performs multiple operations
 
-Hands-on Practice:
+Hands-on Practice:  
 We'll write and run three focused practice scripts:
 
 - `src/L1/S3/01_arithmetic.py` – Explore all seven arithmetic operators with practical examples
@@ -361,6 +361,7 @@ Event URL: <https://www.meetup.com/dot-net-learners-house-hyderabad/events/31247
 
 Level: Noob → Nerd (Level 1, Session 2)  
 Format: Live coding on YouTube · Q&A in live chat  
+Duration: 30 Minutes  
 Prerequisites: Completed Session 1 (Python Introduction & Environment Setup)
 
 - Optional: Watch the recording/playlist: [Python Fundamentals – Level 1 (YouTube playlist)](https://www.youtube.com/watch?v=Cy6DqbRjsF0&list=PLdLQDTLMjAzpRBxP4q1XJOuLhFG4pSfBB)
@@ -379,7 +380,7 @@ What You'll Learn:
 - Convert between strings, numbers, and booleans safely
 - Build a small “personal profile” program using different data types
 
-Hands-on Practice:
+Hands-on Practice:  
 We’ll write and run three focused practice scripts:
 
 - `src/L1/S2/01_variables.py` – Create and update variables with clear names
@@ -406,7 +407,8 @@ Event URL: <https://www.meetup.com/dot-net-learners-house-hyderabad/events/31243
 
 Level: Noob → Nerd (Level 1, Session 1)  
 Format: Live coding on YouTube · Q&A in live chat  
-Prerequisites: None! Just bring your curiosity and a computer.  
+Duration: 30 Minutes  
+Prerequisites: None! Just bring your curiosity and a computer.
 
 Session 1: Python Introduction & Environment Setup
 
@@ -429,7 +431,7 @@ Master essential built-in functions: print(), input(), type(), and help()
 
 Learn f-string formatting for dynamic text output
 
-Hands-on Practice:
+Hands-on Practice:  
 We'll build three Python scripts together:
 
 `src/L1/S1/01_hello.py` - Your first "Hello, World!" program
