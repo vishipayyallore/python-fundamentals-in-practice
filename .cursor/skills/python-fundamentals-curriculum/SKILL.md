@@ -31,6 +31,7 @@ description: >-
 - **Do not “compress away” teaching** — split or continue in the next part instead of cutting pedagogy
 - **Paths and numbering** — match `L{level}/S{session}/` in `src/` and numbered session files under `docs/sessions/`
 - **Python-only scope** — do not add AWS, cloud, or other non-Python tracks; skip non-Python `source-material/` intake
+- **Session bucketing** — default new content to planned/new sessions; do not inject into completed sessions without explicit user approval
 
 ## Quality (when a significant doc or code change is done)
 

@@ -26,4 +26,6 @@ Machine-readable guidance lives in **`.cursor/`** and the root entry files. [Cur
 
 **Personal** skills can also live under your user `~/.cursor/skills/`; this repo's **policy** still comes from `AGENTS.md` and **`.cursor/rules/`** so those stay the single source of truth for policies.
 
-When adding new educational content, default placement is planned/new sessions; do not inject into completed sessions without explicit user permission. Only promote **Python fundamentals** material from `source-material/` or `src/Working/` into formal `src/L{level}/S{session}/` paths.
+When adding new educational content, default placement is planned/new sessions; do not inject into completed sessions without explicit user permission. Only promote **Python fundamentals** material from `source-material/` or `src/Working/` into formal `src/L{level}/S{session}/` paths in the **dev repo** first, then sync here.
+
+**`src/Working/` is hands-off** in the dev repo unless Swamy explicitly requests that path in the current task.

@@ -109,7 +109,7 @@ When including code examples in session documentation:
 
 **Policy**:
 - ✅ Create `L{level}/S{session}/` directories when you have content ready to add
-- ✅ Follow the 9-level progression structure (L1 through L9)
+- ✅ Follow the 18-level master plan in the dev repo (`python-fundamentals`); this replica currently ships Level 1 (S1–S10 on disk; meetup delivery focus S1–S6)
 - ✅ Each level contains 10 total learning blocks (8 sessions + 2 mini projects)
 - ✅ Add content progressively following Educational Content Rules
 - ✅ Create folder structure incrementally as curriculum develops
@@ -118,7 +118,7 @@ When including code examples in session documentation:
 
 **Questions about content placement?** → Check `README.md` and `.github/copilot-instructions.md`
 
-**Content too long?** → Split into multiple parts or simplify for 30-minute sessions
+**Content too long?** → Split into multiple parts (do not trim in-scope educational content)
 
 **Encoding issues?** → Search for replacement characters, replace with Unicode equivalents
 

@@ -22,7 +22,7 @@
 ✅ Treat `source-material/` as internal instructor intake only; rewrite curriculum output in a fresh voice and structure  
 ✅ **Python-only intake:** promote material from `source-material/` or `src/Working/` only when it supports the **Python Fundamentals** curriculum (`docs/sessions/`, `src/L{level}/`)  
 ❌ **Do not migrate** non-Python instructor intake (e.g. AWS, cloud, or Bedrock meetup outlines) into this repository — leave it in ignored `source-material/` or route to a separate repo  
-✅ Promote `src/Working/` examples only after cleanup, renaming, and session-outcome alignment  
+✅ Promote `src/Working/` examples only after cleanup, renaming, and session-outcome alignment — **and only when Swamy explicitly asks** you to edit or promote those Working files (the dev repo owns `src/Working/`; do not invent Working paths here)  
 ✅ Route newly added content to planned/new sessions first  
 ❌ Do not insert newly authored content into completed sessions unless the user explicitly approves  
 ✅ Use `docs/meetup/L1/sessions.md` status table as placement context for Level 1 meetup updates  
@@ -444,7 +444,7 @@ print('Hello, World!')
 
 **Policy**:
 - ✅ Create `L{level}/S{session}/` directories when you have content ready to add
-- ✅ Follow the 9-level progression structure (L1 through L9)
+- ✅ Follow the 18-level master plan in the dev repo (`python-fundamentals`); this meetup replica currently ships Level 1 (S1–S10 on disk; meetup delivery focus S1–S6)
 - ✅ Each level contains 8 core sessions (S1 through S8) plus 2 mini projects (MP1 and MP2), for 10 total learning blocks
 - ✅ Add content progressively following Educational Content Rules
 - ✅ Create folder structure incrementally as curriculum develops

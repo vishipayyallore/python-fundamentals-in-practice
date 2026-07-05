@@ -24,8 +24,8 @@ Event URL: To be announced (pending)
 🔹 Session Agenda:
 
 Level: Noob → Nerd (Level 1, Session 10 — Mini Project 2)
-Format: Live Coding + Interactive Q&A
-Duration: 30–45 Minutes
+Format: Live coding on YouTube · Q&A in live chat
+Duration: 30 Minutes
 Prerequisites: Completed Session 9 (Dictionaries & Basic Testing)
 
 - Session details are pending final meetup scheduling.
@@ -44,7 +44,7 @@ Event URL: To be announced (pending)
 🔹 Session Agenda:
 
 Level: Noob → Nerd (Level 1, Session 9)
-Format: Live Coding + Interactive Q&A
+Format: Live coding on YouTube · Q&A in live chat
 Duration: 30 Minutes
 Prerequisites: Completed Session 8 (Lists & Loops)
 
@@ -66,7 +66,7 @@ Event URL: To be announced (planned)
 🔹 Session Agenda:
 
 Level: Noob → Nerd (Level 1, Session 8)
-Format: Live Coding + Interactive Q&A
+Format: Live coding on YouTube · Q&A in live chat
 Duration: 30 Minutes
 Prerequisites: Completed Session 7 (Basic Debugging & Built-in Functions)
 
@@ -123,7 +123,7 @@ Event URL: To be announced (planned)
 🔹 Session Agenda:
 
 Level: Noob → Nerd (Level 1, Session 7)
-Format: Live Coding + Interactive Q&A
+Format: Live coding on YouTube · Q&A in live chat
 Duration: 30 Minutes
 Prerequisites: Completed Session 6 (Loops & Iteration)
 
@@ -166,21 +166,21 @@ Perfect For:
 
 ## Level 1 - Session 6: Loops & Iteration
 
-Date: Wednesday, Jul 8 · 9:00 AM to 10:00 AM IST
+Date: Wednesday, Jul 8 · 9:00 AM to 9:30 AM IST
 
 Event URL: <https://www.meetup.com/dot-net-learners-house-hyderabad/events/315544328/>
 
 🔹 Session Agenda:
 
 Level: Noob → Nerd (Level 1, Session 6)  
-Format: Live Coding + Interactive Q&A  
+Format: Live coding on YouTube · Q&A in live chat  
 Duration: 30 Minutes  
 Prerequisites: Completed Session 5 (Mini Project 1: Simple Calculator), or Sessions 1–4 with equivalent comfort using `input`, validation, and `if` / `elif` / `else` in a small program
 
 - Optional: Watch the recording/playlist: [Python Fundamentals – Level 1 (YouTube playlist)](https://www.youtube.com/watch?v=Cy6DqbRjsF0&list=PLdLQDTLMjAzpRBxP4q1XJOuLhFG4pSfBB)
 
 🎙️ Speaker: Viswanatha Swamy — Swamy's Tech Skills Academy  
-🕘 Time: 9:00 AM – 10:00 AM IST
+🕘 Time: 9:00 AM – 9:30 AM IST
 
 What You'll Learn:
 
@@ -218,21 +218,21 @@ Perfect For:
 
 ## Level 1 - Session 5 (MP 1): Mini Project 1 — Simple Calculator
 
-Date: Saturday, Jul 4 · 4:00 PM to 5:00 PM IST
+Date: Saturday, Jul 4 · 4:00 PM to 4:30 PM IST
 
 Event URL: <https://www.meetup.com/dot-net-learners-house-hyderabad/events/315495266>
 
 🔹 Session Agenda:
 
 Level: Noob → Nerd (Level 1, Session 5 — Mini Project 1)  
-Format: Live Coding + Interactive Q&A  
+Format: Live coding on YouTube · Q&A in live chat  
 Duration: 30 Minutes  
 Prerequisites: Completed Sessions 1–4 (Python setup, variables/types, operators, and conditionals)
 
 - Optional: Watch the recording/playlist: [Python Fundamentals – Level 1 (YouTube playlist)](https://www.youtube.com/watch?v=Cy6DqbRjsF0&list=PLdLQDTLMjAzpRBxP4q1XJOuLhFG4pSfBB)
 
 🎙️ Speaker: Viswanatha Swamy — Swamy's Tech Skills Academy  
-🕘 Time: 4:00 PM – 5:00 PM IST
+🕘 Time: 4:00 PM – 4:30 PM IST
 
 What You'll Learn:
 
@@ -244,7 +244,7 @@ What You'll Learn:
 - Apply `# Why:` comments to explain decisions, not just actions
 
 Hands-on Practice:  
-We'll write and run three focused practice scripts:
+We'll write and run three practice scripts plus one shared helper module:
 
 - `src/L1/S5/01_PEP8_naming_and_spacing.py` – Demonstrate the 5 key PEP 8 rules with side-by-side examples
 - `src/L1/S5/02_del_and_bool_arithmetic.py` – Explore `del` and how `bool` behaves in arithmetic
@@ -270,7 +270,7 @@ Event URL: <https://www.meetup.com/dot-net-learners-house-hyderabad/events/31437
 🔹 Session Agenda:
 
 Level: Noob → Nerd (Level 1, Session 4)  
-Format: Live Coding + Interactive Q&A  
+Format: Live coding on YouTube · Q&A in live chat  
 Duration: 30 Minutes  
 Prerequisites: Completed Session 3 (Operators & Expressions)
 
@@ -314,7 +314,7 @@ Event URL: <https://www.meetup.com/dot-net-learners-house-hyderabad/events/31251
 🔹 Session Agenda:
 
 Level: Noob → Nerd (Level 1, Session 3)  
-Format: Live coding session with interactive Q&A  
+Format: Live coding on YouTube · Q&A in live chat  
 Duration: 30 minutes
 Prerequisites: Completed Previous Sessions
 
@@ -360,7 +360,7 @@ Event URL: <https://www.meetup.com/dot-net-learners-house-hyderabad/events/31247
 🔹 Session Agenda:
 
 Level: Noob → Nerd (Level 1, Session 2)  
-Format: Live coding session with interactive Q&A  
+Format: Live coding on YouTube · Q&A in live chat  
 Prerequisites: Completed Session 1 (Python Introduction & Environment Setup)
 
 - Optional: Watch the recording/playlist: [Python Fundamentals – Level 1 (YouTube playlist)](https://www.youtube.com/watch?v=Cy6DqbRjsF0&list=PLdLQDTLMjAzpRBxP4q1XJOuLhFG4pSfBB)
@@ -405,7 +405,7 @@ Event URL: <https://www.meetup.com/dot-net-learners-house-hyderabad/events/31243
 🔹 Session Agenda:
 
 Level: Noob → Nerd (Level 1, Session 1)
-Format: Live coding session with interactive Q&A
+Format: Live coding on YouTube · Q&A in live chat
 Prerequisites: None! Just bring your curiosity and a computer.
 
 Session 1: Python Introduction & Environment Setup
