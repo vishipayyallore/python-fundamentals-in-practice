@@ -132,18 +132,18 @@ sessions:
 
 ## 🎯 **Level 1 Learning Path (Noob → Nerd)**
 
-| Phase | Session     | Topic                                                          | Duration  | Type         | Curriculum | Delivery   |
-| ----- | ----------- | -------------------------------------------------------------- | --------- | ------------ | ---------- | ---------- |
-| A     | 1           | Python Introduction, Environment & Built-in Functions          | 30 min    | 📚 Knowledge  | Validated  | Completed  |
-| A     | 2           | Variables & Data Types                                         | 30 min    | 📚 Knowledge  | Validated  | Completed  |
-| A     | 3           | Operators & Expressions                                        | 30 min    | 📚 Knowledge  | Validated  | Completed  |
-| A     | 4           | Conditionals, Indentation & Introduction to Modules            | 30 min    | 📚 Knowledge  | Validated  | Completed  |
-| A     | 5 (MP 1)    | Mini Project 1: Simple Calculator *(after Session 4)*          | 30 min    | 🛠️ Project   | Validated  | Completed  |
-| B     | 6           | Loops & Iteration                                              | 30 min    | 📚 Knowledge  | Validated  | Published  |
-| B     | 7           | Basic Debugging, Reading Errors & Built-in Functions           | 30 min    | 📚 Knowledge  | Validated  | Published  |
-| B     | 8           | Lists, Iteration & String Sequences                            | 30 min    | 📚 Knowledge  | Validated  | Published  |
-| B     | 9           | Dictionaries & Basic Testing                                   | 30 min    | 📚 Knowledge  | Validated  | Pending    |
-| B     | 10 (MP 2)   | Mini Project 2: Personal Profile Generator *(after Session 9)* | 30 min    | 🛠️ Project   | Validated  | Pending    |
+| Phase | Session   | Topic                                                         | Duration | Type      | Curriculum | Delivery  |
+| ----- | --------- | ------------------------------------------------------------- | -------- | --------- | ---------- | --------- |
+| A     | 1         | Python Introduction, Environment & Built-in Functions         | 30 min   | Knowledge | Validated  | Completed |
+| A     | 2         | Variables & Data Types                                        | 30 min   | Knowledge | Validated  | Completed |
+| A     | 3         | Operators & Expressions                                       | 30 min   | Knowledge | Validated  | Completed |
+| A     | 4         | Conditionals, Indentation & Introduction to Modules           | 30 min   | Knowledge | Validated  | Completed |
+| A     | 5 (MP 1)  | Mini Project 1: Simple Calculator *(after Session 4)*         | 30 min   | Project   | Validated  | Completed |
+| B     | 6         | Loops & Iteration                                             | 30 min   | Knowledge | Validated  | Published |
+| B     | 7         | Basic Debugging, Reading Errors & Built-in Functions          | 30 min   | Knowledge | Validated  | Published |
+| B     | 8         | Lists, Iteration & String Sequences                           | 30 min   | Knowledge | Validated  | Published |
+| B     | 9         | Dictionaries & Basic Testing                                  | 30 min   | Knowledge | Validated  | Pending   |
+| B     | 10 (MP 2) | Mini Project 2: Personal Profile Generator *(after Session 9)*| 30 min   | Project   | Validated  | Pending   |
 
 ---
 
