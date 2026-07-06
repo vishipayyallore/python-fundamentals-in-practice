@@ -1,4 +1,4 @@
-"""Session 8 optional: len() on strings — spaces count."""
+"""String length — len() counts every character, including spaces."""
 
 # Filename: src/L1/S8/05_string_len.py
 
@@ -7,7 +7,8 @@ import sys
 HELP_TEXT = """05_string_len.py
 
 Purpose
-    Use len() on strings; remember spaces and punctuation are characters too.
+    Show that len() measures the number of characters in a string and that
+    spaces inside the string count just like any letter or digit.
 
 Usage
     python src/L1/S8/05_string_len.py
@@ -19,11 +20,16 @@ def main(argv: list[str]) -> int:
         print(HELP_TEXT)
         return 0
 
-    print("=== Session 8 optional: len() on strings ===\n")
+    role = "python coach"
+    n = len(role)
+    print(f"role        = {role!r}")
+    print(f"len(role)   = {n}  (spaces inside count as characters)")
 
-    samples = ["hi", "hello", "hello world", "a b c"]
-    for text in samples:
-        print(f"len({text!r}) -> {len(text)}")
+    print()
+    print(f'len("")         = {len("")}   <- empty string has zero characters')
+    print(f'len("Python")   = {len("Python")}')
+    print(f'len("hi there") = {len("hi there")}  (space at index 2 is counted)')
+
     return 0
 
 

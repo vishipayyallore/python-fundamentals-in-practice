@@ -1,15 +1,12 @@
 # 🐍 Python Fundamentals: Master Plan
 
-> **From clueless to curious** — A comprehensive, transformation-focused Python curriculum designed to take you from complete beginner to confident Python programmer through 9 progressive levels.
-
-**Note:**
-**This master plan will change as we progress through the course. It will evolve to reflect the latest content, structure, and learning outcomes based on student feedback and industry trends.**
+> **Meetup replica note:** The authoritative **18-level** master plan lives in the dev repo **`python-fundamentals`** (`docs/01_Python-Fundamentals-MasterPlan.md`). This file is a **Level 1–focused summary** for meetup delivery. Sync the full roadmap from the dev repo when updating program scope. **From clueless to curious** — the full program spans **18 levels** (Fundamentals → Professional Python → Systems Engineering); this replica currently ships **Level 1** session docs and practice code for live meetups. This summary changes as meetup delivery progresses; for curriculum authoring, always edit the dev repo first, then sync scoped content here.
 
 ---
 
 ## 📋 **Course Architecture Overview**
 
-**Format:** 9 levels → each level is 2 phases × (4 sessions + 1 mini project) = 10 sessions total; core sessions are ~30 minutes and mini projects are ~30–45 minutes, with practice files in `src/` and matching docs in `docs/sessions/`.  
+**Format:** 18 levels in the dev master plan (this summary focuses on Level 1 delivery). Each level is 2 phases × (4 sessions + 1 mini project) = 10 sessions total; **every session targets 30 minutes**, with practice files in `src/` and matching docs in `docs/sessions/`.  
 **Outcome:** Complete transformation from absolute beginner to curious professional  
 **Approach:** Progressive complexity with practical application at every step
 
@@ -43,7 +40,7 @@ Status Legend:
 ### **🌱 Level 1: Noob → Nerd** _(Foundation Building)_
 
 **Focus:** Environment setup, basic syntax, curiosity ignition  
-**Duration:** ~5–6 hours (8 sessions × 30 min + 2 mini projects × 30–45 min)  
+**Duration:** ~5 hours (10 × 30 min sessions, including 2 mini projects)  
 **Status:** 🚧 **In Progress** - Level 1 sessions **S1–S10** (including both mini projects) have in-repo docs and practice under `src/L1/`; meetup delivery for S7–S10 remains scheduled
 
 **Actual Session Breakdown:**

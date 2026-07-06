@@ -2,18 +2,16 @@
 
 ## Table
 
-Note: Pending | Planned | Ready | Published | Completed
-
 | Session | Status |
 | --- | --- |
 | Session 1 | Completed |
 | Session 2 | Completed |
 | Session 3 | Completed |
 | Session 4 | Completed |
-| Session 5 (MP 1) | Event Published |
-| Session 6 | Ready |
-| Session 7 | Planned |
-| Session 8 | Planned |
+| Session 5 (MP 1) | Completed |
+| Session 6 | Published |
+| Session 7 | Published |
+| Session 8 | Published |
 | Session 9 | Pending |
 | Session 10 (MP 2) | Pending |
 
@@ -25,9 +23,9 @@ Event URL: To be announced (pending)
 
 🔹 Session Agenda:
 
-Level: Noob → Nerd (Level 1, Session 10 — Mini Project 2)
-Format: Live Coding + Interactive Q&A
-Duration: 30–45 Minutes
+Level: Noob → Nerd (Level 1, Session 10 — Mini Project 2)  
+Format: Live coding on YouTube · Q&A in live chat  
+Duration: 30 Minutes  
 Prerequisites: Completed Session 9 (Dictionaries & Basic Testing)
 
 - Session details are pending final meetup scheduling.
@@ -45,9 +43,9 @@ Event URL: To be announced (pending)
 
 🔹 Session Agenda:
 
-Level: Noob → Nerd (Level 1, Session 9)
-Format: Live Coding + Interactive Q&A
-Duration: 30 Minutes
+Level: Noob → Nerd (Level 1, Session 9)  
+Format: Live coding on YouTube · Q&A in live chat  
+Duration: 30 Minutes  
 Prerequisites: Completed Session 8 (Lists & Loops)
 
 - Session details are pending final meetup scheduling.
@@ -61,21 +59,21 @@ Prerequisites: Completed Session 8 (Lists & Loops)
 
 ## Level 1 - Session 8: Lists & Loops
 
-Date: To be announced (planned)
+Date: Wednesday, Jul 22 · 9:00 AM to 10:00 AM IST
 
-Event URL: To be announced (planned)
+Event URL: <https://www.meetup.com/dot-net-learners-house-hyderabad/events/315553671>
 
 🔹 Session Agenda:
 
-Level: Noob → Nerd (Level 1, Session 8)
-Format: Live Coding + Interactive Q&A
-Duration: 30 Minutes
+Level: Noob → Nerd (Level 1, Session 8)  
+Format: Live coding on YouTube · Q&A in live chat  
+Duration: 30 Minutes  
 Prerequisites: Completed Session 7 (Basic Debugging & Built-in Functions)
 
 - Optional: Watch the recording/playlist: [Python Fundamentals – Level 1 (YouTube playlist)](https://www.youtube.com/watch?v=Cy6DqbRjsF0&list=PLdLQDTLMjAzpRBxP4q1XJOuLhFG4pSfBB)
 
-🎙️ Speaker: Viswanatha Swamy — Swamy's Tech Skills Academy
-🕘 Time: 09:00 AM – 09:30 AM
+🎙️ Speaker: Viswanatha Swamy — Swamy's Tech Skills Academy  
+🕘 Time: 9:00 AM – 10:00 AM IST
 
 What You'll Learn:
 
@@ -85,7 +83,7 @@ What You'll Learn:
 - Iterate over lists with `for` loops and `enumerate()`
 - Build lists dynamically from user input
 
-Hands-on Practice:
+Hands-on Practice:  
 We'll write and run three focused practice scripts:
 
 - `src/L1/S8/01_list_basics.py` – list creation, indexing, slicing, and modification
@@ -97,6 +95,8 @@ Optional reinforcement (Strings as Sequences — revisit before lists):
 - `src/L1/S8/04_string_basics.py` – string operators: `+`, `*`, and TypeError
 - `src/L1/S8/05_string_len.py` – `len()` on strings — spaces count as characters
 - `src/L1/S8/06_string_methods.py` – `startswith()` / `endswith()` with optional index bounds
+
+See `docs/sessions/L1/S8.md` for the full optional reinforcement list (`07`–`16`).
 
 Optional reinforcement (focused list-method drills):
 
@@ -116,21 +116,21 @@ Perfect For:
 
 ## Level 1 - Session 7: Basic Debugging & Built-in Functions
 
-Date: To be announced (planned)
+Date: Wednesday, Jul 15 · 9:00 AM to 10:00 AM IST
 
-Event URL: To be announced (planned)
+Event URL: <https://www.meetup.com/dot-net-learners-house-hyderabad/events/315553582>
 
 🔹 Session Agenda:
 
-Level: Noob → Nerd (Level 1, Session 7)
-Format: Live Coding + Interactive Q&A
-Duration: 30 Minutes
+Level: Noob → Nerd (Level 1, Session 7)  
+Format: Live coding on YouTube · Q&A in live chat  
+Duration: 30 Minutes  
 Prerequisites: Completed Session 6 (Loops & Iteration)
 
 - Optional: Watch the recording/playlist: [Python Fundamentals – Level 1 (YouTube playlist)](https://www.youtube.com/watch?v=Cy6DqbRjsF0&list=PLdLQDTLMjAzpRBxP4q1XJOuLhFG4pSfBB)
 
-🎙️ Speaker: Viswanatha Swamy — Swamy's Tech Skills Academy
-🕘 Time: 09:00 AM – 09:30 AM
+🎙️ Speaker: Viswanatha Swamy — Swamy's Tech Skills Academy  
+🕘 Time: 9:00 AM – 10:00 AM IST
 
 What You'll Learn:
 
@@ -140,7 +140,7 @@ What You'll Learn:
 - Use `print()` strategically for debugging
 - Apply essential built-in functions: `len()`, `max()`, `min()`, `sum()`, `abs()`, `round()`
 
-Hands-on Practice:
+Hands-on Practice:  
 We'll write and run five focused practice scripts:
 
 - `src/L1/S7/01_error_examples.py` – guided examples of common runtime exceptions
@@ -166,21 +166,21 @@ Perfect For:
 
 ## Level 1 - Session 6: Loops & Iteration
 
-Date: To be announced (planned)
+Date: Wednesday, Jul 8 · 9:00 AM to 9:30 AM IST
 
-Event URL: To be announced (planned)  
+Event URL: <https://www.meetup.com/dot-net-learners-house-hyderabad/events/315544328>
 
 🔹 Session Agenda:
 
 Level: Noob → Nerd (Level 1, Session 6)  
-Format: Live Coding + Interactive Q&A  
+Format: Live coding on YouTube · Q&A in live chat  
 Duration: 30 Minutes  
 Prerequisites: Completed Session 5 (Mini Project 1: Simple Calculator), or Sessions 1–4 with equivalent comfort using `input`, validation, and `if` / `elif` / `else` in a small program
 
 - Optional: Watch the recording/playlist: [Python Fundamentals – Level 1 (YouTube playlist)](https://www.youtube.com/watch?v=Cy6DqbRjsF0&list=PLdLQDTLMjAzpRBxP4q1XJOuLhFG4pSfBB)
 
 🎙️ Speaker: Viswanatha Swamy — Swamy's Tech Skills Academy  
-🕘 Time: 09:00 AM – 09:30 AM
+🕘 Time: 9:00 AM – 9:30 AM IST
 
 What You'll Learn:
 
@@ -196,6 +196,10 @@ We'll write and run three focused practice scripts:
 - `src/L1/S6/01_for_loops.py` – `for` loops, `range()`, and iteration patterns
 - `src/L1/S6/02_while_loops.py` – `while` loops, conditions, and safe loop updates
 - `src/L1/S6/03_loop_controls_fizzbuzz.py` – `break` / `continue` / `pass` and beginner FizzBuzz
+
+Capstone (homework or extra time after the 30-minute session):
+
+- `src/L1/S6/04_calculator_loop.py` – loop-driven calculator using `while`, `break`, and `continue` together
 
 Optional reinforcement (compound `while` conditions / boolean order):
 
@@ -214,21 +218,21 @@ Perfect For:
 
 ## Level 1 - Session 5 (MP 1): Mini Project 1 — Simple Calculator
 
-Date: Saturday, Jul 4 · 4:00 PM to 5:00 PM IST
+Date: Saturday, Jul 4 · 4:00 PM to 4:30 PM IST
 
-Event URL: <https://www.meetup.com/dot-net-learners-house-hyderabad/events/315495266/?eventOrigin=group_upcoming_events>
+Event URL: <https://www.meetup.com/dot-net-learners-house-hyderabad/events/315495266>
 
 🔹 Session Agenda:
 
 Level: Noob → Nerd (Level 1, Session 5 — Mini Project 1)  
-Format: Live Coding + Interactive Q&A  
+Format: Live coding on YouTube · Q&A in live chat  
 Duration: 30 Minutes  
 Prerequisites: Completed Sessions 1–4 (Python setup, variables/types, operators, and conditionals)
 
 - Optional: Watch the recording/playlist: [Python Fundamentals – Level 1 (YouTube playlist)](https://www.youtube.com/watch?v=Cy6DqbRjsF0&list=PLdLQDTLMjAzpRBxP4q1XJOuLhFG4pSfBB)
 
 🎙️ Speaker: Viswanatha Swamy — Swamy's Tech Skills Academy  
-🕘 Time: 09:00 AM – 09:30 AM
+🕘 Time: 4:00 PM – 4:30 PM IST
 
 What You'll Learn:
 
@@ -240,7 +244,7 @@ What You'll Learn:
 - Apply `# Why:` comments to explain decisions, not just actions
 
 Hands-on Practice:  
-We'll write and run three focused practice scripts:
+We'll write and run three practice scripts plus one shared helper module:
 
 - `src/L1/S5/01_PEP8_naming_and_spacing.py` – Demonstrate the 5 key PEP 8 rules with side-by-side examples
 - `src/L1/S5/02_del_and_bool_arithmetic.py` – Explore `del` and how `bool` behaves in arithmetic
@@ -261,12 +265,12 @@ Perfect For:
 
 Date: Thursday, Apr 23 · 9:00 AM to 9:30 AM IST
 
-Event URL: <https://www.meetup.com/dot-net-learners-house-hyderabad/events/314378351/>  
+Event URL: <https://www.meetup.com/dot-net-learners-house-hyderabad/events/314378351>  
 
 🔹 Session Agenda:
 
 Level: Noob → Nerd (Level 1, Session 4)  
-Format: Live Coding + Interactive Q&A  
+Format: Live coding on YouTube · Q&A in live chat  
 Duration: 30 Minutes  
 Prerequisites: Completed Session 3 (Operators & Expressions)
 
@@ -305,13 +309,13 @@ Perfect For:
 
 Date: Sat, Dec 20, 2025 · 9:00 AM to 9:30 AM IST
 
-Event URL: <https://www.meetup.com/dot-net-learners-house-hyderabad/events/312511467/>  
+Event URL: <https://www.meetup.com/dot-net-learners-house-hyderabad/events/312511467>  
 
 🔹 Session Agenda:
 
 Level: Noob → Nerd (Level 1, Session 3)  
-Format: Live coding session with interactive Q&A  
-Duration: 30 minutes
+Format: Live coding on YouTube · Q&A in live chat  
+Duration: 30 Minutes  
 Prerequisites: Completed Previous Sessions
 
 - Optional: Watch the recording/playlist: [Python Fundamentals – Level 1 (YouTube playlist)](https://www.youtube.com/watch?v=Cy6DqbRjsF0&list=PLdLQDTLMjAzpRBxP4q1XJOuLhFG4pSfBB)
@@ -330,7 +334,7 @@ What You'll Learn:
 - Control calculation order using parentheses
 - Build a working mini calculator that performs multiple operations
 
-Hands-on Practice:
+Hands-on Practice:  
 We'll write and run three focused practice scripts:
 
 - `src/L1/S3/01_arithmetic.py` – Explore all seven arithmetic operators with practical examples
@@ -351,12 +355,13 @@ Perfect For:
 
 Date: Wed, Dec 17, 2025 · 9:00 AM to 9:30 AM IST  
 
-Event URL: <https://www.meetup.com/dot-net-learners-house-hyderabad/events/312470860/?eventOrigin=group_events_list>  
+Event URL: <https://www.meetup.com/dot-net-learners-house-hyderabad/events/312470860>  
 
 🔹 Session Agenda:
 
 Level: Noob → Nerd (Level 1, Session 2)  
-Format: Live coding session with interactive Q&A  
+Format: Live coding on YouTube · Q&A in live chat  
+Duration: 30 Minutes  
 Prerequisites: Completed Session 1 (Python Introduction & Environment Setup)
 
 - Optional: Watch the recording/playlist: [Python Fundamentals – Level 1 (YouTube playlist)](https://www.youtube.com/watch?v=Cy6DqbRjsF0&list=PLdLQDTLMjAzpRBxP4q1XJOuLhFG4pSfBB)
@@ -375,7 +380,7 @@ What You'll Learn:
 - Convert between strings, numbers, and booleans safely
 - Build a small “personal profile” program using different data types
 
-Hands-on Practice:
+Hands-on Practice:  
 We’ll write and run three focused practice scripts:
 
 - `src/L1/S2/01_variables.py` – Create and update variables with clear names
@@ -396,17 +401,18 @@ Perfect For:
 
 Date: Sun, Dec 14, 2025 · 9:00 AM to 9:30 AM IST
 
-Event URL: <https://www.meetup.com/dot-net-learners-house-hyderabad/events/312432302/>  
+Event URL: <https://www.meetup.com/dot-net-learners-house-hyderabad/events/312432302>  
 
 🔹 Session Agenda:
 
-Level: Noob → Nerd (Level 1, Session 1)
-Format: Live coding session with interactive Q&A
+Level: Noob → Nerd (Level 1, Session 1)  
+Format: Live coding on YouTube · Q&A in live chat  
+Duration: 30 Minutes  
 Prerequisites: None! Just bring your curiosity and a computer.
 
 Session 1: Python Introduction & Environment Setup
 
-🎙️ Speaker: Viswanatha Swamy / Swamy's Tech Skills Academy
+🎙️ Speaker: Viswanatha Swamy / Swamy's Tech Skills Academy  
 🕘 9:00 AM - 9:30 AM (30 minutes)
 
 What You'll Learn:
@@ -425,7 +431,7 @@ Master essential built-in functions: print(), input(), type(), and help()
 
 Learn f-string formatting for dynamic text output
 
-Hands-on Practice:
+Hands-on Practice:  
 We'll build three Python scripts together:
 
 `src/L1/S1/01_hello.py` - Your first "Hello, World!" program

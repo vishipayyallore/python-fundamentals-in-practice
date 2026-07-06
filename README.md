@@ -7,9 +7,9 @@
 ![Meetup](https://img.shields.io/badge/Meetup-Series-ED1C40?logo=meetup&logoColor=white)
 ![Maintainer](https://img.shields.io/badge/Maintainer-Viswanatha%20Swamy%20P%20K-blue)
 
-A comprehensive, transformation-focused Python curriculum designed to take you from complete beginner to confident Python programmer through 9 progressive levels.
+A comprehensive, transformation-focused Python curriculum designed to take you from complete beginner to confident Python programmer. The full **18-level** program is maintained in the dev repo (`python-fundamentals`); this meetup replica ships **Level 1** curriculum for live delivery.
 
-> **Format:** Each level contains ~5–6 hours of training (8 sessions × 30 minutes + 2 mini projects × 30–45 minutes), culminating in 2 hands-on mini projects.
+> **Format:** Each level contains 5 hours of training (10 sessions × 30 minutes), culminating in 2 hands-on mini projects.
 
 ---
 
@@ -25,7 +25,7 @@ This is **Swamy's personal learning and curriculum-development** repository. Con
 
 **New to Python?** Start your journey here:
 
-1. **📋 [Master Plan](docs/01_Python-Fundamentals-MasterPlan.md)** - Explore the complete 9-level curriculum
+1. **📋 [Master Plan](docs/01_Python-Fundamentals-MasterPlan.md)** - Program overview (authoritative 18-level roadmap lives in the dev repo `python-fundamentals`)
    - See the full transformation journey (Noob → Curious Learner)
    - Understand learning progression across all levels
    - Check current implementation status
@@ -60,7 +60,7 @@ For detailed repository structure, see **[Repository Structure](docs/02_Reposito
 
 ## 📚 **Documentation**
 
-- **📋 Master Plan:** [docs/01_Python-Fundamentals-MasterPlan.md](docs/01_Python-Fundamentals-MasterPlan.md) - Complete 9-level curriculum overview
+- **📋 Master Plan:** [docs/01_Python-Fundamentals-MasterPlan.md](docs/01_Python-Fundamentals-MasterPlan.md) - Program overview; sync full 18-level roadmap from the dev repo when updating
 - **📁 Repository Structure:** [docs/02_RepositoryStructure.md](docs/02_RepositoryStructure.md) - Detailed structure and file organization
 
 ---

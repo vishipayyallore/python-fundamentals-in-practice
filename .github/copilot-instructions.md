@@ -2,8 +2,10 @@
 
 **Project:** Python Fundamentals Curriculum  
 **Owner:** Swamy's Tech Skills Academy  
-**Purpose:** Educational **Python fundamentals** curriculum development and maintenance (**Python only** — not AWS, cloud, or other non-Python tracks)  
+**Purpose:** Educational **Python fundamentals** curriculum for **meetup delivery** (**Python only** — not AWS, cloud, or other non-Python tracks)  
 **Last updated:** July 2026
+
+**Two-repository model:** **`python-fundamentals`** is the **single source of truth** (Swamy-only development). **`python-fundamentals-in-practice`** (this repo) is the **meetup replica** — develop in the dev repo first, then sync scoped session docs and practice code here for live meetups.
 
 ---
 
@@ -21,7 +23,7 @@
 | `.github/prompts/*.prompt.md` | **Reusable agent-mode starters** — `create-session`, `review-content`, `create-practice-file`, `fix-references` |
 | `.github/instructions/*.instructions.md` | **Scoped rules** — `python-practice` (applies to `src/**/*.py`), `session-docs` (applies to `docs/sessions/**`) |
 
-**Structure details:** Always use [`docs/02_RepositoryStructure.md`](../docs/02_RepositoryStructure.md) as the single source of truth for paths, naming, and inventory.
+**Structure details:** Use [`docs/02_RepositoryStructure.md`](../docs/02_RepositoryStructure.md) for **this repo's** paths and inventory. Curriculum content is authored in **`python-fundamentals`** (single source of truth) and synced here for meetups.
 
 ---
 

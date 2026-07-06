@@ -10,13 +10,22 @@
 **Python Fundamentals** is a comprehensive educational Python curriculum repository for Swamy's Tech Skills Academy. It provides:
 
 - Structured learning roadmap from complete beginner to confident Python programmer
-- 9 progressive levels with 10 learning blocks each (8 core sessions + 2 mini projects)
+- **18-level master plan** in the dev repo (`python-fundamentals`); this meetup replica currently ships **Level 1** curriculum (S1–S10 on disk; meetup delivery focus S1–S6)
 - Hands-on practice files and mini projects
-- Clear progression: Noob → Nerd → Novice → Learner → Beginner → Practitioner → Skilled Coder → Specialist → Professional → Curious Learner
+- Clear progression: Noob → Nerd → Novice → … (see `docs/01_Python-Fundamentals-MasterPlan.md`)
 
 **Target Audience**: Complete beginners → Confident Python programmers
 
-**Learning Framework**: 9-level progression with 30-minute focused sessions and hands-on practice
+**Learning Framework**: 30-minute focused sessions and hands-on practice per session block
+
+### Two-repository model (workspace)
+
+| Repository | Role |
+| --- | --- |
+| **`python-fundamentals`** | **Single source of truth** — Swamy-only curriculum development |
+| **`python-fundamentals-in-practice`** (this repo) | **Meetup replica** — synced copy for live meetup delivery |
+
+Do not author new curriculum here first. Sync from the dev repo when meetup content is ready.
 
 ### Python-only repository scope
 
@@ -24,7 +33,7 @@ This repository is **Python fundamentals curriculum only**. In-scope: `docs/sess
 
 ### 🚨 CRITICAL: Repository Purpose & Code Organization
 
-**This repository (`python-fundamentals`) contains BOTH educational content AND practice code:**
+**This repository (`python-fundamentals-in-practice`) contains meetup-facing educational content AND practice code:**
 
 - ✅ **Educational Content**: Markdown documentation in `docs/sessions/` with session plans and explanations
 - ✅ **Practice Code**: Working Python files in `src/L{level}/S{session}/` for hands-on learning
@@ -100,7 +109,7 @@ When including code examples in session documentation:
 
 **Policy**:
 - ✅ Create `L{level}/S{session}/` directories when you have content ready to add
-- ✅ Follow the 9-level progression structure (L1 through L9)
+- ✅ Follow the 18-level master plan in the dev repo (`python-fundamentals`); this replica currently ships Level 1 (S1–S10 on disk; meetup delivery focus S1–S6)
 - ✅ Each level contains 10 total learning blocks (8 sessions + 2 mini projects)
 - ✅ Add content progressively following Educational Content Rules
 - ✅ Create folder structure incrementally as curriculum develops
@@ -109,7 +118,7 @@ When including code examples in session documentation:
 
 **Questions about content placement?** → Check `README.md` and `.github/copilot-instructions.md`
 
-**Content too long?** → Split into multiple parts or simplify for 30-minute sessions
+**Content too long?** → Split into multiple parts (do not trim in-scope educational content)
 
 **Encoding issues?** → Search for replacement characters, replace with Unicode equivalents
 

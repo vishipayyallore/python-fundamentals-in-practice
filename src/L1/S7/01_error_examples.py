@@ -1,4 +1,4 @@
-"""Session 7: guided tour of common runtime errors and how to read them."""
+"""Session 7: common Python errors and beginner-friendly fixes."""
 
 # Filename: src/L1/S7/01_error_examples.py
 
@@ -7,55 +7,11 @@ import sys
 HELP_TEXT = """01_error_examples.py
 
 Purpose
-    Show NameError, TypeError, ZeroDivisionError, and ValueError in action.
-    Each demo catches one error so the script can continue — focus on the message.
+    Show how common Python exceptions look and pair each one with a simple fix.
 
 Usage
     python src/L1/S7/01_error_examples.py
 """
-
-
-def demo_name_error() -> None:
-    print("--- NameError ---")
-    print("Happens when Python cannot find a variable name.")
-    try:
-        print(unknown_label)  # noqa: F821 — intentional for teaching
-    except NameError as err:
-        print(f"Message: {err}")
-    print("Fix: define the variable before you use it.\n")
-
-
-def demo_type_error() -> None:
-    print("--- TypeError ---")
-    print("Happens when an operation does not support the types you gave it.")
-    try:
-        total = "5" + 3
-        print(total)
-    except TypeError as err:
-        print(f"Message: {err}")
-    print('Fix: convert types first, e.g. int("5") + 3.\n')
-
-
-def demo_zero_division() -> None:
-    print("--- ZeroDivisionError ---")
-    print("Happens when you divide by zero.")
-    try:
-        result = 10 / 0
-        print(result)
-    except ZeroDivisionError as err:
-        print(f"Message: {err}")
-    print("Fix: check the divisor before dividing.\n")
-
-
-def demo_value_error() -> None:
-    print("--- ValueError ---")
-    print("Happens when a function gets the right type but an invalid value.")
-    try:
-        converted = int("not-a-number")
-        print(converted)
-    except ValueError as err:
-        print(f"Message: {err}")
-    print('Fix: validate input before calling int() on text.\n')
 
 
 def main(argv: list[str]) -> int:
@@ -63,15 +19,59 @@ def main(argv: list[str]) -> int:
         print(HELP_TEXT)
         return 0
 
-    print("=== Session 7: Common runtime errors ===\n")
-    print("Read the last line of each message — it usually names the problem.\n")
+    print("=== Error Examples Demo ===\n")
 
-    demo_name_error()
-    demo_type_error()
-    demo_zero_division()
-    demo_value_error()
+    # Example 1: NameError
+    print("--- NameError Example ---")
+    try:
+        print(undefined_variable)
+    except NameError as e:
+        print(f"NameError: {e}")
+        print("Fix: Define the variable before using it\n")
 
-    print("Tip: scroll up in your terminal to see the full traceback when you run broken code.")
+    # Example 2: TypeError
+    print("--- TypeError Example ---")
+    try:
+        print("Hello" + 5)
+    except TypeError as e:
+        print(f"TypeError: {e}")
+        print("Fix: Convert to same type - 'Hello' + str(5)\n")
+
+    # Example 3: ValueError
+    print("--- ValueError Example ---")
+    try:
+        print(int("hello"))
+    except ValueError as e:
+        print(f"ValueError: {e}")
+        print("Fix: Make sure string contains a valid number\n")
+
+    # Example 4: IndexError
+    print("--- IndexError Example ---")
+    try:
+        my_list = [1, 2, 3]
+        print(my_list[10])
+    except IndexError as e:
+        print(f"IndexError: {e}")
+        print("Fix: Use valid index (0 to len-1)\n")
+
+    # Example 5: ZeroDivisionError
+    print("--- ZeroDivisionError Example ---")
+    try:
+        print(10 / 0)
+    except ZeroDivisionError as e:
+        print(f"ZeroDivisionError: {e}")
+        print("Fix: Check if divisor is zero before dividing\n")
+
+    # Example 6: KeyError
+    print("--- KeyError Example ---")
+    try:
+        my_dict = {"name": "Alice"}
+        print(my_dict["age"])
+    except KeyError as e:
+        print(f"KeyError: {e}")
+        print("Fix: Check if key exists or use .get() method\n")
+
+    print("=== End of Error Examples ===")
     return 0
 
 

@@ -1,4 +1,4 @@
-"""Session 8 optional: sort() and reverse() on numbers and strings."""
+"""Session 8 reinforcement: sort and reverse lists of numbers and words."""
 
 # Filename: src/L1/S8/15_list_sort_reverse.py
 
@@ -7,7 +7,8 @@ import sys
 HELP_TEXT = """15_list_sort_reverse.py
 
 Purpose
-    Practice sort() and reverse() with numbers and strings.
+    Reinforce how sort() orders list items and how reverse() flips the
+    current order in place.
 
 Usage
     python src/L1/S8/15_list_sort_reverse.py
@@ -19,19 +20,23 @@ def main(argv: list[str]) -> int:
         print(HELP_TEXT)
         return 0
 
-    print("=== Session 8 optional: sort & reverse ===\n")
+    print("=== Session 8 Reinforcement: sort() and reverse() ===\n")
 
-    numbers = [42, 7, 19, 3]
-    print(f"numbers: {numbers}")
+    numbers = [20, 10, 50, 40, 60, 25, 30, 45]
+    print(f"Original numbers: {numbers}")
+
     numbers.sort()
-    print(f"after sort(): {numbers}")
-    numbers.reverse()
-    print(f"after reverse(): {numbers}\n")
+    print(f"After sort(): {numbers}")
 
-    words = ["banana", "apple", "cherry"]
-    print(f"words: {words}")
-    words.sort()
-    print(f"after sort(): {words}")
+    numbers.reverse()
+    print(f"After reverse(): {numbers}")
+
+    languages = ["python", "java", "C", "r", "R"]
+    print(f"\nOriginal words: {languages}")
+
+    languages.sort()
+    print(f"After sort(): {languages}")
+    print("Notice how uppercase letters sort before lowercase letters.")
     return 0
 
 

@@ -1,6 +1,17 @@
 # 📋 Repository Structure
 
-> **🎯 Single Source of Truth**: This document (`docs/02_RepositoryStructure.md`) is the authoritative source for repository structure, naming, and current tracked inventory.
+> **🎯 This repo's layout:** `docs/02_RepositoryStructure.md` is authoritative for **paths, naming, and inventory in `python-fundamentals-in-practice`**.
+>
+> **🎯 Curriculum source of truth:** **`python-fundamentals`** (Swamy-only development repo) is the **single source of truth** for curriculum content. This repo is the **meetup replica** — sync session docs and practice code from the dev repo for live meetup delivery.
+
+## Two-repository model (workspace)
+
+| Repository | Role |
+| --- | --- |
+| **`python-fundamentals`** | **Single source of truth** — develop curriculum, migrate `source-material/`, maintain formal L1–L2+ paths |
+| **`python-fundamentals-in-practice`** (this repo) | **Meetup replica** — synced copy used for live meetup sessions (current focus: Level 1 S1–S6) |
+
+Develop and validate in the dev repo first; prompt or sync scoped content here when ready for meetup delivery.
 
 ---
 
@@ -15,8 +26,9 @@ python-fundamentals-in-practice/
 ├── .clinerules/
 │   ├── agents/
 │   │   ├── agent-ci-verify.md
-│   │   ├── demo-roadmap-review.md
-│   │   └── docs-originality-review.md
+│   │   ├── docs-originality-review.md
+│   │   ├── python-practice-code.md
+│   │   └── session-roadmap-review.md
 │   ├── rules/
 │   │   ├── 01-repository-purpose.md
 │   │   ├── 02-educational-content-rules.md
@@ -37,8 +49,8 @@ python-fundamentals-in-practice/
 │   │   ├── e2e-testing.md
 │   │   └── workspace-review.md
 │   ├── workflows/
-│   │   ├── demo-roadmap-review.md
 │   │   ├── run-ci-checks.md
+│   │   ├── session-roadmap-review.md
 │   │   └── workspace-review.md
 │   ├── AGENTS.md
 │   ├── README.md
@@ -83,9 +95,9 @@ python-fundamentals-in-practice/
 ├── .opencode/
 │   ├── agents/
 │   │   ├── agent-ci-verify.md
-│   │   ├── demo-code-audit.md
-│   │   ├── demo-roadmap-review.md
-│   │   └── docs-originality-review.md
+│   │   ├── docs-originality-review.md
+│   │   ├── python-practice-code.md
+│   │   └── session-roadmap-review.md
 │   ├── prompts/
 │   │   ├── smart-prompt-framework-guide.md
 │   │   └── task-prompt.md

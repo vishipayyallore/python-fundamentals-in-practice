@@ -27,6 +27,7 @@ Full audit checklist for this repository.
 - [ ] `.cursor/rules/` remains canonical for modular rules.
 - [ ] `.clinerules/` and `.opencode/` are tool-specific mirrors, not alternate sources of truth.
 - [ ] Docs CI includes tracked assistant customization Markdown.
+- [ ] `docs/meetup/L1/sessions.md` matches `python-fundamentals` (SSOT) byte-for-byte — status table, agendas, event date/URL.
 
 ## 4. Python health
 

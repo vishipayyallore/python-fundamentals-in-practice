@@ -15,7 +15,16 @@ This file is the **entry point for AI coding agents** (Cursor, Claude Code, GitH
 
 **Python-only scope:** All curriculum work belongs in `docs/sessions/`, `src/L{level}/`, `docs/images/`, and `docs/meetup/L1/`. Do **not** add or migrate non-Python instructor intake (e.g. AWS/cloud meetup outlines) from ignored `source-material/` into this repository unless the user explicitly requests Python-related promotion.
 
-**Single source of truth for folder layout, naming, and file inventory:** `docs/02_RepositoryStructure.md` — when structure or conventions change, update that document first, then align references (README, copilot instructions, and this file).
+### Two-repository model (workspace)
+
+| Repository | Role | Who |
+| --- | --- | --- |
+| **`python-fundamentals`** | **Single source of truth** — Swamy-only development; author curriculum, migrate intake, run full quality gates | **Swamy only** |
+| **`python-fundamentals-in-practice`** (this repo) | **Meetup replica** — synced copy of session docs and practice code for live meetup delivery | Meetup sessions |
+
+**Workflow:** Develop and validate in **`python-fundamentals` first** → sync scoped content into this repo (current meetup focus: **Level 1 S1–S6**) → align delivery status with the dev repo when sessions complete. Do **not** treat this repo as authoritative for new curriculum authoring.
+
+**Structure and inventory for this repo:** `docs/02_RepositoryStructure.md` — when this repo's layout changes, update that document first, then align README, copilot instructions, and this file.
 
 ---
 
