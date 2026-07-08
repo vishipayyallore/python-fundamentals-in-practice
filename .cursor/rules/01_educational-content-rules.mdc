@@ -19,14 +19,18 @@
 
 ### Internal Source Intake and Session Placement Rules
 
-✅ Treat `source-material/` as internal instructor intake only; rewrite curriculum output in a fresh voice and structure  
+✅ Borrow concepts and misconception patterns; do not reuse original wording, section order, or narration from source notes  
+✅ Treat `source-material/` as internal, read-only instructor intake only; curriculum output must be rewritten in fresh structure and voice  
 ✅ **Python-only intake:** promote material from `source-material/` or `src/Working/` only when it supports the **Python Fundamentals** curriculum (`docs/sessions/`, `src/L{level}/`)  
 ❌ **Do not migrate** non-Python instructor intake (e.g. AWS, cloud, or Bedrock meetup outlines) into this repository — leave it in ignored `source-material/` or route to a separate repo  
 ✅ Promote `src/Working/` examples only after cleanup, renaming, and session-outcome alignment — **and only when Swamy explicitly asks** you to edit or promote those Working files (the dev repo owns `src/Working/`; do not invent Working paths here)  
-✅ Route newly added content to planned/new sessions first  
-❌ Do not insert newly authored content into completed sessions unless the user explicitly approves  
+✅ Keep publish-facing references on formal paths (`src/L{level}/S{session}/`), never sandbox paths  
+✅ Route newly added content to planned/new sessions first; avoid backfilling completed sessions by default  
+✅ Apply the same quality gates to imported ideas: clarity, technical correctness, and beginner pedagogy  
+❌ Do not place internal intake-policy process blocks inside publish-facing curriculum docs  
 ✅ Use `docs/meetup/L1/sessions.md` status table as placement context for Level 1 meetup updates  
-✅ If session status or destination is ambiguous, ask permission before placing content
+❌ Do not insert new learning content into sessions marked completed without explicit user permission  
+✅ If there is any ambiguity in status or target session, ask before placing content
 
 ---
 
@@ -59,24 +63,24 @@
 
 ### Phase 2: REASON (Analysis)
 
-5. **PREREQUISITES**: What must learners already know? Are those concepts covered in earlier sessions?
-6. **CONNECTIONS**: How does this connect to previous sessions? What future topics does it enable?
-7. **EXAMPLES**: What original examples best illustrate each concept? (Remember: no copying!)
-8. **EDGE CASES**: What common mistakes or pitfalls should be addressed?
+1. **PREREQUISITES**: What must learners already know? Are those concepts covered in earlier sessions?
+2. **CONNECTIONS**: How does this connect to previous sessions? What future topics does it enable?
+3. **EXAMPLES**: What original examples best illustrate each concept? (Remember: no copying!)
+4. **EDGE CASES**: What common mistakes or pitfalls should be addressed?
 
 ### Phase 3: ACT (Production)
 
-9. **CREATE**: Write the content following the session structure template
-10. **EXEMPLIFY**: Develop original code examples that demonstrate each concept
-11. **VISUALIZE**: Create Mermaid diagrams (with ASCII fallback) for complex concepts
-12. **PRACTICE**: Design exercises that reinforce learning
+1. **CREATE**: Write the content following the session structure template
+2. **EXEMPLIFY**: Develop original code examples that demonstrate each concept
+3. **VISUALIZE**: Create Mermaid diagrams (with ASCII fallback) for complex concepts
+4. **PRACTICE**: Design exercises that reinforce learning
 
 ### Phase 4: VERIFY (Quality Check)
 
-13. **CLARITY**: Would a complete beginner understand this without prior context?
-14. **COMPLETENESS**: Does this cover the learning objectives fully?
-15. **PROGRESSION**: Does this fit naturally in the curriculum sequence?
-16. **ORIGINALITY**: Is this transformative (not just reformative)?
+1. **CLARITY**: Would a complete beginner understand this without prior context?
+2. **COMPLETENESS**: Does this cover the learning objectives fully?
+3. **PROGRESSION**: Does this fit naturally in the curriculum sequence?
+4. **ORIGINALITY**: Is this transformative (not just reformative)?
 
 ### CoT/ReAct Decision Framework
 
@@ -101,23 +105,27 @@
 **Scenario**: Creating content for "Variables & Data Types" (Session 2)
 
 **THINK**:
+
 - Objective: Learners understand what variables are and Python's basic data types
 - Chunks: (1) Variables as containers, (2) Naming rules, (3) Data types, (4) Type conversion
 - Sequence: Variables first (need storage before types), then types, then conversion
 
 **REASON**:
+
 - Prerequisites: Session 1 (can run Python, use print/input)
 - Connections: Enables Session 3 (operators need values to operate on)
 - Examples: Store name, age, price, is_student → demonstrate all types
 - Pitfalls: Confusing `=` (assignment) with `==` (comparison), string vs int for numbers
 
 **ACT**:
+
 - Write explanation of variables using "labeled box" analogy
 - Create `01_variables.py` with name/age/price examples
 - Create Mermaid diagram showing variable assignment
 - Design exercise: "Store your profile details in variables"
 
 **VERIFY**:
+
 - ✅ Beginner can follow without prior Python knowledge
 - ✅ Covers all 4 learning objectives
 - ✅ Builds on Session 1, enables Session 3
@@ -183,36 +191,41 @@ OBSERVE: Now the concept is clear - variables make code flexible and reusable
 ✅ **Modular content** designed for focused 30-minute sessions  
 ✅ **Multi-Part Structure**: Complex topics split into Part 1, Part 2, ... Part N  
 ✅ **One-Shot Learning**: Each segment complete and actionable within time limit  
-✅ **Target Length**: no rigid line cap; optimize for clear 30-minute teaching chunks and readability
+✅ **Target Length**: 1000 lines of content maximum per response (flexible for educational clarity)
+✅ **Scope**: Applies to session/lesson educational content and split-friendly instructional docs; roadmap/governance docs (e.g., `docs/01_Python-Fundamentals-MasterPlan.md`) are exempt unless explicitly requested
 
 ### ⚠️ CRITICAL: Splitting vs. Trimming Policy
 
-**MANDATORY APPROACH**: **NEVER TRIM** educational content. Split into multiple parts when one file becomes hard to navigate, review, or teach effectively in a focused session.
+**MANDATORY APPROACH**: For in-scope educational content, when content exceeds 1000 lines, **ALWAYS SPLIT** into multiple parts. **NEVER TRIM** or condense content.
 
 **Why Splitting is Required:**
+
 - ✅ **Preserves ALL educational content** - No loss of examples, explanations, or concepts
 - ✅ **Maintains learning value** - Each part remains complete and actionable
 - ✅ **Better learning experience** - Learners get comprehensive coverage across parts
-- ✅ **Follows 30-minute session principle** - Each part fits within focused learning session
+- ✅ **Follows 25-minute principle** - Each part fits within focused learning session
 
 **Why Trimming is Prohibited:**
+
 - ❌ **Loses educational content** - Examples, explanations, or concepts may be removed
 - ❌ **Reduces learning value** - Condensed content may miss important details
 - ❌ **Violates zero-copy policy** - If source had comprehensive content, we should preserve it
 - ❌ **Poor learning experience** - Learners miss important information
 
 **Splitting Process:**
+
 1. **Identify logical breakpoints** - Split at natural topic boundaries (e.g., "Foundation" → "Implementation" → "Advanced")
 2. **Preserve all content** - Move content to appropriate part, don't delete
 3. **Maintain completeness** - Each part should be self-contained and complete
 4. **Use proper naming** - Follow naming convention: `Part1-A.md`, `Part1-B.md`, etc.
 5. **Update references** - Update all file references after splitting
 
-**Example**: If a file combines "Factory Pattern Fundamentals" and "Factory Pattern Advanced" in one long document, split into:
-- `01_Factory-Pattern-Part1-A.md` (Fundamentals)
-- `01_Factory-Pattern-Part1-B.md` (Advanced)
+**Example**: If a file has 2000 lines covering "Factory Pattern Fundamentals" and "Factory Pattern Advanced", split into:
 
-**NOT**: Condense to an arbitrary line limit by removing examples or explanations.
+- `01_Factory-Pattern-Part1-A.md` (Fundamentals - 1000 lines)
+- `01_Factory-Pattern-Part1-B.md` (Advanced - 1000 lines)
+
+**NOT**: Condense to 1000 lines by removing examples or explanations.
 
 ---
 
@@ -223,6 +236,7 @@ OBSERVE: Now the concept is clear - variables make code flexible and reusable
 Every session documentation file MUST include:
 
 **Session Documentation Structure** (docs/sessions/L{level}/S{session}.md):
+
 1. **Session Overview** - Duration (30 minutes), type, level
 2. **Learning Objectives** - What students will learn
 3. **Prerequisites** - What's needed before starting
@@ -236,23 +250,27 @@ Every session documentation file MUST include:
 ### File Naming Convention
 
 **Python Practice Files** (src/L{level}/S{session}/):
+
 - ✅ Use descriptive names with numeric prefixes: `01_hello.py`, `02_interactive_hello.py`
 - ✅ Format: `{number}_{descriptive_name}.py`
 - ✅ Example: `01_hello.py`, `02_interactive_hello.py`, `bytecode_demo.py`
 
 **Session Documentation** (docs/sessions/L{level}/):
-- ✅ Use numbered format with level and session identifiers: `S1.md`, `S2.md`, `_Plan.md`
-- ✅ Format: `S{session}.md`, `S{session}_MP{number}.md`, or `_Plan.md`
-- ✅ Example: `L1/S1.md`, `L1/S2.md`, `L1/_Plan.md`
+
+- ✅ Use existing session doc naming: `S1.md`, `S2.md`, `S5.md`, `S10.md`, `_Plan.md`
+- ✅ Format: `S{session}.md` or `_Plan.md` (underscore prefix sorts first)
+- ✅ Example: `L1/S1.md`, `L1/S2.md`, `L1/S5.md`, `L1/_Plan.md`
 
 **Directory Structure**:
+
 - ✅ Levels: Always use `L{number}` format (L1, L2, L3, etc.)
 - ✅ Sessions: Always use `S{number}` format (S1, S2, S3, etc.)
 - ✅ Path references: Use `src/L1/S1/` not `src/S1/`
-- ✅ Documentation paths: Use `docs/sessions/L1/S1.md` (numbered session files) not `docs/sessions/S1.md`
+- ✅ Documentation paths: Use `docs/sessions/L1/S1.md` not `docs/sessions/S1.md`
 
 **Why This Rule Exists**:
-- Maintains consistent numbering across the repository
+
+- Maintains consistent naming conventions across the repository
 - Prevents confusion about file ordering
 - Ensures predictable file organization
 - `01_` clearly indicates the first item, `00_` is ambiguous
@@ -268,17 +286,17 @@ Every session documentation file MUST include:
 3. **S3**: Operators & Expressions - Calculations and logic
 4. **S4**: Conditionals, Indentation & Modules - Control flow
 5. **MP1**: Mini Project 1: Simple Calculator - Apply Sessions 1-4
-6. **S5**: Loops & Iteration - Repetition and iteration
-7. **S6**: Basic Debugging & Built-in Functions - Error handling
-8. **S7**: Lists & Loops - Data structures
-9. **S8**: Dictionaries & Basic Testing - Advanced data structures
-10. **MP2**: Mini Project 2: Personal Profile Generator - Apply Sessions 5-8
+6. **S6**: Loops & Iteration - Repetition and iteration
+7. **S7**: Basic Debugging & Built-in Functions - Error handling
+8. **S8**: Lists & Loops - Data structures
+9. **S9**: Dictionaries & Basic Testing - Advanced data structures
+10. **MP2**: Mini Project 2: Personal Profile Generator - Apply Sessions 6-9
 
 **Why This Order Matters**:
 
 - Variables (S2) must come BEFORE Operators (S3) - need to understand data storage first
-- Conditionals (S4) must come BEFORE Loops (S5) - loops use conditional logic
-- Lists (S7) must come BEFORE Dictionaries (S8) - dictionaries build on list concepts
+- Conditionals (S4) must come BEFORE Loops (S6) - loops use conditional logic
+- Lists (S8) must come BEFORE Dictionaries (S9) - dictionaries build on list concepts
 - Mini Projects consolidate learning from previous sessions
 
 **When Creating New Content**:
@@ -302,18 +320,21 @@ Every session documentation file MUST include:
 - `Topic-Part1-Part2-Part2.md` → `Topic-Part1-B-B.md`
 
 **Rules**:
+
 1. ✅ **Keep first Part number** - First `Part1`, `Part2`, etc. stays as-is
 2. ✅ **Convert subsequent Part numbers to letters** - `Part1` → `A`, `Part2` → `B`, etc.
 3. ✅ **Use uppercase letters** - A, B, C, D, etc. (not a, b, c)
 4. ✅ **Maintain order** - Letters reflect the original Part number sequence
 
 **Examples**:
+
 - ✅ `01_OOP-Introduction-Part1-A.md` (was `Part1-Part1`)
 - ✅ `01_OOP-Introduction-Part1-B.md` (was `Part1-Part2`)
 - ✅ `02_Classes-and-Objects-Part2-A.md` (was `Part2-Part1`)
 - ✅ `03_Encapsulation-Part1-B-A.md` (was `Part1-Part2-Part1`)
 
 **Benefits**:
+
 - Cleaner, more readable file names
 - Easier to understand part relationships
 - Consistent naming pattern
@@ -336,12 +357,12 @@ All content must demonstrate:
 
 **Self-check before finalizing any educational content**:
 
-1. ✅ Is this explanation clearer than the source material?
+1. ✅ Is this explanation clearer than the external references you used for ideas?
 2. ✅ Does this fit naturally in the learning progression?
 3. ✅ Would a learner understand this without the original source?
 4. ✅ Are the examples relevant and practical?
 5. ✅ Does this content add educational value beyond the reference?
-6. ✅ Is this content easy to navigate and teach in focused chunks without trimming core learning value?
+6. ✅ Is this content within 1000 lines for effective delivery?
 
 ---
 
@@ -383,6 +404,7 @@ print('Hello, World!')
 ```
 
 **Practice Files Location:**
+
 - Store all practice code in `src/L{level}/S{session}/` directories
 - Reference practice files in session documentation
 - Example: `src/L1/S1/01_hello.py`, `src/L1/S1/02_interactive_hello.py`
@@ -390,22 +412,25 @@ print('Hello, World!')
 ### Content Organization
 
 **Session Documentation** (docs/sessions/L{level}/):
+
 - Store all session documentation in `docs/sessions/L{level}/` directories
-- Format: `S1.md`, `S2.md`, `_Plan.md` (underscore prefix sorts first)
+- Format: `S1.md`, `S2.md`, `S5.md`, `S10.md`, `_Plan.md` (underscore prefix sorts first)
 - Each session should reference practice files in `src/L{level}/S{session}/`
 
 **Practice Code** (src/L{level}/S{session}/):
+
 - Store all practice Python files in `src/L{level}/S{session}/` directories
 - Format: `01_descriptive_name.py`, `02_descriptive_name.py`
 - All code must be working and tested
 
 **Images** (docs/images/):
+
 - Store educational images in `docs/images/S{session}/` directories
 - Reference images in session documentation using relative paths
 
 **Content Workflow**:
 
-1. **Create Session Documentation**: Write session content in `docs/sessions/L{level}/S{session}.md` (or `S{session}_MP{project}.md` for mini projects)
+1. **Create Session Documentation**: Write session content in `docs/sessions/L{level}/S{session}.md`
 2. **Create Practice Files**: Write working Python code in `src/L{level}/S{session}/`
 3. **Link Together**: Reference practice files in session documentation
 4. **Test Everything**: Ensure all code runs and all links work
@@ -418,34 +443,35 @@ print('Hello, World!')
    - Check prerequisites and dependencies
    - Plan content structure following session documentation format
 
-2. **CREATE**: Develop session content following Educational Content Rules
-    - Write session documentation in `docs/sessions/L{level}/S{session}.md` (or `S{session}_MP{project}.md` for mini projects)
-    - Create practice files in `src/L{level}/S{session}/` (or `src/L{level}/S{session}_MP{project}/` for mini projects)
+1. **CREATE**: Develop session content following Educational Content Rules
+   - Write session documentation in `docs/sessions/L{level}/S{session}.md`
+   - Create practice files in `src/L{level}/S{session}/`
    - Ensure all code examples are working and tested
    - Follow 30-minute session format
 
-3. **REVIEW**: Apply comprehensive review checklist
+1. **REVIEW**: Apply comprehensive review checklist
    - Verify session structure is complete
    - Test all Python code files
    - Check all file references work
    - Validate markdown formatting
 
-4. **VERIFY**: Final quality checks before committing
+1. **VERIFY**: Final quality checks before committing
    - Run markdownlint
    - Run link checker
    - Test all code examples
    - Verify all paths are correct
 
-5. **COMMIT**: After all checks pass, commit changes
+1. **COMMIT**: After all checks pass, commit changes
 
 ### Level and Session Creation Policy
 
 **Important**: Level and session directories are created **as needed** when content is ready.
 
 **Policy**:
+
 - ✅ Create `L{level}/S{session}/` directories when you have content ready to add
-- ✅ Follow the 18-level master plan in the dev repo (`python-fundamentals`); this meetup replica currently ships Level 1 (S1–S10 on disk; meetup delivery focus S1–S6)
-- ✅ Each level contains 8 core sessions (S1 through S8) plus 2 mini projects (MP1 and MP2), for 10 total learning blocks
+- ✅ Follow the multi-level progression structure (currently L1 through L18) and keep level references in sync with the master plan
+- ✅ Each level contains 10 sessions (S1 through S10) plus 2 mini projects
 - ✅ Add content progressively following Educational Content Rules
 - ✅ Create folder structure incrementally as curriculum develops
 
@@ -487,11 +513,12 @@ print('Hello, World!')
 ### Validation Checklist
 
 Before committing:
+
 - [ ] All references point to existing files (or are clearly planned)
 - [ ] Navigation links work in markdown preview
 - [ ] All Python code files run without errors
 - [ ] All image references resolve correctly
-- [ ] Run markdownlint: `npx --yes markdownlint-cli2 "docs/**/*.md"`
+- [ ] Run markdownlint: `npx --yes markdownlint-cli2 "README.md" "docs/**/*.md" ".github/**/*.md"`
 - [ ] Run link checker: Use lychee with `lychee.toml` configuration
 
 ---
@@ -512,10 +539,12 @@ Before committing:
 **Rationale**: Mini projects consolidate learning and build confidence. They should be achievable but challenging.
 
 **Examples of Mini Projects**:
+
 - **Level 1, MP1**: Simple Calculator (uses Sessions 1-4: variables, operators, conditionals)
 - **Level 1, MP2**: Personal Profile Generator (uses Sessions 5-8: loops, lists, dictionaries)
 
 **When Creating Mini Projects**:
+
 1. Review prerequisite sessions to ensure all needed concepts are covered
 2. Provide clear requirements and success criteria
 3. Include example solutions or guidance
@@ -541,6 +570,7 @@ Before committing:
 - ❌ **NEVER**: Review only files that "look problematic" - review ALL files
 
 **Scope of Review**:
+
 - If reviewing `docs/sessions/L{level}/`: Review ALL files in that level
 - If reviewing `src/L{level}/S{session}/`: Review ALL Python files in that session
 - If reviewing a specific session: Review both documentation and practice files
@@ -565,6 +595,7 @@ Before committing:
 **Review EACH AND EVERY file individually** - no file should be skipped:
 
 #### 1. Session Documentation Review (docs/sessions/L{level}/S{session}.md)
+
 - [ ] Session overview present (duration, type, level)
 - [ ] Learning objectives are clear and measurable
 - [ ] Prerequisites listed (if any)
@@ -575,20 +606,23 @@ Before committing:
 - [ ] All links work (practice files, images, cross-references)
 
 #### 2. Practice Code Review (src/L{level}/S{session}/*.py)
+
 - [ ] File headers include filename and session reference
 - [ ] Code runs without syntax errors
 - [ ] Code is beginner-friendly with clear comments
 - [ ] File naming follows convention: `01_name.py`, `02_name.py`
 - [ ] All code examples are educational and working
-- [ ] No placeholder code or TODOs
+- [ ] No unresolved placeholder code or TODOs in final deliverables (`src/` and completed examples)
 
 #### 3. File Naming Review
+
 - [ ] Python files use numeric prefixes: `01_`, `02_`, etc.
-- [ ] Session docs use format: `S1.md`, `S2.md`, `_Plan.md`
+- [ ] Session docs use format: `S1.md`, `S2.md`, `S5.md`, `S10.md`, `_Plan.md`
 - [ ] Directory structure uses: `L{level}/S{session}/`
 - [ ] All paths are consistent
 
 #### 4. File References Review
+
 - [ ] All practice file references point to existing files
 - [ ] All image references resolve correctly
 - [ ] All cross-session references use correct paths
@@ -598,26 +632,30 @@ Before committing:
 - [ ] No references to renamed or moved files without updates
 
 #### 5. Content Quality Review
+
 - [ ] Code examples are working and tested
-- [ ] Diagrams are clear (Mermaid with ASCII fallback)
+- [ ] Diagrams are clear (Mermaid or ASCII)
 - [ ] Content is transformative (not copied)
 - [ ] Learning objectives are clear and measurable
 - [ ] Progressive scaffolding present (Foundations → Practice → Next Steps)
 
 #### 6. Zero-Copy Policy Review
+
 - [ ] No verbatim text from sources
 - [ ] No mirrored outlines or section order
 - [ ] Original examples and explanations
-- [ ] Diagrams are original (Mermaid with ASCII fallback, not embedded copyrighted figures)
+- [ ] Diagrams are original (Mermaid/ASCII, not embedded copyrighted figures)
 - [ ] Content adds educational value beyond source
 
 #### 7. Learning Progression Review
+
 - [ ] Session numbering reflects logical learning dependencies
 - [ ] Prerequisites come before dependent content
 - [ ] Learning order is logical and sequential
 - [ ] Mini projects consolidate previous sessions appropriately
 
 #### 8. Reasoning and Explanation Quality Review
+
 - [ ] Code design decisions include explicit reasoning (why this approach?)
 - [ ] Examples show the thought process, not just syntax
 - [ ] Alternative approaches mentioned with reasons for choice
@@ -629,6 +667,7 @@ Before committing:
 **When performing comprehensive review**:
 
 1. **Systematic File Scanning**
+
    ```powershell
    # Get all session documentation files
    Get-ChildItem "docs\sessions" -Recurse -Filter "*.md"
@@ -637,7 +676,7 @@ Before committing:
    Get-ChildItem "src" -Recurse -Filter "*.py"
    ```
 
-2. **Individual File Analysis**
+1. **Individual File Analysis**
    - Open each file
    - Check session documentation structure
    - Verify all practice file references
@@ -646,7 +685,8 @@ Before committing:
    - Validate all file references
    - Review content quality indicators
 
-3. **Code Testing**
+1. **Code Testing**
+
    ```powershell
    # Test all Python files
    Get-ChildItem "src" -Recurse -Filter "*.py" | ForEach-Object {
@@ -654,14 +694,14 @@ Before committing:
    }
    ```
 
-4. **Content Quality Analysis**
+1. **Content Quality Analysis**
    - Check for code examples
-   - Check for diagrams (Mermaid with ASCII fallback)
+   - Check for diagrams (Mermaid/ASCII)
    - Check for headings
    - Check for suspicious patterns
    - Verify zero-copy compliance
 
-5. **Documentation**
+1. **Documentation**
    - Document all findings
    - Create issue list with file paths
    - Prioritize issues (critical vs. warnings)
@@ -671,7 +711,7 @@ Before committing:
 
 **Use these tools for comprehensive review**:
 
-- Markdown linting: `npx --yes markdownlint-cli2 "docs/**/*.md"`
+- Markdown linting: `npx --yes markdownlint-cli2 "README.md" "docs/**/*.md" ".github/**/*.md"`
 - Link checking: Use lychee with `lychee.toml` configuration
 - Python syntax: Test all `.py` files manually or with scripts
 
