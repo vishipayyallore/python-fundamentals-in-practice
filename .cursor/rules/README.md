@@ -46,7 +46,7 @@ This rule set is customized for the **Python Fundamentals** repository:
 - **Sessions**: 30-minute focused learning sessions
 - **Code**: Working Python practice files in `src/L{level}/S{session}/`
 - **Documentation**: Session docs in `docs/sessions/L{level}/`
-- **Levels**: 9 progressive levels (Noob → Nerd → ... → Curious Learner)
+- **Levels**: Multi-level progression (currently 18 levels); see the master plan and `README.md` for the full journey stages
 
 ---
 

@@ -30,13 +30,13 @@ All new content must connect to:
 ## 🔗 Related Sessions
 
 **Prerequisites**:
-- [Session X](docs/sessions/L1/0X_SX.md) - Required concepts
+- [Session X](docs/sessions/L1/SX.md) - Required concepts
 
 **Builds Upon**:
-- [Session Y](docs/sessions/L1/0Y_SY.md) - Foundational concepts
+- [Session Y](docs/sessions/L1/SY.md) - Foundational concepts
 
 **Enables**:
-- [Session Z](docs/sessions/L1/0Z_SZ.md) - Advanced applications
+- [Session Z](docs/sessions/L1/SZ.md) - Advanced applications
 ```
 
 ---

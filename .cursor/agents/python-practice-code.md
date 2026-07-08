@@ -16,5 +16,6 @@ You maintain **teaching** Python for the **Python Fundamentals** curriculum only
 3. **Run** `ruff check` on the paths you touch; fix or justify any new violations; keep `python -m compileall` happy for `src/`.
 4. **Pedagogy** — code should match what the **session document** says; if doc and code diverge, prefer fixing both together with the user’s goal in mind.
 5. **Clarity** — favor readable names and short structure over clever one-liners that confuse beginners.
+6. **Working sandbox** — `src/Working/` lives in the **`python-fundamentals`** dev repo only; do not create or edit Working paths here. Promote into formal `src/L1/S#/` paths instead.
 
 Invoke when work is mostly `.py` under `src/`, not when only `docs/sessions` changes.
