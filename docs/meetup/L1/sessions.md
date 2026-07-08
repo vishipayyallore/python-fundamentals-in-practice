@@ -9,7 +9,7 @@
 | Session 3 | Completed |
 | Session 4 | Completed |
 | Session 5 (MP 1) | Completed |
-| Session 6 | Published |
+| Session 6 | Completed |
 | Session 7 | Published |
 | Session 8 | Published |
 | Session 9 | Pending |
@@ -96,7 +96,7 @@ Optional reinforcement (Strings as Sequences — revisit before lists):
 - `src/L1/S8/05_string_len.py` – `len()` on strings — spaces count as characters
 - `src/L1/S8/06_string_methods.py` – `startswith()` / `endswith()` with optional index bounds
 
-See `docs/sessions/L1/S8.md` for the full optional reinforcement list (`07`–`16`).
+See `docs/sessions/L1/S8.md` for the full optional reinforcement list (`07`–`17`).
 
 Optional reinforcement (focused list-method drills):
 
