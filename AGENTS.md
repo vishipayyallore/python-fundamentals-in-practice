@@ -24,6 +24,8 @@ This file is the **entry point for AI coding agents** (Cursor, Claude Code, GitH
 
 **Workflow:** Develop and validate in **`python-fundamentals` first** → sync scoped content into this repo (current meetup focus: **Level 1 S1–S6**) → align delivery status with the dev repo when sessions complete. Do **not** treat this repo as authoritative for new curriculum authoring.
 
+**Meetup parity:** Keep `docs/meetup/L1/sessions.md` identical in both repos — status table, session agendas, and **event date/URL** fields. Author meetup updates in the dev repo first; if event details are captured during live delivery here, back-sync them into **`python-fundamentals`** immediately.
+
 **Structure and inventory for this repo:** `docs/02_RepositoryStructure.md` — when this repo's layout changes, update that document first, then align README, copilot instructions, and this file.
 
 ---
@@ -127,3 +129,5 @@ Prefer **ask** over **guess** on large pedagogical rewrites, licensing-sensitive
 ---
 
 **Bottom line:** Treat `docs/02_RepositoryStructure.md` as the map, `.cursor/rules/` and `.github/copilot-instructions.md` as the detailed law, and **AGENTS.md** / **CLAUDE.md** as the compass for any automated assistant in this repository.
+
+**Precedence on conflict:** `docs/02_RepositoryStructure.md` → `.github/copilot-instructions.md` → `CLAUDE.md` → this file.

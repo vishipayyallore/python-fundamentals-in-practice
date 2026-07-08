@@ -75,3 +75,9 @@ See: `01_educational-content-rules.mdc` for complete details.
 ❌ **NEVER** migrate non-Python instructor intake from `source-material/` into `docs/` or `src/`  
 ❌ **NEVER** borrow app-stack conventions (React, FastAPI, MCP demos) from other repositories  
 ✅ If `source-material/` or `src/Working/` contains clearly non-Python content, skip migration unless the user explicitly requests Python-related promotion
+
+### 7. Working Sandbox Lives in Dev Repo (CRITICAL)
+
+❌ Do **not** create or edit `src/Working/` in this repository — it does not exist here  
+✅ Author curriculum and promote intake in **`python-fundamentals`** (single source of truth), then sync scoped content into this meetup replica  
+✅ Use formal `src/L{level}/S{session}/` and `docs/sessions/` for all practice and session work in this repo

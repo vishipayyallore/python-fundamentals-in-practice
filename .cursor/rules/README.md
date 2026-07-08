@@ -14,7 +14,7 @@ This directory contains modular rule files for Cursor AI, customized for the **P
 ### `01_educational-content-rules.mdc`
 
 **Priority**: MANDATORY  
-**Content**: Zero-Copy Policy, Transformative Workflow, 30-minute sessions, session structure requirements, educational excellence standards, Python code standards
+**Content**: Zero-Copy Policy, internal source-intake rules (`source-material/` in dev repo; `src/Working/` lives in **`python-fundamentals`** — not here), Transformative Workflow, 30-minute sessions, session structure requirements, educational excellence standards, Python code standards
 
 ### `02_repository-structure.mdc`
 
@@ -30,7 +30,7 @@ This directory contains modular rule files for Cursor AI, customized for the **P
 
 ### `05_primary-directives.mdc`
 
-**Content**: Primary directives, automation-first approach, update verification protocol, file naming validation
+**Content**: Primary directives, automation-first approach, update verification protocol, file naming validation, Python-only scope, Working sandbox lives in dev repo (§7)
 
 ### `06_cross-level-integration.mdc`
 
@@ -61,9 +61,10 @@ This rule set is customized for the **Python Fundamentals** repository:
 
 ## 🔗 Related Files
 
-- **Agent entry (all tools)**: `AGENTS.md` (policy map, ReAct/CoT, how to use these rules)
-- **Skills pointer**: `skills.md` (this repo includes one project skill pack at `.cursor/skills/python-fundamentals-curriculum/SKILL.md`)
+- **Agent entry (all tools)**: `AGENTS.md` (policy map, ReAct/CoT, two-repository model)
 - **Claude short brief**: `CLAUDE.md` and `.claude/CLAUDE.md` (optional pointer; root is canonical)
+- **Skills pointer**: `skills.md` (project skill at `.cursor/skills/python-fundamentals-curriculum/SKILL.md`)
+- **Tool mirrors**: `.clinerules/` (Cline) and `.opencode/` (OpenCode) — same policies; canonical rules remain here
 - **GitHub Copilot**: `.github/copilot-instructions.md` (rules aligned with this directory)
 - **Repository structure (source of truth)**: `docs/02_RepositoryStructure.md`
 - **Main README**: `README.md` (repository overview and structure)

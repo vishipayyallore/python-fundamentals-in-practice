@@ -32,7 +32,7 @@ Educational **Python fundamentals** curriculum for **live meetup delivery**: lev
 4. **Reasoning in teaching material** — Prefer “why” and trade-offs, not only syntax (see CoT section in the same `01_` rules file and in `AGENTS.md`).
 5. **Quality before merge** (when changing Markdown under CI paths): lint and link-check as in `README.md` / `tools/psscripts/docs-lint.ps1` and `docs-links.ps1`. For `src/`, run `ruff check src` (see `pyproject.toml`).
 6. **Session-bucketing safety** — Add new content to planned/new sessions by default; do not add new material to completed sessions without explicit user approval.
-7. **Python-only scope** — Do not add or migrate AWS, cloud, Bedrock, or other non-Python course material. Promote `source-material/` or `src/Working/` intake only when it supports this Python curriculum.
+7. **Python-only scope** — Do not add or migrate AWS, cloud, Bedrock, or other non-Python course material. Curriculum intake and `src/Working/` promotion happen in **`python-fundamentals`** (single source of truth); sync scoped content here after validation.
 
 ---
 

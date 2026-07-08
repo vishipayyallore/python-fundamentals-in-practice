@@ -124,7 +124,7 @@ When including code examples in session documentation:
 
 **Link broken?** → Update URLs or fix internal file references
 
-**Structure outdated?** → Update `.github/copilot-instructions.md` and `README.md` immediately
+**Structure outdated?** → Update [`docs/02_RepositoryStructure.md`](../../docs/02_RepositoryStructure.md) **first**, then `.github/copilot-instructions.md`, `AGENTS.md`, and `README.md`
 
 ---
 

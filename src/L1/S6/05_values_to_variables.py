@@ -58,28 +58,28 @@ def demo_type_function() -> None:
 def demo_variables() -> None:
     """Assign values to names so you don't retype them every time."""
     print("--- Assignment ---")
-    a = "november"
-    print(a)  # november
+    month = "november"
+    print(month)  # november
 
-    b = 9
-    c = 5.8
-    d = True
-    print(b, c, d)  # 9  5.8  True
+    day_count = 9
+    temperature_celsius = 5.8
+    is_active = True
+    print(day_count, temperature_celsius, is_active)  # 9  5.8  True
 
     print("\n--- Reassignment (Python keeps the latest value) ---")
-    a = "october"
-    print(a)  # october — 'november' is gone
+    month = "october"
+    print(month)  # october — 'november' is gone
 
     print("\n--- del removes the variable; using it after raises NameError ---")
-    a = "september"
-    print(a)  # september
-    del a
-    # print(a)          # ← uncomment to see: NameError: name 'a' is not defined
+    month = "september"
+    print(month)  # september
+    del month
+    # print(month)    # ← uncomment to see: NameError: name 'month' is not defined
 
     print("\n--- type() on variables ---")
-    print(type(b))  # <class 'int'>
-    print(type(c))  # <class 'float'>
-    print(type(d))  # <class 'bool'>
+    print(type(day_count))  # <class 'int'>
+    print(type(temperature_celsius))  # <class 'float'>
+    print(type(is_active))  # <class 'bool'>
 
 
 def main(argv: list[str]) -> int:
